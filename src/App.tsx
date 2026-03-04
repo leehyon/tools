@@ -165,7 +165,9 @@ export default function App() {
         const parts: string[] = []
         parts.push(tool.name)
         if (tool.description) parts.push(tool.description)
+        if (tool.tldr) parts.push(tool.tldr)
         if (tool.url) parts.push(tool.url)
+        if (tool.guide_markdown) parts.push(tool.guide_markdown)
         if (tool.tags?.length) parts.push(tool.tags.join(' '))
         if (tool.categories?.length) parts.push(tool.categories.join(' '))
         if (tool.Platform?.length) parts.push(tool.Platform.join(' '))
@@ -417,7 +419,13 @@ export default function App() {
                   名称
                 </div>
                 <div className="th" role="columnheader">
+                  简介
+                </div>
+                <div className="th" role="columnheader">
                   平台
+                </div>
+                <div className="th" role="columnheader">
+                  速览
                 </div>
                 <div className="th" role="columnheader">
                   链接
@@ -426,18 +434,31 @@ export default function App() {
 
               {filteredTools.map((tool) => {
                 const link = safeUrl(tool.url)
+                const guideLink = tool.guide_markdown ? safeUrl(tool.guide_markdown) : ''
                 return (
                   <div key={`row:${tool.name}`} className="tableRow" role="row">
                     <div className="td truncate" role="cell" title={tool.name}>
                       {tool.name}
                     </div>
+                    <div className="td truncate" role="cell" title={tool.tldr ?? ''}>
+                      {tool.tldr ?? '—'}
+                    </div>
                     <div className="td truncate" role="cell" title={(tool.Platform ?? []).join(', ')}>
                       {(tool.Platform ?? []).join(', ') || '—'}
                     </div>
                     <div className="td" role="cell">
+                      {guideLink ? (
+                        <a className="link" href={guideLink} target="_blank" rel="noreferrer">
+                          打开
+                        </a>
+                      ) : (
+                        <span className="muted">—</span>
+                      )}
+                    </div>
+                    <div className="td" role="cell">
                       {link ? (
                         <a className="link" href={link} target="_blank" rel="noreferrer">
-                          打开
+                          访问
                         </a>
                       ) : (
                         <span className="muted">—</span>

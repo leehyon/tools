@@ -4,6 +4,8 @@ export type Tool = {
   name: string
   url: string
   description?: string
+  tldr?: string
+  guide_markdown?: string
   tags?: string[]
   categories?: string[]
   Platform?: string[]

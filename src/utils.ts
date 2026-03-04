@@ -12,6 +12,9 @@ export function normalizeTool(raw: unknown): Tool | null {
   const platform = normalizeArray(obj.Platform ?? obj.platform)
   const tags = normalizeArray(obj.tags)
   const categories = normalizeArray(obj.categories)
+  const tldr = typeof obj.tldr === 'string' ? obj.tldr : undefined
+  const guideMarkdown = typeof obj.guide_markdown === 'string' ? obj.guide_markdown : undefined
+  const guideMarkdownAlt = typeof obj.guideMarkdown === 'string' ? obj.guideMarkdown : undefined
 
   return {
     month: typeof obj.month === 'string' ? obj.month : undefined,
@@ -19,6 +22,8 @@ export function normalizeTool(raw: unknown): Tool | null {
     name: obj.name,
     url: obj.url,
     description: typeof obj.description === 'string' ? obj.description : undefined,
+    tldr,
+    guide_markdown: guideMarkdown ?? guideMarkdownAlt,
     tags,
     categories,
     Platform: platform
