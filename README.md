@@ -38,5 +38,3 @@
 这是一个纯静态站点：
 - Build Command：`npm run build`
 - Output Directory：`dist`
-
-如果使用 GitHub Pages，可参考 `.github/workflows/pages-datajson-only.yml`（仅在 `public/data.json` 变更时触发构建与部署）。

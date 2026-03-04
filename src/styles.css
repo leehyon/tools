@@ -407,7 +407,7 @@ body {
 .tableHeader,
 .tableRow {
   display: grid;
-  grid-template-columns: 1.1fr 1.8fr 0.9fr 0.6fr 0.6fr;
+  grid-template-columns: 0.8fr 2.5fr 0.8fr 0.45fr 0.45fr;
 }
 
 .tableHeader {
@@ -498,7 +498,7 @@ body {
 
   .tableHeader,
   .tableRow {
-    grid-template-columns: 1.4fr 0.7fr;
+    grid-template-columns: 1.6fr 0.4fr;
   }
 
   /* Hide TL;DR, Platform, Guide on very small screens */
