@@ -1,0 +1,118 @@
+[
+  {
+    "month": "202603",
+    "name": "Logseq",
+    "url": "https://logseq.com/",
+    "timestamp": 1772591604,
+    "tags": [
+      "Knowledge Base",
+      "Note-taking",
+      "Open Source",
+      "Privacy First",
+      "Linked References"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Text Input & Writing"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "iOS",
+      "Android",
+      "Web"
+    ]
+  },
+  {
+    "month": "202603",
+    "name": "tere",
+    "url": "https://github.com/mgunyho/tere",
+    "timestamp": 1772591850,
+    "tags": [
+      "Terminal",
+      "File Navigation",
+      "Command Line",
+      "Search",
+      "Efficiency"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ]
+  },
+  {
+    "month": "202603",
+    "name": "Starship",
+    "url": "https://starship.rs/",
+    "timestamp": 1772591971,
+    "tags": [
+      "Shell Customization",
+      "Cross-Platform",
+      "Developer Tool",
+      "Terminal",
+      "Prompt"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ]
+  },
+  {
+    "month": "202603",
+    "name": "Pandoc",
+    "url": "https://pandoc.org/",
+    "timestamp": 1772593581,
+    "tags": [
+      "Document Conversion",
+      "Markdown",
+      "Command Line",
+      "Academic Writing",
+      "Multi-format Support"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ]
+  },
+  {
+    "month": "202603",
+    "name": "Helix",
+    "url": "https://helix-editor.com/",
+    "timestamp": 1772593962,
+    "tags": [
+      "Terminal Editor",
+      "Multi-Cursor",
+      "Tree-Sitter",
+      "Modal Editing",
+      "Rust"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Linux",
+      "Windows"
+    ]
+  }
+]
