@@ -9,7 +9,7 @@ export function normalizeTool(raw: unknown): Tool | null {
   if (!raw || typeof raw !== 'object') return null
   const obj = raw as Record<string, unknown>
   if (typeof obj.name !== 'string' || typeof obj.url !== 'string') return null
-  const platform = normalizeArray(obj.Platform ?? obj.platform)
+  const platform = normalizePlatforms(normalizeArray(obj.Platform ?? obj.platform))
   const tags = normalizeArray(obj.tags)
   const categories = normalizeArray(obj.categories)
   const tldr = typeof obj.tldr === 'string' ? obj.tldr : undefined
@@ -28,6 +28,34 @@ export function normalizeTool(raw: unknown): Tool | null {
     categories,
     Platform: platform
   }
+}
+
+function normalizePlatformName(value: string): string {
+  const v = value.trim()
+  const lower = v.toLowerCase()
+
+  if (lower === 'mac' || lower === 'macos' || lower === 'os x' || lower === 'osx') return 'Mac'
+  if (lower === 'windows' || lower === 'win') return 'Windows'
+  if (lower === 'linux') return 'Linux'
+  if (lower === 'web' || lower === 'browser') return 'Web'
+  if (lower === 'ios') return 'iOS'
+  if (lower === 'android') return 'Android'
+
+  return v
+}
+
+function normalizePlatforms(values: string[]): string[] {
+  const out: string[] = []
+  const seen = new Set<string>()
+  for (const raw of values) {
+    const normalized = normalizePlatformName(raw)
+    if (!normalized) continue
+    const key = normalized.toLowerCase()
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(normalized)
+  }
+  return out
 }
 
 export function uniq(items: string[]): string[] {

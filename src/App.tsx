@@ -37,6 +37,19 @@ function groupByCategory(tools: Tool[]): Map<string, Tool[]> {
   return new Map([...map.entries()].sort((a, b) => a[0].localeCompare(b[0])))
 }
 
+function groupByPlatform(tools: Tool[]): Map<string, Tool[]> {
+  const map = new Map<string, Tool[]>()
+  for (const tool of tools) {
+    const platforms = tool.Platform?.length ? tool.Platform : ['Unspecified']
+    for (const platform of platforms) {
+      const list = map.get(platform) ?? []
+      list.push(tool)
+      map.set(platform, list)
+    }
+  }
+  return new Map([...map.entries()].sort((a, b) => a[0].localeCompare(b[0])))
+}
+
 function buildWeekSeries(weekly: { week: string; count: number }[]): { week: string; count: number }[] {
   const entries = weekly.filter((x) => /^\d{4}-\d{2}-\d{2}$/.test(x.week)).sort((a, b) => a.week.localeCompare(b.week))
   if (entries.length <= 1) return weekly
@@ -94,11 +107,28 @@ function iconForCategory(category: string): string {
   return 'fa-solid fa-folder'
 }
 
+function iconForPlatform(platform: string): string {
+  const v = platform.trim().toLowerCase()
+  const has = (...parts: string[]) => parts.some((p) => v.includes(p))
+
+  if (has('web', 'browser', '网页', '网站')) return 'fa-solid fa-globe'
+  if (has('mac', 'macos', 'osx')) return 'fa-brands fa-apple'
+  if (has('windows', 'win')) return 'fa-brands fa-windows'
+  if (has('linux', 'ubuntu', 'debian', 'arch')) return 'fa-brands fa-linux'
+  if (has('ios', 'iphone', 'ipad')) return 'fa-solid fa-mobile-screen'
+  if (has('android')) return 'fa-brands fa-android'
+  if (has('chrome')) return 'fa-brands fa-chrome'
+  if (has('firefox')) return 'fa-brands fa-firefox-browser'
+
+  return 'fa-solid fa-desktop'
+}
+
 export default function App() {
   const [loadState, setLoadState] = useState<LoadState>({ status: 'idle' })
   const [tableSearch, setTableSearch] = useState('')
   const [selectedTag, setSelectedTag] = useState<string>('')
   const [activeCategory, setActiveCategory] = useState<string>('')
+  const [activePlatform, setActivePlatform] = useState<string>('')
 
   async function load() {
     setLoadState({ status: 'loading' })
@@ -127,6 +157,7 @@ export default function App() {
   const allTools = loadState.status === 'loaded' ? loadState.tools : []
   const uniqueTags = useMemo(() => uniq(allTools.flatMap((t) => t.tags ?? [])), [allTools])
   const categoryGroupsAll = useMemo(() => groupByCategory(allTools), [allTools])
+  const platformGroupsAll = useMemo(() => groupByPlatform(allTools), [allTools])
 
   const weeklyTrendRaw = useMemo(() => countByWeek(allTools), [allTools])
   const weeklyTrend = useMemo(() => buildWeekSeries(weeklyTrendRaw), [weeklyTrendRaw])
@@ -156,6 +187,11 @@ export default function App() {
         if (!cats.includes(activeCategory)) return false
       }
 
+      if (activePlatform) {
+        const platforms = tool.Platform?.length ? tool.Platform : ['Unspecified']
+        if (!platforms.includes(activePlatform)) return false
+      }
+
       if (selectedTag) {
         const tags = tool.tags ?? []
         if (!tags.includes(selectedTag)) return false
@@ -176,7 +212,7 @@ export default function App() {
 
       return true
     })
-  }, [activeCategory, allTools, selectedTag, tableSearch])
+  }, [activeCategory, activePlatform, allTools, selectedTag, tableSearch])
 
   return (
     <div className="app">
@@ -189,7 +225,10 @@ export default function App() {
         <nav className="nav">
           <button
             className={activeCategory === '' ? 'navItem navItemActive' : 'navItem'}
-            onClick={() => setActiveCategory('')}
+            onClick={() => {
+              setActiveCategory('')
+              setActivePlatform('')
+            }}
             type="button"
           >
             <span className="navIcon">
@@ -199,23 +238,46 @@ export default function App() {
             <span className="navCount">{allTools.length}</span>
           </button>
 
-          <div className="navSectionTitle">Categories</div>
-          <div className="navList">
-            {[...categoryGroupsAll.entries()].map(([cat, list]) => (
-              <button
-                key={cat}
-                className={activeCategory === cat ? 'navItem navItemActive' : 'navItem'}
-                onClick={() => setActiveCategory(cat)}
-                type="button"
-                title={cat}
-              >
-                <span className="navIcon" aria-hidden="true">
-                  <i className={iconForCategory(cat)} aria-hidden="true" />
-                </span>
-                <span className="truncate">{cat}</span>
-                <span className="navCount">{list.length}</span>
-              </button>
-            ))}
+          <div className="navSection navSectionCategories" aria-label="Categories">
+            <div className="navSectionTitle">Categories</div>
+            <div className="navList">
+              {[...categoryGroupsAll.entries()].map(([cat, list]) => (
+                <button
+                  key={cat}
+                  className={activeCategory === cat ? 'navItem navItemActive' : 'navItem'}
+                  onClick={() => setActiveCategory(cat)}
+                  type="button"
+                  title={cat}
+                >
+                  <span className="navIcon" aria-hidden="true">
+                    <i className={iconForCategory(cat)} aria-hidden="true" />
+                  </span>
+                  <span className="truncate">{cat}</span>
+                  <span className="navCount">{list.length}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="navSection navSectionPlatform" aria-label="Platform">
+            <div className="navSectionTitle">Platform</div>
+            <div className="navList">
+              {[...platformGroupsAll.entries()].map(([platform, list]) => (
+                <button
+                  key={platform}
+                  className={activePlatform === platform ? 'navItem navItemActive' : 'navItem'}
+                  onClick={() => setActivePlatform(platform)}
+                  type="button"
+                  title={platform}
+                >
+                  <span className="navIcon" aria-hidden="true">
+                    <i className={iconForPlatform(platform)} aria-hidden="true" />
+                  </span>
+                  <span className="truncate">{platform}</span>
+                  <span className="navCount">{list.length}</span>
+                </button>
+              ))}
+            </div>
           </div>
         </nav>
 
@@ -288,10 +350,11 @@ export default function App() {
                     const series = weeklyTrend.slice(-8)
                     const w = 520
                     const h = 160
-                    const padX = 18
+                    const padX = 30
                     const padY = 14
                     const max = Math.max(1, ...series.map((x) => x.count))
                     const min = 0
+                    const mid = Math.round((max + min) / 2)
                     const xStep = series.length > 1 ? (w - padX * 2) / (series.length - 1) : 0
                     const yFor = (count: number) => {
                       const t = (count - min) / (max - min)
@@ -305,6 +368,17 @@ export default function App() {
                           <line x1={padX} y1={h - padY} x2={w - padX} y2={h - padY} />
                           <line x1={padX} y1={padY} x2={w - padX} y2={padY} />
                           <line x1={padX} y1={(h - padY + padY) / 2} x2={w - padX} y2={(h - padY + padY) / 2} />
+                        </g>
+                        <g className="trendYAxis" aria-hidden="true">
+                          <text className="trendYLabel" x={6} y={padY + 4}>
+                            {max}
+                          </text>
+                          <text className="trendYLabel" x={6} y={(h - padY + padY) / 2 + 4}>
+                            {mid}
+                          </text>
+                          <text className="trendYLabel" x={6} y={h - padY + 4}>
+                            {min}
+                          </text>
                         </g>
                         <path className="trendLineShadow" d={d} />
                         <path className="trendLine" d={d} />
@@ -403,6 +477,11 @@ export default function App() {
                   Tag: {selectedTag} ×
                 </button>
               ) : null}
+              {activePlatform ? (
+                <button className="chipBtn" type="button" onClick={() => setActivePlatform('')} title="清除平台筛选">
+                  Platform: {activePlatform} ×
+                </button>
+              ) : null}
               {tableSearch.trim() ? (
                 <button className="btn btnSmall" type="button" onClick={() => setTableSearch('')} aria-label="清空搜索">
                   清空
@@ -417,9 +496,6 @@ export default function App() {
                 </div>
                 <div className="th" role="columnheader">
                   简介
-                </div>
-                <div className="th" role="columnheader">
-                  平台
                 </div>
                 <div className="th" role="columnheader">
                   速览
@@ -439,9 +515,6 @@ export default function App() {
                     </div>
                     <div className="td truncate" role="cell" title={tool.tldr ?? ''}>
                       {tool.tldr ?? '—'}
-                    </div>
-                    <div className="td truncate" role="cell" title={(tool.Platform ?? []).join(', ')}>
-                      {(tool.Platform ?? []).join(', ') || '—'}
                     </div>
                     <div className="td" role="cell">
                       {guideLink ? (
