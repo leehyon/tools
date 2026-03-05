@@ -468,9 +468,9 @@ body {
 }
 
 .chipBtn {
-  border: 1px solid rgba(37, 99, 235, 0.18);
-  background: rgba(37, 99, 235, 0.08);
-  color: rgba(37, 99, 235, 0.92);
+  border: 1px solid var(--border);
+  background: rgba(17, 24, 39, 0.03);
+  color: var(--text);
   padding: 8px 10px;
   border-radius: 999px;
   cursor: pointer;
@@ -483,7 +483,7 @@ body {
 }
 
 .chipBtn:hover {
-  background: rgba(37, 99, 235, 0.12);
+  background: rgba(17, 24, 39, 0.04);
 }
 
 .tableWrap {
@@ -539,7 +539,7 @@ body {
 }
 
 .link {
-  color: var(--accent);
+  color: var(--text);
   text-decoration: none;
   font-weight: 800;
 }
