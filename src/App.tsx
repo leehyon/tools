@@ -239,7 +239,7 @@ export default function App() {
           </button>
 
           <div className="navSection navSectionCategories" aria-label="Categories">
-            <div className="navSectionTitle">Categories</div>
+            <div className="navSectionTitle">Category</div>
             <div className="navList">
               {[...categoryGroupsAll.entries()].map(([cat, list]) => (
                 <button

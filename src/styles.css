@@ -7,6 +7,16 @@
   --shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
   --radius: 12px;
   --accent: #2563eb;
+
+  --sidebar-bg: #fbf7f1;
+  --sidebar-fg: rgba(34, 24, 18, 0.92);
+  --sidebar-muted: rgba(34, 24, 18, 0.58);
+  --sidebar-surface: rgba(34, 24, 18, 0.05);
+  --sidebar-surface-2: rgba(34, 24, 18, 0.08);
+  --sidebar-accent: rgba(194, 120, 57, 0.16);
+  --sidebar-divider: rgba(34, 24, 18, 0.14);
+  --sidebar-icon: rgba(34, 24, 18, 0.72);
+  --sidebar-icon-strong: rgba(34, 24, 18, 0.92);
 }
 
 * {
@@ -40,8 +50,12 @@ body {
 
 .sidebar {
   height: 100%;
-  background: rgba(17, 24, 39, 0.01);
-  border-right: 1px solid var(--border);
+  background: var(--sidebar-bg);
+  color: var(--sidebar-fg);
+  font-family: Bahnschrift, Aptos, "Segoe UI Variable", "Segoe UI", ui-sans-serif, system-ui, -apple-system, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   padding: 18px 14px;
   display: flex;
   flex-direction: column;
@@ -50,17 +64,29 @@ body {
 
 .sidebarHeader {
   padding: 8px 10px 14px;
+  text-align: center;
+}
+
+.sidebarHeader::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 14px;
+  background: linear-gradient(90deg, transparent, var(--sidebar-divider), transparent);
+  opacity: 0.9;
 }
 
 .brandTitle {
-  font-size: 16px;
-  font-weight: 800;
-  letter-spacing: 0.2px;
+  font-size: 22px;
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  font-family: "Segoe Script", "Segoe Print", "Brush Script MT", "Snell Roundhand", cursive;
 }
 
 .brandSub {
   font-size: 12px;
-  color: var(--muted);
+  color: var(--sidebar-muted);
   margin-top: 2px;
 }
 
@@ -68,12 +94,24 @@ body {
   display: flex;
   gap: 10px;
   align-items: center;
+  justify-content: center;
 }
 
 .sidebarFooter {
   margin-top: auto;
   padding: 12px 10px 0;
-  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarFooter::before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-bottom: 12px;
+  background: linear-gradient(90deg, transparent, var(--sidebar-divider), transparent);
+  opacity: 0.9;
 }
 
 .brandLink {
@@ -83,8 +121,8 @@ body {
   place-items: center;
   border-radius: 12px;
   text-decoration: none;
-  color: rgba(107, 114, 128, 0.95);
-  background: rgba(17, 24, 39, 0.03);
+  color: var(--sidebar-icon);
+  background: var(--sidebar-surface);
 }
 
 .brandLink i {
@@ -93,8 +131,8 @@ body {
 }
 
 .brandLink:hover {
-  color: rgba(37, 99, 235, 0.98);
-  background: rgba(37, 99, 235, 0.08);
+  color: var(--sidebar-icon-strong);
+  background: var(--sidebar-surface-2);
 }
 
 .nav {
@@ -102,11 +140,19 @@ body {
   margin-bottom: 12px;
   flex: 1 1 auto;
   min-height: 0;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   padding: 10px;
   border-radius: 16px;
-  background: rgba(17, 24, 39, 0.045);
-  border: 1px solid rgba(17, 24, 39, 0.06);
+  background: transparent;
+}
+
+/* The first button (All Tools) is a direct child of .nav,
+   while the rest live inside .navSection (which has horizontal padding).
+   Add matching horizontal offset so icons align visually. */
+.nav > .navItem {
+  width: calc(100% - 12px);
+  margin: 0 6px 10px;
 }
 
 .navSection {
@@ -119,30 +165,32 @@ body {
 }
 
 .navSectionCategories {
-  background: rgba(37, 99, 235, 0.04);
-  border: 1px solid rgba(37, 99, 235, 0.10);
+  background: transparent;
 }
 
 .navSectionPlatform {
-  background: rgba(17, 24, 39, 0.02);
-  border: 1px solid rgba(17, 24, 39, 0.06);
+  background: transparent;
 }
 
 .navSectionTitle {
   font-size: 12px;
-  color: var(--muted);
-  padding: 12px 6px 8px;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: rgba(34, 24, 18, 0.62);
+  padding: 10px 6px 8px;
+  margin: 6px 0 0;
 }
 
 .navList {
   display: grid;
-  gap: 6px;
+  gap: 4px;
 }
 
 .navItem {
   width: 100%;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   gap: 10px;
   padding: 10px 10px;
   border-radius: 12px;
@@ -150,17 +198,16 @@ body {
   border: 1px solid transparent;
   cursor: pointer;
   text-align: left;
-  color: inherit;
+  color: var(--sidebar-fg);
   align-items: center;
 }
 
 .navItem:hover {
-  background: rgba(37, 99, 235, 0.06);
+  background: var(--sidebar-surface);
 }
 
 .navItemActive {
-  background: rgba(37, 99, 235, 0.10);
-  border-color: rgba(37, 99, 235, 0.18);
+  background: var(--sidebar-accent);
 }
 
 .navIcon {
@@ -169,8 +216,8 @@ body {
   display: grid;
   place-items: center;
   border-radius: 10px;
-  background: rgba(17, 24, 39, 0.03);
-  color: rgba(107, 114, 128, 0.95);
+  background: var(--sidebar-surface);
+  color: var(--sidebar-icon);
 }
 
 .navIcon i {
@@ -180,18 +227,21 @@ body {
 
 
 .navItem:hover .navIcon {
-  background: rgba(37, 99, 235, 0.08);
-  color: rgba(37, 99, 235, 0.95);
+  background: var(--sidebar-surface-2);
+  color: var(--sidebar-icon-strong);
 }
 
 .navItemActive .navIcon {
-  background: rgba(37, 99, 235, 0.12);
-  color: rgba(37, 99, 235, 0.98);
+  background: rgba(194, 120, 57, 0.20);
+  color: var(--sidebar-icon-strong);
 }
 
 .navCount {
   font-variant-numeric: tabular-nums;
-  color: var(--muted);
+  color: var(--sidebar-muted);
+  min-width: 4ch;
+  text-align: right;
+  justify-self: end;
 }
 
 .main {
@@ -340,8 +390,8 @@ body {
   position: relative;
   height: 280px;
   border-radius: 14px;
-  background: rgba(17, 24, 39, 0.02);
-  border: 1px solid rgba(17, 24, 39, 0.08);
+  background: transparent;
+  border: none;
   overflow: hidden;
 }
 
@@ -351,13 +401,14 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 999px;
-  border: 2px solid rgba(255, 255, 255, 0.9);
   box-shadow: 0 12px 26px rgba(17, 24, 39, 0.10);
   display: grid;
   place-items: center;
   padding: 10px;
   cursor: pointer;
   color: inherit;
+  font-family: Bahnschrift, "Segoe UI Variable", "Segoe UI", ui-sans-serif, system-ui, -apple-system, Roboto, Helvetica,
+    Arial, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 .bubble:hover {
@@ -365,17 +416,25 @@ body {
 }
 
 .bubbleActive {
-  outline: 3px solid rgba(37, 99, 235, 0.22);
+  outline: none;
+}
+
+.bubble:focus-visible {
+  outline: none;
 }
 
 .bubbleText {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 12px;
   text-align: center;
   max-width: 110px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.bubbleActive .bubbleText {
+  font-weight: 900;
 }
 
 .bubbleSub {
@@ -409,9 +468,9 @@ body {
 }
 
 .chipBtn {
-  border: 1px solid rgba(37, 99, 235, 0.18);
-  background: rgba(37, 99, 235, 0.08);
-  color: rgba(37, 99, 235, 0.92);
+  border: 1px solid var(--border);
+  background: rgba(17, 24, 39, 0.03);
+  color: var(--text);
   padding: 8px 10px;
   border-radius: 999px;
   cursor: pointer;
@@ -424,7 +483,7 @@ body {
 }
 
 .chipBtn:hover {
-  background: rgba(37, 99, 235, 0.12);
+  background: rgba(17, 24, 39, 0.04);
 }
 
 .tableWrap {
@@ -480,7 +539,7 @@ body {
 }
 
 .link {
-  color: var(--accent);
+  color: var(--text);
   text-decoration: none;
   font-weight: 800;
 }
@@ -509,7 +568,7 @@ body {
   .sidebar {
     height: auto;
     border-right: none;
-    border-bottom: 1px solid var(--border);
+    border-bottom: none;
   }
 }
 
