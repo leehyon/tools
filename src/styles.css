@@ -390,8 +390,8 @@ body {
   position: relative;
   height: 280px;
   border-radius: 14px;
-  background: rgba(17, 24, 39, 0.02);
-  border: 1px solid rgba(17, 24, 39, 0.08);
+  background: transparent;
+  border: none;
   overflow: hidden;
 }
 
