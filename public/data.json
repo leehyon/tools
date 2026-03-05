@@ -23,5 +23,31 @@
     ],
     "tldr": "一个跨 shell 的提示符工具，提供快速、可高度定制化的终端体验",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-starship.md"
+  },
+  {
+    "month": "202603",
+    "name": "PicGo",
+    "url": "https://docs.picgo.app/gui/",
+    "timestamp": 1772705285,
+    "tags": [
+      "Image Uploader",
+      "Cross-Platform",
+      "Plugin System",
+      "Auto-Copy Links",
+      "Developer Tool"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Windows",
+      "Mac",
+      "Linux",
+      "Browser Extension"
+    ],
+    "tldr": "一款图片上传工具 支持一键上传 自动复制分享链接 提升创作效率",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-picgo.md"
   }
 ]
