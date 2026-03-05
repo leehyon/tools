@@ -99,5 +99,33 @@
     ],
     "tldr": "一个异步文件管理器，支持图像预览和代码高亮，充分利用多核 CPU 资源",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-yazi.md"
+  },
+  {
+    "month": "202603",
+    "name": "Logseq",
+    "url": "https://logseq.com/",
+    "timestamp": 1772705542,
+    "tags": [
+      "Knowledge Base",
+      "Note-taking",
+      "Open Source",
+      "Privacy-focused",
+      "Graph-based"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Text Input & Writing"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "tldr": "一款隐私优先的开源知识管理工具，通过双向链接连接笔记，提升理解能力",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-logseq.md"
   }
 ]
