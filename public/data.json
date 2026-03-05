@@ -71,5 +71,27 @@
     ],
     "tldr": "一款 macOS 菜单栏系统健康监控工具，实时显示 CPU、内存、磁盘和网络指标并提供智能通知。",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-alertivity.md"
+  },
+  {
+    "month": "202603",
+    "name": "markdown2png",
+    "url": "https://github.com/nicejade/markdown2png",
+    "timestamp": 1772693492,
+    "tags": [
+      "Markdown",
+      "Image Conversion",
+      "Privacy-Focused",
+      "Customizable Themes",
+      "Cross-Platform"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一款专业的文本转图片工具，可将 Markdown 转换为精美图片，支持自定义主题和本地处理保障隐私。",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-markdown2png.md"
   }
 ]
