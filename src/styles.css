@@ -496,7 +496,7 @@ body {
 .tableHeader,
 .tableRow {
   display: grid;
-  grid-template-columns: 0.8fr 3fr 0.45fr 0.45fr;
+  grid-template-columns: 0.9fr 3fr 0.6fr;
 }
 
 .tableHeader {
@@ -587,7 +587,7 @@ body {
 
   .tableHeader,
   .tableRow {
-    grid-template-columns: 1.6fr 0.4fr;
+    grid-template-columns: 1fr;
   }
 
   /* Hide Intro and Guide on very small screens */
