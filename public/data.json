@@ -250,5 +250,29 @@
     ],
     "tldr": "PlantUML 是一个开源工具，使用简单的文本描述创建各种 UML 和非 UML 图表。",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-plantuml.md"
+  },
+  {
+    "month": "202603",
+    "name": "Mermaid",
+    "url": "https://mermaid.ai/open-source/",
+    "timestamp": 1772676954,
+    "tags": [
+      "Diagramming",
+      "Open Source",
+      "Developer Tool",
+      "Text-based",
+      "Collaboration"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "Mermaid 是一个开源的图表绘制工具，允许用户通过简单的文本语法创建各种图表和流程图。",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-mermaid.md"
   }
 ]
