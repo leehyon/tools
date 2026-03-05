@@ -93,5 +93,30 @@
     ],
     "tldr": "一款专业的文本转图片工具，可将 Markdown 转换为精美图片，支持自定义主题和本地处理保障隐私。",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-markdown2png.md"
+  },
+  {
+    "month": "202603",
+    "name": "Starship",
+    "url": "https://starship.rs/",
+    "timestamp": 1772704019,
+    "tags": [
+      "Terminal",
+      "Prompt",
+      "Customization",
+      "Cross-Platform",
+      "Developer Tool"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "tldr": "一款轻量级、高度可定制且快速的跨 shell 命令行提示符工具",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-starship.md"
   }
 ]
