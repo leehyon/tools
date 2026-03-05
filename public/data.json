@@ -1,104 +1,9 @@
 [
   {
     "month": "202603",
-    "name": "WinSCP",
-    "url": "https://winscp.net/eng/index.php",
-    "timestamp": 1772689439,
-    "tags": [
-      "File Transfer",
-      "SFTP Client",
-      "FTP Client",
-      "Windows",
-      "Free"
-    ],
-    "categories": [
-      "Developer Tools",
-      "File Management",
-      "System & Automation"
-    ],
-    "Platform": [
-      "Windows"
-    ],
-    "tldr": "一款免费的 Windows 文件传输客户端，支持多种协议如 SFTP、FTP 和 S3，提供图形界面和脚本功能。",
-    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-winscp.md"
-  },
-  {
-    "month": "202603",
-    "name": "Logseq",
-    "url": "https://logseq.com/",
-    "timestamp": 1772689849,
-    "tags": [
-      "Knowledge Base",
-      "Note-taking",
-      "Outlining",
-      "Privacy-focused",
-      "Open Source"
-    ],
-    "categories": [
-      "Knowledge Management",
-      "Reading & Information",
-      "Text Input & Writing"
-    ],
-    "Platform": [
-      "Mac",
-      "Windows",
-      "Linux",
-      "iOS",
-      "Android",
-      "Web"
-    ],
-    "tldr": "一款隐私优先的开源知识管理工具，支持双向链接和块引用功能。",
-    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-logseq.md"
-  },
-  {
-    "month": "202603",
-    "name": "Alertivity",
-    "url": "https://github.com/nobbbbby/Alertivity",
-    "timestamp": 1772693156,
-    "tags": [
-      "System Monitoring",
-      "Menu Bar App",
-      "Real-time Metrics",
-      "Process Management",
-      "macOS"
-    ],
-    "categories": [
-      "Developer Tools",
-      "System & Automation"
-    ],
-    "Platform": [
-      "Mac"
-    ],
-    "tldr": "一款 macOS 菜单栏系统健康监控工具，实时显示 CPU、内存、磁盘和网络指标并提供智能通知。",
-    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-alertivity.md"
-  },
-  {
-    "month": "202603",
-    "name": "markdown2png",
-    "url": "https://github.com/nicejade/markdown2png",
-    "timestamp": 1772693492,
-    "tags": [
-      "Markdown",
-      "Image Conversion",
-      "Privacy-Focused",
-      "Customizable Themes",
-      "Cross-Platform"
-    ],
-    "categories": [
-      "Text Input & Writing",
-      "Media & Creativity"
-    ],
-    "Platform": [
-      "Web"
-    ],
-    "tldr": "一款专业的文本转图片工具，可将 Markdown 转换为精美图片，支持自定义主题和本地处理保障隐私。",
-    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-markdown2png.md"
-  },
-  {
-    "month": "202603",
     "name": "Starship",
     "url": "https://starship.rs/",
-    "timestamp": 1772704019,
+    "timestamp": 1772705027,
     "tags": [
       "Terminal",
       "Prompt",
@@ -116,7 +21,7 @@
       "Linux",
       "Web"
     ],
-    "tldr": "一款轻量级、高度可定制且快速的跨 shell 命令行提示符工具",
+    "tldr": "一个跨 shell 的提示符工具，提供快速、可高度定制化的终端体验",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-starship.md"
   }
 ]
