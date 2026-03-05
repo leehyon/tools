@@ -74,5 +74,30 @@
     ],
     "tldr": "A terminal file manager that works like ranger but with vim like keybindings",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-tere.md"
+  },
+  {
+    "month": "202603",
+    "name": "Yazi",
+    "url": "https://yazi-rs.github.io/",
+    "timestamp": 1772705419,
+    "tags": [
+      "File Manager",
+      "Terminal",
+      "Async",
+      "Image Preview",
+      "Code Highlighting"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Linux",
+      "Windows"
+    ],
+    "tldr": "一个异步文件管理器，支持图像预览和代码高亮，充分利用多核 CPU 资源",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-yazi.md"
   }
 ]
