@@ -226,5 +226,29 @@
     ],
     "tldr": "Lazygit 是一个简单的终端 UI，用于简化 Git 命令操作，提供直观的界面管理版本控制。",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-lazygit.md"
+  },
+  {
+    "month": "202603",
+    "name": "PlantUML",
+    "url": "https://plantuml.com/",
+    "timestamp": 1772676737,
+    "tags": [
+      "Diagramming",
+      "UML",
+      "Open Source",
+      "Developer Tool",
+      "Text-based"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "PlantUML 是一个开源工具，使用简单的文本描述创建各种 UML 和非 UML 图表。",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-plantuml.md"
   }
 ]
