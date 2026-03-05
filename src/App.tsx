@@ -500,9 +500,6 @@ export default function App() {
                 <div className="th" role="columnheader">
                   速览
                 </div>
-                <div className="th" role="columnheader">
-                  链接
-                </div>
               </div>
 
               {filteredTools.map((tool) => {
@@ -511,7 +508,13 @@ export default function App() {
                 return (
                   <div key={`row:${tool.name}`} className="tableRow" role="row">
                     <div className="td truncate" role="cell" title={tool.name}>
-                      {tool.name}
+                      {link ? (
+                        <a className="link" href={link} target="_blank" rel="noreferrer">
+                          {tool.name}
+                        </a>
+                      ) : (
+                        tool.name
+                      )}
                     </div>
                     <div className="td truncate" role="cell" title={tool.tldr ?? ''}>
                       {tool.tldr ?? '—'}
@@ -520,15 +523,6 @@ export default function App() {
                       {guideLink ? (
                         <a className="link" href={guideLink} target="_blank" rel="noreferrer">
                           打开
-                        </a>
-                      ) : (
-                        <span className="muted">—</span>
-                      )}
-                    </div>
-                    <div className="td" role="cell">
-                      {link ? (
-                        <a className="link" href={link} target="_blank" rel="noreferrer">
-                          访问
                         </a>
                       ) : (
                         <span className="muted">—</span>
