@@ -587,14 +587,23 @@ body {
 
   .tableHeader,
   .tableRow {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(84px, 110px);
   }
 
-  /* Hide Intro and Guide on very small screens */
+  /* Mobile: show Name + Quick View, hide Intro */
   .tableHeader .th:nth-child(2),
-  .tableRow .td:nth-child(2),
+  .tableRow .td:nth-child(2) {
+    display: none;
+  }
+
   .tableHeader .th:nth-child(3),
   .tableRow .td:nth-child(3) {
-    display: none;
+    text-align: center;
+  }
+
+  .tableRow .td:nth-child(3) .link {
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 }
