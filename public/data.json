@@ -219,5 +219,29 @@
     ],
     "tldr": "一款免费的在线 AI 简历编辑器，提供专业简历创建与实时预览功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-06-magic-resume.md"
+  },
+  {
+    "month": "202603",
+    "name": "TinyPNG",
+    "url": "https://tinypng.com/",
+    "timestamp": 1772789810,
+    "tags": [
+      "Image Compression",
+      "Web Optimization",
+      "Developer Tools",
+      "Free",
+      "Performance"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "智能压缩 PNG、JPEG、WebP 和 AVIF 图像，减少文件大小高达 80%，同时保持视觉质量",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-06-tinypng.md"
   }
 ]
