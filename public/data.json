@@ -197,5 +197,27 @@
     ],
     "tldr": "一款基于 Web 的 Cloudflare R2 桶文件管理器，无需安装，在浏览器中直接操作文件",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-06-r2-web.md"
+  },
+  {
+    "month": "202603",
+    "name": "magic-resume",
+    "url": "https://github.com/JOYCEQL/magic-resume",
+    "timestamp": 1772763180,
+    "tags": [
+      "AI-Powered",
+      "Resume Builder",
+      "Free",
+      "Real-time Preview",
+      "Web-based"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一款免费的在线 AI 简历编辑器，提供专业简历创建与实时预览功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-06-magic-resume.md"
   }
 ]
