@@ -243,5 +243,29 @@
     ],
     "tldr": "智能压缩 PNG、JPEG、WebP 和 AVIF 图像，减少文件大小高达 80%，同时保持视觉质量",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-06-tinypng.md"
+  },
+  {
+    "month": "202603",
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com",
+    "timestamp": 1772790014,
+    "tags": [
+      "Collaboration",
+      "Whiteboard",
+      "Open Source",
+      "Hand-drawn",
+      "Real-time Collaboration"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Communication",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "一个开源的在线协作白板工具，支持手绘风格和实时协作",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-06-excalidraw.md"
   }
 ]
