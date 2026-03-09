@@ -291,5 +291,30 @@
     ],
     "tldr": "一款将 Markdown 文档转换为交互式思维导图的工具，支持实时预览和自定义样式",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-markmap.md"
+  },
+  {
+    "month": "202603",
+    "name": "Snipaste",
+    "url": "https://www.snipaste.com/",
+    "timestamp": 1773037669,
+    "tags": [
+      "Screenshot",
+      "Annotation",
+      "Floating Window",
+      "Productivity",
+      "Cross-platform"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "tldr": "一款免费的截图工具 可将截图固定在屏幕上 并支持丰富的标注和编辑功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-snipaste.md"
   }
 ]
