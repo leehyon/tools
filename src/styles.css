@@ -351,22 +351,22 @@ body {
 
 .trendLineShadow {
   fill: none;
-  stroke: rgba(37, 99, 235, 0.18);
-  stroke-width: 6;
+  stroke: rgba(50, 50, 50, 0.18);
+  stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
 .trendLine {
   fill: none;
-  stroke: rgba(37, 99, 235, 0.85);
-  stroke-width: 2.6;
+  stroke: #5c626f;
+  stroke-width: 1.6;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
 .trendDot {
-  fill: rgba(37, 99, 235, 0.9);
+  fill: #5c626f;
   stroke: rgba(255, 255, 255, 0.95);
   stroke-width: 2;
 }
