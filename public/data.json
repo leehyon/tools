@@ -316,5 +316,27 @@
     ],
     "tldr": "一款免费的截图工具 可将截图固定在屏幕上 并支持丰富的标注和编辑功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-snipaste.md"
+  },
+  {
+    "month": "202603",
+    "name": "Alertivity",
+    "url": "https://github.com/nobbbbby/Alertivity",
+    "timestamp": 1773040276,
+    "tags": [
+      "System Monitoring",
+      "Performance",
+      "Menu Bar App",
+      "Real-time",
+      "MacOS"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "一个 macOS 菜单栏应用，实时监控 CPU、内存、磁盘和网络性能，提供智能通知和快速操作功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-alertivity.md"
   }
 ]
