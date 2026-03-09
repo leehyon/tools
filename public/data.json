@@ -407,5 +407,28 @@
     ],
     "tldr": "Python 工具可将各种文件转换为 Markdown 格式，支持 PDF、Word、Excel、图片等多种文件类型",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-markitdown.md"
+  },
+  {
+    "month": "202603",
+    "name": "Screenshot Editor Tool",
+    "url": "https://postspark.app",
+    "timestamp": 1773041336,
+    "tags": [
+      "Screenshot Editor",
+      "Mockup Generator",
+      "Design Tool",
+      "Marketing Asset",
+      "Web App"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "一款功能强大的截图编辑工具，可添加背景、注释、效果和浏览器框架，让截图更加专业美观",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-screenshot-editor-tool.md"
   }
 ]
