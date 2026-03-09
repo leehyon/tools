@@ -430,5 +430,30 @@
     ],
     "tldr": "一款功能强大的截图编辑工具，可添加背景、注释、效果和浏览器框架，让截图更加专业美观",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-screenshot-editor-tool.md"
+  },
+  {
+    "month": "202603",
+    "name": "GCOP",
+    "url": "https://gcop.zeeland.top/",
+    "timestamp": 1773043936,
+    "tags": [
+      "Git",
+      "AI Assistant",
+      "Version Control",
+      "Commit Messages",
+      "Developer Productivity"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "tldr": "An AI-powered Git assistant that generates smart commit messages and provides intuitive commands to streamline version control workflows",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-gcop.md"
   }
 ]
