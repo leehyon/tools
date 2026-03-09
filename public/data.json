@@ -267,5 +267,29 @@
     ],
     "tldr": "一个开源的在线协作白板工具，支持手绘风格和实时协作",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-06-excalidraw.md"
+  },
+  {
+    "month": "202603",
+    "name": "markmap",
+    "url": "https://markmap.js.org/",
+    "timestamp": 1773037515,
+    "tags": [
+      "Mind Mapping",
+      "Markdown",
+      "Visualization",
+      "Knowledge Management",
+      "Open Source"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Text Input & Writing"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "一款将 Markdown 文档转换为交互式思维导图的工具，支持实时预览和自定义样式",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-markmap.md"
   }
 ]
