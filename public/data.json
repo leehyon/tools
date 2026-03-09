@@ -482,5 +482,28 @@
     ],
     "tldr": "一款免费开源的 EPUB 与 PDF 阅读器，支持多平台，提供平行阅读、高亮笔记、云同步等功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-readest.md"
+  },
+  {
+    "month": "202603",
+    "name": "drawnix",
+    "url": "https://github.com/plait-board/drawnix",
+    "timestamp": 1773045844,
+    "tags": [
+      "Open Source",
+      "Whiteboard",
+      "Mind Mapping",
+      "Flowchart",
+      "Free Drawing"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "开源一体化白板工具，支持思维导图、流程图和自由绘画，提供无限画布和自动保存功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-drawnix.md"
   }
 ]
