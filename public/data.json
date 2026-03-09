@@ -505,5 +505,94 @@
     ],
     "tldr": "开源一体化白板工具，支持思维导图、流程图和自由绘画，提供无限画布和自动保存功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-drawnix.md"
+  },
+  {
+    "month": "202603",
+    "name": "GateShift",
+    "url": "https://github.com/ourines/GateShift",
+    "timestamp": 1773045944,
+    "tags": [
+      "Gateway Switcher",
+      "OpenWrt",
+      "Cross-platform",
+      "Proxy Management"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "为 OpenWrt 旁路由设计的网关切换工具，一键切换默认与代理网关，内置 DNS 防泄漏，跨平台命令行操作",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-gateshift.md"
+  },
+  {
+    "month": "202603",
+    "name": "AI PDF Translator",
+    "url": "https://deeppdf.ai/pdf-translator",
+    "timestamp": 1773048151,
+    "tags": [
+      "PDF Translation",
+      "AI-Powered",
+      "Free",
+      "Bilingual View",
+      "No Signup Required"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一款免费的 AI 驱动 PDF 翻译工具，支持 100 多种语言，保留原格式，无需注册",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-ai-pdf-translator.md"
+  },
+  {
+    "month": "202603",
+    "name": "git-who",
+    "url": "https://github.com/sinclairtarget/git-who",
+    "timestamp": 1773048329,
+    "tags": [
+      "Code Analysis",
+      "Git Tool",
+      "Developer Productivity",
+      "Code Attribution",
+      "Command Line"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一个命令行工具用于分析代码库中各组件或子系统的贡献者信息",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-git-who.md"
+  },
+  {
+    "month": "202603",
+    "name": "pdoc",
+    "url": "https://pdoc.dev/",
+    "timestamp": 1773049433,
+    "tags": [
+      "API Documentation",
+      "Python",
+      "Auto-generated",
+      "Zero Configuration",
+      "Type Annotations"
+    ],
+    "categories": [
+      "Developer Tools"
+    ],
+    "Platform": [],
+    "tldr": "自动生成 Python 项目的 API 文档，无需配置，支持类型注解和交叉链接",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-pdoc.md"
   }
 ]
