@@ -414,7 +414,7 @@ export default function App() {
               </div>
               <div className="bubbleStage" aria-label="标签气泡">
                 {(() => {
-                  const top = tagCounts.slice(0, 20)
+                  const top = tagCounts.slice(0, 8)
                   if (top.length === 0) return <div className="muted">暂无数据</div>
                   const max = Math.max(...top.map((x) => x.count))
                   const min = Math.min(...top.map((x) => x.count))
@@ -423,40 +423,16 @@ export default function App() {
                     const t = (count - min) / (max - min)
                     return Math.round(92 + t * 116)
                   }
-                  const positions: Array<{ left: string; top: string }> = (() => {
-                    const n = top.length
-                    // keep original handcrafted positions for up to 8 items
-                    if (n <= 8) {
-                      return [
-                        { left: '56%', top: '56%' },
-                        { left: '33%', top: '66%' },
-                        { left: '46%', top: '34%' },
-                        { left: '74%', top: '38%' },
-                        { left: '22%', top: '36%' },
-                        { left: '82%', top: '66%' },
-                        { left: '62%', top: '18%' },
-                        { left: '26%', top: '82%' }
-                      ]
-                    }
-
-                    // For more items, distribute on one or two concentric rings
-                    const out: Array<{ left: string; top: string }> = []
-                    const centerX = 50
-                    const centerY = 50
-                    const rings = n > 12 ? 2 : 1
-                    const perRing = Math.ceil(n / rings)
-                    for (let r = 0; r < rings; r++) {
-                      const items = Math.min(perRing, n - r * perRing)
-                      const radius = 20 + r * 18 // percent distance from center
-                      for (let j = 0; j < items; j++) {
-                        const angle = (j / items) * Math.PI * 2
-                        const left = `${Math.round(centerX + radius * Math.cos(angle))}%`
-                        const topPos = `${Math.round(centerY + radius * Math.sin(angle))}%`
-                        out.push({ left, top: topPos })
-                      }
-                    }
-                    return out
-                  })()
+                  const positions: Array<{ left: string; top: string }> = [
+                    { left: '56%', top: '56%' },
+                    { left: '33%', top: '66%' },
+                    { left: '46%', top: '34%' },
+                    { left: '74%', top: '38%' },
+                    { left: '22%', top: '36%' },
+                    { left: '82%', top: '66%' },
+                    { left: '62%', top: '18%' },
+                    { left: '26%', top: '82%' }
+                  ]
                   return top.map((x, i) => {
                     const size = sizeFor(x.count)
                     const opacity = 0.26 + (x.count / max) * 0.26
