@@ -384,5 +384,28 @@
     ],
     "tldr": "分析 Git 项目提交时间分布，推导团队工作强度与加班文化",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-code996.md"
+  },
+  {
+    "month": "202603",
+    "name": "markitdown",
+    "url": "https://github.com/microsoft/markitdown",
+    "timestamp": 1773041216,
+    "tags": [
+      "File Conversion",
+      "Markdown",
+      "Python",
+      "Document Processing",
+      "Multi-format Support"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "File Management"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "Python 工具可将各种文件转换为 Markdown 格式，支持 PDF、Word、Excel、图片等多种文件类型",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-markitdown.md"
   }
 ]
