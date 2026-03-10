@@ -667,5 +667,30 @@
     ],
     "tldr": "一款用 Rust 编写的高性能代码编辑器，支持 AI 协作与团队实时协作",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-10-zed.md"
+  },
+  {
+    "month": "202603",
+    "name": "Espanso",
+    "url": "https://espanso.org/",
+    "timestamp": 1773125433,
+    "tags": [
+      "Text Expansion",
+      "Open Source",
+      "Productivity",
+      "Cross Platform",
+      "Automation"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Windows",
+      "Linux",
+      "Mac"
+    ],
+    "tldr": "一款开源跨平台文本扩展工具 可通过关键词替换提高输入效率 支持脚本和表单功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-10-espanso.md"
   }
 ]
