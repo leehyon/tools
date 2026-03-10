@@ -642,5 +642,30 @@
     ],
     "tldr": "一个 AI 驱动的命令行工具，用于构建、调试和部署应用程序",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-10-gemini-cli.md"
+  },
+  {
+    "month": "202603",
+    "name": "Zed",
+    "url": "https://zed.dev/",
+    "timestamp": 1773123784,
+    "tags": [
+      "Code Editor",
+      "AI Integration",
+      "Collaboration",
+      "Rust",
+      "Fast"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "Communication"
+    ],
+    "Platform": [
+      "Mac",
+      "Linux",
+      "Windows"
+    ],
+    "tldr": "一款用 Rust 编写的高性能代码编辑器，支持 AI 协作与团队实时协作",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-10-zed.md"
   }
 ]
