@@ -618,5 +618,29 @@
     ],
     "tldr": "Just 是一个命令行工具，用于简化重复性任务的执行和管理",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-just.md"
+  },
+  {
+    "month": "202603",
+    "name": "Gemini CLI",
+    "url": "https://geminicli.com/",
+    "timestamp": 1773120593,
+    "tags": [
+      "AI-Powered",
+      "Command-Line",
+      "Development",
+      "Automation",
+      "Google"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一个 AI 驱动的命令行工具，用于构建、调试和部署应用程序",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-10-gemini-cli.md"
   }
 ]
