@@ -736,5 +736,27 @@
     ],
     "tldr": "一款全功能的 Mac 系统清理优化工具，可释放大量磁盘空间并监控系统性能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-13-mole.md"
+  },
+  {
+    "month": "202603",
+    "name": "Conductor",
+    "url": "https://www.conductor.build/",
+    "timestamp": 1773368116,
+    "tags": [
+      "AI Coding",
+      "Parallel Processing",
+      "Git Management",
+      "Mac OS",
+      "Productivity"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "在 Mac 上运行多个编码代理工具，并行处理代码任务并自动管理 git 工作树",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-13-conductor.md"
   }
 ]
