@@ -783,5 +783,28 @@
     ],
     "tldr": "一个简约的在线天气时钟看板，支持天气、农历、日历和智能家居控制",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-13-clock-dashboard.md"
+  },
+  {
+    "month": "202603",
+    "name": "ruler",
+    "url": "https://github.com/intellectronica/ruler",
+    "timestamp": 1773381141,
+    "tags": [
+      "AI Coding",
+      "Configuration Management",
+      "Developer Productivity",
+      "Multi-Agent Support",
+      "Centralized Rules"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "Ruler 是一个集中管理 AI 编程助手指令的工具，为多个 AI 编码代理提供统一的规则源",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-13-ruler.md"
   }
 ]
