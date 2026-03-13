@@ -713,5 +713,28 @@
     "Platform": [],
     "tldr": "一款 AI 驱动的智能截图工具，可识别公式、文本、表格等内容，并进行分析和转换",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-13-snippai.md"
+  },
+  {
+    "month": "202603",
+    "name": "Mole",
+    "url": "https://github.com/tw93/Mole",
+    "timestamp": 1773366530,
+    "tags": [
+      "System Optimization",
+      "Disk Cleanup",
+      "MacOS",
+      "Command Line",
+      "Performance Monitoring"
+    ],
+    "categories": [
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows"
+    ],
+    "tldr": "一款全功能的 Mac 系统清理优化工具，可释放大量磁盘空间并监控系统性能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-13-mole.md"
   }
 ]
