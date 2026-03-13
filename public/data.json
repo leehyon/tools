@@ -806,5 +806,33 @@
     ],
     "tldr": "Ruler 是一个集中管理 AI 编程助手指令的工具，为多个 AI 编码代理提供统一的规则源",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-13-ruler.md"
+  },
+  {
+    "month": "202603",
+    "name": "Obsidian",
+    "url": "https://obsidian.md/",
+    "timestamp": 1773385673,
+    "tags": [
+      "Note-taking",
+      "Knowledge Graph",
+      "Markdown",
+      "Privacy-focused",
+      "Cross-platform"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Text Input & Writing"
+    ],
+    "Platform": [
+      "Windows",
+      "Mac",
+      "Linux",
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "tldr": "一款基于 Markdown 的个人知识管理工具 支持双向链接和知识图谱构建",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-13-obsidian.md"
   }
 ]
