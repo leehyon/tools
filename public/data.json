@@ -834,5 +834,27 @@
     ],
     "tldr": "一款基于 Markdown 的个人知识管理工具 支持双向链接和知识图谱构建",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-13-obsidian.md"
+  },
+  {
+    "month": "202603",
+    "name": "CotEditor",
+    "url": "https://coteditor.com/",
+    "timestamp": 1773648697,
+    "tags": [
+      "Text Editor",
+      "MacOS",
+      "Open Source",
+      "Syntax Highlighting",
+      "Free"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "一款轻量级 yet 强大的 macOS 原生纯文本编辑器 支持 50+ 种语法高亮",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-16-coteditor.md"
   }
 ]
