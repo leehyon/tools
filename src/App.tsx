@@ -68,9 +68,41 @@ function buildWeekSeries(weekly: { week: string; count: number }[]): { week: str
   return series
 }
 
+function catmullRomCurve(points: { x: number; y: number }[], tension = 0.5): string {
+  if (points.length === 0) return ''
+  if (points.length === 1) return `M ${points[0].x} ${points[0].y}`
+  if (points.length === 2) return `M ${points[0].x} ${points[0].y} L ${points[1].x} ${points[1].y}`
+
+  let path = `M ${points[0].x} ${points[0].y}`
+
+  for (let i = 0; i < points.length - 1; i++) {
+    const p0 = points[i - 1] ?? points[i]
+    const p1 = points[i]
+    const p2 = points[i + 1]
+    const p3 = points[i + 2] ?? p2
+
+    const cp1x = p1.x + (p2.x - p0.x) * tension / 6
+    const cp1y = p1.y + (p2.y - p0.y) * tension / 6
+    const cp2x = p2.x - (p3.x - p1.x) * tension / 6
+    const cp2y = p2.y - (p3.y - p1.y) * tension / 6
+
+    path += ` C ${cp1x.toFixed(1)} ${cp1y.toFixed(1)}, ${cp2x.toFixed(1)} ${cp2y.toFixed(1)}, ${p2.x.toFixed(1)} ${p2.y.toFixed(1)}`
+  }
+
+  return path
+}
+
 function linePath(points: { x: number; y: number }[]): string {
   if (points.length === 0) return ''
-  return points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(' ')
+  return catmullRomCurve(points, 0.8)
+}
+
+function areaPath(points: { x: number; y: number; label?: string }[], baseline: number): string {
+  if (points.length === 0) return ''
+  const line = catmullRomCurve(points, 0.8)
+  const last = points[points.length - 1]
+  const first = points[0]
+  return `${line} L ${last.x.toFixed(1)} ${baseline} L ${first.x.toFixed(1)} ${baseline} Z`
 }
 
 function hueFromString(value: string): number {
@@ -347,63 +379,91 @@ export default function App() {
                   <div className="muted">暂无数据</div>
                 ) : (
                   (() => {
-                    const series = weeklyTrend.slice(-8)
+                    const chartSeries = weeklyTrend.slice(-8)
                     const w = 520
-                    const h = 160
+                    const h = 200
                     const padX = 30
-                    const padY = 14
-                    const max = Math.max(1, ...series.map((x) => x.count))
+                    const padY = 20
+                    const bottomPad = 24
+                    const max = Math.max(1, ...chartSeries.map((x) => x.count))
                     const min = 0
                     const mid = Math.round((max + min) / 2)
-                    const xStep = series.length > 1 ? (w - padX * 2) / (series.length - 1) : 0
+                    const baseline = h - bottomPad
+                    const xStep = chartSeries.length > 1 ? (w - padX * 2) / (chartSeries.length - 1) : 0
                     const yFor = (count: number) => {
                       const t = (count - min) / (max - min)
-                      return padY + (1 - t) * (h - padY * 2)
+                      return padY + (1 - t) * (baseline - padY)
                     }
-                    const points = series.map((x, i) => ({ x: padX + i * xStep, y: yFor(x.count), label: x.week }))
-                    const d = linePath(points)
+                    const points = chartSeries.map((x, i) => ({ x: padX + i * xStep, y: yFor(x.count), label: x.week }))
+                    const lineD = linePath(points)
+                    const areaD = areaPath(points, baseline)
                     return (
                       <svg className="trendSvg" viewBox={`0 0 ${w} ${h}`} role="img" aria-label="Weekly trend line">
+                        <defs>
+                          <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stopColor="#9ca3af" stopOpacity="0.12" />
+                            <stop offset="100%" stopColor="#9ca3af" stopOpacity="0.02" />
+                          </linearGradient>
+                          <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="0">
+                            <stop offset="0%" stopColor="#a5b4fc" />
+                            <stop offset="100%" stopColor="#94a3b8" />
+                          </linearGradient>
+                        </defs>
                         <g className="gridLines">
-                          <line x1={padX} y1={h - padY} x2={w - padX} y2={h - padY} />
+                          <line x1={padX} y1={baseline} x2={w - padX} y2={baseline} />
                           <line x1={padX} y1={padY} x2={w - padX} y2={padY} />
-                          <line x1={padX} y1={(h - padY + padY) / 2} x2={w - padX} y2={(h - padY + padY) / 2} />
+                          <line x1={padX} y1={(baseline + padY) / 2} x2={w - padX} y2={(baseline + padY) / 2} />
                         </g>
                         <g className="trendYAxis" aria-hidden="true">
                           <text className="trendYLabel" x={6} y={padY + 4}>
                             {max}
                           </text>
-                          <text className="trendYLabel" x={6} y={(h - padY + padY) / 2 + 4}>
+                          <text className="trendYLabel" x={6} y={(baseline + padY) / 2 + 4}>
                             {mid}
                           </text>
-                          <text className="trendYLabel" x={6} y={h - padY + 4}>
+                          <text className="trendYLabel" x={6} y={baseline + 4}>
                             {min}
                           </text>
                         </g>
-                        <path className="trendLineShadow" d={d} />
-                        <path className="trendLine" d={d} />
+                        <path className="trendArea" d={areaD} fill="url(#areaGradient)" />
+                        <path className="trendLineShadow" d={lineD} />
+                        <path className="trendLine" d={lineD} stroke="url(#lineGradient)" />
                         <g>
                           {points.map((p, idx) => (
-                            <circle key={idx} className="trendDot" cx={p.x} cy={p.y} r={3.2}>
-                              <title>
-                                {shortDateLabel(p.label)}: {series[idx].count}
-                              </title>
-                            </circle>
+                            <g key={idx}>
+                              <circle
+                                className="trendDot"
+                                cx={p.x}
+                                cy={p.y}
+                                r={3}
+                                fill="url(#lineGradient)"
+                                stroke="#fff"
+                                strokeWidth={1.5}
+                              >
+                                <title>
+                                  {shortDateLabel(p.label)}: {chartSeries[idx].count} 个工具
+                                </title>
+                              </circle>
+                            </g>
+                          ))}
+                        </g>
+                        <g className="trendXAxis" aria-hidden="true">
+                          {points.map((p, idx) => (
+                            <text
+                              key={idx}
+                              className="trendXLabel"
+                              x={p.x}
+                              y={h - 6}
+                              textAnchor="middle"
+                            >
+                              {shortDateLabel(p.label)}
+                            </text>
                           ))}
                         </g>
                       </svg>
                     )
                   })()
                 )}
-                {weeklyTrend.length > 0 ? (
-                  <div className="trendAxis">
-                    {weeklyTrend.slice(-8).map((x) => (
-                      <div key={x.week} className="axisLabel" title={x.week}>
-                        {shortDateLabel(x.week)}
-                      </div>
-                    ))}
-                  </div>
-                ) : null}
               </div>
             </div>
 

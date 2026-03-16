@@ -338,10 +338,19 @@ body {
   display: block;
 }
 
+.trendArea {
+  opacity: 1;
+}
+
 .trendYLabel {
   font-size: 11px;
   fill: rgba(107, 114, 128, 0.92);
   font-variant-numeric: tabular-nums;
+}
+
+.trendXLabel {
+  font-size: 10px;
+  fill: rgba(107, 114, 128, 0.85);
 }
 
 .gridLines line {
@@ -351,31 +360,50 @@ body {
 
 .trendLineShadow {
   fill: none;
-  stroke: rgba(50, 50, 50, 0.18);
-  stroke-width: 3;
+  stroke: rgba(148, 163, 184, 0.25);
+  stroke-width: 4;
   stroke-linecap: round;
   stroke-linejoin: round;
+  filter: blur(2px);
 }
 
 .trendLine {
   fill: none;
-  stroke: #5c626f;
-  stroke-width: 1.6;
+  stroke-width: 1.8;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
 .trendDot {
-  fill: #5c626f;
-  stroke: rgba(255, 255, 255, 0.95);
-  stroke-width: 2;
+  transition: transform 0.15s ease-out, r 0.15s ease-out;
+}
+
+.trendDot:hover {
+  transform: scale(1.35);
+}
+
+.trendDotHover {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.trendDotHover:hover {
+  opacity: 1;
 }
 
 .trendAxis {
-  margin-top: 8px;
+  margin-top: 6px;
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-columns: repeat(8, 1fr);
   gap: 8px;
+}
+
+.trendAxis > div:first-child {
+  justify-content: flex-start;
+}
+
+.trendAxis > div:last-child {
+  justify-content: flex-end;
 }
 
 .axisLabel {
