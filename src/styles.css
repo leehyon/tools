@@ -429,7 +429,7 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 999px;
-  box-shadow: 0 12px 26px rgba(17, 24, 39, 0.10);
+  box-shadow: 0 12px 26px rgba(17, 24, 39, 0.1);
   display: grid;
   place-items: center;
   padding: 10px;
@@ -437,14 +437,24 @@ body {
   color: inherit;
   font-family: Bahnschrift, "Segoe UI Variable", "Segoe UI", ui-sans-serif, system-ui, -apple-system, Roboto, Helvetica,
     Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
 }
 
 .bubble:hover {
-  box-shadow: 0 14px 30px rgba(17, 24, 39, 0.14);
+  transform: translate(-50%, -50%) scale(1.08);
+  box-shadow: 0 16px 36px rgba(17, 24, 39, 0.16);
+  z-index: 10;
+}
+
+.bubble:active {
+  transform: translate(-50%, -50%) scale(0.95);
 }
 
 .bubbleActive {
   outline: none;
+  transform: translate(-50%, -50%) scale(1.12);
+  box-shadow: 0 18px 40px rgba(17, 24, 39, 0.2);
+  z-index: 11;
 }
 
 .bubble:focus-visible {

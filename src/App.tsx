@@ -474,14 +474,14 @@ export default function App() {
               </div>
               <div className="bubbleStage" aria-label="标签气泡">
                 {(() => {
-                  const top = tagCounts.slice(0, 8)
+                  const top = tagCounts.slice(0, 12)
                   if (top.length === 0) return <div className="muted">暂无数据</div>
                   const max = Math.max(...top.map((x) => x.count))
                   const min = Math.min(...top.map((x) => x.count))
                   const sizeFor = (count: number) => {
-                    if (max === min) return 132
+                    if (max === min) return 100
                     const t = (count - min) / (max - min)
-                    return Math.round(92 + t * 116)
+                    return Math.round(72 + t * 88)
                   }
                   const positions: Array<{ left: string; top: string }> = [
                     { left: '56%', top: '56%' },
@@ -491,7 +491,11 @@ export default function App() {
                     { left: '22%', top: '36%' },
                     { left: '82%', top: '66%' },
                     { left: '62%', top: '18%' },
-                    { left: '26%', top: '82%' }
+                    { left: '26%', top: '82%' },
+                    { left: '78%', top: '52%' },
+                    { left: '15%', top: '58%' },
+                    { left: '52%', top: '12%' },
+                    { left: '38%', top: '88%' }
                   ]
                   return top.map((x, i) => {
                     const size = sizeFor(x.count)
