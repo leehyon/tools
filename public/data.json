@@ -856,5 +856,27 @@
     ],
     "tldr": "一款轻量级 yet 强大的 macOS 原生纯文本编辑器 支持 50+ 种语法高亮",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-16-coteditor.md"
+  },
+  {
+    "month": "202603",
+    "name": "LinearMouse",
+    "url": "https://linearmouse.app/zh-CN/",
+    "timestamp": 1773649249,
+    "tags": [
+      "Mouse Customization",
+      "Touchpad Control",
+      "Productivity",
+      "MacOS",
+      "Input Device"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "一款 Mac 上的鼠标和触控板实用工具 可自定义滚动 指针速度和按钮操作",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-16-linearmouse.md"
   }
 ]
