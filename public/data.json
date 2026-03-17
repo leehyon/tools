@@ -878,5 +878,29 @@
     ],
     "tldr": "一款 Mac 上的鼠标和触控板实用工具 可自定义滚动 指针速度和按钮操作",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-16-linearmouse.md"
+  },
+  {
+    "month": "202603",
+    "name": "PandaWiki",
+    "url": "https://pandawiki.docs.baizhi.cloud/",
+    "timestamp": 1773715926,
+    "tags": [
+      "AI-Powered",
+      "Open Source",
+      "Knowledge Base",
+      "Documentation",
+      "Chatbot"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Text Input & Writing"
+    ],
+    "Platform": [
+      "Linux",
+      "Web"
+    ],
+    "tldr": "一款开源的 AI 驱动知识库系统，支持文档构建、智能问答和搜索功能，提供富文本编辑和第三方集成能力",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-17-pandawiki.md"
   }
 ]
