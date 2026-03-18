@@ -1260,5 +1260,29 @@
     ],
     "tldr": "一款免费的 Windows 文件管理器 支持 SFTP FTP FTPS SCP S3 WebDAV 等协议",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-winscp.md"
+  },
+  {
+    "month": "202603",
+    "name": "MrRSS",
+    "url": "https://wcy-dt.github.io/MrRSS/",
+    "timestamp": 1773808905,
+    "tags": [
+      "RSS Reader",
+      "AI-Powered",
+      "Privacy-Focused",
+      "Open Source",
+      "Cross-Platform"
+    ],
+    "categories": [
+      "Reading & Information",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "tldr": "一款跨平台 RSS 阅读器，利用 AI 技术提供文章摘要、翻译和智能内容发现功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-mrrss.md"
   }
 ]
