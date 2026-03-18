@@ -1161,5 +1161,30 @@
     ],
     "tldr": "自托管在线文件转换器 支持超过 1000 种格式",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-convertx.md"
+  },
+  {
+    "month": "202603",
+    "name": "PDF Craft",
+    "url": "https://pdf.oomol.com/pdf-craft",
+    "timestamp": 1773802024,
+    "tags": [
+      "PDF Conversion",
+      "OCR Technology",
+      "Academic Tools",
+      "Math Formula Support",
+      "Privacy-Focused"
+    ],
+    "categories": [
+      "Reading & Information",
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "iOS"
+    ],
+    "tldr": "一款扫描 PDF 转换工具，可将 PDF 转换为 EPUB、Markdown 等格式，支持数学公式识别和表格结构保留",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-pdf-craft.md"
   }
 ]
