@@ -995,5 +995,27 @@
     ],
     "tldr": "一款免费在线 PDF 工具集，无需上传文件，客户端处理，注重隐私保护",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-bentopdf.md"
+  },
+  {
+    "month": "202603",
+    "name": "IronCalc",
+    "url": "https://www.ironcalc.com/",
+    "timestamp": 1773798656,
+    "tags": [
+      "Open Source",
+      "Spreadsheet Engine",
+      "Self-hosted",
+      "Embeddable",
+      "Rust-based"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "开源电子表格引擎，支持自托管和嵌入，提供高性能计算功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-ironcalc.md"
   }
 ]
