@@ -228,7 +228,7 @@
     "tags": [
       "Image Compression",
       "Web Optimization",
-      "Developer Tools",
+      "Developer Tool",
       "Free",
       "Performance"
     ],
@@ -601,7 +601,7 @@
     "url": "https://just.systems/",
     "timestamp": 1773051560,
     "tags": [
-      "Command-Line",
+      "Command Line",
       "Automation",
       "Build-Tool",
       "Developer-Utility",
@@ -626,7 +626,7 @@
     "timestamp": 1773120593,
     "tags": [
       "AI-Powered",
-      "Command-Line",
+      "Command Line",
       "Development",
       "Automation",
       "Google"
@@ -746,7 +746,7 @@
       "AI Coding",
       "Parallel Processing",
       "Git Management",
-      "Mac OS",
+      "macOS",
       "Productivity"
     ],
     "categories": [
@@ -980,7 +980,7 @@
     "timestamp": 1773798574,
     "tags": [
       "PDF Editor",
-      "Privacy-First",
+      "Privacy First",
       "Free",
       "Client-Side Processing",
       "No Signup Required"
@@ -1072,10 +1072,10 @@
     "url": "https://github.com/gamosoft/NoteDiscovery",
     "timestamp": 1773799565,
     "tags": [
-      "Self-Hosted",
+      "Self-hosted",
       "Markdown",
       "Knowledge Base",
-      "Privacy-Focused",
+      "Privacy-focused",
       "AI Integration"
     ],
     "categories": [
@@ -1095,7 +1095,7 @@
     "timestamp": 1773800488,
     "tags": [
       "Backup Automation",
-      "Self-Hosted",
+      "Self-hosted",
       "Data Protection",
       "Restic",
       "Open Source"
@@ -1145,9 +1145,9 @@
     "timestamp": 1773801551,
     "tags": [
       "File Conversion",
-      "Self-Hosted",
+      "Self-hosted",
       "Open Source",
-      "Privacy-Focused",
+      "Privacy-focused",
       "Batch Processing"
     ],
     "categories": [
@@ -1172,7 +1172,7 @@
       "OCR Technology",
       "Academic Tools",
       "Math Formula Support",
-      "Privacy-Focused"
+      "Privacy-focused"
     ],
     "categories": [
       "Reading & Information",
@@ -1194,7 +1194,7 @@
     "timestamp": 1773802562,
     "tags": [
       "Terminal Emulator",
-      "Cross-Platform",
+      "Cross-platform",
       "Customizable",
       "SSH Client",
       "Lua Scripting"
@@ -1237,5 +1237,28 @@
     ],
     "tldr": "一个跨平台高性能终端模拟器 基于 OpenGL 渲染 支持高度配置",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-alacritty.md"
+  },
+  {
+    "month": "202603",
+    "name": "winscp",
+    "url": "https://github.com/winscp/winscp",
+    "timestamp": 1773808751,
+    "tags": [
+      "File Transfer",
+      "FTP Client",
+      "SFTP",
+      "SSH",
+      "Free"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Windows"
+    ],
+    "tldr": "一款免费的 Windows 文件管理器 支持 SFTP FTP FTPS SCP S3 WebDAV 等协议",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-winscp.md"
   }
 ]
