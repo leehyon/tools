@@ -926,5 +926,27 @@
     ],
     "tldr": "一个现代优雅的网络流量可视化分析仪表板，支持实时监控与多网关管理",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-17-neko-master.md"
+  },
+  {
+    "month": "202603",
+    "name": "mactop",
+    "url": "https://github.com/metaspartan/mactop",
+    "timestamp": 1773797554,
+    "tags": [
+      "System Monitoring",
+      "Apple Silicon",
+      "Terminal",
+      "Performance",
+      "Real-time"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "macOS"
+    ],
+    "tldr": "一款基于终端的 Apple Silicon 监控工具，实时显示 CPU、GPU、内存等系统指标",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-mactop.md"
   }
 ]
