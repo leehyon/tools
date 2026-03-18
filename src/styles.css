@@ -416,7 +416,7 @@ body {
 .bubbleStage {
   margin-top: 12px;
   position: relative;
-  height: 280px;
+  min-height: 280px;
   border-radius: 14px;
   background: transparent;
   border: none;
