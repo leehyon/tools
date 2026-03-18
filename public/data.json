@@ -8,7 +8,7 @@
       "Terminal",
       "Prompt",
       "Customization",
-      "Cross-Platform",
+      "Cross-platform",
       "Developer Tool"
     ],
     "categories": [
@@ -21,7 +21,7 @@
       "Linux",
       "Web"
     ],
-    "tldr": "一个跨 shell 的提示符工具，提供快速、可高度定制化的终端体验",
+    "tldr": "一个跨 Shell 的提示符工具，提供快速、可高度定制化的终端体验",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-starship.md"
   },
   {
@@ -31,7 +31,7 @@
     "timestamp": 1772705285,
     "tags": [
       "Image Uploader",
-      "Cross-Platform",
+      "Cross-platform",
       "Plugin System",
       "Auto-Copy Links",
       "Developer Tool"
@@ -72,7 +72,7 @@
       "Mac",
       "Windows"
     ],
-    "tldr": "A terminal file manager that works like ranger but with vim like keybindings",
+    "tldr": "一款类似 Ranger 的终端文件管理器，但拥有类似 Vim 的快捷键",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-05-tere.md"
   },
   {
@@ -162,7 +162,7 @@
       "Markdown",
       "Image Generation",
       "Developer Tool",
-      "Cross-Platform"
+      "Cross-platform"
     ],
     "categories": [
       "Text Input & Writing",
@@ -327,7 +327,7 @@
       "Performance",
       "Menu Bar App",
       "Real-time",
-      "MacOS"
+      "macOS"
     ],
     "categories": [
       "Developer Tools",
@@ -453,7 +453,7 @@
       "Linux",
       "Web"
     ],
-    "tldr": "An AI-powered Git assistant that generates smart commit messages and provides intuitive commands to streamline version control workflows",
+    "tldr": "一款 AI 驱动的 Git 助手，可生成智能提交信息并提供直观的命令，以简化版本控制工作流程",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-09-gcop.md"
   },
   {
@@ -465,7 +465,7 @@
       "Ebook Reader",
       "PDF Reader",
       "Open Source",
-      "Cross Platform",
+      "Cross-platform",
       "Annotation"
     ],
     "categories": [
@@ -605,7 +605,7 @@
       "Automation",
       "Build-Tool",
       "Developer-Utility",
-      "Cross-Platform"
+      "Cross-platform"
     ],
     "categories": [
       "Developer Tools",
@@ -677,7 +677,7 @@
       "Text Expansion",
       "Open Source",
       "Productivity",
-      "Cross Platform",
+      "Cross-platform",
       "Automation"
     ],
     "categories": [
@@ -722,7 +722,7 @@
     "tags": [
       "System Optimization",
       "Disk Cleanup",
-      "MacOS",
+      "macOS",
       "Command Line",
       "Performance Monitoring"
     ],
@@ -842,7 +842,7 @@
     "timestamp": 1773648697,
     "tags": [
       "Text Editor",
-      "MacOS",
+      "macOS",
       "Open Source",
       "Syntax Highlighting",
       "Free"
@@ -866,7 +866,7 @@
       "Mouse Customization",
       "Touchpad Control",
       "Productivity",
-      "MacOS",
+      "macOS",
       "Input Device"
     ],
     "categories": [
@@ -957,7 +957,7 @@
     "tags": [
       "Video Downloader",
       "Open Source",
-      "Cross Platform",
+      "Cross-platform",
       "Batch Processing",
       "High Quality"
     ],
@@ -1085,7 +1085,34 @@
     "Platform": [
       "Web"
     ],
-    "tldr": "一款轻量级自托管笔记应用，提供隐私保护、快速搜索和AI集成功能",
+    "tldr": "一款轻量级自托管笔记应用，提供隐私保护、快速搜索和 AI 集成功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-notediscovery.md"
+  },
+  {
+    "month": "202603",
+    "name": "zerobyte",
+    "url": "https://github.com/nicotsx/zerobyte",
+    "timestamp": 1773800488,
+    "tags": [
+      "Backup Automation",
+      "Self-Hosted",
+      "Data Protection",
+      "Restic",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Linux",
+      "Mac",
+      "Windows",
+      "Web",
+      "Docker"
+    ],
+    "tldr": "一款基于 restic 的自动化备份工具，专为自托管服务器设计，提供简单直观的备份管理界面",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-zerobyte.md"
   }
 ]
