@@ -1017,5 +1017,27 @@
     ],
     "tldr": "开源电子表格引擎，支持自托管和嵌入，提供高性能计算功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-ironcalc.md"
+  },
+  {
+    "month": "202603",
+    "name": "MediaManager",
+    "url": "https://github.com/maxdorninger/MediaManager",
+    "timestamp": 1773798879,
+    "tags": [
+      "Media Management",
+      "Self-hosted",
+      "TV Shows",
+      "Movies",
+      "Docker"
+    ],
+    "categories": [
+      "File Management",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个现代自托管媒体管理系统，用于统一管理电视和电影收藏",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-mediamanager.md"
   }
 ]
