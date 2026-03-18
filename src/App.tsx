@@ -474,28 +474,38 @@ export default function App() {
               </div>
               <div className="bubbleStage" aria-label="标签气泡">
                 {(() => {
-                  const top = tagCounts.slice(0, 12)
+                  const isMobile = typeof window !== 'undefined' && window.innerWidth < 640
+                  const maxTags = isMobile ? 10 : 20
+                  const top = tagCounts.slice(0, maxTags)
                   if (top.length === 0) return <div className="muted">暂无数据</div>
                   const max = Math.max(...top.map((x) => x.count))
                   const min = Math.min(...top.map((x) => x.count))
                   const sizeFor = (count: number) => {
                     if (max === min) return 100
                     const t = (count - min) / (max - min)
-                    return Math.round(72 + t * 88)
+                    return Math.round(58 + t * 72)
                   }
                   const positions: Array<{ left: string; top: string }> = [
-                    { left: '56%', top: '56%' },
-                    { left: '33%', top: '66%' },
-                    { left: '46%', top: '34%' },
-                    { left: '74%', top: '38%' },
-                    { left: '22%', top: '36%' },
-                    { left: '82%', top: '66%' },
-                    { left: '62%', top: '18%' },
-                    { left: '26%', top: '82%' },
-                    { left: '78%', top: '52%' },
-                    { left: '15%', top: '58%' },
-                    { left: '52%', top: '12%' },
-                    { left: '38%', top: '88%' }
+                    { left: '50%', top: '50%' },
+                    { left: '25%', top: '25%' },
+                    { left: '75%', top: '25%' },
+                    { left: '25%', top: '75%' },
+                    { left: '75%', top: '75%' },
+                    { left: '50%', top: '18%' },
+                    { left: '50%', top: '82%' },
+                    { left: '18%', top: '50%' },
+                    { left: '82%', top: '50%' },
+                    { left: '32%', top: '12%' },
+                    { left: '68%', top: '12%' },
+                    { left: '32%', top: '88%' },
+                    { left: '68%', top: '88%' },
+                    { left: '12%', top: '32%' },
+                    { left: '88%', top: '32%' },
+                    { left: '12%', top: '68%' },
+                    { left: '88%', top: '68%' },
+                    { left: '40%', top: '35%' },
+                    { left: '60%', top: '65%' },
+                    { left: '60%', top: '35%' }
                   ]
                   return top.map((x, i) => {
                     const size = sizeFor(x.count)
