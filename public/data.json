@@ -948,5 +948,29 @@
     ],
     "tldr": "一款基于终端的 Apple Silicon 监控工具，实时显示 CPU、GPU、内存等系统指标",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-mactop.md"
+  },
+  {
+    "month": "202603",
+    "name": "VidBee",
+    "url": "https://vidbee.org/",
+    "timestamp": 1773797717,
+    "tags": [
+      "Video Downloader",
+      "Open Source",
+      "Cross Platform",
+      "Batch Processing",
+      "High Quality"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一款免费开源视频下载工具，支持 1000+ 网站的高清视频下载，具备自动化批量处理功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-vidbee.md"
   }
 ]
