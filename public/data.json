@@ -1065,5 +1065,27 @@
     ],
     "tldr": "一款注重简洁易用的开源个人笔记与文档平台 支持多平台部署和丰富的功能扩展",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-poznote.md"
+  },
+  {
+    "month": "202603",
+    "name": "NoteDiscovery",
+    "url": "https://github.com/gamosoft/NoteDiscovery",
+    "timestamp": 1773799565,
+    "tags": [
+      "Self-Hosted",
+      "Markdown",
+      "Knowledge Base",
+      "Privacy-Focused",
+      "AI Integration"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Text Input & Writing"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一款轻量级自托管笔记应用，提供隐私保护、快速搜索和AI集成功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-notediscovery.md"
   }
 ]
