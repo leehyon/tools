@@ -1114,5 +1114,28 @@
     ],
     "tldr": "一款基于 restic 的自动化备份工具，专为自托管服务器设计，提供简单直观的备份管理界面",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-zerobyte.md"
+  },
+  {
+    "month": "202603",
+    "name": "Warracker",
+    "url": "https://github.com/sassanix/warracker",
+    "timestamp": 1773801142,
+    "tags": [
+      "Warranty Management",
+      "Open Source",
+      "Self-hosted",
+      "Document Storage",
+      "Multi-language"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一款开源自托管的产品保修追踪工具，帮助用户管理保修信息、监控到期日期并存储相关文件",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-warracker.md"
   }
 ]
