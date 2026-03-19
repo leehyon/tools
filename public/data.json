@@ -1401,5 +1401,31 @@
     "Platform": [],
     "tldr": "一个轻量级的 Git 提交信息生成工具，支持语义化提交和自定义配置",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-git-cz.md"
+  },
+  {
+    "month": "202603",
+    "name": "fiftyone",
+    "url": "https://github.com/voxel51/fiftyone",
+    "timestamp": 1773889192,
+    "tags": [
+      "Computer Vision",
+      "Data Annotation",
+      "Model Evaluation",
+      "Open Source",
+      "Dataset Management"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Windows",
+      "Linux",
+      "Mac",
+      "Web"
+    ],
+    "tldr": "一个用于精炼高质量数据集和可视化 AI 模型的开源平台",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-fiftyone.md"
   }
 ]
