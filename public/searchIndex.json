@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-19T10:05:23.582Z",
+  "updatedAt": "2026-03-19T10:23:17.757Z",
   "tools": [
     {
       "name": "Starship",
@@ -1583,6 +1583,31 @@
         "System & Automation"
       ],
       "timestamp": 1773909831
+    },
+    {
+      "name": "OpenClaw",
+      "url": "https://openclaw.ai/",
+      "tldr": "一个能实际执行任务的 AI 助手，通过聊天应用管理邮件、日历和任务",
+      "scenarios": [
+        "通过 WhatsApp 或 Telegram 管理收件箱和发送邮件",
+        "自动检查航班登机信息并完成登机手续",
+        "在聊天界面中直接控制 Gmail、日历和 WordPress",
+        "创建自定义技能和自动化工作流程",
+        "24/7 持续运行，主动执行后台任务和提醒"
+      ],
+      "tags": [
+        "AI Assistant",
+        "Open Source",
+        "Automation",
+        "Personal Productivity",
+        "Chat-based Interface"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Communication"
+      ],
+      "timestamp": 1773915779
     }
   ]
 }

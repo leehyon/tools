@@ -1522,5 +1522,33 @@
     ],
     "tldr": "一个快速、功能丰富且跨平台的终端模拟器，使用平台原生 UI 和 GPU 加速",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-ghostty.md"
+  },
+  {
+    "month": "202603",
+    "name": "OpenClaw",
+    "url": "https://openclaw.ai/",
+    "timestamp": 1773915779,
+    "tags": [
+      "AI Assistant",
+      "Open Source",
+      "Automation",
+      "Personal Productivity",
+      "Chat-based Interface"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Communication"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "tldr": "一个能实际执行任务的 AI 助手，通过聊天应用管理邮件、日历和任务",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-openclaw.md"
   }
 ]
