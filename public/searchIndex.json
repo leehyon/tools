@@ -1,5 +1,1588 @@
 {
   "version": 1,
-  "updatedAt": "",
-  "tools": []
+  "updatedAt": "2026-03-19T09:12:53.436Z",
+  "tools": [
+    {
+      "name": "Starship",
+      "url": "https://starship.rs/",
+      "tldr": "一个跨 shell 的提示符工具，提供快速、可高度定制化的终端体验",
+      "scenarios": [
+        "为不同 shell 提供统一的终端提示符体验",
+        "自定义终端提示符显示信息和样式",
+        "提高终端工作效率和视觉体验",
+        "在多种操作系统间保持一致的 shell 体验",
+        "通过 Rust 实现高性能的命令行提示"
+      ],
+      "tags": [
+        "Terminal",
+        "Prompt",
+        "Customization",
+        "Cross-platform",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1772705027
+    },
+    {
+      "name": "PicGo",
+      "url": "https://docs.picgo.app/gui/",
+      "tldr": "一款图片上传工具 支持一键上传 自动复制分享链接 提升创作效率",
+      "scenarios": [
+        "博客作者快速插入图片并获取链接",
+        "社交媒体用户批量上传图片",
+        "开发者需要将图片上传到云存储服务",
+        "内容创作者管理图片资源",
+        "需要将图片链接插入到Markdown文档中"
+      ],
+      "tags": [
+        "Image Uploader",
+        "Cross-platform",
+        "Plugin System",
+        "Auto-Copy Links",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "Media & Creativity"
+      ],
+      "timestamp": 1772705285
+    },
+    {
+      "name": "tere",
+      "url": "https://github.com/mgunyho/tere",
+      "tldr": "A terminal file manager that works like ranger but with vim like keybindings",
+      "scenarios": [
+        "在终端中快速浏览文件系统",
+        "使用类似 vim 的快捷键管理文件",
+        "在不离开终端的情况下进行文件操作",
+        "需要轻量级文件管理器的开发者场景",
+        "喜欢键盘操作的用户日常文件管理"
+      ],
+      "tags": [
+        "Terminal File Manager",
+        "Vim-like",
+        "Keyboard Navigation",
+        "Lightweight",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1772705364
+    },
+    {
+      "name": "Yazi",
+      "url": "https://yazi-rs.github.io/",
+      "tldr": "一个异步文件管理器，支持图像预览和代码高亮，充分利用多核 CPU 资源",
+      "scenarios": [
+        "在终端中高效浏览和管理文件",
+        "预览各种格式的图像文件",
+        "查看代码文件并语法高亮",
+        "管理大量文件和目录",
+        "在终端中进行文件操作"
+      ],
+      "tags": [
+        "File Manager",
+        "Terminal",
+        "Async",
+        "Image Preview",
+        "Code Highlighting"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1772705419
+    },
+    {
+      "name": "Logseq",
+      "url": "https://logseq.com/",
+      "tldr": "一款隐私优先的开源知识管理工具，通过双向链接连接笔记，提升理解能力",
+      "scenarios": [
+        "学生整理课堂笔记和复习资料",
+        "作家构思和组织文章结构",
+        "项目经理跟踪项目进展和会议记录",
+        "开发者记录技术知识和代码片段",
+        "研究人员管理文献和学术资料"
+      ],
+      "tags": [
+        "Knowledge Base",
+        "Note-taking",
+        "Open Source",
+        "Privacy-focused",
+        "Graph-based"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1772705542
+    },
+    {
+      "name": "Helix",
+      "url": "https://helix-editor.com/",
+      "tldr": "一个用 Rust 编写的现代化终端文本编辑器，支持多光标操作和语法感知功能",
+      "scenarios": [
+        "代码编写与编辑",
+        "多文件同时编辑",
+        "语法高亮和代码导航",
+        "通过 SSH 或 tmux 远程编辑",
+        "项目全局搜索和符号跳转"
+      ],
+      "tags": [
+        "Terminal Editor",
+        "Multi-Cursor",
+        "Syntax-Aware",
+        "Rust",
+        "Modal Editor"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1772705609
+    },
+    {
+      "name": "markdown2png",
+      "url": "https://github.com/nicejade/markdown2png",
+      "tldr": "将 Markdown 代码直接转换为 PNG 图片，方便分享和展示",
+      "scenarios": [
+        "需要将 Markdown 代码转换为图片分享到社交媒体",
+        "在文档中插入代码截图保持格式美观",
+        "制作教程或文档时展示代码片段",
+        "需要将技术文档中的代码部分可视化展示",
+        "在演示文稿中展示代码而不丢失格式"
+      ],
+      "tags": [
+        "Code Conversion",
+        "Markdown",
+        "Image Generation",
+        "Developer Tool",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1772705750
+    },
+    {
+      "name": "r2-web",
+      "url": "https://github.com/vikiboss/r2-web",
+      "tldr": "一款基于 Web 的 Cloudflare R2 桶文件管理器，无需安装，在浏览器中直接操作文件",
+      "scenarios": [
+        "管理 Cloudflare R2 存储桶中的文件",
+        "作为私有图床使用，拖拽上传图片",
+        "在浏览器中预览和编辑存储的文件",
+        "通过 PWA 将应用安装到桌面使用",
+        "在不同设备间同步文件管理配置"
+      ],
+      "tags": [
+        "File Management",
+        "Cloud Storage",
+        "PWA",
+        "Web Application",
+        "Cloudflare R2"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management"
+      ],
+      "timestamp": 1772762844
+    },
+    {
+      "name": "magic-resume",
+      "url": "https://github.com/JOYCEQL/magic-resume",
+      "tldr": "一款免费的在线 AI 简历编辑器，提供专业简历创建与实时预览功能",
+      "scenarios": [
+        "求职者快速创建专业简历",
+        "HR 人员批量生成简历模板",
+        "自由职业者设计个人简历网站",
+        "应届毕业生准备求职材料",
+        "职场人士更新个人简历"
+      ],
+      "tags": [
+        "AI-Powered",
+        "Resume Builder",
+        "Free",
+        "Real-time Preview",
+        "Web-based"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Media & Creativity"
+      ],
+      "timestamp": 1772763180
+    },
+    {
+      "name": "TinyPNG",
+      "url": "https://tinypng.com/",
+      "tldr": "智能压缩 PNG、JPEG、WebP 和 AVIF 图像，减少文件大小高达 80%，同时保持视觉质量",
+      "scenarios": [
+        "网站优化图片加载速度",
+        "减少带宽使用和存储空间",
+        "提升网站 SEO 排名",
+        "批量处理和转换图像格式",
+        "WordPress 网站自动压缩图片"
+      ],
+      "tags": [
+        "Image Compression",
+        "Web Optimization",
+        "Developer Tool",
+        "Free",
+        "Performance"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "Media & Creativity"
+      ],
+      "timestamp": 1772789810
+    },
+    {
+      "name": "Excalidraw",
+      "url": "https://excalidraw.com",
+      "tldr": "一个开源的在线协作白板工具，支持手绘风格和实时协作",
+      "scenarios": [
+        "远程团队头脑风暴和创意构思",
+        "在线教学和知识可视化展示",
+        "流程图和原型设计",
+        "会议记录和想法整理",
+        "个人思维导图和笔记整理"
+      ],
+      "tags": [
+        "Collaboration",
+        "Whiteboard",
+        "Open Source",
+        "Hand-drawn",
+        "Real-time Collaboration"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Communication",
+        "Media & Creativity"
+      ],
+      "timestamp": 1772790014
+    },
+    {
+      "name": "markmap",
+      "url": "https://markmap.js.org/",
+      "tldr": "一款将 Markdown 文档转换为交互式思维导图的工具，支持实时预览和自定义样式",
+      "scenarios": [
+        "将复杂文档结构可视化呈现",
+        "创建项目计划和知识图谱",
+        "整理会议记录和头脑风暴结果",
+        "制作教学材料和演示文稿",
+        "组织个人知识库和笔记"
+      ],
+      "tags": [
+        "Mind Mapping",
+        "Markdown",
+        "Visualization",
+        "Knowledge Management",
+        "Open Source"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1773037515
+    },
+    {
+      "name": "Snipaste",
+      "url": "https://www.snipaste.com/",
+      "tldr": "一款免费的截图工具 可将截图固定在屏幕上 并支持丰富的标注和编辑功能",
+      "scenarios": [
+        "截取屏幕区域并固定在桌面上作为参考",
+        "快速捕获颜色值和像素信息",
+        "为截图添加箭头、文字等标注",
+        "将文本或颜色信息转换为浮动窗口",
+        "程序员查看代码片段或设计元素参考"
+      ],
+      "tags": [
+        "Screenshot",
+        "Annotation",
+        "Floating Window",
+        "Productivity",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Media & Creativity"
+      ],
+      "timestamp": 1773037669
+    },
+    {
+      "name": "Alertivity",
+      "url": "https://github.com/nobbbbby/Alertivity",
+      "tldr": "一个 macOS 菜单栏应用，实时监控 CPU、内存、磁盘和网络性能，提供智能通知和快速操作功能",
+      "scenarios": [
+        "监控系统资源使用情况",
+        "及时发现系统性能瓶颈",
+        "快速处理高占用进程",
+        "设置自定义性能阈值",
+        "在系统状态异常时接收通知"
+      ],
+      "tags": [
+        "System Monitoring",
+        "Performance",
+        "Menu Bar App",
+        "Real-time",
+        "macOS"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773040276
+    },
+    {
+      "name": "Fresh",
+      "url": "https://getfresh.dev/",
+      "tldr": "一款终端文本编辑器 开源易学 快速响应 支持 IDE 功能",
+      "scenarios": [
+        "在终端中快速编辑代码文件",
+        "需要处理大型文本文件",
+        "在远程服务器上直接编辑文件",
+        "使用熟悉的快捷键和鼠标操作",
+        "需要代码智能提示和诊断功能"
+      ],
+      "tags": [
+        "Terminal Editor",
+        "Open Source",
+        "Fast",
+        "IDE Features",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1773040495
+    },
+    {
+      "name": "code996",
+      "url": "https://github.com/hellodigua/code996",
+      "tldr": "分析 Git 项目提交时间分布，推导团队工作强度与加班文化",
+      "scenarios": [
+        "入职前评估潜在加班文化",
+        "分析团队真实工作时间模式",
+        "对比多个项目的工作强度",
+        "追踪项目工作趋势变化",
+        "识别跨时区团队协作模式"
+      ],
+      "tags": [
+        "Git Analysis",
+        "Work-Life Balance",
+        "Data Visualization",
+        "Privacy First",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1773040594
+    },
+    {
+      "name": "markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "tldr": "Python 工具可将各种文件转换为 Markdown 格式，支持 PDF、Word、Excel、图片等多种文件类型",
+      "scenarios": [
+        "将 PDF 文档转换为 Markdown 格式以便于编辑和分析",
+        "将 PowerPoint 演示文稿转换为文本内容",
+        "将 Excel 电子表格转换为结构化的 Markdown 表格",
+        "从图片中提取文本内容并转换为 Markdown",
+        "将音频文件转录为 Markdown 文本",
+        "批量处理文档并统一转换为 Markdown 格式"
+      ],
+      "tags": [
+        "File Conversion",
+        "Markdown",
+        "Python",
+        "Document Processing",
+        "Multi-format Support"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "File Management"
+      ],
+      "timestamp": 1773041216
+    },
+    {
+      "name": "Screenshot Editor Tool",
+      "url": "https://postspark.app",
+      "tldr": "一款功能强大的截图编辑工具，可添加背景、注释、效果和浏览器框架，让截图更加专业美观",
+      "scenarios": [
+        "为社交媒体创建引人注目的截图内容",
+        "为产品演示和营销材料制作专业截图",
+        "为网站和应用程序创建设备展示图",
+        "为技术文档添加注释和说明的截图",
+        "为代码片段创建美观的可视化展示"
+      ],
+      "tags": [
+        "Screenshot Editor",
+        "Mockup Generator",
+        "Design Tool",
+        "Marketing Asset",
+        "Web App"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1773041336
+    },
+    {
+      "name": "GCOP",
+      "url": "https://gcop.zeeland.top/",
+      "tldr": "An AI-powered Git assistant that generates smart commit messages and provides intuitive commands to streamline version control workflows",
+      "scenarios": [
+        "Automatically generating meaningful commit messages",
+        "Learning from repository history to match team coding style",
+        "Simplifying complex Git operations with 20+ intuitive commands",
+        "Customizing AI models and commit templates per project",
+        "Seamlessly integrating with existing Git workflows without configuration"
+      ],
+      "tags": [
+        "Git",
+        "AI Assistant",
+        "Version Control",
+        "Commit Messages",
+        "Developer Productivity"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773043936
+    },
+    {
+      "name": "Readest",
+      "url": "https://readest.com/",
+      "tldr": "一款免费开源的 EPUB 与 PDF 阅读器，支持多平台，提供平行阅读、高亮笔记、云同步等功能",
+      "scenarios": [
+        "学术研究者需要同时对比多份文献资料",
+        "语言学习者对照原文与译文进行阅读",
+        "学生需要在电子教材上做笔记和标记重点",
+        "跨平台用户希望在不同设备上无缝阅读",
+        "有阅读障碍的用户需要文本朗读功能"
+      ],
+      "tags": [
+        "Ebook Reader",
+        "PDF Reader",
+        "Open Source",
+        "Cross-platform",
+        "Annotation"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1773044314
+    },
+    {
+      "name": "drawnix",
+      "url": "https://github.com/plait-board/drawnix",
+      "tldr": "开源一体化白板工具，支持思维导图、流程图和自由绘画，提供无限画布和自动保存功能",
+      "scenarios": [
+        "创建思维导图整理复杂概念",
+        "绘制流程图展示业务流程",
+        "自由绘画记录创意灵感",
+        "团队协作进行头脑风暴",
+        "将Markdown转换为思维导图",
+        "将Mermaid语法转换为流程图"
+      ],
+      "tags": [
+        "Open Source",
+        "Whiteboard",
+        "Mind Mapping",
+        "Flowchart",
+        "Free Drawing"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1773045844
+    },
+    {
+      "name": "GateShift",
+      "url": "https://github.com/ourines/GateShift",
+      "tldr": "为 OpenWrt 旁路由设计的网关切换工具，一键切换默认与代理网关，内置 DNS 防泄漏，跨平台命令行操作",
+      "scenarios": [
+        "在普通上网与科学上网间快速切换",
+        "防止使用代理时的 DNS 泄漏",
+        "多网络环境下灵活切换代理策略",
+        "为特定应用配置专属网络路径",
+        "测试不同网络路径的连接质量"
+      ],
+      "tags": [
+        "Gateway Switcher",
+        "OpenWrt",
+        "Cross-platform",
+        "Proxy Management"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1773045944
+    },
+    {
+      "name": "AI PDF Translator",
+      "url": "https://deeppdf.ai/pdf-translator",
+      "tldr": "一款免费的 AI 驱动 PDF 翻译工具，支持 100 多种语言，保留原格式，无需注册",
+      "scenarios": [
+        "学生翻译学术论文和研究文档",
+        "专业人士处理全球合同和报告",
+        "医疗人员理解医学文献和患者记录",
+        "法律团队翻译多语言合同",
+        "商业团队处理跨国营销材料",
+        "研究人员阅读多语言科学论文"
+      ],
+      "tags": [
+        "PDF Translation",
+        "AI-Powered",
+        "Free",
+        "Bilingual View",
+        "No Signup Required"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1773048151
+    },
+    {
+      "name": "git-who",
+      "url": "https://github.com/sinclairtarget/git-who",
+      "tldr": "一个命令行工具用于分析代码库中各组件或子系统的贡献者信息",
+      "scenarios": [
+        "分析大型代码库中各模块的主要贡献者",
+        "识别特定代码区域的维护责任人",
+        "跟踪项目历史中的活跃开发者",
+        "评估团队成员的贡献度",
+        "确定代码库中需要关注的部分",
+        "可视化项目的历史演变过程",
+        "识别需要文档或重构的代码区域"
+      ],
+      "tags": [
+        "Code Analysis",
+        "Git Tool",
+        "Developer Productivity",
+        "Code Attribution",
+        "Command Line"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management"
+      ],
+      "timestamp": 1773048329
+    },
+    {
+      "name": "pdoc",
+      "url": "https://pdoc.dev/",
+      "tldr": "自动生成 Python 项目的 API 文档，无需配置，支持类型注解和交叉链接",
+      "scenarios": [
+        "为 Python 库生成完整的 API 文档",
+        "实时预览文档更改的 Web 服务器",
+        "支持 numpydoc 和 Google 风格的文档字符串",
+        "自动处理项目模块层次结构",
+        "为开源项目提供标准化的文档格式"
+      ],
+      "tags": [
+        "API Documentation",
+        "Python",
+        "Auto-generated",
+        "Zero Configuration",
+        "Type Annotations"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1773049433
+    },
+    {
+      "name": "Just",
+      "url": "https://just.systems/",
+      "tldr": "Just 是一个命令行工具，用于简化重复性任务的执行和管理",
+      "scenarios": [
+        "自动化构建和部署流程",
+        "简化日常开发和维护任务",
+        "管理复杂的项目命令序列",
+        "创建可重用的命令配方",
+        "快速执行多步骤命令流程"
+      ],
+      "tags": [
+        "Command Line",
+        "Automation",
+        "Build-Tool",
+        "Developer-Utility",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773051560
+    },
+    {
+      "name": "Gemini CLI",
+      "url": "https://geminicli.com/",
+      "tldr": "一个 AI 驱动的命令行工具，用于构建、调试和部署应用程序",
+      "scenarios": [
+        "查询和编辑大型代码库",
+        "从图像或 PDF 生成应用程序",
+        "自动化复杂工作流程",
+        "在终端中直接使用 AI 辅助开发",
+        "快速原型设计和开发"
+      ],
+      "tags": [
+        "AI-Powered",
+        "Command Line",
+        "Development",
+        "Automation",
+        "Google"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773120593
+    },
+    {
+      "name": "Zed",
+      "url": "https://zed.dev/",
+      "tldr": "一款用 Rust 编写的高性能代码编辑器，支持 AI 协作与团队实时协作",
+      "scenarios": [
+        "编写和编辑代码",
+        "与 AI 协作生成和转换代码",
+        "团队实时协作编辑",
+        "调试多语言程序",
+        "进行 Git 版本控制操作",
+        "远程开发项目"
+      ],
+      "tags": [
+        "Code Editor",
+        "AI Integration",
+        "Collaboration",
+        "Rust",
+        "Fast"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "Communication"
+      ],
+      "timestamp": 1773123784
+    },
+    {
+      "name": "Espanso",
+      "url": "https://espanso.org/",
+      "tldr": "一款开源跨平台文本扩展工具 可通过关键词替换提高输入效率 支持脚本和表单功能",
+      "scenarios": [
+        "快速输入常用文本片段和模板",
+        "插入日期、表情符号和特殊字符",
+        "执行脚本命令并自动插入输出结果",
+        "创建复杂表单模板用于重复性工作",
+        "通过搜索功能快速查找需要的文本片段"
+      ],
+      "tags": [
+        "Text Expansion",
+        "Open Source",
+        "Productivity",
+        "Cross-platform",
+        "Automation"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773125433
+    },
+    {
+      "name": "snippai",
+      "url": "https://github.com/xyTom/snippai",
+      "tldr": "一款 AI 驱动的智能截图工具，可识别公式、文本、表格等内容，并进行分析和转换",
+      "scenarios": [
+        "从图片中提取数学公式并转换为 LaTeX 格式",
+        "从截图或图片中识别并提取文本内容",
+        "将图片中的表格转换为可编辑的 Markdown 格式",
+        "分析图片内容并获取描述性信息",
+        "识别图片中的代码片段并解释其功能",
+        "检测图片中的主要颜色用于设计分析",
+        "翻译图片中的多语言文本"
+      ],
+      "tags": [
+        "AI-Powered",
+        "Screen Capture",
+        "Text Recognition",
+        "Formula Recognition",
+        "Multi-Language Support"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1773365814
+    },
+    {
+      "name": "Mole",
+      "url": "https://github.com/tw93/Mole",
+      "tldr": "一款全功能的 Mac 系统清理优化工具，可释放大量磁盘空间并监控系统性能",
+      "scenarios": [
+        "清理系统缓存、日志和浏览器临时文件",
+        "智能卸载应用程序及其相关文件",
+        "分析磁盘空间使用情况",
+        "实时监控系统 CPU、内存、磁盘等性能指标",
+        "清理项目构建产物如 node_modules、target 目录"
+      ],
+      "tags": [
+        "System Optimization",
+        "Disk Cleanup",
+        "macOS",
+        "Command Line",
+        "Performance Monitoring"
+      ],
+      "categories": [
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1773366530
+    },
+    {
+      "name": "Conductor",
+      "url": "https://www.conductor.build/",
+      "tldr": "在 Mac 上运行多个编码代理工具，并行处理代码任务并自动管理 git 工作树",
+      "scenarios": [
+        "并行处理多个代码仓库的开发任务",
+        "使用 AI 代理加速代码编写和调试",
+        "管理多个隔离的开发工作空间",
+        "审查和合并多个代理生成的代码变更",
+        "提升全栈开发效率"
+      ],
+      "tags": [
+        "AI Coding",
+        "Parallel Processing",
+        "Git Management",
+        "macOS",
+        "Productivity"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773368116
+    },
+    {
+      "name": "clock-dashboard",
+      "url": "https://github.com/teojs/clock-dashboard",
+      "tldr": "一个简约的在线天气时钟看板，支持天气、农历、日历和智能家居控制",
+      "scenarios": [
+        "将闲置设备变为智能时钟看板",
+        "查看实时天气和农历信息",
+        "控制智能家居设备",
+        "显示全屏日历和黄历",
+        "作为桌面或床头时钟使用"
+      ],
+      "tags": [
+        "Clock",
+        "Weather",
+        "Smart Home",
+        "PWA",
+        "Lunar Calendar"
+      ],
+      "categories": [
+        "Reading & Information",
+        "System & Automation",
+        "Media & Creativity"
+      ],
+      "timestamp": 1773380682
+    },
+    {
+      "name": "ruler",
+      "url": "https://github.com/intellectronica/ruler",
+      "tldr": "Ruler 是一个集中管理 AI 编程助手指令的工具，为多个 AI 编码代理提供统一的规则源",
+      "scenarios": [
+        "统一管理多个 AI 编程助手的配置和指令",
+        "为复杂项目结构提供嵌套规则加载功能",
+        "自动化生成和分发 AI 代理的配置文件",
+        "管理 MCP 服务器设置和技能传播",
+        "团队标准化 AI 编程助手的使用规范"
+      ],
+      "tags": [
+        "AI Coding",
+        "Configuration Management",
+        "Developer Productivity",
+        "Multi-Agent Support",
+        "Centralized Rules"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773381141
+    },
+    {
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "tldr": "一款基于 Markdown 的个人知识管理工具 支持双向链接和知识图谱构建",
+      "scenarios": [
+        "个人笔记和日记记录",
+        "知识库构建和管理",
+        "项目规划和任务跟踪",
+        "研究和信息收集",
+        "创意思维和头脑风暴"
+      ],
+      "tags": [
+        "Note-taking",
+        "Knowledge Graph",
+        "Markdown",
+        "Privacy-focused",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1773385673
+    },
+    {
+      "name": "CotEditor",
+      "url": "https://coteditor.com/",
+      "tldr": "一款轻量级 yet 强大的 macOS 原生纯文本编辑器 支持 50+ 种语法高亮",
+      "scenarios": [
+        "编写和编辑代码文件",
+        "处理纯文本文档",
+        "进行文本搜索和替换",
+        "检查文档中的编码兼容性问题",
+        "创建和管理自定义宏脚本"
+      ],
+      "tags": [
+        "Text Editor",
+        "macOS",
+        "Open Source",
+        "Syntax Highlighting",
+        "Free"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1773648697
+    },
+    {
+      "name": "LinearMouse",
+      "url": "https://linearmouse.app/zh-CN/",
+      "tldr": "一款 Mac 上的鼠标和触控板实用工具 可自定义滚动 指针速度和按钮操作",
+      "scenarios": [
+        "自定义鼠标滚动方向和速度",
+        "调整触控板和鼠标的不同滚动行为",
+        "精细调节指针移动速度和加速度",
+        "重新映射鼠标按钮和滚轮功能",
+        "根据不同场景切换设备配置"
+      ],
+      "tags": [
+        "Mouse Customization",
+        "Touchpad Control",
+        "Productivity",
+        "macOS",
+        "Input Device"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773649249
+    },
+    {
+      "name": "PandaWiki",
+      "url": "https://pandawiki.docs.baizhi.cloud/",
+      "tldr": "一款开源的 AI 驱动知识库系统，支持文档构建、智能问答和搜索功能，提供富文本编辑和第三方集成能力",
+      "scenarios": [
+        "构建产品说明书和技术文档",
+        "创建企业知识库和FAQ",
+        "实现智能客服和问答系统",
+        "集成到企业微信等聊天平台",
+        "作为网页挂件提供在线支持"
+      ],
+      "tags": [
+        "AI-Powered",
+        "Open Source",
+        "Knowledge Base",
+        "Documentation",
+        "Chatbot"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1773715926
+    },
+    {
+      "name": "neko-master",
+      "url": "https://github.com/foru17/neko-master",
+      "tldr": "一个现代优雅的网络流量可视化分析仪表板，支持实时监控与多网关管理",
+      "scenarios": [
+        "网络管理员监控局域网流量使用情况",
+        "用户分析 Clash/Mihomo/Surge 等代理工具的流量统计",
+        "家庭或企业网络管理员优化网络资源分配",
+        "用户排查网络连接问题与异常流量",
+        "多网关环境下的集中流量管理与分析"
+      ],
+      "tags": [
+        "Network Monitoring",
+        "Traffic Analysis",
+        "Proxy Dashboard",
+        "Real-time Visualization",
+        "Docker Deployment"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Data & Analytics"
+      ],
+      "timestamp": 1773731958
+    },
+    {
+      "name": "mactop",
+      "url": "https://github.com/metaspartan/mactop",
+      "tldr": "一款基于终端的 Apple Silicon 监控工具，实时显示 CPU、GPU、内存等系统指标",
+      "scenarios": [
+        "监控 Apple Silicon Mac 的实时系统性能",
+        "分析 CPU E 核与 P 核的使用情况",
+        "查看 GPU 频率和温度状态",
+        "监控 Thunderbolt 设备带宽和连接状态",
+        "跟踪系统功耗和温度变化",
+        "管理进程并终止异常进程"
+      ],
+      "tags": [
+        "System Monitoring",
+        "Apple Silicon",
+        "Terminal",
+        "Performance",
+        "Real-time"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773797554
+    },
+    {
+      "name": "VidBee",
+      "url": "https://vidbee.org/",
+      "tldr": "一款免费开源视频下载工具，支持 1000+ 网站的高清视频下载，具备自动化批量处理功能",
+      "scenarios": [
+        "下载 YouTube、TikTok 等平台的高清视频",
+        "批量下载播放列表和频道内容",
+        "通过 RSS 订阅自动下载新发布视频",
+        "提取视频字幕和转换为不同格式",
+        "压缩和编辑视频文件",
+        "绕过地区限制访问受保护媒体",
+        "备份重要视频内容"
+      ],
+      "tags": [
+        "Video Downloader",
+        "Open Source",
+        "Cross-platform",
+        "Batch Processing",
+        "High Quality"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1773797717
+    },
+    {
+      "name": "BentoPDF",
+      "url": "https://www.bentopdf.com/index.html",
+      "tldr": "一款免费在线 PDF 工具集，无需上传文件，客户端处理，注重隐私保护",
+      "scenarios": [
+        "需要合并、拆分或压缩 PDF 文件",
+        "需要编辑 PDF 中的文字、图像或添加注释",
+        "需要将各种格式文档转换为 PDF",
+        "需要为 PDF 添加数字签名或水印",
+        "需要批量处理多个 PDF 文件"
+      ],
+      "tags": [
+        "PDF Editor",
+        "Privacy First",
+        "Free",
+        "Client-Side Processing",
+        "No Signup Required"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "Security & Privacy"
+      ],
+      "timestamp": 1773798574
+    },
+    {
+      "name": "IronCalc",
+      "url": "https://www.ironcalc.com/",
+      "tldr": "开源电子表格引擎，支持自托管和嵌入，提供高性能计算功能",
+      "scenarios": [
+        "日常预算和列表管理",
+        "专业财务预测和成本模拟",
+        "作为嵌入式引擎集成到SaaS应用",
+        "服务器端进行无头计算",
+        "处理和分析结构化数据"
+      ],
+      "tags": [
+        "Open Source",
+        "Spreadsheet Engine",
+        "Self-hosted",
+        "Embeddable",
+        "Rust-based"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1773798656
+    },
+    {
+      "name": "MediaManager",
+      "url": "https://github.com/maxdorninger/MediaManager",
+      "tldr": "一个现代自托管媒体管理系统，用于统一管理电视和电影收藏",
+      "scenarios": [
+        "管理个人电影和电视剧收藏",
+        "自动化媒体库整理与分类",
+        "通过单一界面发现和浏览媒体内容",
+        "使用 OAuth/OIDC 进行身份验证",
+        "整合 TVDB 和 TMDB 数据源"
+      ],
+      "tags": [
+        "Media Management",
+        "Self-hosted",
+        "TV Shows",
+        "Movies",
+        "Docker"
+      ],
+      "categories": [
+        "File Management",
+        "Media & Creativity"
+      ],
+      "timestamp": 1773798879
+    },
+    {
+      "name": "Poznote",
+      "url": "https://poznote.com/",
+      "tldr": "一款注重简洁易用的开源个人笔记与文档平台 支持多平台部署和丰富的功能扩展",
+      "scenarios": [
+        "技术文档整理与知识管理",
+        "个人笔记记录与同步",
+        "团队协作与文档共享",
+        "思维导图与流程图制作",
+        "任务管理与看板视图",
+        "数学公式与代码高亮",
+        "GitHub 内容同步"
+      ],
+      "tags": [
+        "Note-taking",
+        "Open Source",
+        "Self-hosted",
+        "Knowledge Management",
+        "Markdown"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1773799245
+    },
+    {
+      "name": "NoteDiscovery",
+      "url": "https://github.com/gamosoft/NoteDiscovery",
+      "tldr": "一款轻量级自托管笔记应用，提供隐私保护、快速搜索和AI集成功能",
+      "scenarios": [
+        "构建个人知识库和第二大脑",
+        "团队协作笔记管理",
+        "隐私敏感用户的笔记存储",
+        "开发者文档和项目笔记管理",
+        "学习和研究资料整理"
+      ],
+      "tags": [
+        "Self-hosted",
+        "Markdown",
+        "Knowledge Base",
+        "Privacy-focused",
+        "AI Integration"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1773799565
+    },
+    {
+      "name": "zerobyte",
+      "url": "https://github.com/nicotsx/zerobyte",
+      "tldr": "一款基于 restic 的自动化备份工具，专为自托管服务器设计，提供简单直观的备份管理界面",
+      "scenarios": [
+        "为自托管服务器提供自动化备份解决方案",
+        "管理多个数据源的备份任务",
+        "监控备份状态和存储使用情况",
+        "快速恢复已备份的数据",
+        "配置不同频率的备份计划",
+        "支持多种存储后端"
+      ],
+      "tags": [
+        "Backup Automation",
+        "Self-hosted",
+        "Data Protection",
+        "Restic",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1773800488
+    },
+    {
+      "name": "Warracker",
+      "url": "https://github.com/sassanix/warracker",
+      "tldr": "一款开源自托管的产品保修追踪工具，帮助用户管理保修信息、监控到期日期并存储相关文件",
+      "scenarios": [
+        "跟踪家中所有电子产品的保修状态",
+        "及时收到保修到期提醒，避免错过保修期",
+        "集中管理产品收据和保修文件",
+        "团队协作管理公司设备保修信息",
+        "多语言环境下管理国际产品保修"
+      ],
+      "tags": [
+        "Warranty Management",
+        "Open Source",
+        "Self-hosted",
+        "Document Storage",
+        "Multi-language"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1773801142
+    },
+    {
+      "name": "ConvertX",
+      "url": "https://github.com/C4illin/ConvertX",
+      "tldr": "自托管在线文件转换器 支持超过 1000 种格式",
+      "scenarios": [
+        "批量转换不同格式的文档文件",
+        "将媒体文件转换为兼容格式",
+        "转换电子书格式以便在不同设备上阅读",
+        "将图片转换为矢量图形",
+        "转换视频和音频文件",
+        "将联系人文件导出为 CSV 格式",
+        "将 PDF 文档转换为可编辑格式"
+      ],
+      "tags": [
+        "File Conversion",
+        "Self-hosted",
+        "Open Source",
+        "Privacy-focused",
+        "Batch Processing"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "Media & Creativity"
+      ],
+      "timestamp": 1773801551
+    },
+    {
+      "name": "PDF Craft",
+      "url": "https://pdf.oomol.com/pdf-craft",
+      "tldr": "一款扫描 PDF 转换工具，可将 PDF 转换为 EPUB、Markdown 等格式，支持数学公式识别和表格结构保留",
+      "scenarios": [
+        "将扫描版 PDF 转换为可编辑文本",
+        "将学术论文 PDF 转换为 EPUB 电子书",
+        "从 PDF 中提取表格并保留结构",
+        "将 PDF 转换为 Markdown 格式用于博客发布",
+        "处理包含数学公式的教科书 PDF",
+        "批量转换多个扫描文档",
+        "在移动设备上阅读转换后的文档"
+      ],
+      "tags": [
+        "PDF Conversion",
+        "OCR Technology",
+        "Academic Tools",
+        "Math Formula Support",
+        "Privacy-focused"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1773802024
+    },
+    {
+      "name": "WezTerm",
+      "url": "https://wezterm.org/index.html",
+      "tldr": "一个现代化的跨平台终端模拟器，支持高度可定制和丰富的功能集",
+      "scenarios": [
+        "在多个操作系统上提供一致的终端体验",
+        "通过 Lua 脚本自定义终端行为和外观",
+        "管理多个 SSH 连接和远程会话",
+        "使用高级功能如快速选择模式和超链接",
+        "在终端中直接显示图像和图形"
+      ],
+      "tags": [
+        "Terminal Emulator",
+        "Cross-platform",
+        "Customizable",
+        "SSH Client",
+        "Lua Scripting"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Communication"
+      ],
+      "timestamp": 1773802562
+    },
+    {
+      "name": "Alacritty",
+      "url": "https://alacritty.org/",
+      "tldr": "一个跨平台高性能终端模拟器 基于 OpenGL 渲染 支持高度配置",
+      "scenarios": [
+        "开发人员在多操作系统上进行命令行操作",
+        "系统管理员管理远程服务器",
+        "开发者使用终端进行编程和调试",
+        "用户需要高性能的命令行界面",
+        "需要支持 Vi 模式和搜索功能的终端应用"
+      ],
+      "tags": [
+        "Terminal Emulator",
+        "Cross-platform",
+        "High Performance",
+        "OpenGL",
+        "Vi Mode"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773802698
+    },
+    {
+      "name": "winscp",
+      "url": "https://github.com/winscp/winscp",
+      "tldr": "一款免费的 Windows 文件管理器 支持 SFTP FTP FTPS SCP S3 WebDAV 等协议",
+      "scenarios": [
+        "远程服务器文件上传下载",
+        "网站文件管理维护",
+        "多服务器间文件同步",
+        "自动化文件传输任务",
+        "安全远程文件访问"
+      ],
+      "tags": [
+        "File Transfer",
+        "FTP Client",
+        "SFTP",
+        "SSH",
+        "Free"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1773808751
+    },
+    {
+      "name": "MrRSS",
+      "url": "https://wcy-dt.github.io/MrRSS/",
+      "tldr": "一款跨平台 RSS 阅读器，利用 AI 技术提供文章摘要、翻译和智能内容发现功能",
+      "scenarios": [
+        "快速获取新闻和博客文章的智能摘要",
+        "阅读多语言内容并实时翻译",
+        "与文章内容进行智能对话互动",
+        "从海量 RSS 源中智能发现感兴趣的内容",
+        "保护隐私的本地化 RSS 阅读体验"
+      ],
+      "tags": [
+        "RSS Reader",
+        "AI-Powered",
+        "Privacy-Focused",
+        "Open Source",
+        "Cross-Platform"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Developer Tools"
+      ],
+      "timestamp": 1773808905
+    },
+    {
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "tldr": "一个用于构建文本处理工作流的桌面应用程序，通过管道连接各种命令行工具",
+      "scenarios": [
+        "处理大量文本数据",
+        "自动化文本转换任务",
+        "构建自定义文本处理流程",
+        "集成多种命令行工具",
+        "批量处理文件内容"
+      ],
+      "tags": [
+        "Text Processing",
+        "Workflow Automation",
+        "Command Line Integration",
+        "Desktop Application",
+        "Open Source"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773820186
+    },
+    {
+      "name": "moffee",
+      "url": "https://github.com/wbopan/moffee",
+      "tldr": "一款将 Markdown 文档转换为专业演示幻灯片的工具，支持实时预览和多种主题",
+      "scenarios": [
+        "技术讲座和会议演示",
+        "教学课件制作",
+        "产品介绍和提案展示",
+        "个人作品集展示",
+        "快速创建内容大纲"
+      ],
+      "tags": [
+        "Markdown",
+        "Presentation",
+        "Slide Maker",
+        "Open Source",
+        "Python"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Media & Creativity"
+      ],
+      "timestamp": 1773887492
+    },
+    {
+      "name": "Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "tldr": "一个开源框架，通过模块化 AI 提示词增强人类能力，可在各种工具中使用",
+      "scenarios": [
+        "内容摘要与总结",
+        "代码解释与文档生成",
+        "社交媒体内容创作",
+        "学术论文分析与提取",
+        "YouTube 视频转录与关键点提取",
+        "AI 艺术提示词生成",
+        "跨多个 AI 提供商的统一接口"
+      ],
+      "tags": [
+        "AI Augmentation",
+        "Prompt Management",
+        "Open Source",
+        "Command Line",
+        "Multi-Provider"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1773887598
+    },
+    {
+      "name": "commitizen",
+      "url": "https://github.com/commitizen-tools/commitizen",
+      "tldr": "一个帮助团队保持一致的提交消息并自动管理版本的工具",
+      "scenarios": [
+        "标准化团队 Git 提交信息",
+        "自动管理项目版本号",
+        "自动生成变更日志",
+        "简化发布流程",
+        "集成到 CI/CD 流程中"
+      ],
+      "tags": [
+        "Version Control",
+        "Git",
+        "CI/CD",
+        "Release Management",
+        "Python"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773888903
+    },
+    {
+      "name": "git-cz",
+      "url": "https://github.com/streamich/git-cz",
+      "tldr": "一个轻量级的 Git 提交信息生成工具，支持语义化提交和自定义配置",
+      "scenarios": [
+        "规范化 Git 提交信息格式",
+        "支持团队协作中的统一提交规范",
+        "生成符合 Conventional Commits 标准的提交信息",
+        "支持非交互式提交信息生成",
+        "自定义提交消息格式和类型",
+        "集成到 CI/CD 流程中"
+      ],
+      "tags": [
+        "Git",
+        "Version Control",
+        "Commit Message",
+        "Developer Tool",
+        "Semantic Commit"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1773888945
+    },
+    {
+      "name": "fiftyone",
+      "url": "https://github.com/voxel51/fiftyone",
+      "tldr": "一个用于精炼高质量数据集和可视化 AI 模型的开源平台",
+      "scenarios": [
+        "计算机视觉数据集标注与可视化",
+        "AI 模型评估与比较",
+        "大规模图像数据集管理",
+        "模型训练数据质量提升",
+        "数据集版本控制与协作"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Data Annotation",
+        "Model Evaluation",
+        "Open Source",
+        "Dataset Management"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity",
+        "Data & Analytics"
+      ],
+      "timestamp": 1773889192
+    },
+    {
+      "name": "fresh",
+      "url": "https://github.com/denoland/fresh",
+      "tldr": "一个现代化的 Web 框架，专注于速度、可靠性和简单性，支持零运行时开销和岛屿式客户端水合",
+      "scenarios": [
+        "构建高性能的现代化 Web 应用",
+        "创建具有交互性的静态网站",
+        "开发需要快速部署的全栈应用",
+        "使用 TypeScript 进行全栈开发",
+        "构建基于文件系统路由的应用"
+      ],
+      "tags": [
+        "Web Framework",
+        "TypeScript",
+        "Deno",
+        "Preact",
+        "Zero Runtime"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1773889342
+    },
+    {
+      "name": "ActivityWatch",
+      "url": "https://activitywatch.net/",
+      "tldr": "一款免费开源的时间追踪工具，自动记录你在设备上花费的时间，保护隐私且跨平台支持",
+      "scenarios": [
+        "追踪不同项目上花费的时间",
+        "监控生产力与应用使用情况",
+        "管理屏幕时间与数字习惯",
+        "测量工作与生活平衡",
+        "通过量化自我了解行为模式"
+      ],
+      "tags": [
+        "Time Tracking",
+        "Open Source",
+        "Privacy First",
+        "Cross Platform",
+        "Productivity"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1773909045
+    },
+    {
+      "name": "fish shell",
+      "url": "https://fishshell.com/",
+      "tldr": "一个智能且用户友好的命令行 shell，适用于 Linux 和 macOS，提供友好的语法和自动建议功能",
+      "scenarios": [
+        "系统管理员管理服务器",
+        "开发者编写脚本自动化任务",
+        "数据分析师处理命令行数据",
+        "DevOps 工程师部署应用",
+        "终端用户执行系统命令"
+      ],
+      "tags": [
+        "Command Line",
+        "Shell",
+        "Scripting",
+        "Terminal",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773909741
+    },
+    {
+      "name": "ghostty",
+      "url": "https://github.com/ghostty-org/ghostty",
+      "tldr": "一个快速、功能丰富且跨平台的终端模拟器，使用平台原生 UI 和 GPU 加速",
+      "scenarios": [
+        "开发人员在命令行界面高效编写和调试代码",
+        "系统管理员远程管理服务器和执行脚本",
+        "数据科学家运行命令行工具处理数据",
+        "DevOps 工程师部署和监控云服务",
+        "终端用户享受流畅的文本渲染和交互体验"
+      ],
+      "tags": [
+        "Terminal Emulator",
+        "Cross-Platform",
+        "GPU Acceleration",
+        "Developer Tool",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1773909831
+    }
+  ]
 }

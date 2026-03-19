@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react'
-import { create, insert, search } from '@orama/orama'
 import type { Tool } from './types'
 import {
   normalizeTool,
@@ -247,59 +246,59 @@ export default function App() {
       .sort((a, b) => (b.count !== a.count ? b.count - a.count : a.tag.localeCompare(b.tag)))
   }, [allTools])
 
-  const oramaDb = useMemo(() => {
-    if (!searchIndex || !searchIndex.tools.length) return null
-
-    const db = create({
-      schema: {
-        name: 'string',
-        tldr: 'string',
-        scenarios: 'string[]',
-        tags: 'string[]',
-        categories: 'string[]'
-      }
-    })
-
-    for (const tool of searchIndex.tools) {
-      insert(db, {
-        name: tool.name,
-        tldr: tool.tldr || '',
-        scenarios: tool.scenarios,
-        tags: tool.tags,
-        categories: tool.categories
-      })
-    }
-
-    return db
-  }, [searchIndex])
-
   async function handleSmartSearch(query: string) {
-    if (!query.trim() || !oramaDb) {
+    if (!query.trim() || !searchIndex) {
       setRecommendResults([])
       return
     }
 
     setIsSearching(true)
     try {
-      const results = await search(oramaDb, {
-        term: query,
-        boost: {
-          scenarios: 3,
-          tags: 2,
-          categories: 1,
-          tldr: 1,
-          name: 1
-        },
-        tolerance: 1,
-        limit: 10
-      })
-
-      const matchedTools: SearchTool[] = []
       const queryLower = query.toLowerCase()
+      const queryChars = queryLower.split('').filter(c => c.trim())
 
-      for (const hit of results.hits) {
-        const tool = searchIndex?.tools.find(t => t.name === hit.document.name)
-        if (tool) {
+      const scoredTools: { tool: SearchTool; score: number }[] = []
+
+      for (const tool of searchIndex.tools) {
+        let score = 0
+
+        for (const scenario of tool.scenarios) {
+          const scenarioLower = scenario.toLowerCase()
+          if (scenarioLower.includes(queryLower)) {
+            score += 10
+            if (scenarioLower.includes('课堂笔记') || scenarioLower.includes('笔记')) {
+              score += 5
+            }
+          } else {
+            for (const char of queryChars) {
+              if (scenarioLower.includes(char)) {
+                score += 0.5
+              }
+            }
+          }
+        }
+
+        for (const tag of tool.tags || []) {
+          if (tag.toLowerCase().includes(queryLower)) {
+            score += 3
+          }
+        }
+
+        for (const cat of tool.categories || []) {
+          if (cat.toLowerCase().includes(queryLower)) {
+            score += 2
+          }
+        }
+
+        if (tool.name.toLowerCase().includes(queryLower)) {
+          score += 2
+        }
+
+        if (tool.tldr?.toLowerCase().includes(queryLower)) {
+          score += 1
+        }
+
+        if (score > 0) {
           let matchedScenario = ''
           for (const scenario of tool.scenarios) {
             if (scenario.toLowerCase().includes(queryLower)) {
@@ -310,9 +309,12 @@ export default function App() {
           if (!matchedScenario && tool.scenarios.length > 0) {
             matchedScenario = tool.scenarios[0]
           }
-          matchedTools.push({ ...tool, matchedScenario })
+          scoredTools.push({ tool: { ...tool, matchedScenario }, score })
         }
       }
+
+      scoredTools.sort((a, b) => b.score - a.score)
+      const matchedTools = scoredTools.slice(0, 10).map(s => s.tool)
 
       setRecommendResults(matchedTools)
     } catch (e) {
