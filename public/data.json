@@ -1446,5 +1446,32 @@
     "Platform": [],
     "tldr": "一个现代化的 Web 框架，专注于速度、可靠性和简单性，支持零运行时开销和岛屿式客户端水合",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-fresh.md"
+  },
+  {
+    "month": "202603",
+    "name": "ActivityWatch",
+    "url": "https://activitywatch.net/",
+    "timestamp": 1773909045,
+    "tags": [
+      "Time Tracking",
+      "Open Source",
+      "Privacy First",
+      "Cross Platform",
+      "Productivity"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Windows",
+      "Mac",
+      "Linux",
+      "Android",
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "一款免费开源的时间追踪工具，自动记录你在设备上花费的时间，保护隐私且跨平台支持",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-activitywatch.md"
   }
 ]
