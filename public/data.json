@@ -1427,5 +1427,24 @@
     ],
     "tldr": "一个用于精炼高质量数据集和可视化 AI 模型的开源平台",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-fiftyone.md"
+  },
+  {
+    "month": "202603",
+    "name": "fresh",
+    "url": "https://github.com/denoland/fresh",
+    "timestamp": 1773889342,
+    "tags": [
+      "Web Framework",
+      "TypeScript",
+      "Deno",
+      "Preact",
+      "Zero Runtime"
+    ],
+    "categories": [
+      "Developer Tools"
+    ],
+    "Platform": [],
+    "tldr": "一个现代化的 Web 框架，专注于速度、可靠性和简单性，支持零运行时开销和岛屿式客户端水合",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-fresh.md"
   }
 ]
