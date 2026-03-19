@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { create, insert, searchVector } from '@orama/orama'
 import type { Tool } from './types'
 import {
   normalizeTool,
@@ -22,6 +23,7 @@ type SearchTool = {
   categories: string[]
   timestamp?: number
   matchedScenario?: string
+  embedding?: number[]
 }
 
 type SearchIndex = {
@@ -246,6 +248,67 @@ export default function App() {
       .sort((a, b) => (b.count !== a.count ? b.count - a.count : a.tag.localeCompare(b.tag)))
   }, [allTools])
 
+  const oramaDb = useMemo(() => {
+    if (!searchIndex || !searchIndex.tools.length) return null
+
+    const toolsWithEmbeddings = searchIndex.tools.filter(t => t.embedding && t.embedding.length > 0)
+    if (toolsWithEmbeddings.length === 0) return null
+
+    const firstEmbedding = toolsWithEmbeddings[0].embedding
+    if (!firstEmbedding) return null
+    const embeddingDim = firstEmbedding.length
+
+    const db = create({
+      schema: {
+        name: 'string',
+        tldr: 'string',
+        scenarios: 'string[]',
+        tags: 'string[]',
+        categories: 'string[]',
+        embedding: `vector[${embeddingDim}]`
+      }
+    })
+
+    for (const tool of toolsWithEmbeddings) {
+      insert(db, {
+        name: tool.name,
+        tldr: tool.tldr || '',
+        scenarios: tool.scenarios,
+        tags: tool.tags,
+        categories: tool.categories,
+        embedding: tool.embedding
+      })
+    }
+
+    return db
+  }, [searchIndex])
+
+  async function getQueryEmbedding(query: string): Promise<number[] | null> {
+    try {
+      const res = await fetch('https://api.openai.com/v1/embeddings', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: 'text-embedding-3-small',
+          input: query
+        })
+      })
+
+      if (!res.ok) {
+        console.error('Embedding API error:', res.status)
+        return null
+      }
+
+      const data = await res.json()
+      return data.data[0].embedding
+    } catch (e) {
+      console.error('Failed to get query embedding:', e)
+      return null
+    }
+  }
+
   async function handleSmartSearch(query: string) {
     if (!query.trim() || !searchIndex) {
       setRecommendResults([])
@@ -254,6 +317,45 @@ export default function App() {
 
     setIsSearching(true)
     try {
+      if (oramaDb) {
+        const queryEmbedding = await getQueryEmbedding(query)
+        if (queryEmbedding) {
+          const vectorResults = await searchVector(oramaDb, {
+            mode: 'vector',
+            vector: {
+              value: queryEmbedding,
+              property: 'embedding'
+            },
+            similarity: 0.3,
+            limit: 15
+          })
+
+          const matchedTools: SearchTool[] = []
+          const queryLower = query.toLowerCase()
+
+          for (const hit of vectorResults.hits) {
+            const tool = searchIndex.tools.find(t => t.name === hit.document.name)
+            if (tool) {
+              let matchedScenario = ''
+              for (const scenario of tool.scenarios) {
+                if (scenario.toLowerCase().includes(queryLower)) {
+                  matchedScenario = scenario
+                  break
+                }
+              }
+              if (!matchedScenario && tool.scenarios.length > 0) {
+                matchedScenario = tool.scenarios[0]
+              }
+              matchedTools.push({ ...tool, matchedScenario })
+            }
+          }
+
+          setRecommendResults(matchedTools)
+          setIsSearching(false)
+          return
+        }
+      }
+
       const queryLower = query.toLowerCase()
       const queryChars = queryLower.split('').filter(c => c.trim())
 

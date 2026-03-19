@@ -8,8 +8,9 @@ const PUBLIC_DIR = path.join(ROOT_DIR, 'public')
 const DATA_FILE = path.join(PUBLIC_DIR, 'data.json')
 const INDEX_FILE = path.join(PUBLIC_DIR, 'searchIndex.json')
 
-const GITHUB_REPO = 'leehyon/kohstool-guide'
-const GITHUB_API_BASE = 'https://api.github.com'
+const EMBEDDING_API_KEY = process.env.EMBEDDING_API_KEY || process.env.OPENAI_API_KEY
+const EMBEDDING_MODEL = process.env.EMBEDDING_MODEL || 'text-embedding-3-small'
+const EMBEDDING_URL = 'https://api.openai.com/v1/embeddings'
 
 function log(msg) {
   console.log(`[build-search] ${msg}`)
@@ -34,6 +35,69 @@ async function fetchWithAuth(url) {
     throw new Error(`HTTP ${res.status}: ${res.statusText}`)
   }
   return res.text()
+}
+
+async function getEmbedding(text) {
+  if (!EMBEDDING_API_KEY) {
+    log('No embedding API key found, skipping vector embeddings')
+    return null
+  }
+
+  try {
+    const response = await fetch(EMBEDDING_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${EMBEDDING_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: EMBEDDING_MODEL,
+        input: text
+      })
+    })
+
+    if (!response.ok) {
+      const errText = await response.text()
+      throw new Error(`Embedding API error: ${response.status} - ${errText}`)
+    }
+
+    const data = await response.json()
+    return data.data[0].embedding
+  } catch (e) {
+    error(`Failed to get embedding: ${e.message}`)
+    return null
+  }
+}
+
+async function getEmbeddingBatch(texts) {
+  if (!EMBEDDING_API_KEY) {
+    return texts.map(() => null)
+  }
+
+  try {
+    const response = await fetch(EMBEDDING_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${EMBEDDING_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: EMBEDDING_MODEL,
+        input: texts
+      })
+    })
+
+    if (!response.ok) {
+      const errText = await response.text()
+      throw new Error(`Embedding API error: ${response.status} - ${errText}`)
+    }
+
+    const data = await response.json()
+    return data.data.map(item => item.embedding)
+  } catch (e) {
+    error(`Failed to get embeddings: ${e.message}`)
+    return texts.map(() => null)
+  }
 }
 
 function parseScenarios(markdown) {
@@ -86,7 +150,8 @@ async function processTool(tool) {
       tldr: tool.tldr || null,
       scenarios: [],
       tags: tool.tags || [],
-      categories: tool.categories || []
+      categories: tool.categories || [],
+      embedding: null
     }
   }
   
@@ -99,7 +164,8 @@ async function processTool(tool) {
       tldr: tool.tldr || null,
       scenarios: [],
       tags: tool.tags || [],
-      categories: tool.categories || []
+      categories: tool.categories || [],
+      embedding: null
     }
   }
   
@@ -108,13 +174,27 @@ async function processTool(tool) {
     const scenarios = parseScenarios(markdown)
     const tldr = parseTldr(markdown) || tool.tldr || null
     
+    let embedding = null
+    if (EMBEDDING_API_KEY && scenarios.length > 0) {
+      const textToEmbed = [
+        tool.name,
+        tldr || '',
+        ...scenarios,
+        ...(tool.tags || []),
+        ...(tool.categories || [])
+      ].join(' | ')
+      
+      embedding = await getEmbedding(textToEmbed)
+    }
+    
     return {
       name: tool.name,
       url: tool.url,
       tldr,
       scenarios,
       tags: tool.tags || [],
-      categories: tool.categories || []
+      categories: tool.categories || [],
+      embedding
     }
   } catch (e) {
     error(`Failed to fetch ${rawUrl}: ${e.message}`)
@@ -124,7 +204,8 @@ async function processTool(tool) {
       tldr: tool.tldr || null,
       scenarios: [],
       tags: tool.tags || [],
-      categories: tool.categories || []
+      categories: tool.categories || [],
+      embedding: null
     }
   }
 }
@@ -168,13 +249,18 @@ async function buildIndex() {
   }
   
   log(`Processing ${toolsToProcess.length} tools (${newTools.length} new, ${updatedTools.length} updated)`)
+  if (EMBEDDING_API_KEY) {
+    log(`Using embedding model: ${EMBEDDING_MODEL}`)
+  } else {
+    log('No embedding API key found, vector search will be disabled')
+  }
   
   const processedTools = []
   for (const tool of toolsToProcess) {
     const processed = await processTool(tool)
     processed.timestamp = tool.timestamp
     processedTools.push(processed)
-    log(`Processed: ${tool.name} (${processed.scenarios.length} scenarios)`)
+    log(`Processed: ${tool.name} (${processed.scenarios.length} scenarios, embedding: ${processed.embedding ? 'yes' : 'no'})`)
   }
   
   const allTools = []
@@ -189,7 +275,8 @@ async function buildIndex() {
   allTools.push(...processedTools)
   
   const newIndex = {
-    version: 1,
+    version: 2,
+    embeddingModel: EMBEDDING_MODEL,
     updatedAt: new Date().toISOString(),
     tools: allTools
   }
