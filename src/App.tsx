@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { create, insert, search } from '@orama/orama'
 import type { Tool } from './types'
 import {
   normalizeTool,
@@ -12,6 +13,23 @@ type LoadState =
   | { status: 'idle' | 'loading' }
   | { status: 'loaded'; tools: Tool[] }
   | { status: 'error'; message: string }
+
+type SearchTool = {
+  name: string
+  url: string
+  tldr: string | null
+  scenarios: string[]
+  tags: string[]
+  categories: string[]
+  timestamp?: number
+  matchedScenario?: string
+}
+
+type SearchIndex = {
+  version: number
+  updatedAt: string
+  tools: SearchTool[]
+}
 
 function countByWeek(tools: Tool[]): { week: string; count: number }[] {
   const counts = new Map<string, number>()
@@ -166,6 +184,10 @@ export default function App() {
   const [activePlatform, setActivePlatform] = useState<string>('')
   const [sortBy, setSortBy] = useState<SortBy>('timestamp')
   const [sortOrder, setSortOrder] = useState<SortOrder>('desc')
+  const [smartMode, setSmartMode] = useState(false)
+  const [searchIndex, setSearchIndex] = useState<SearchIndex | null>(null)
+  const [recommendResults, setRecommendResults] = useState<SearchTool[]>([])
+  const [isSearching, setIsSearching] = useState(false)
 
   async function load() {
     setLoadState({ status: 'loading' })
@@ -191,6 +213,20 @@ export default function App() {
     void load()
   }, [])
 
+  useEffect(() => {
+    async function loadSearchIndex() {
+      try {
+        const res = await fetch('/searchIndex.json', { cache: 'no-store' })
+        if (!res.ok) throw new Error(`Failed to load searchIndex.json: ${res.status}`)
+        const data = (await res.json()) as SearchIndex
+        setSearchIndex(data)
+      } catch (e) {
+        console.error('Failed to load search index:', e)
+      }
+    }
+    void loadSearchIndex()
+  }, [])
+
   const allTools = loadState.status === 'loaded' ? loadState.tools : []
   const uniqueTags = useMemo(() => uniq(allTools.flatMap((t) => t.tags ?? [])), [allTools])
   const categoryGroupsAll = useMemo(() => groupByCategory(allTools), [allTools])
@@ -210,6 +246,82 @@ export default function App() {
       .map(([tag, count]) => ({ tag, count }))
       .sort((a, b) => (b.count !== a.count ? b.count - a.count : a.tag.localeCompare(b.tag)))
   }, [allTools])
+
+  const oramaDb = useMemo(() => {
+    if (!searchIndex || !searchIndex.tools.length) return null
+
+    const db = create({
+      schema: {
+        name: 'string',
+        tldr: 'string',
+        scenarios: 'string[]',
+        tags: 'string[]',
+        categories: 'string[]'
+      }
+    })
+
+    for (const tool of searchIndex.tools) {
+      insert(db, {
+        name: tool.name,
+        tldr: tool.tldr || '',
+        scenarios: tool.scenarios,
+        tags: tool.tags,
+        categories: tool.categories
+      })
+    }
+
+    return db
+  }, [searchIndex])
+
+  async function handleSmartSearch(query: string) {
+    if (!query.trim() || !oramaDb) {
+      setRecommendResults([])
+      return
+    }
+
+    setIsSearching(true)
+    try {
+      const results = await search(oramaDb, {
+        term: query,
+        boost: {
+          scenarios: 3,
+          tags: 2,
+          categories: 1,
+          tldr: 1,
+          name: 1
+        },
+        tolerance: 1,
+        limit: 10
+      })
+
+      const matchedTools: SearchTool[] = []
+      const queryLower = query.toLowerCase()
+
+      for (const hit of results.hits) {
+        const tool = searchIndex?.tools.find(t => t.name === hit.document.name)
+        if (tool) {
+          let matchedScenario = ''
+          for (const scenario of tool.scenarios) {
+            if (scenario.toLowerCase().includes(queryLower)) {
+              matchedScenario = scenario
+              break
+            }
+          }
+          if (!matchedScenario && tool.scenarios.length > 0) {
+            matchedScenario = tool.scenarios[0]
+          }
+          matchedTools.push({ ...tool, matchedScenario })
+        }
+      }
+
+      setRecommendResults(matchedTools)
+    } catch (e) {
+      console.error('Search error:', e)
+      setRecommendResults([])
+    } finally {
+      setIsSearching(false)
+    }
+  }
 
   function includesIgnoreCase(haystack: string, needle: string): boolean {
     if (!needle.trim()) return true
@@ -554,35 +666,69 @@ export default function App() {
           <div className="panel panelLarge">
             <div className="panelTitle">Tool List</div>
             <div className="muted" style={{ marginTop: 4 }}>
-              当前结果：{filteredTools.length} 个
+              {smartMode ? '智能推荐模式' : `当前结果：${filteredTools.length} 个`}
             </div>
 
             <div className="tableToolbar" role="search">
-              <input
-                className="tableSearch"
-                value={tableSearch}
-                onChange={(e) => setTableSearch(e.target.value)}
-                placeholder="搜索：名称 / 简介 / 标签 / 平台"
-                aria-label="搜索工具"
-              />
-              <select
-                className="sortSelect"
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as SortBy)}
-                aria-label="排序方式"
-              >
-                <option value="timestamp">按收录时间</option>
-                <option value="name">按名称</option>
-              </select>
+              {smartMode ? (
+                <input
+                  className="tableSearch"
+                  value={tableSearch}
+                  onChange={(e) => {
+                    setTableSearch(e.target.value)
+                    if (e.target.value.trim()) {
+                      handleSmartSearch(e.target.value)
+                    } else {
+                      setRecommendResults([])
+                    }
+                  }}
+                  placeholder="描述你的需求，例如：我想整理课堂笔记"
+                  aria-label="智能推荐搜索"
+                />
+              ) : (
+                <input
+                  className="tableSearch"
+                  value={tableSearch}
+                  onChange={(e) => setTableSearch(e.target.value)}
+                  placeholder="搜索：名称 / 简介 / 标签 / 平台"
+                  aria-label="搜索工具"
+                />
+              )}
               <button
-                className="sortBtn"
+                className={smartMode ? 'smartModeBtn smartModeBtnActive' : 'smartModeBtn'}
                 type="button"
-                onClick={() => setSortOrder((o) => (o === 'asc' ? 'desc' : 'asc'))}
-                title={sortOrder === 'asc' ? '升序' : '降序'}
-                aria-label={sortOrder === 'asc' ? '升序' : '降序'}
+                onClick={() => {
+                  setSmartMode(!smartMode)
+                  setTableSearch('')
+                  setRecommendResults([])
+                }}
+                title="智能推荐"
+                aria-label="切换到智能推荐模式"
               >
-                <i className={sortOrder === 'asc' ? 'fa-solid fa-arrow-up' : 'fa-solid fa-arrow-down'} aria-hidden="true" />
+                <i className="fa-solid fa-robot" aria-hidden="true" />
               </button>
+              {!smartMode && (
+                <>
+                  <select
+                    className="sortSelect"
+                    value={sortBy}
+                    onChange={(e) => setSortBy(e.target.value as SortBy)}
+                    aria-label="排序方式"
+                  >
+                    <option value="timestamp">按收录时间</option>
+                    <option value="name">按名称</option>
+                  </select>
+                  <button
+                    className="sortBtn"
+                    type="button"
+                    onClick={() => setSortOrder((o) => (o === 'asc' ? 'desc' : 'asc'))}
+                    title={sortOrder === 'asc' ? '升序' : '降序'}
+                    aria-label={sortOrder === 'asc' ? '升序' : '降序'}
+                  >
+                    <i className={sortOrder === 'asc' ? 'fa-solid fa-arrow-up' : 'fa-solid fa-arrow-down'} aria-hidden="true" />
+                  </button>
+                </>
+              )}
               {selectedTag ? (
                 <button className="chipBtn" type="button" onClick={() => setSelectedTag('')} title="清除标签筛选">
                   Tag: {selectedTag} ×
@@ -593,12 +739,54 @@ export default function App() {
                   Platform: {activePlatform} ×
                 </button>
               ) : null}
-              {tableSearch.trim() ? (
+              {tableSearch.trim() && !smartMode ? (
                 <button className="btn btnSmall" type="button" onClick={() => setTableSearch('')} aria-label="清空搜索">
                   清空
                 </button>
               ) : null}
             </div>
+
+            {smartMode && (
+              <div className="recommendSection">
+                {isSearching ? (
+                  <div className="muted" style={{ padding: 20, textAlign: 'center' }}>
+                    搜索中...
+                  </div>
+                ) : recommendResults.length > 0 ? (
+                  <div className="recommendList">
+                    {recommendResults.map((tool) => (
+                      <div key={tool.name} className="recommendCard">
+                        <div className="recommendCardHeader">
+                          <a className="recommendCardTitle" href={safeUrl(tool.url)} target="_blank" rel="noreferrer">
+                            {tool.name}
+                          </a>
+                          {tool.tags.slice(0, 3).map((tag) => (
+                            <span key={tag} className="recommendCardTag">{tag}</span>
+                          ))}
+                        </div>
+                        {tool.tldr && (
+                          <div className="recommendCardTldr">{tool.tldr}</div>
+                        )}
+                        {tool.matchedScenario && (
+                          <div className="recommendCardMatch">
+                            <span className="recommendCardMatchLabel">匹配场景：</span>
+                            {tool.matchedScenario}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                ) : tableSearch.trim() ? (
+                  <div className="muted" style={{ padding: 20, textAlign: 'center' }}>
+                    未找到匹配的工具
+                  </div>
+                ) : (
+                  <div className="muted" style={{ padding: 20, textAlign: 'center' }}>
+                    输入你的需求，智能推荐工具给你
+                  </div>
+                )}
+              </div>
+            )}
 
             <div className="tableWrap" role="table" aria-label="工具表单">
               <div className="tableHeader" role="row">
