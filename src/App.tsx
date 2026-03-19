@@ -155,12 +155,17 @@ function iconForPlatform(platform: string): string {
   return 'fa-solid fa-desktop'
 }
 
+type SortBy = 'name' | 'timestamp'
+type SortOrder = 'asc' | 'desc'
+
 export default function App() {
   const [loadState, setLoadState] = useState<LoadState>({ status: 'idle' })
   const [tableSearch, setTableSearch] = useState('')
   const [selectedTag, setSelectedTag] = useState<string>('')
   const [activeCategory, setActiveCategory] = useState<string>('')
   const [activePlatform, setActivePlatform] = useState<string>('')
+  const [sortBy, setSortBy] = useState<SortBy>('timestamp')
+  const [sortOrder, setSortOrder] = useState<SortOrder>('desc')
 
   async function load() {
     setLoadState({ status: 'loading' })
@@ -213,7 +218,7 @@ export default function App() {
 
   // Top data region stays static; filters only affect the table.
   const filteredTools = useMemo(() => {
-    return allTools.filter((tool) => {
+    const result = allTools.filter((tool) => {
       if (activeCategory) {
         const cats = tool.categories?.length ? tool.categories : ['Uncategorized']
         if (!cats.includes(activeCategory)) return false
@@ -244,7 +249,21 @@ export default function App() {
 
       return true
     })
-  }, [activeCategory, activePlatform, allTools, selectedTag, tableSearch])
+
+    result.sort((a, b) => {
+      let cmp = 0
+      if (sortBy === 'name') {
+        cmp = a.name.localeCompare(b.name)
+      } else {
+        const tsA = a.timestamp ?? 0
+        const tsB = b.timestamp ?? 0
+        cmp = tsA - tsB
+      }
+      return sortOrder === 'asc' ? cmp : -cmp
+    })
+
+    return result
+  }, [activeCategory, activePlatform, allTools, selectedTag, tableSearch, sortBy, sortOrder])
 
   return (
     <div className="app">
@@ -546,6 +565,24 @@ export default function App() {
                 placeholder="搜索：名称 / 简介 / 标签 / 平台"
                 aria-label="搜索工具"
               />
+              <select
+                className="sortSelect"
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value as SortBy)}
+                aria-label="排序方式"
+              >
+                <option value="timestamp">按收录时间</option>
+                <option value="name">按名称</option>
+              </select>
+              <button
+                className="sortBtn"
+                type="button"
+                onClick={() => setSortOrder((o) => (o === 'asc' ? 'desc' : 'asc'))}
+                title={sortOrder === 'asc' ? '升序' : '降序'}
+                aria-label={sortOrder === 'asc' ? '升序' : '降序'}
+              >
+                <i className={sortOrder === 'asc' ? 'fa-solid fa-arrow-up' : 'fa-solid fa-arrow-down'} aria-hidden="true" />
+              </button>
               {selectedTag ? (
                 <button className="chipBtn" type="button" onClick={() => setSelectedTag('')} title="清除标签筛选">
                   Tag: {selectedTag} ×
