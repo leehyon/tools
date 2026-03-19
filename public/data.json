@@ -1357,5 +1357,30 @@
     ],
     "tldr": "一个开源框架，通过模块化 AI 提示词增强人类能力，可在各种工具中使用",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-fabric.md"
+  },
+  {
+    "month": "202603",
+    "name": "commitizen",
+    "url": "https://github.com/commitizen-tools/commitizen",
+    "timestamp": 1773888903,
+    "tags": [
+      "Version Control",
+      "Git",
+      "CI/CD",
+      "Release Management",
+      "Python"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "tldr": "一个帮助团队保持一致的提交消息并自动管理版本的工具",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-commitizen.md"
   }
 ]
