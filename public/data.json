@@ -1309,5 +1309,27 @@
     ],
     "tldr": "一个用于构建文本处理工作流的桌面应用程序，通过管道连接各种命令行工具",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-18-superpowers.md"
+  },
+  {
+    "month": "202603",
+    "name": "moffee",
+    "url": "https://github.com/wbopan/moffee",
+    "timestamp": 1773887492,
+    "tags": [
+      "Markdown",
+      "Presentation",
+      "Slide Maker",
+      "Open Source",
+      "Python"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一款将 Markdown 文档转换为专业演示幻灯片的工具，支持实时预览和多种主题",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-moffee.md"
   }
 ]
