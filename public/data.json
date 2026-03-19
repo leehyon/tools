@@ -1473,5 +1473,30 @@
     ],
     "tldr": "一款免费开源的时间追踪工具，自动记录你在设备上花费的时间，保护隐私且跨平台支持",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-activitywatch.md"
+  },
+  {
+    "month": "202603",
+    "name": "fish shell",
+    "url": "https://fishshell.com/",
+    "timestamp": 1773909741,
+    "tags": [
+      "Command Line",
+      "Shell",
+      "Scripting",
+      "Terminal",
+      "Cross-platform"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Linux",
+      "Windows",
+      "BSD"
+    ],
+    "tldr": "一个智能且用户友好的命令行 shell，适用于 Linux 和 macOS，提供友好的语法和自动建议功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-fish-shell.md"
   }
 ]
