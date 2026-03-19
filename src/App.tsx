@@ -801,7 +801,7 @@ export default function App() {
               {smartMode ? '智能推荐模式' : `当前结果：${filteredTools.length} 个`}
             </div>
 
-            <div className="tableToolbar" role="search">
+            <div className={`tableToolbar${smartMode ? ' tableToolbarSmart' : ''}`} role="search">
               {smartMode ? (
                 <input
                   className="tableSearch"

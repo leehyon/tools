@@ -494,6 +494,7 @@ body {
 }
 
 .tableSearch {
+  grid-column: 1;
   width: 100%;
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -505,6 +506,10 @@ body {
 .tableSearch:focus {
   border-color: rgba(37, 99, 235, 0.4);
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.tableToolbarSmart .tableSearch {
+  grid-column: 1 / 4;
 }
 
 .chipBtn {
@@ -756,7 +761,36 @@ body {
   }
 
   .tableToolbar {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .tableSearch {
+    flex: 1 1 calc(100% - 46px);
+    min-width: 0;
+  }
+
+  .smartModeBtn {
+    flex: 0 0 38px;
+  }
+
+  .sortSelect {
+    flex: 1 1 calc(100% - 46px);
+    min-width: 0;
+  }
+
+  .sortBtn {
+    flex: 0 0 38px;
+  }
+
+  .chipBtn {
+    flex: 0 0 auto;
+  }
+
+  .btnSmall {
+    flex: 0 0 auto;
   }
 
   .tableHeader,
