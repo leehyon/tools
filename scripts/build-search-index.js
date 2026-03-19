@@ -7,6 +7,7 @@ const ROOT_DIR = path.resolve(__dirname, '..')
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public')
 const DATA_FILE = path.join(PUBLIC_DIR, 'data.json')
 const INDEX_FILE = path.join(PUBLIC_DIR, 'searchIndex.json')
+const EMBEDDINGS_FILE = path.join(PUBLIC_DIR, 'embeddings.json')
 
 const EMBEDDING_API_KEY = process.env.EMBEDDING_API_KEY
 const EMBEDDING_MODEL = process.env.EMBEDDING_MODEL || 'bge-m3'
@@ -69,37 +70,6 @@ async function getEmbedding(text) {
   }
 }
 
-async function getEmbeddingBatch(texts) {
-  if (!EMBEDDING_API_KEY) {
-    return texts.map(() => null)
-  }
-
-  try {
-    const response = await fetch(EMBEDDING_URL, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${EMBEDDING_API_KEY}`
-      },
-      body: JSON.stringify({
-        model: EMBEDDING_MODEL,
-        input: texts
-      })
-    })
-
-    if (!response.ok) {
-      const errText = await response.text()
-      throw new Error(`Embedding API error: ${response.status} - ${errText}`)
-    }
-
-    const data = await response.json()
-    return data.data.map(item => item.embedding)
-  } catch (e) {
-    error(`Failed to get embeddings: ${e.message}`)
-    return texts.map(() => null)
-  }
-}
-
 function parseScenarios(markdown) {
   const scenarios = []
   
@@ -150,8 +120,7 @@ async function processTool(tool) {
       tldr: tool.tldr || null,
       scenarios: [],
       tags: tool.tags || [],
-      categories: tool.categories || [],
-      embedding: null
+      categories: tool.categories || []
     }
   }
   
@@ -164,8 +133,7 @@ async function processTool(tool) {
       tldr: tool.tldr || null,
       scenarios: [],
       tags: tool.tags || [],
-      categories: tool.categories || [],
-      embedding: null
+      categories: tool.categories || []
     }
   }
   
@@ -174,27 +142,13 @@ async function processTool(tool) {
     const scenarios = parseScenarios(markdown)
     const tldr = parseTldr(markdown) || tool.tldr || null
     
-    let embedding = null
-    if (EMBEDDING_API_KEY && scenarios.length > 0) {
-      const textToEmbed = [
-        tool.name,
-        tldr || '',
-        ...scenarios,
-        ...(tool.tags || []),
-        ...(tool.categories || [])
-      ].join(' | ')
-      
-      embedding = await getEmbedding(textToEmbed)
-    }
-    
     return {
       name: tool.name,
       url: tool.url,
       tldr,
       scenarios,
       tags: tool.tags || [],
-      categories: tool.categories || [],
-      embedding
+      categories: tool.categories || []
     }
   } catch (e) {
     error(`Failed to fetch ${rawUrl}: ${e.message}`)
@@ -204,10 +158,25 @@ async function processTool(tool) {
       tldr: tool.tldr || null,
       scenarios: [],
       tags: tool.tags || [],
-      categories: tool.categories || [],
-      embedding: null
+      categories: tool.categories || []
     }
   }
+}
+
+async function processEmbedding(tool) {
+  if (!EMBEDDING_API_KEY) {
+    return null
+  }
+
+  const textToEmbed = [
+    tool.name,
+    tool.tldr || '',
+    ...tool.scenarios,
+    ...(tool.tags || []),
+    ...(tool.categories || [])
+  ].join(' | ')
+
+  return await getEmbedding(textToEmbed)
 }
 
 async function buildIndex() {
@@ -233,6 +202,19 @@ async function buildIndex() {
       log('Could not parse existing index, starting fresh')
     }
   }
+
+  let existingEmbeddings = {}
+  let existingEmbeddingNames = new Set()
+  
+  if (fs.existsSync(EMBEDDINGS_FILE)) {
+    try {
+      existingEmbeddings = JSON.parse(fs.readFileSync(EMBEDDINGS_FILE, 'utf-8'))
+      existingEmbeddingNames = new Set(Object.keys(existingEmbeddings))
+      log(`Loaded existing embeddings for ${existingEmbeddingNames.size} tools`)
+    } catch {
+      log('Could not parse existing embeddings, starting fresh')
+    }
+  }
   
   const newTools = data.filter(t => !existingToolNames.has(t.name))
   const updatedTools = data.filter(t => {
@@ -240,6 +222,11 @@ async function buildIndex() {
     if (!existing) return true
     return t.timestamp !== existing.timestamp
   })
+
+  const toolsNeedingEmbedding = [
+    ...newTools,
+    ...updatedTools
+  ].filter(t => !existingEmbeddingNames.has(t.name))
   
   const toolsToProcess = [...new Set([...newTools, ...updatedTools])]
   
@@ -251,8 +238,6 @@ async function buildIndex() {
   log(`Processing ${toolsToProcess.length} tools (${newTools.length} new, ${updatedTools.length} updated)`)
   if (EMBEDDING_API_KEY) {
     log(`Using embedding model: ${EMBEDDING_MODEL}`)
-  } else {
-    log('No embedding API key found, vector search will be disabled')
   }
   
   const processedTools = []
@@ -260,7 +245,24 @@ async function buildIndex() {
     const processed = await processTool(tool)
     processed.timestamp = tool.timestamp
     processedTools.push(processed)
-    log(`Processed: ${tool.name} (${processed.scenarios.length} scenarios, embedding: ${processed.embedding ? 'yes' : 'no'})`)
+    log(`Processed: ${tool.name} (${processed.scenarios.length} scenarios)`)
+  }
+
+  const newEmbeddings = { ...existingEmbeddings }
+
+  if (EMBEDDING_API_KEY && toolsNeedingEmbedding.length > 0) {
+    log(`Generating embeddings for ${toolsNeedingEmbedding.length} tools...`)
+    
+    for (const tool of toolsNeedingEmbedding) {
+      const processed = processedTools.find(t => t.name === tool.name)
+      if (processed) {
+        const embedding = await processEmbedding(processed)
+        if (embedding) {
+          newEmbeddings[tool.name] = embedding
+          log(`Generated embedding for: ${tool.name}`)
+        }
+      }
+    }
   }
   
   const allTools = []
@@ -276,13 +278,22 @@ async function buildIndex() {
   
   const newIndex = {
     version: 2,
-    embeddingModel: EMBEDDING_MODEL,
     updatedAt: new Date().toISOString(),
     tools: allTools
   }
+
+  const embeddingsData = {
+    version: 2,
+    model: EMBEDDING_MODEL,
+    updatedAt: new Date().toISOString(),
+    embeddings: newEmbeddings
+  }
   
   fs.writeFileSync(INDEX_FILE, JSON.stringify(newIndex, null, 2), 'utf-8')
+  fs.writeFileSync(EMBEDDINGS_FILE, JSON.stringify(embeddingsData, null, 2), 'utf-8')
+  
   log(`Wrote search index with ${allTools.length} tools to searchIndex.json`)
+  log(`Wrote ${Object.keys(newEmbeddings).length} embeddings to embeddings.json`)
 }
 
 buildIndex().catch(e => {

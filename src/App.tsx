@@ -23,13 +23,19 @@ type SearchTool = {
   categories: string[]
   timestamp?: number
   matchedScenario?: string
-  embedding?: number[]
 }
 
 type SearchIndex = {
   version: number
   updatedAt: string
   tools: SearchTool[]
+}
+
+type EmbeddingsData = {
+  version: number
+  model: string
+  updatedAt: string
+  embeddings: Record<string, number[]>
 }
 
 function countByWeek(tools: Tool[]): { week: string; count: number }[] {
@@ -187,6 +193,7 @@ export default function App() {
   const [sortOrder, setSortOrder] = useState<SortOrder>('desc')
   const [smartMode, setSmartMode] = useState(false)
   const [searchIndex, setSearchIndex] = useState<SearchIndex | null>(null)
+  const [embeddings, setEmbeddings] = useState<Record<string, number[]>>({})
   const [recommendResults, setRecommendResults] = useState<SearchTool[]>([])
   const [isSearching, setIsSearching] = useState(false)
 
@@ -217,10 +224,20 @@ export default function App() {
   useEffect(() => {
     async function loadSearchIndex() {
       try {
-        const res = await fetch('/searchIndex.json', { cache: 'no-store' })
-        if (!res.ok) throw new Error(`Failed to load searchIndex.json: ${res.status}`)
-        const data = (await res.json()) as SearchIndex
-        setSearchIndex(data)
+        const [indexRes, embeddingsRes] = await Promise.all([
+          fetch('/searchIndex.json', { cache: 'no-store' }),
+          fetch('/embeddings.json', { cache: 'no-store' })
+        ])
+
+        if (indexRes.ok) {
+          const data = (await indexRes.json()) as SearchIndex
+          setSearchIndex(data)
+        }
+
+        if (embeddingsRes.ok) {
+          const embData = (await embeddingsRes.json()) as EmbeddingsData
+          setEmbeddings(embData.embeddings || {})
+        }
       } catch (e) {
         console.error('Failed to load search index:', e)
       }
@@ -250,11 +267,15 @@ export default function App() {
 
   const oramaDb = useMemo(() => {
     if (!searchIndex || !searchIndex.tools.length) return null
+    if (!embeddings || Object.keys(embeddings).length === 0) return null
 
-    const toolsWithEmbeddings = searchIndex.tools.filter(t => t.embedding && t.embedding.length > 0)
+    const toolsWithEmbeddings = searchIndex.tools.filter(t => {
+      const emb = embeddings[t.name]
+      return emb && emb.length > 0
+    })
     if (toolsWithEmbeddings.length === 0) return null
 
-    const firstEmbedding = toolsWithEmbeddings[0].embedding
+    const firstEmbedding = embeddings[toolsWithEmbeddings[0].name]
     if (!firstEmbedding) return null
     const embeddingDim = firstEmbedding.length
 
@@ -276,12 +297,12 @@ export default function App() {
         scenarios: tool.scenarios,
         tags: tool.tags,
         categories: tool.categories,
-        embedding: tool.embedding
+        embedding: embeddings[tool.name]
       })
     }
 
     return db
-  }, [searchIndex])
+  }, [searchIndex, embeddings])
 
   async function getQueryEmbedding(query: string): Promise<number[] | null> {
     const embeddingApiKey = import.meta.env.VITE_EMBEDDING_API_KEY
