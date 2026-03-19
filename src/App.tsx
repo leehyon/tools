@@ -284,14 +284,21 @@ export default function App() {
   }, [searchIndex])
 
   async function getQueryEmbedding(query: string): Promise<number[] | null> {
+    const embeddingApiKey = import.meta.env.VITE_EMBEDDING_API_KEY
+    if (!embeddingApiKey) {
+      console.error('No embedding API key configured')
+      return null
+    }
+
     try {
-      const res = await fetch('https://api.openai.com/v1/embeddings', {
+      const res = await fetch('https://model-square.app.baizhi.cloud/v1/embeddings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Authorization': `Bearer ${embeddingApiKey}`
         },
         body: JSON.stringify({
-          model: 'text-embedding-3-small',
+          model: 'bge-m3',
           input: query
         })
       })

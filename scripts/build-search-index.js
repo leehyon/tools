@@ -8,9 +8,9 @@ const PUBLIC_DIR = path.join(ROOT_DIR, 'public')
 const DATA_FILE = path.join(PUBLIC_DIR, 'data.json')
 const INDEX_FILE = path.join(PUBLIC_DIR, 'searchIndex.json')
 
-const EMBEDDING_API_KEY = process.env.EMBEDDING_API_KEY || process.env.OPENAI_API_KEY
-const EMBEDDING_MODEL = process.env.EMBEDDING_MODEL || 'text-embedding-3-small'
-const EMBEDDING_URL = 'https://api.openai.com/v1/embeddings'
+const EMBEDDING_API_KEY = process.env.EMBEDDING_API_KEY
+const EMBEDDING_MODEL = process.env.EMBEDDING_MODEL || 'bge-m3'
+const EMBEDDING_URL = process.env.EMBEDDING_URL || 'https://model-square.app.baizhi.cloud/v1/embeddings'
 
 function log(msg) {
   console.log(`[build-search] ${msg}`)
