@@ -376,6 +376,8 @@ body {
 
 .trendDot {
   transition: transform 0.15s ease-out, r 0.15s ease-out;
+  transform-box: fill-box;
+  transform-origin: center;
 }
 
 .trendDot:hover {
