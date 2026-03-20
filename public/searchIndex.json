@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-20T02:10:29.890Z",
+  "updatedAt": "2026-03-20T02:13:42.090Z",
   "tools": [
     {
       "name": "Starship",
@@ -1631,6 +1631,30 @@
         "Media & Creativity"
       ],
       "timestamp": 1773972614
+    },
+    {
+      "name": "VibeGo",
+      "url": "https://github.com/xxnuo/VibeGo",
+      "tldr": "一个专为移动设备设计的 Web IDE，支持多种 AI 编码工具，提供文件管理、Git 集成和终端功能",
+      "scenarios": [
+        "在移动设备上进行代码编辑",
+        "使用 AI 编码助手如 Claude Code 和 Gemini CLI",
+        "远程管理 Git 仓库",
+        "通过浏览器访问开发环境",
+        "跨平台进行轻量级开发工作"
+      ],
+      "tags": [
+        "Web IDE",
+        "Mobile-First",
+        "AI Coding",
+        "Git Integration",
+        "Minimalist Design"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1773972805
     }
   ]
 }
