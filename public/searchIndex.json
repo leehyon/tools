@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-20T02:13:42.090Z",
+  "updatedAt": "2026-03-20T07:54:38.887Z",
   "tools": [
     {
       "name": "Starship",
@@ -1655,6 +1655,31 @@
         "Developer Tools"
       ],
       "timestamp": 1773972805
+    },
+    {
+      "name": "FreshRSS",
+      "url": "https://freshrss.org/index.html",
+      "tldr": "一个免费可自托管的 RSS 和 Atom 源聚合器，轻量高效且高度可定制",
+      "scenarios": [
+        "集中管理多个网站的 RSS 订阅",
+        "在单一平台阅读文章、播客和视频内容",
+        "通过 Web 抓取生成自定义订阅源",
+        "导入导出订阅列表（OPML 格式）",
+        "实时跟踪订阅内容更新"
+      ],
+      "tags": [
+        "RSS Reader",
+        "Self-hosted",
+        "Feed Aggregator",
+        "Open Source",
+        "Customizable"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Developer Tools",
+        "File Management"
+      ],
+      "timestamp": 1773993261
     }
   ]
 }

@@ -1596,5 +1596,28 @@
     ],
     "tldr": "一个专为移动设备设计的 Web IDE，支持多种 AI 编码工具，提供文件管理、Git 集成和终端功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-20-vibego.md"
+  },
+  {
+    "month": "202603",
+    "name": "FreshRSS",
+    "url": "https://freshrss.org/index.html",
+    "timestamp": 1773993261,
+    "tags": [
+      "RSS Reader",
+      "Self-hosted",
+      "Feed Aggregator",
+      "Open Source",
+      "Customizable"
+    ],
+    "categories": [
+      "Reading & Information",
+      "Developer Tools",
+      "File Management"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个免费可自托管的 RSS 和 Atom 源聚合器，轻量高效且高度可定制",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-20-freshrss.md"
   }
 ]
