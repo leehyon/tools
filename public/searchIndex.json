@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-19T10:23:17.757Z",
+  "updatedAt": "2026-03-20T02:10:29.890Z",
   "tools": [
     {
       "name": "Starship",
@@ -1608,6 +1608,29 @@
         "Communication"
       ],
       "timestamp": 1773915779
+    },
+    {
+      "name": "grobpaint",
+      "url": "https://github.com/groverburger/grobpaint",
+      "tldr": "一款轻量级跨平台图像编辑器，具有图层功能，介于 MS Paint 和 Paint.NET 之间",
+      "scenarios": [
+        "快速图像编辑和简单绘图",
+        "创建像素艺术和精灵表",
+        "基础的图像调整和滤镜应用",
+        "跨平台图像编辑需求",
+        "轻量级图像处理任务"
+      ],
+      "tags": [
+        "Image Editor",
+        "Cross-Platform",
+        "Lightweight",
+        "Layer Support",
+        "Pixel Art"
+      ],
+      "categories": [
+        "Media & Creativity"
+      ],
+      "timestamp": 1773972614
     }
   ]
 }

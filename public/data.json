@@ -1550,5 +1550,29 @@
     ],
     "tldr": "一个能实际执行任务的 AI 助手，通过聊天应用管理邮件、日历和任务",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-19-openclaw.md"
+  },
+  {
+    "month": "202603",
+    "name": "grobpaint",
+    "url": "https://github.com/groverburger/grobpaint",
+    "timestamp": 1773972614,
+    "tags": [
+      "Image Editor",
+      "Cross-Platform",
+      "Lightweight",
+      "Layer Support",
+      "Pixel Art"
+    ],
+    "categories": [
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "tldr": "一款轻量级跨平台图像编辑器，具有图层功能，介于 MS Paint 和 Paint.NET 之间",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-20-grobpaint.md"
   }
 ]
