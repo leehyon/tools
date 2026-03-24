@@ -1619,5 +1619,31 @@
     ],
     "tldr": "一个免费可自托管的 RSS 和 Atom 源聚合器，轻量高效且高度可定制",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-20-freshrss.md"
+  },
+  {
+    "month": "202603",
+    "name": "Kilo",
+    "url": "https://kilo.ai/",
+    "timestamp": 1774331863,
+    "tags": [
+      "AI Coding Assistant",
+      "Open Source",
+      "IDE Integration",
+      "Code Review",
+      "Multi-Model Support"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "一个开源的 AI 编程助手，支持 VS Code、JetBrains 和 CLI，帮助开发者构建、部署和迭代代码",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-24-kilo.md"
   }
 ]

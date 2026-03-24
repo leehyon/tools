@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-20T07:54:38.887Z",
+  "updatedAt": "2026-03-24T05:57:56.975Z",
   "tools": [
     {
       "name": "Starship",
@@ -1680,6 +1680,30 @@
         "File Management"
       ],
       "timestamp": 1773993261
+    },
+    {
+      "name": "Kilo",
+      "url": "https://kilo.ai/",
+      "tldr": "一个开源的 AI 编程助手，支持 VS Code、JetBrains 和 CLI，帮助开发者构建、部署和迭代代码",
+      "scenarios": [
+        "在 IDE 中获得智能代码补全和自动完成",
+        "使用 AI 进行代码审查和错误检测",
+        "通过云代理执行复杂编程任务",
+        "在 Slack 中直接与 AI 助手讨论代码",
+        "一键部署应用程序到生产环境"
+      ],
+      "tags": [
+        "AI Coding Assistant",
+        "Open Source",
+        "IDE Integration",
+        "Code Review",
+        "Multi-Model Support"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1774331863
     }
   ]
 }
