@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-24T05:59:05.074Z",
+  "updatedAt": "2026-03-24T05:59:49.663Z",
   "tools": [
     {
       "name": "Starship",
@@ -1728,6 +1728,30 @@
         "System & Automation"
       ],
       "timestamp": 1774331930
+    },
+    {
+      "name": "Cline",
+      "url": "https://cline.bot",
+      "tldr": "一款开源的 AI 编程助手，支持多种 IDE 和命令行工具，可与企业安全集成",
+      "scenarios": [
+        "在 VS Code 中使用 AI 辅助编程",
+        "通过命令行执行自动化脚本",
+        "重构大型代码库",
+        "理解复杂代码结构",
+        "在 CI/CD 流程中集成 AI 编程助手",
+        "在企业环境中部署私有化 AI 编程工具"
+      ],
+      "tags": [
+        "AI Coding",
+        "Open Source",
+        "IDE Integration",
+        "Enterprise Security",
+        "Multi-Platform"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1774331975
     }
   ]
 }
