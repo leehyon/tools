@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-24T05:57:56.975Z",
+  "updatedAt": "2026-03-24T05:59:05.074Z",
   "tools": [
     {
       "name": "Starship",
@@ -1704,6 +1704,30 @@
         "System & Automation"
       ],
       "timestamp": 1774331863
+    },
+    {
+      "name": "Roo Code",
+      "url": "https://roocode.com",
+      "tldr": "AI 编程助手，支持多种模型，提供 VS Code 扩展和云端代理，帮助开发者高效编写和优化代码",
+      "scenarios": [
+        "在 VS Code 中直接使用 AI 编程助手进行代码编写和重构",
+        "通过云端代理团队协作完成编程任务",
+        "在 Slack 和 GitHub 中集成 AI 编程助手",
+        "使用多种 AI 模型（OpenAI、Anthropic、Gemini 等）进行开发",
+        "创建和管理不同角色的 AI 编程代理（架构师、编码员、调试器等）"
+      ],
+      "tags": [
+        "AI Coding Assistant",
+        "VS Code Extension",
+        "Open Source",
+        "Multi-Model Support",
+        "Team Collaboration"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1774331930
     }
   ]
 }
