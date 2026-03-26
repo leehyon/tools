@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-24T05:59:49.663Z",
+  "updatedAt": "2026-03-26T02:05:17.862Z",
   "tools": [
     {
       "name": "Starship",
@@ -1752,6 +1752,30 @@
         "Developer Tools"
       ],
       "timestamp": 1774331975
+    },
+    {
+      "name": "nanobrew",
+      "url": "https://nanobrew.trilok.ai/",
+      "tldr": "一款专为 macOS 设计的极速软件包管理器，使用 Zig 语言编写，比 Homebrew 快达 7000 倍",
+      "scenarios": [
+        "快速安装 macOS 应用程序和开发工具",
+        "管理系统依赖和软件包",
+        "从 Homebrew 迁移到更快的替代品",
+        "批量安装软件包",
+        "更新已安装的软件包"
+      ],
+      "tags": [
+        "Package Manager",
+        "High Performance",
+        "Zig",
+        "macOS",
+        "Fast Installation"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1774490704
     }
   ]
 }
