@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-26T02:05:17.862Z",
+  "updatedAt": "2026-03-26T02:16:55.612Z",
   "tools": [
     {
       "name": "Starship",
@@ -1776,6 +1776,31 @@
         "System & Automation"
       ],
       "timestamp": 1774490704
+    },
+    {
+      "name": "ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "tldr": "基于 Playwright 和 AI 的闲鱼多任务实时监控工具，帮助用户从海量商品中找到心仪产品",
+      "scenarios": [
+        "监控闲鱼特定关键词商品并实时推送结果",
+        "根据价格区间筛选二手商品并进行智能分析",
+        "设置定时任务定期检查闲鱼上新商品",
+        "根据地理位置筛选特定区域的商品",
+        "使用AI模型深度分析商品描述和图片质量"
+      ],
+      "tags": [
+        "E-commerce Monitoring",
+        "AI-Powered",
+        "Web Scraping",
+        "Real-Time Monitoring",
+        "Task Automation"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Data & Analytics"
+      ],
+      "timestamp": 1774491394
     }
   ]
 }

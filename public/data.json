@@ -1718,5 +1718,30 @@
     ],
     "tldr": "一款专为 macOS 设计的极速软件包管理器，使用 Zig 语言编写，比 Homebrew 快达 7000 倍",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-26-nanobrew.md"
+  },
+  {
+    "month": "202603",
+    "name": "ai-goofish-monitor",
+    "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+    "timestamp": 1774491394,
+    "tags": [
+      "E-commerce Monitoring",
+      "AI-Powered",
+      "Web Scraping",
+      "Real-Time Monitoring",
+      "Task Automation"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web",
+      "Docker",
+      "Browser Extension"
+    ],
+    "tldr": "基于 Playwright 和 AI 的闲鱼多任务实时监控工具，帮助用户从海量商品中找到心仪产品",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-26-ai-goofish-monitor.md"
   }
 ]
