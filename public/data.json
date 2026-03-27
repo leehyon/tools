@@ -1813,5 +1813,28 @@
     ],
     "tldr": "企业级平台用于运行和管理 Model Context Protocol 服务器",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-27-toolhive.md"
+  },
+  {
+    "month": "202603",
+    "name": "docmd",
+    "url": "https://github.com/docmd-io/docmd",
+    "timestamp": 1774575415,
+    "tags": [
+      "Documentation Generator",
+      "Markdown",
+      "Static Site",
+      "Zero-Config",
+      "Developer Tool"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web",
+      "Node.js"
+    ],
+    "tldr": "一个极简快速的文档生成工具，从 Markdown 创建美观文档，无 React 冗余，专为开发者设计",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-27-docmd.md"
   }
 ]

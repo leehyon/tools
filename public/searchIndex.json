@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-27T01:36:08.556Z",
+  "updatedAt": "2026-03-27T01:37:08.734Z",
   "tools": [
     {
       "name": "Starship",
@@ -1874,6 +1874,30 @@
         "System & Automation"
       ],
       "timestamp": 1774575346
+    },
+    {
+      "name": "docmd",
+      "url": "https://github.com/docmd-io/docmd",
+      "tldr": "一个极简快速的文档生成工具，从 Markdown 创建美观文档，无 React 冗余，专为开发者设计",
+      "scenarios": [
+        "为开源项目创建技术文档",
+        "构建产品 API 文档",
+        "团队内部知识库文档",
+        "个人博客或作品集展示",
+        "多版本文档管理与发布"
+      ],
+      "tags": [
+        "Documentation Generator",
+        "Markdown",
+        "Static Site",
+        "Zero-Config",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools"
+      ],
+      "timestamp": 1774575415
     }
   ]
 }
