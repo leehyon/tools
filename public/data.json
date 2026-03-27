@@ -1743,5 +1743,30 @@
     ],
     "tldr": "基于 Playwright 和 AI 的闲鱼多任务实时监控工具，帮助用户从海量商品中找到心仪产品",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-26-ai-goofish-monitor.md"
+  },
+  {
+    "month": "202603",
+    "name": "witr",
+    "url": "https://github.com/pranshuparmar/witr",
+    "timestamp": 1774575079,
+    "tags": [
+      "Process Monitoring",
+      "System Diagnostics",
+      "CLI Tool",
+      "Cross-platform",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Linux",
+      "Mac",
+      "Windows",
+      "FreeBSD"
+    ],
+    "tldr": "一款系统进程追踪工具，通过交互式终端界面展示进程的启动原因和依赖关系",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-27-witr.md"
   }
 ]

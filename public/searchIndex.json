@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-26T02:16:55.612Z",
+  "updatedAt": "2026-03-27T01:31:33.300Z",
   "tools": [
     {
       "name": "Starship",
@@ -1801,6 +1801,30 @@
         "Data & Analytics"
       ],
       "timestamp": 1774491394
+    },
+    {
+      "name": "witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "tldr": "一款系统进程追踪工具，通过交互式终端界面展示进程的启动原因和依赖关系",
+      "scenarios": [
+        "调试运行中的服务或应用程序",
+        "查找占用特定端口的进程",
+        "理解复杂系统中的进程依赖关系",
+        "监控系统服务启动原因",
+        "排查异常进程或资源占用问题"
+      ],
+      "tags": [
+        "Process Monitoring",
+        "System Diagnostics",
+        "CLI Tool",
+        "Cross-platform",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1774575079
     }
   ]
 }
