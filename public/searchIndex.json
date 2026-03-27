@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-27T01:31:33.300Z",
+  "updatedAt": "2026-03-27T01:33:11.497Z",
   "tools": [
     {
       "name": "Starship",
@@ -1825,6 +1825,31 @@
         "System & Automation"
       ],
       "timestamp": 1774575079
+    },
+    {
+      "name": "Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "tldr": "一个可视化构建 AI 代理的开源平台，让用户无需编程即可创建复杂的 AI 工作流程",
+      "scenarios": [
+        "构建自定义聊天机器人",
+        "创建 AI 工作流程自动化",
+        "集成多种 AI 模型和工具",
+        "开发企业级 AI 应用",
+        "创建知识库问答系统",
+        "构建个性化 AI 助手"
+      ],
+      "tags": [
+        "AI Agent Builder",
+        "Visual Programming",
+        "Open Source",
+        "Workflow Automation",
+        "No-Code"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1774575174
     }
   ]
 }

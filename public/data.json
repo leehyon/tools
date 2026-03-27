@@ -1768,5 +1768,27 @@
     ],
     "tldr": "一款系统进程追踪工具，通过交互式终端界面展示进程的启动原因和依赖关系",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-27-witr.md"
+  },
+  {
+    "month": "202603",
+    "name": "Flowise",
+    "url": "https://github.com/FlowiseAI/Flowise",
+    "timestamp": 1774575174,
+    "tags": [
+      "AI Agent Builder",
+      "Visual Programming",
+      "Open Source",
+      "Workflow Automation",
+      "No-Code"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个可视化构建 AI 代理的开源平台，让用户无需编程即可创建复杂的 AI 工作流程",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-27-flowise.md"
   }
 ]
