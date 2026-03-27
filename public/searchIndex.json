@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-27T01:33:11.497Z",
+  "updatedAt": "2026-03-27T01:36:08.556Z",
   "tools": [
     {
       "name": "Starship",
@@ -1850,6 +1850,30 @@
         "System & Automation"
       ],
       "timestamp": 1774575174
+    },
+    {
+      "name": "toolhive",
+      "url": "https://github.com/stacklok/toolhive",
+      "tldr": "企业级平台用于运行和管理 Model Context Protocol 服务器",
+      "scenarios": [
+        "管理企业级 MCP 服务器",
+        "整合多个 AI 工具和服务",
+        "构建自定义 AI 工作流",
+        "扩展 AI 模型能力",
+        "管理 AI 工具的安全性和访问控制"
+      ],
+      "tags": [
+        "AI Tools",
+        "Enterprise Platform",
+        "MCP Server",
+        "Kubernetes",
+        "Workflow Automation"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1774575346
     }
   ]
 }
