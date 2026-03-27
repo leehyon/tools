@@ -1857,5 +1857,29 @@
     ],
     "tldr": "一款免费开源的 macOS 屏幕录制工具，具有原生外观和专业编码功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-27-bettercapture.md"
+  },
+  {
+    "month": "202603",
+    "name": "project-nomad",
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "timestamp": 1774579184,
+    "tags": [
+      "Offline-First",
+      "Knowledge Base",
+      "Self-Hosted",
+      "AI Integration",
+      "Educational Platform"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Linux",
+      "Web"
+    ],
+    "tldr": "一个自包含的离线生存电脑，集成关键工具、知识和 AI，让您随时随地保持知情和赋能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-27-project-nomad.md"
   }
 ]

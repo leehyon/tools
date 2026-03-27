@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-27T01:38:36.448Z",
+  "updatedAt": "2026-03-27T02:40:01.825Z",
   "tools": [
     {
       "name": "Starship",
@@ -1921,6 +1921,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1774575496
+    },
+    {
+      "name": "project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "tldr": "一个自包含的离线生存电脑，集成关键工具、知识和 AI，让您随时随地保持知情和赋能",
+      "scenarios": [
+        "在没有网络连接的环境中获取知识资源",
+        "为偏远地区或应急情况提供信息支持",
+        "作为家庭或教育机构的知识库服务器",
+        "在资源受限环境中运行 AI 工具",
+        "收集和组织离线教育资源"
+      ],
+      "tags": [
+        "Offline-First",
+        "Knowledge Base",
+        "Self-Hosted",
+        "AI Integration",
+        "Educational Platform"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Developer Tools"
+      ],
+      "timestamp": 1774579184
     }
   ]
 }
