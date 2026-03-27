@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-27T01:37:08.734Z",
+  "updatedAt": "2026-03-27T01:38:36.448Z",
   "tools": [
     {
       "name": "Starship",
@@ -1898,6 +1898,29 @@
         "Developer Tools"
       ],
       "timestamp": 1774575415
+    },
+    {
+      "name": "BetterCapture",
+      "url": "https://github.com/jsattler/BetterCapture",
+      "tldr": "一款免费开源的 macOS 屏幕录制工具，具有原生外观和专业编码功能",
+      "scenarios": [
+        "录制 macOS 屏幕制作教程视频",
+        "捕获系统音频和麦克风声音同时录制",
+        "排除特定内容不被录制",
+        "使用专业编码格式 ProRes 或 HEVC 录制高质量视频",
+        "在菜单栏中快速访问录制功能"
+      ],
+      "tags": [
+        "Screen Recording",
+        "Free",
+        "Open Source",
+        "Privacy",
+        "macOS"
+      ],
+      "categories": [
+        "Media & Creativity"
+      ],
+      "timestamp": 1774575496
     }
   ]
 }
