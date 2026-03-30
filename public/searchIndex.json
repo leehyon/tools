@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-27T02:40:01.825Z",
+  "updatedAt": "2026-03-30T02:52:39.234Z",
   "tools": [
     {
       "name": "Starship",
@@ -1946,6 +1946,30 @@
         "Developer Tools"
       ],
       "timestamp": 1774579184
+    },
+    {
+      "name": "beautiful-mermaid",
+      "url": "https://github.com/lukilabs/beautiful-mermaid",
+      "tldr": "一个 MIT 授权的 mermaid 图表渲染器，支持 SVG 和 ASCII 输出，具有 15 种内置主题，完全兼容 Shiki，零 DOM 依赖",
+      "scenarios": [
+        "在文档中创建流程图和架构图",
+        "生成 ASCII 艺术风格的图表用于终端显示",
+        "为开发者提供可自定义的图表渲染方案",
+        "在代码库中嵌入可视化图表",
+        "创建交互式数据图表和图表"
+      ],
+      "tags": [
+        "Diagramming",
+        "Developer Tool",
+        "Visualization",
+        "Open Source",
+        "TypeScript"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1774839143
     }
   ]
 }
