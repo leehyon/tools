@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-30T02:52:39.234Z",
+  "updatedAt": "2026-03-30T05:36:37.164Z",
   "tools": [
     {
       "name": "Starship",
@@ -1970,6 +1970,30 @@
         "Media & Creativity"
       ],
       "timestamp": 1774839143
+    },
+    {
+      "name": "UX Pro Max",
+      "url": "https://ui-ux-pro-max-skill.nextlevelbuilder.io",
+      "tldr": "一款 AI 驱动的 UI UX 设计智能工具，提供设计风格、色彩搭配、字体配对等资源与代码生成",
+      "scenarios": [
+        "快速构建专业级用户界面设计",
+        "获取针对特定行业的设计指南",
+        "根据提示生成生产就绪的 UI 代码",
+        "探索多种设计风格和布局模式",
+        "优化数据可视化图表类型选择"
+      ],
+      "tags": [
+        "AI Design",
+        "UI Components",
+        "Code Generation",
+        "Design System",
+        "UX Guidelines"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1774848983
     }
   ]
 }
