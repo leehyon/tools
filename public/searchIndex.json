@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-30T05:36:37.164Z",
+  "updatedAt": "2026-03-31T09:58:25.177Z",
   "tools": [
     {
       "name": "Starship",
@@ -1994,6 +1994,30 @@
         "Media & Creativity"
       ],
       "timestamp": 1774848983
+    },
+    {
+      "name": "OpenSpec",
+      "url": "https://openspec.dev/",
+      "tldr": "一个轻量级的规范驱动框架，帮助开发者管理软件规范并与AI辅助工具集成",
+      "scenarios": [
+        "管理软件需求和规范文档",
+        "与多种AI编程助手集成",
+        "在代码变更前进行需求审查",
+        "为新团队成员提供系统上下文",
+        "跨多个会话保持项目规划连续性"
+      ],
+      "tags": [
+        "Specification-Driven",
+        "AI Integration",
+        "Documentation",
+        "Code Review",
+        "Open Source"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1774951081
     }
   ]
 }

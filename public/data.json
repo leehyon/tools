@@ -1925,5 +1925,27 @@
     ],
     "tldr": "一款 AI 驱动的 UI UX 设计智能工具，提供设计风格、色彩搭配、字体配对等资源与代码生成",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-30-ux-pro-max.md"
+  },
+  {
+    "month": "202603",
+    "name": "OpenSpec",
+    "url": "https://openspec.dev/",
+    "timestamp": 1774951081,
+    "tags": [
+      "Specification-Driven",
+      "AI Integration",
+      "Documentation",
+      "Code Review",
+      "Open Source"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个轻量级的规范驱动框架，帮助开发者管理软件规范并与AI辅助工具集成",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202603/2026-03-31-openspec.md"
   }
 ]
