@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-31T09:58:25.177Z",
+  "updatedAt": "2026-04-01T05:38:36.347Z",
   "tools": [
     {
       "name": "Starship",
@@ -2018,6 +2018,33 @@
         "Developer Tools"
       ],
       "timestamp": 1774951081
+    },
+    {
+      "name": "CoPaw",
+      "url": "https://copaw.agentscope.io/",
+      "tldr": "一个可本地部署的 AI 助手工作台，支持多平台接入与能力扩展",
+      "scenarios": [
+        "个人智能助手管理",
+        "多平台消息统一处理",
+        "社交动态追踪汇总",
+        "创意与构建支持",
+        "研究与学习辅助",
+        "生产力提升工具",
+        "个性化配置与记忆管理"
+      ],
+      "tags": [
+        "AI Assistant",
+        "Multi-Agent",
+        "Privacy-Focused",
+        "Cross-Platform",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Communication"
+      ],
+      "timestamp": 1775021897
     }
   ]
 }
