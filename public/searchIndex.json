@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-03T05:30:22.116Z",
+  "updatedAt": "2026-04-03T05:31:10.355Z",
   "tools": [
     {
       "name": "Starship",
@@ -2071,6 +2071,30 @@
         "System & Automation"
       ],
       "timestamp": 1775194202
+    },
+    {
+      "name": "Rename.Tools | 在线批量文件重命名工具",
+      "url": "https://rename.tools/zh/app",
+      "tldr": "一款免费快速的在线批量文件重命名工具，注重隐私安全",
+      "scenarios": [
+        "批量重命名下载的图片文件",
+        "整理项目文件夹中的文档",
+        "统一音乐文件的命名格式",
+        "重命名大量照片以按时间排序",
+        "规范化上传到服务器的文件名"
+      ],
+      "tags": [
+        "File Management",
+        "Batch Processing",
+        "Privacy-Focused",
+        "Web-Based",
+        "Free"
+      ],
+      "categories": [
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1775194255
     }
   ]
 }
