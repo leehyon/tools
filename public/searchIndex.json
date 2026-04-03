@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-03T05:33:10.672Z",
+  "updatedAt": "2026-04-03T05:35:28.775Z",
   "tools": [
     {
       "name": "Starship",
@@ -2120,6 +2120,32 @@
         "Communication"
       ],
       "timestamp": 1775194370
+    },
+    {
+      "name": "emdash",
+      "url": "https://github.com/emdash-cms/emdash",
+      "tldr": "基于 Astro 的全栈 TypeScript CMS，采用沙箱插件和结构化内容设计",
+      "scenarios": [
+        "创建和管理博客内容",
+        "构建营销网站和落地页",
+        "开发个人作品集展示",
+        "迁移 WordPress 网站到现代架构",
+        "开发自定义内容类型和插件",
+        "通过 AI 工具管理网站内容"
+      ],
+      "tags": [
+        "CMS",
+        "TypeScript",
+        "Astro",
+        "Cloudflare",
+        "Sandboxed Plugins"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "File Management"
+      ],
+      "timestamp": 1775194511
     }
   ]
 }
