@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-03T05:31:10.355Z",
+  "updatedAt": "2026-04-03T05:33:10.672Z",
   "tools": [
     {
       "name": "Starship",
@@ -2095,6 +2095,31 @@
         "System & Automation"
       ],
       "timestamp": 1775194255
+    },
+    {
+      "name": "openilink-hub",
+      "url": "https://github.com/openilink/openilink-hub",
+      "tldr": "开源微信 Bot 管理平台，支持多平台集成与应用市场扩展",
+      "scenarios": [
+        "管理多个微信机器人账号",
+        "连接微信与 Slack、Discord 等平台",
+        "扩展微信功能到企业内部系统",
+        "自动化处理微信消息和任务",
+        "集成 AI 工具增强微信体验"
+      ],
+      "tags": [
+        "WeChat Integration",
+        "Bot Management",
+        "Open Source",
+        "Multi-Platform",
+        "API First"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Communication"
+      ],
+      "timestamp": 1775194370
     }
   ]
 }

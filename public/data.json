@@ -2023,5 +2023,29 @@
     ],
     "tldr": "一款免费快速的在线批量文件重命名工具，注重隐私安全",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-rename.tools-%E5%9C%A8%E7%BA%BF%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E9%87%8D%E5%91%BD%E5%90%8D%E5%B7%A5%E5%85%B7.md"
+  },
+  {
+    "month": "202604",
+    "name": "openilink-hub",
+    "url": "https://github.com/openilink/openilink-hub",
+    "timestamp": 1775194370,
+    "tags": [
+      "WeChat Integration",
+      "Bot Management",
+      "Open Source",
+      "Multi-Platform",
+      "API First"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Communication"
+    ],
+    "Platform": [
+      "Web",
+      "Docker"
+    ],
+    "tldr": "开源微信 Bot 管理平台，支持多平台集成与应用市场扩展",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-openilink-hub.md"
   }
 ]
