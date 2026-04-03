@@ -1976,5 +1976,30 @@
     ],
     "tldr": "一个可本地部署的 AI 助手工作台，支持多平台接入与能力扩展",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-01-copaw.md"
+  },
+  {
+    "month": "202604",
+    "name": "oxideterm",
+    "url": "https://github.com/AnalyseDeCircuit/oxideterm",
+    "timestamp": 1775194202,
+    "tags": [
+      "Terminal",
+      "SSH Client",
+      "Remote Development",
+      "AI Assistant",
+      "Cross-Platform"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "全功能终端工作空间，集成本地终端、SSH、SFTP、远程 IDE、AI 助手和文件管理器",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-oxideterm.md"
   }
 ]

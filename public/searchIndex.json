@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-01T05:38:36.347Z",
+  "updatedAt": "2026-04-03T05:30:22.116Z",
   "tools": [
     {
       "name": "Starship",
@@ -2045,6 +2045,32 @@
         "Communication"
       ],
       "timestamp": 1775021897
+    },
+    {
+      "name": "oxideterm",
+      "url": "https://github.com/AnalyseDeCircuit/oxideterm",
+      "tldr": "全功能终端工作空间，集成本地终端、SSH、SFTP、远程 IDE、AI 助手和文件管理器",
+      "scenarios": [
+        "远程服务器管理和操作",
+        "本地和远程文件传输与编辑",
+        "开发环境远程访问",
+        "AI 辅助的终端操作",
+        "多跳 SSH 连接管理",
+        "跨平台终端会话记录"
+      ],
+      "tags": [
+        "Terminal",
+        "SSH Client",
+        "Remote Development",
+        "AI Assistant",
+        "Cross-Platform"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1775194202
     }
   ]
 }
