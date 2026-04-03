@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-03T05:46:11.766Z",
+  "updatedAt": "2026-04-03T05:49:23.082Z",
   "tools": [
     {
       "name": "Starship",
@@ -2243,6 +2243,32 @@
         "Developer Tools"
       ],
       "timestamp": 1775195156
+    },
+    {
+      "name": "baserow",
+      "url": "https://github.com/baserow/baserow",
+      "tldr": "一个无代码平台，可构建数据库、自动化、应用和 AI 代理，支持云端和自托管部署，符合 GDPR、HIPAA 和 SOC 2 标准",
+      "scenarios": [
+        "创建和管理业务数据库",
+        "构建无代码应用程序",
+        "自动化工作流程",
+        "开发 AI 代理和智能应用",
+        "替代 Airtable 的开源数据库解决方案",
+        "团队协作和数据管理"
+      ],
+      "tags": [
+        "No-Code",
+        "Database",
+        "Open Source",
+        "AI Integration",
+        "Self-Hosted"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1775195344
     }
   ]
 }

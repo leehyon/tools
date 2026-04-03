@@ -2139,5 +2139,28 @@
     ],
     "tldr": "一个本地优先的扩展工具，将转瞬即逝的 AI 对话历史保存为永久的、git 友好的知识库",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-waylog.md"
+  },
+  {
+    "month": "202604",
+    "name": "baserow",
+    "url": "https://github.com/baserow/baserow",
+    "timestamp": 1775195344,
+    "tags": [
+      "No-Code",
+      "Database",
+      "Open Source",
+      "AI Integration",
+      "Self-Hosted"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个无代码平台，可构建数据库、自动化、应用和 AI 代理，支持云端和自托管部署，符合 GDPR、HIPAA 和 SOC 2 标准",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-baserow.md"
   }
 ]
