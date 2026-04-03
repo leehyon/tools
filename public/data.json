@@ -2117,5 +2117,27 @@
     ],
     "tldr": "一款轻量级截图工具，支持标注、裁剪和导出，具有玻璃态 UI 和原生性能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-winshot.md"
+  },
+  {
+    "month": "202604",
+    "name": "WayLog",
+    "url": "https://github.com/shayne-snap/WayLog",
+    "timestamp": 1775195156,
+    "tags": [
+      "AI Chat History",
+      "Knowledge Base",
+      "Developer Tools",
+      "Open Source",
+      "Privacy First"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Browser Extension"
+    ],
+    "tldr": "一个本地优先的扩展工具，将转瞬即逝的 AI 对话历史保存为永久的、git 友好的知识库",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-waylog.md"
   }
 ]

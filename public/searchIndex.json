@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-03T05:44:51.401Z",
+  "updatedAt": "2026-04-03T05:46:11.766Z",
   "tools": [
     {
       "name": "Starship",
@@ -2219,6 +2219,30 @@
         "Media & Creativity"
       ],
       "timestamp": 1775195070
+    },
+    {
+      "name": "WayLog",
+      "url": "https://github.com/shayne-snap/WayLog",
+      "tldr": "一个本地优先的扩展工具，将转瞬即逝的 AI 对话历史保存为永久的、git 友好的知识库",
+      "scenarios": [
+        "保存 AI 编程助手对话历史",
+        "统一管理多个 AI 工具的聊天记录",
+        "将 AI 对话转化为可搜索的知识库",
+        "在切换 IDE 或关闭窗口时保留上下文",
+        "选择性保存重要的 AI 对话内容"
+      ],
+      "tags": [
+        "AI Chat History",
+        "Knowledge Base",
+        "Developer Tools",
+        "Open Source",
+        "Privacy First"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools"
+      ],
+      "timestamp": 1775195156
     }
   ]
 }
