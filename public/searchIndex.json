@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-03T05:40:39.277Z",
+  "updatedAt": "2026-04-03T05:44:51.401Z",
   "tools": [
     {
       "name": "Starship",
@@ -2170,6 +2170,55 @@
         "System & Automation"
       ],
       "timestamp": 1775194818
+    },
+    {
+      "name": "Rename.Tools",
+      "url": "https://rename.tools/zh/app",
+      "tldr": "一款免费快速的在线批量文件重命名工具，注重隐私安全",
+      "scenarios": [
+        "批量重命名下载的图片文件",
+        "整理项目文件夹中的文档",
+        "统一音乐文件的命名格式",
+        "重命名大量照片以按时间排序",
+        "规范化上传到服务器的文件名"
+      ],
+      "tags": [
+        "File Management",
+        "Batch Processing",
+        "Privacy-Focused",
+        "Web-Based",
+        "Free"
+      ],
+      "categories": [
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1775194255
+    },
+    {
+      "name": "winshot",
+      "url": "https://github.com/mrgoonie/winshot",
+      "tldr": "一款轻量级截图工具，支持标注、裁剪和导出，具有玻璃态 UI 和原生性能",
+      "scenarios": [
+        "快速捕获屏幕区域或窗口进行分享",
+        "为教程添加文字、形状和编号标注",
+        "调整截图尺寸和比例以适应不同平台",
+        "使用快捷键快速触发截图操作",
+        "将截图保存到指定文件夹并自动命名"
+      ],
+      "tags": [
+        "Screenshot Tool",
+        "Annotation",
+        "Glassmorphism UI",
+        "Cross-platform",
+        "Lightweight"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Media & Creativity"
+      ],
+      "timestamp": 1775195070
     }
   ]
 }

@@ -2004,7 +2004,7 @@
   },
   {
     "month": "202604",
-    "name": "Rename.Tools | 在线批量文件重命名工具",
+    "name": "Rename.Tools",
     "url": "https://rename.tools/zh/app",
     "timestamp": 1775194255,
     "tags": [
@@ -2094,5 +2094,28 @@
     ],
     "tldr": "一个用于在隔离环境中安装和运行 Python 应用程序的工具，类似于 brew 但针对 Python 包",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-pipx.md"
+  },
+  {
+    "month": "202604",
+    "name": "winshot",
+    "url": "https://github.com/mrgoonie/winshot",
+    "timestamp": 1775195070,
+    "tags": [
+      "Screenshot Tool",
+      "Annotation",
+      "Glassmorphism UI",
+      "Cross-platform",
+      "Lightweight"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Windows"
+    ],
+    "tldr": "一款轻量级截图工具，支持标注、裁剪和导出，具有玻璃态 UI 和原生性能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-winshot.md"
   }
 ]
