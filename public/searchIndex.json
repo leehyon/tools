@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-03T05:35:28.775Z",
+  "updatedAt": "2026-04-03T05:40:39.277Z",
   "tools": [
     {
       "name": "Starship",
@@ -2146,6 +2146,30 @@
         "File Management"
       ],
       "timestamp": 1775194511
+    },
+    {
+      "name": "pipx",
+      "url": "https://github.com/pypa/pipx",
+      "tldr": "一个用于在隔离环境中安装和运行 Python 应用程序的工具，类似于 brew 但针对 Python 包",
+      "scenarios": [
+        "安装 Python 命令行工具并避免依赖冲突",
+        "临时运行 Python 应用程序而不安装到系统",
+        "管理多个 Python 应用程序的独立环境",
+        "升级或卸载通过 pipx 安装的 Python 应用",
+        "在 CI/CD 流程中运行 Python 应用程序"
+      ],
+      "tags": [
+        "Python",
+        "CLI",
+        "Package Management",
+        "Isolated Environment",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1775194818
     }
   ]
 }

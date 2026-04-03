@@ -2070,5 +2070,29 @@
     ],
     "tldr": "基于 Astro 的全栈 TypeScript CMS，采用沙箱插件和结构化内容设计",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-emdash.md"
+  },
+  {
+    "month": "202604",
+    "name": "pipx",
+    "url": "https://github.com/pypa/pipx",
+    "timestamp": 1775194818,
+    "tags": [
+      "Python",
+      "CLI",
+      "Package Management",
+      "Isolated Environment",
+      "Developer Tool"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一个用于在隔离环境中安装和运行 Python 应用程序的工具，类似于 brew 但针对 Python 包",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-pipx.md"
   }
 ]
