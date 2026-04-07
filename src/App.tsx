@@ -61,9 +61,11 @@ function buildWeekSeries(weekly: { week: string; count: number }[]): { week: str
 
   const map = new Map(entries.map((x) => [x.week, x.count]))
   const series: { week: string; count: number }[] = []
+  let cumulative = 0
   for (let d = new Date(start); d <= end; d.setUTCDate(d.getUTCDate() + 7)) {
     const iso = `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}-${String(d.getUTCDate()).padStart(2, '0')}`
-    series.push({ week: iso, count: map.get(iso) ?? 0 })
+    cumulative += map.get(iso) ?? 0
+    series.push({ week: iso, count: cumulative })
   }
   return series
 }
@@ -340,7 +342,7 @@ export default function App() {
             <div className="panel">
               <div className="panelTitle">Weekly Trend</div>
               <div className="muted" style={{ marginTop: 4 }}>
-                每周新增工具数
+                周趋势
               </div>
               <div className="trendWrap" aria-label="每周趋势">
                 {weeklyTrend.length === 0 ? (
