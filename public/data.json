@@ -2022,7 +2022,7 @@
       "Web"
     ],
     "tldr": "一款免费快速的在线批量文件重命名工具，注重隐私安全",
-    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-rename.tools-%E5%9C%A8%E7%BA%BF%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E9%87%8D%E5%91%BD%E5%90%8D%E5%B7%A5%E5%85%B7.md"
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-rename.tools.md"
   },
   {
     "month": "202604",
@@ -2162,5 +2162,29 @@
     ],
     "tldr": "一个无代码平台，可构建数据库、自动化、应用和 AI 代理，支持云端和自托管部署，符合 GDPR、HIPAA 和 SOC 2 标准",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-03-baserow.md"
+  },
+  {
+    "month": "202604",
+    "name": "Memos",
+    "url": "https://usememos.com",
+    "timestamp": 1775525487,
+    "tags": [
+      "Self-Hosted",
+      "Markdown",
+      "Open Source",
+      "Privacy-Focused",
+      "Note-Taking"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "一个自托管的时间轴笔记工具，支持 Markdown 格式，注重数据所有权和快速记录",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-07-memos.md"
   }
 ]

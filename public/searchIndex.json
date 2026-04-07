@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-03T05:49:23.082Z",
+  "updatedAt": "2026-04-07T01:31:40.755Z",
   "tools": [
     {
       "name": "Starship",
@@ -2269,6 +2269,32 @@
         "Data & Analytics"
       ],
       "timestamp": 1775195344
+    },
+    {
+      "name": "Memos",
+      "url": "https://usememos.com",
+      "tldr": "一个自托管的时间轴笔记工具，支持 Markdown 格式，注重数据所有权和快速记录",
+      "scenarios": [
+        "开发者记录代码片段和调试日志",
+        "作家捕捉灵感和撰写草稿",
+        "个人撰写日记和追踪想法",
+        "学生整理讲座笔记和研究资料",
+        "家庭共享私人更新和回忆",
+        "爱好者记录项目进展和创意"
+      ],
+      "tags": [
+        "Self-Hosted",
+        "Markdown",
+        "Open Source",
+        "Privacy-Focused",
+        "Note-Taking"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1775525487
     }
   ]
 }
