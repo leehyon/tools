@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-07T01:31:40.755Z",
+  "updatedAt": "2026-04-07T03:13:47.390Z",
   "tools": [
     {
       "name": "Starship",
@@ -2295,6 +2295,32 @@
         "Developer Tools"
       ],
       "timestamp": 1775525487
+    },
+    {
+      "name": "get-shit-done",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "tldr": "一个轻量级且强大的元提示、上下文工程和规范驱动开发系统，专为 Claude Code 等AI编程助手设计，解决上下文窗口质量退化问题",
+      "scenarios": [
+        "为AI编程助手提供结构化上下文和任务规划",
+        "管理复杂项目的分阶段开发流程",
+        "创建原子化Git提交，保持代码历史清晰",
+        "并行执行任务，提高开发效率",
+        "验证代码实现是否符合预期功能",
+        "管理多个项目和工作空间",
+        "捕获和组织开发过程中的想法和任务"
+      ],
+      "tags": [
+        "AI Development",
+        "Prompt Engineering",
+        "Code Generation",
+        "Context Management",
+        "Workflow Automation"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1775531614
     }
   ]
 }
