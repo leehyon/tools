@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-08T08:04:25.857Z",
+  "updatedAt": "2026-04-08T08:58:03.252Z",
   "tools": [
     {
       "name": "Starship",
@@ -2370,6 +2370,31 @@
         "Text Input & Writing"
       ],
       "timestamp": 1775635441
+    },
+    {
+      "name": "Compound Engineering",
+      "url": "https://every.to/guides/compound-engineering",
+      "tldr": "一种 AI 原生的工程哲学，通过计划、执行、审查和复合的循环，让每个工作单元使后续工作更容易",
+      "scenarios": [
+        "使用 AI 代理进行代码开发和审查",
+        "将系统知识转化为可重用的模式",
+        "通过复合思维改进工程流程",
+        "构建 AI 原生的开发环境",
+        "并行执行多个开发任务"
+      ],
+      "tags": [
+        "AI-Assisted Development",
+        "Code Review",
+        "Knowledge Management",
+        "Productivity",
+        "Developer Tools"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1775638661
     }
   ]
 }

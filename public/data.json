@@ -2255,5 +2255,29 @@
     ],
     "tldr": "一款开源 AI 驱动的笔记与研究平台，尊重用户隐私，帮助控制学习过程",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-08-open-notebook.md"
+  },
+  {
+    "month": "202604",
+    "name": "Compound Engineering",
+    "url": "https://every.to/guides/compound-engineering",
+    "timestamp": 1775638661,
+    "tags": [
+      "AI-Assisted Development",
+      "Code Review",
+      "Knowledge Management",
+      "Productivity",
+      "Developer Tools"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "一种 AI 原生的工程哲学，通过计划、执行、审查和复合的循环，让每个工作单元使后续工作更容易",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-08-compound-engineering.md"
   }
 ]
