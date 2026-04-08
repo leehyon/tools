@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-07T03:15:26.393Z",
+  "updatedAt": "2026-04-08T08:04:25.857Z",
   "tools": [
     {
       "name": "Starship",
@@ -2345,6 +2345,31 @@
         "System & Automation"
       ],
       "timestamp": 1775531710
+    },
+    {
+      "name": "Open Notebook",
+      "url": "https://www.open-notebook.ai/",
+      "tldr": "一款开源 AI 驱动的笔记与研究平台，尊重用户隐私，帮助控制学习过程",
+      "scenarios": [
+        "将笔记转换为播客内容",
+        "利用 AI 总结笔记并生成洞察",
+        "管理大量学习资料和链接",
+        "整合多种格式的内容如 PDF、PPT、YouTube 等",
+        "作为研究人员的认知伙伴辅助学习"
+      ],
+      "tags": [
+        "Note-taking",
+        "AI-Powered",
+        "Privacy-Focused",
+        "Open Source",
+        "Learning Tool"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1775635441
     }
   ]
 }
