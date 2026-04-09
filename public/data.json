@@ -2279,5 +2279,31 @@
     ],
     "tldr": "一种 AI 原生的工程哲学，通过计划、执行、审查和复合的循环，让每个工作单元使后续工作更容易",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-08-compound-engineering.md"
+  },
+  {
+    "month": "202604",
+    "name": "btop",
+    "url": "https://github.com/aristocratos/btop",
+    "timestamp": 1775700883,
+    "tags": [
+      "System Monitoring",
+      "Resource Usage",
+      "Terminal UI",
+      "Cross-platform",
+      "GPU Monitoring"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Linux",
+      "macOS",
+      "FreeBSD",
+      "NetBSD",
+      "OpenBSD"
+    ],
+    "tldr": "一款资源监控工具，展示处理器、内存、磁盘、网络和进程的使用情况与统计信息",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-09-btop.md"
   }
 ]

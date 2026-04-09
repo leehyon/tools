@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-08T08:58:03.252Z",
+  "updatedAt": "2026-04-09T02:14:58.529Z",
   "tools": [
     {
       "name": "Starship",
@@ -2395,6 +2395,30 @@
         "System & Automation"
       ],
       "timestamp": 1775638661
+    },
+    {
+      "name": "btop",
+      "url": "https://github.com/aristocratos/btop",
+      "tldr": "一款资源监控工具，展示处理器、内存、磁盘、网络和进程的使用情况与统计信息",
+      "scenarios": [
+        "系统管理员监控系统资源使用情况",
+        "开发人员排查程序性能问题",
+        "游戏玩家监控游戏运行时的资源占用",
+        "普通用户了解系统运行状态",
+        "服务器运维人员远程监控系统状态"
+      ],
+      "tags": [
+        "System Monitoring",
+        "Resource Usage",
+        "Terminal UI",
+        "Cross-platform",
+        "GPU Monitoring"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1775700883
     }
   ]
 }
