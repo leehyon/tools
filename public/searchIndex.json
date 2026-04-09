@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-09T02:14:58.529Z",
+  "updatedAt": "2026-04-09T02:25:19.733Z",
   "tools": [
     {
       "name": "Starship",
@@ -2419,6 +2419,31 @@
         "System & Automation"
       ],
       "timestamp": 1775700883
+    },
+    {
+      "name": "Khoj AI",
+      "url": "https://docs.khoj.dev/",
+      "tldr": "一个开源的个人 AI 助手，可帮助用户管理知识并进行自然语言搜索",
+      "scenarios": [
+        "通过自然语言搜索笔记和文档",
+        "与 AI 聊天获取基于个人文件的信息",
+        "在 Emacs、Obsidian 等工具中集成使用",
+        "从多个来源（PDF、Markdown、Notion）整合信息",
+        "自托管或使用云服务访问个人知识库"
+      ],
+      "tags": [
+        "AI Assistant",
+        "Knowledge Management",
+        "Open Source",
+        "Privacy-Focused",
+        "Cross-Platform"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1775701502
     }
   ]
 }
