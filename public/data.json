@@ -2334,5 +2334,30 @@
     ],
     "tldr": "一个开源的个人 AI 助手，可帮助用户管理知识并进行自然语言搜索",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-09-khoj-ai.md"
+  },
+  {
+    "month": "202604",
+    "name": "unihub",
+    "url": "https://github.com/t8y2/unihub",
+    "timestamp": 1775813831,
+    "tags": [
+      "Cross-Platform",
+      "Plugin System",
+      "Productivity",
+      "Developer Tools",
+      "Electron App"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一个基于 Electron 的现代化跨平台工具集应用，支持强大的插件系统和插件市场",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-10-unihub.md"
   }
 ]

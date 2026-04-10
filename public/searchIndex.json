@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-09T02:25:19.733Z",
+  "updatedAt": "2026-04-10T09:37:27.890Z",
   "tools": [
     {
       "name": "Starship",
@@ -2444,6 +2444,31 @@
         "Text Input & Writing"
       ],
       "timestamp": 1775701502
+    },
+    {
+      "name": "unihub",
+      "url": "https://github.com/t8y2/unihub",
+      "tldr": "一个基于 Electron 的现代化跨平台工具集应用，支持强大的插件系统和插件市场",
+      "scenarios": [
+        "作为桌面工具集合，集成多种实用功能",
+        "通过插件系统扩展应用功能",
+        "提供统一的工具入口和搜索功能",
+        "支持开发者自定义和创建插件",
+        "作为开发者的生产力工具平台"
+      ],
+      "tags": [
+        "Cross-Platform",
+        "Plugin System",
+        "Productivity",
+        "Developer Tools",
+        "Electron App"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1775813831
     }
   ]
 }
