@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-14T02:22:16.393Z",
+  "updatedAt": "2026-04-14T02:30:25.592Z",
   "tools": [
     {
       "name": "Starship",
@@ -2544,6 +2544,30 @@
         "Developer Tools"
       ],
       "timestamp": 1776133315
+    },
+    {
+      "name": "tealdeer",
+      "url": "https://github.com/tealdeer-rs/tealdeer",
+      "tldr": "用 Rust 编写的快速 tldr 实现，提供简洁的命令行帮助文档",
+      "scenarios": [
+        "快速查找命令用法示例",
+        "学习新命令的基本用法",
+        "避免阅读冗长的 man 文档",
+        "在开发过程中快速获取命令信息",
+        "为团队提供一致的命令参考"
+      ],
+      "tags": [
+        "Command-Line",
+        "Documentation",
+        "Rust",
+        "Developer-Tool",
+        "Open-Source"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1776133808
     }
   ]
 }

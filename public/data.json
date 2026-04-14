@@ -2437,5 +2437,29 @@
     ],
     "tldr": "一个简化的命令行工具速查表，提供简洁实用的命令说明",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-14-tldr.md"
+  },
+  {
+    "month": "202604",
+    "name": "tealdeer",
+    "url": "https://github.com/tealdeer-rs/tealdeer",
+    "timestamp": 1776133808,
+    "tags": [
+      "Command-Line",
+      "Documentation",
+      "Rust",
+      "Developer-Tool",
+      "Open-Source"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "用 Rust 编写的快速 tldr 实现，提供简洁的命令行帮助文档",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-14-tealdeer.md"
   }
 ]
