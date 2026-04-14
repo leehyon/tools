@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-10T09:37:27.890Z",
+  "updatedAt": "2026-04-14T01:28:23.020Z",
   "tools": [
     {
       "name": "Starship",
@@ -2469,6 +2469,31 @@
         "System & Automation"
       ],
       "timestamp": 1775813831
+    },
+    {
+      "name": "llm_wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "tldr": "将文档自动转换为组织化、相互链接的知识库，支持多平台桌面应用",
+      "scenarios": [
+        "研究人员整理文献笔记并建立知识网络",
+        "企业构建内部知识管理系统",
+        "个人学习者管理学习资料和笔记",
+        "团队协作共享和整合知识资源",
+        "内容创作者收集和关联灵感素材"
+      ],
+      "tags": [
+        "Knowledge Base",
+        "AI-Powered",
+        "Cross-Platform",
+        "Document Organization",
+        "Semantic Search"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Developer Tools"
+      ],
+      "timestamp": 1776130086
     }
   ]
 }

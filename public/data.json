@@ -2359,5 +2359,31 @@
     ],
     "tldr": "一个基于 Electron 的现代化跨平台工具集应用，支持强大的插件系统和插件市场",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-10-unihub.md"
+  },
+  {
+    "month": "202604",
+    "name": "llm_wiki",
+    "url": "https://github.com/nashsu/llm_wiki",
+    "timestamp": 1776130086,
+    "tags": [
+      "Knowledge Base",
+      "AI-Powered",
+      "Cross-Platform",
+      "Document Organization",
+      "Semantic Search"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Browser Extension"
+    ],
+    "tldr": "将文档自动转换为组织化、相互链接的知识库，支持多平台桌面应用",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-14-llm_wiki.md"
   }
 ]
