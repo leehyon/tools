@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-14T01:28:23.020Z",
+  "updatedAt": "2026-04-14T02:18:06.859Z",
   "tools": [
     {
       "name": "Starship",
@@ -2494,6 +2494,31 @@
         "Developer Tools"
       ],
       "timestamp": 1776130086
+    },
+    {
+      "name": "navi",
+      "url": "https://github.com/denisidoro/navi",
+      "tldr": "一个交互式命令行速查表工具，帮助用户快速查找和执行命令",
+      "scenarios": [
+        "查找不熟悉的命令行用法",
+        "避免记忆复杂的CLI参数",
+        "减少复制粘贴中间命令输出的麻烦",
+        "学习新的命令行技巧",
+        "在SSH会话中使用速查表"
+      ],
+      "tags": [
+        "Command-Line",
+        "Cheatsheets",
+        "Productivity",
+        "CLI",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1776133069
     }
   ]
 }
