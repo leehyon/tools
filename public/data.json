@@ -2410,5 +2410,32 @@
     ],
     "tldr": "一个交互式命令行速查表工具，帮助用户快速查找和执行命令",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-14-navi.md"
+  },
+  {
+    "month": "202604",
+    "name": "tldr",
+    "url": "https://github.com/tldr-pages/tldr",
+    "timestamp": 1776133315,
+    "tags": [
+      "Command Line",
+      "Documentation",
+      "Reference",
+      "Open Source",
+      "Developer Tool"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Linux",
+      "Mac",
+      "Windows",
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "tldr": "一个简化的命令行工具速查表，提供简洁实用的命令说明",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-14-tldr.md"
   }
 ]

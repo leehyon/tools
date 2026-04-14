@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-14T02:18:06.859Z",
+  "updatedAt": "2026-04-14T02:22:16.393Z",
   "tools": [
     {
       "name": "Starship",
@@ -2519,6 +2519,31 @@
         "System & Automation"
       ],
       "timestamp": 1776133069
+    },
+    {
+      "name": "tldr",
+      "url": "https://github.com/tldr-pages/tldr",
+      "tldr": "一个简化的命令行工具速查表，提供简洁实用的命令说明",
+      "scenarios": [
+        "快速查找 Linux 命令用法",
+        "记忆复杂命令的参数",
+        "学习新命令的基本功能",
+        "作为传统 man 页面的替代方案",
+        "跨平台获取命令参考",
+        "帮助开发者提高工作效率"
+      ],
+      "tags": [
+        "Command Line",
+        "Documentation",
+        "Reference",
+        "Open Source",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1776133315
     }
   ]
 }
