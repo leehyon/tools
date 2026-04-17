@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-17T01:55:50.378Z",
+  "updatedAt": "2026-04-17T01:56:45.786Z",
   "tools": [
     {
       "name": "Starship",
@@ -2592,6 +2592,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1776390934
+    },
+    {
+      "name": "OpenToggl",
+      "url": "https://opentoggl.com/",
+      "tldr": "一款开源自托管的时间追踪工具，兼容 Toggl API，无座位限制",
+      "scenarios": [
+        "个人或团队追踪工作时间",
+        "项目管理中的工时统计",
+        "自由职业者记录客户项目时间",
+        "远程工作团队的时间协作",
+        "提高工作效率和生产力分析"
+      ],
+      "tags": [
+        "Time Tracking",
+        "Open Source",
+        "Self-Hosted",
+        "Privacy-Focused",
+        "API Compatible"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Data & Analytics"
+      ],
+      "timestamp": 1776390989
     }
   ]
 }
