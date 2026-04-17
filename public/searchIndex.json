@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-14T02:30:25.592Z",
+  "updatedAt": "2026-04-17T01:55:50.378Z",
   "tools": [
     {
       "name": "Starship",
@@ -2568,6 +2568,30 @@
         "Developer Tools"
       ],
       "timestamp": 1776133808
+    },
+    {
+      "name": "Recordly",
+      "url": "https://recordly.dev/",
+      "tldr": "一款开源屏幕录制工具 提供 自动缩放 光标动画 美化背景 功能",
+      "scenarios": [
+        "创建软件教程和演示视频",
+        "录制产品功能展示",
+        "制作社交媒体短视频内容",
+        "录制在线课程和培训材料",
+        "录制游戏玩法或操作流程"
+      ],
+      "tags": [
+        "Screen Recording",
+        "Open Source",
+        "Video Editing",
+        "Tutorial Creation",
+        "Free"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1776390934
     }
   ]
 }
