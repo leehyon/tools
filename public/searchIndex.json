@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-17T01:56:45.786Z",
+  "updatedAt": "2026-04-17T02:30:31.527Z",
   "tools": [
     {
       "name": "Starship",
@@ -2617,6 +2617,30 @@
         "Data & Analytics"
       ],
       "timestamp": 1776390989
+    },
+    {
+      "name": "openhealth",
+      "url": "https://github.com/jonnonz1/openhealth",
+      "tldr": "将 Apple 健康数据导出为 LLM 可读的 Markdown 文件，无需上传服务器",
+      "scenarios": [
+        "将 iPhone 健康数据转换为结构化 Markdown 文件",
+        "将健康数据提供给 ChatGPT 或 Claude 等大语言模型",
+        "在本地处理健康数据，确保隐私安全",
+        "将健康数据打包成单个文件便于分析",
+        "使用 Ollama 在本地运行模型分析健康数据"
+      ],
+      "tags": [
+        "Privacy-Focused",
+        "Data Conversion",
+        "Health Data",
+        "LLM Integration",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1776393012
     }
   ]
 }

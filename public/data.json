@@ -2507,5 +2507,31 @@
     ],
     "tldr": "一款开源自托管的时间追踪工具，兼容 Toggl API，无座位限制",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-17-opentoggl.md"
+  },
+  {
+    "month": "202604",
+    "name": "openhealth",
+    "url": "https://github.com/jonnonz1/openhealth",
+    "timestamp": 1776393012,
+    "tags": [
+      "Privacy-Focused",
+      "Data Conversion",
+      "Health Data",
+      "LLM Integration",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web",
+      "Mac",
+      "Linux",
+      "iOS",
+      "Android"
+    ],
+    "tldr": "将 Apple 健康数据导出为 LLM 可读的 Markdown 文件，无需上传服务器",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-17-openhealth.md"
   }
 ]
