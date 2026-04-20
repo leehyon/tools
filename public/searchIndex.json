@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-20T05:28:59.273Z",
+  "updatedAt": "2026-04-20T05:58:36.545Z",
   "tools": [
     {
       "name": "Starship",
@@ -2668,6 +2668,31 @@
         "File Management"
       ],
       "timestamp": 1776662920
+    },
+    {
+      "name": "jan",
+      "url": "https://github.com/janhq/jan",
+      "tldr": "开源 ChatGPT 替代品，可在电脑上完全离线运行",
+      "scenarios": [
+        "本地部署大语言模型进行对话",
+        "保护隐私的 AI 聊天体验",
+        "无需联网使用 AI 助手",
+        "自定义和训练自己的 AI 模型",
+        "开发者集成本地 AI 能力"
+      ],
+      "tags": [
+        "Open Source",
+        "Offline AI",
+        "Privacy Focused",
+        "Local LLM",
+        "ChatGPT Alternative"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Media & Creativity"
+      ],
+      "timestamp": 1776664698
     }
   ]
 }

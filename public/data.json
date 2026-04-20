@@ -2556,5 +2556,30 @@
     ],
     "tldr": "一款浏览器扩展工具 帮助用户管理标签页和书签 整理浏览历史 提高工作效率",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-20-session-buddy.md"
+  },
+  {
+    "month": "202604",
+    "name": "jan",
+    "url": "https://github.com/janhq/jan",
+    "timestamp": 1776664698,
+    "tags": [
+      "Open Source",
+      "Offline AI",
+      "Privacy Focused",
+      "Local LLM",
+      "ChatGPT Alternative"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "开源 ChatGPT 替代品，可在电脑上完全离线运行",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-20-jan.md"
   }
 ]
