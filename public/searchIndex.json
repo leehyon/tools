@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-17T02:30:31.527Z",
+  "updatedAt": "2026-04-20T05:28:59.273Z",
   "tools": [
     {
       "name": "Starship",
@@ -2641,6 +2641,33 @@
         "Data & Analytics"
       ],
       "timestamp": 1776393012
+    },
+    {
+      "name": "Session Buddy",
+      "url": "https://sessionbuddy.com/",
+      "tldr": "一款浏览器扩展工具 帮助用户管理标签页和书签 整理浏览历史 提高工作效率",
+      "scenarios": [
+        "管理大量打开的浏览器标签页",
+        "保存和恢复浏览会话",
+        "组织书签和收藏夹",
+        "恢复已关闭或丢失的标签页",
+        "在不同设备间同步标签页",
+        "搜索和查找特定的标签页或书签",
+        "分享标签页列表给他人"
+      ],
+      "tags": [
+        "Tab Management",
+        "Bookmark Organizer",
+        "Privacy Focused",
+        "Browser Extension",
+        "Session Management"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Developer Tools",
+        "File Management"
+      ],
+      "timestamp": 1776662920
     }
   ]
 }
