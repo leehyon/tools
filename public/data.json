@@ -2581,5 +2581,28 @@
     ],
     "tldr": "开源 ChatGPT 替代品，可在电脑上完全离线运行",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-20-jan.md"
+  },
+  {
+    "month": "202604",
+    "name": "html-ppt-skill",
+    "url": "https://github.com/lewislulu/html-ppt-skill",
+    "timestamp": 1776733962,
+    "tags": [
+      "Presentation Tool",
+      "HTML-based",
+      "Web Design",
+      "Animation",
+      "Developer Tool"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个基于 HTML 的专业演示工具，提供 36 主题、31 布局、47 种动画和真正的演示者模式",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-21-html-ppt-skill.md"
   }
 ]

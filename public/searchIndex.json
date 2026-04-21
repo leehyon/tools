@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-20T05:58:36.545Z",
+  "updatedAt": "2026-04-21T01:12:55.142Z",
   "tools": [
     {
       "name": "Starship",
@@ -2693,6 +2693,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1776664698
+    },
+    {
+      "name": "html-ppt-skill",
+      "url": "https://github.com/lewislulu/html-ppt-skill",
+      "tldr": "一个基于 HTML 的专业演示工具，提供 36 主题、31 布局、47 种动画和真正的演示者模式",
+      "scenarios": [
+        "创建技术分享演示文稿",
+        "制作产品发布会幻灯片",
+        "生成小红书图文内容",
+        "构建知识图谱展示",
+        "制作课程模块幻灯片",
+        "开发终端风格的演示"
+      ],
+      "tags": [
+        "Presentation Tool",
+        "HTML-based",
+        "Web Design",
+        "Animation",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1776733962
     }
   ]
 }
