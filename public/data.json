@@ -2604,5 +2604,27 @@
     ],
     "tldr": "一个基于 HTML 的专业演示工具，提供 36 主题、31 布局、47 种动画和真正的演示者模式",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-21-html-ppt-skill.md"
+  },
+  {
+    "month": "202604",
+    "name": "Subtitle Edit",
+    "url": "https://www.nikse.dk/subtitleedit",
+    "timestamp": 1776822366,
+    "tags": [
+      "Subtitle Editor",
+      "Free",
+      "Open Source",
+      "Video Editing",
+      "Format Converter"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Windows"
+    ],
+    "tldr": "一款免费开源的字幕编辑器，支持创建调整同步翻译字幕，兼容 300+ 种格式",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-22-subtitle-edit.md"
   }
 ]
