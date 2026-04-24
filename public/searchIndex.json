@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-24T02:07:31.377Z",
+  "updatedAt": "2026-04-24T02:10:24.432Z",
   "tools": [
     {
       "name": "Starship",
@@ -2794,6 +2794,30 @@
         "Media & Creativity"
       ],
       "timestamp": 1776996434
+    },
+    {
+      "name": "Laws of Software Engineering",
+      "url": "https://lawsofsoftwareengineering.com/",
+      "tldr": "A collection of 56 principles and patterns that shape software systems, teams, and decisions",
+      "scenarios": [
+        "软件开发团队参考最佳实践",
+        "软件架构师设计系统架构",
+        "项目经理制定开发计划",
+        "质量保证团队优化测试策略",
+        "技术决策者权衡方案取舍"
+      ],
+      "tags": [
+        "Software Engineering",
+        "Best Practices",
+        "Principles",
+        "Patterns",
+        "Reference"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools"
+      ],
+      "timestamp": 1776996605
     }
   ]
 }
