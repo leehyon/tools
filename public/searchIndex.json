@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-24T02:06:33.708Z",
+  "updatedAt": "2026-04-24T02:07:31.377Z",
   "tools": [
     {
       "name": "Starship",
@@ -2769,6 +2769,31 @@
         "Security & Privacy"
       ],
       "timestamp": 1776996374
+    },
+    {
+      "name": "himi-recorder",
+      "url": "https://github.com/jrainlau/himi-recorder",
+      "tldr": "一款具有隐身能力的 macOS 录屏工具，绕过系统录屏检测机制，让被录制应用无法感知正在被录屏",
+      "scenarios": [
+        "录制应用演示视频而不触发应用内的防录屏机制",
+        "制作教程视频时避免被录制软件检测到",
+        "录制游戏或受保护内容而不被检测",
+        "录制屏幕内容并直接导出或复制到剪贴板",
+        "自定义录制区域和帧率以满足不同需求"
+      ],
+      "tags": [
+        "Screen Recording",
+        "Anti-Detection",
+        "macOS",
+        "Privacy",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Media & Creativity"
+      ],
+      "timestamp": 1776996434
     }
   ]
 }

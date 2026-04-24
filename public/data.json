@@ -2648,5 +2648,28 @@
     ],
     "tldr": "一款网络监控工具，让用户能够查看并控制应用程序的网络连接活动",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-24-little-snitch-for-linux.md"
+  },
+  {
+    "month": "202604",
+    "name": "himi-recorder",
+    "url": "https://github.com/jrainlau/himi-recorder",
+    "timestamp": 1776996434,
+    "tags": [
+      "Screen Recording",
+      "Anti-Detection",
+      "macOS",
+      "Privacy",
+      "Developer Tool"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "一款具有隐身能力的 macOS 录屏工具，绕过系统录屏检测机制，让被录制应用无法感知正在被录屏",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-24-himi-recorder.md"
   }
 ]
