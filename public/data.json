@@ -2626,5 +2626,27 @@
     ],
     "tldr": "一款免费开源的字幕编辑器，支持创建调整同步翻译字幕，兼容 300+ 种格式",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-22-subtitle-edit.md"
+  },
+  {
+    "month": "202604",
+    "name": "Little Snitch for Linux",
+    "url": "https://obdev.at/products/littlesnitch-linux/index.html",
+    "timestamp": 1776996374,
+    "tags": [
+      "Network Monitoring",
+      "Firewall",
+      "Privacy Protection",
+      "Connection Control",
+      "Linux Security"
+    ],
+    "categories": [
+      "System & Automation",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Linux"
+    ],
+    "tldr": "一款网络监控工具，让用户能够查看并控制应用程序的网络连接活动",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-24-little-snitch-for-linux.md"
   }
 ]

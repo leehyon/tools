@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-22T01:46:21.567Z",
+  "updatedAt": "2026-04-24T02:06:33.708Z",
   "tools": [
     {
       "name": "Starship",
@@ -2743,6 +2743,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1776822366
+    },
+    {
+      "name": "Little Snitch for Linux",
+      "url": "https://obdev.at/products/littlesnitch-linux/index.html",
+      "tldr": "一款网络监控工具，让用户能够查看并控制应用程序的网络连接活动",
+      "scenarios": [
+        "监控应用程序的网络连接行为",
+        "阻止未经授权的数据传输",
+        "跟踪流量历史和数据使用量",
+        "管理网络连接规则",
+        "阻止特定域名的访问",
+        "保护隐私，防止软件'打电话回家'",
+        "通过Web界面管理网络策略"
+      ],
+      "tags": [
+        "Network Monitoring",
+        "Firewall",
+        "Privacy Protection",
+        "Connection Control",
+        "Linux Security"
+      ],
+      "categories": [
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1776996374
     }
   ]
 }
