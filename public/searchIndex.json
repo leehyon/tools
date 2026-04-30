@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-24T02:10:24.432Z",
+  "updatedAt": "2026-04-30T01:54:14.038Z",
   "tools": [
     {
       "name": "Starship",
@@ -2818,6 +2818,30 @@
         "Developer Tools"
       ],
       "timestamp": 1776996605
+    },
+    {
+      "name": "MemOS",
+      "url": "https://memos-docs.openmem.net/",
+      "tldr": "一个为 AI 应用提供长期记忆能力的开源 SDK 与云服务",
+      "scenarios": [
+        "为 AI 助手添加长期记忆功能",
+        "集成 MemOS 到 Agent 框架如 Coze 和 Dify",
+        "构建具有记忆能力的金融 AI 助手",
+        "在私有环境中部署定制化记忆模型",
+        "通过 API 为应用添加记忆服务"
+      ],
+      "tags": [
+        "AI Memory",
+        "Open Source",
+        "SDK",
+        "Cloud Service",
+        "Long-term Memory"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools"
+      ],
+      "timestamp": 1777514037
     }
   ]
 }

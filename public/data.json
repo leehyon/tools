@@ -2693,5 +2693,27 @@
     ],
     "tldr": "A collection of 56 principles and patterns that shape software systems, teams, and decisions",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-24-laws-of-software-engineering.md"
+  },
+  {
+    "month": "202604",
+    "name": "MemOS",
+    "url": "https://memos-docs.openmem.net/",
+    "timestamp": 1777514037,
+    "tags": [
+      "AI Memory",
+      "Open Source",
+      "SDK",
+      "Cloud Service",
+      "Long-term Memory"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个为 AI 应用提供长期记忆能力的开源 SDK 与云服务",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-30-memos.md"
   }
 ]
