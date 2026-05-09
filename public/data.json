@@ -2765,5 +2765,30 @@
     ],
     "tldr": "Marker 是一个快速准确地将 PDF、图像等文档转换为 Markdown、JSON、HTML 等格式的工具",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-09-marker.md"
+  },
+  {
+    "month": "202605",
+    "name": "grobid",
+    "url": "https://github.com/grobidOrg/grobid",
+    "timestamp": 1778290933,
+    "tags": [
+      "Machine Learning",
+      "PDF Processing",
+      "Text Mining",
+      "Academic Research",
+      "Natural Language Processing"
+    ],
+    "categories": [
+      "Reading & Information",
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Linux",
+      "Mac",
+      "Web"
+    ],
+    "tldr": "A machine learning library for extracting structured data from academic PDF documents",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-09-grobid.md"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-09T01:41:36.106Z",
+  "updatedAt": "2026-05-09T01:42:37.861Z",
   "tools": [
     {
       "name": "Starship",
@@ -2893,6 +2893,31 @@
         "Data & Analytics"
       ],
       "timestamp": 1778290876
+    },
+    {
+      "name": "grobid",
+      "url": "https://github.com/grobidOrg/grobid",
+      "tldr": "A machine learning library for extracting structured data from academic PDF documents",
+      "scenarios": [
+        "从学术论文中提取引用信息",
+        "解析PDF文档的元数据和结构",
+        "处理大量科学文献进行数据挖掘",
+        "识别文档中的作者、机构和关键词",
+        "将非结构化PDF转换为结构化XML/TEI格式"
+      ],
+      "tags": [
+        "Machine Learning",
+        "PDF Processing",
+        "Text Mining",
+        "Academic Research",
+        "Natural Language Processing"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1778290933
     }
   ]
 }
