@@ -2715,5 +2715,29 @@
     ],
     "tldr": "一个为 AI 应用提供长期记忆能力的开源 SDK 与云服务",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202604/2026-04-30-memos.md"
+  },
+  {
+    "month": "202605",
+    "name": "Docling",
+    "url": "https://docling-project.github.io/docling/",
+    "timestamp": 1778290776,
+    "tags": [
+      "Document Processing",
+      "PDF Understanding",
+      "OCR",
+      "AI Integration",
+      "Multi-format Support"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web",
+      "CLI"
+    ],
+    "tldr": "Docling 是一款文档处理工具，支持多种格式解析与高级 PDF 理解，并能与生成式 AI 生态系统无缝集成",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-09-docling.md"
   }
 ]

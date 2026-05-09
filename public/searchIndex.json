@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-04-30T01:54:14.038Z",
+  "updatedAt": "2026-05-09T01:39:53.149Z",
   "tools": [
     {
       "name": "Starship",
@@ -2842,6 +2842,32 @@
         "Developer Tools"
       ],
       "timestamp": 1777514037
+    },
+    {
+      "name": "Docling",
+      "url": "https://docling-project.github.io/docling/",
+      "tldr": "Docling 是一款文档处理工具，支持多种格式解析与高级 PDF 理解，并能与生成式 AI 生态系统无缝集成",
+      "scenarios": [
+        "将复杂文档转换为结构化数据",
+        "从 PDF 中提取表格和图像内容",
+        "处理扫描文档并进行 OCR 识别",
+        "将文档内容用于 AI 检索增强生成",
+        "批量转换多种格式的文档",
+        "处理敏感文档并在本地环境执行"
+      ],
+      "tags": [
+        "Document Processing",
+        "PDF Understanding",
+        "OCR",
+        "AI Integration",
+        "Multi-format Support"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1778290776
     }
   ]
 }
