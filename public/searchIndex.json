@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-09T01:39:53.149Z",
+  "updatedAt": "2026-05-09T01:41:36.106Z",
   "tools": [
     {
       "name": "Starship",
@@ -2868,6 +2868,31 @@
         "Data & Analytics"
       ],
       "timestamp": 1778290776
+    },
+    {
+      "name": "marker",
+      "url": "https://github.com/datalab-to/marker",
+      "tldr": "Marker 是一个快速准确地将 PDF、图像等文档转换为 Markdown、JSON、HTML 等格式的工具",
+      "scenarios": [
+        "将学术论文 PDF 转换为可编辑的 Markdown 格式",
+        "批量处理扫描文档并提取结构化数据",
+        "从 PDF 中提取表格并转换为可用的数据格式",
+        "将教科书内容转换为电子阅读友好格式",
+        "自动化文档处理流程以节省时间"
+      ],
+      "tags": [
+        "Document Conversion",
+        "PDF Processing",
+        "OCR",
+        "Markdown",
+        "Open Source"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1778290876
     }
   ]
 }
