@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-11T02:07:01.145Z",
+  "updatedAt": "2026-05-11T02:11:56.613Z",
   "tools": [
     {
       "name": "Starship",
@@ -2993,6 +2993,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1778465202
+    },
+    {
+      "name": "小遥账单",
+      "url": "https://github.com/dtsola/xiaoyaoprivatebill",
+      "tldr": "一款隐私优先的个人账单分析工具，支持支付宝微信账单智能分析，帮助用户看清每一分钱的去向",
+      "scenarios": [
+        "分析个人消费习惯，优化财务规划",
+        "追踪支付宝和微信账单明细",
+        "生成年度和月度消费报告",
+        "发现不必要支出，节省开支",
+        "通过分类分析了解消费结构"
+      ],
+      "tags": [
+        "Privacy-First",
+        "Finance Analytics",
+        "Bill Management",
+        "Data Visualization",
+        "Open Source"
+      ],
+      "categories": [
+        "Reading & Information",
+        "File Management",
+        "Data & Analytics"
+      ],
+      "timestamp": 1778465498
     }
   ]
 }
