@@ -2839,5 +2839,30 @@
     ],
     "tldr": "一个完整的 AI 代理集合，提供各领域专家角色，帮助用户完成从开发到营销的各种任务",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-11-agency-agents.md"
+  },
+  {
+    "month": "202605",
+    "name": "RapidRAW",
+    "url": "https://github.com/CyberTimon/RapidRAW",
+    "timestamp": 1778465202,
+    "tags": [
+      "RAW Editing",
+      "GPU Accelerated",
+      "Non-destructive",
+      "AI Masking",
+      "Cross-platform"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Windows",
+      "Mac",
+      "Linux",
+      "Android"
+    ],
+    "tldr": "一款轻量级非破坏性 RAW 图像编辑器，具有 GPU 加速和现代化界面",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-11-rapidraw.md"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-11T01:48:36.513Z",
+  "updatedAt": "2026-05-11T02:07:01.145Z",
   "tools": [
     {
       "name": "Starship",
@@ -2969,6 +2969,30 @@
         "Data & Analytics"
       ],
       "timestamp": 1778464089
+    },
+    {
+      "name": "RapidRAW",
+      "url": "https://github.com/CyberTimon/RapidRAW",
+      "tldr": "一款轻量级非破坏性 RAW 图像编辑器，具有 GPU 加速和现代化界面",
+      "scenarios": [
+        "专业摄影师进行 RAW 图像后期处理",
+        "需要快速编辑大量照片的摄影爱好者",
+        "寻求轻量级替代 Adobe Lightroom 的用户",
+        "需要 AI 辅助图像编辑功能的创意工作者",
+        "进行批量图像处理和导出的摄影师"
+      ],
+      "tags": [
+        "RAW Editing",
+        "GPU Accelerated",
+        "Non-destructive",
+        "AI Masking",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1778465202
     }
   ]
 }
