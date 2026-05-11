@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-09T01:42:37.861Z",
+  "updatedAt": "2026-05-11T01:42:33.048Z",
   "tools": [
     {
       "name": "Starship",
@@ -2918,6 +2918,31 @@
         "Data & Analytics"
       ],
       "timestamp": 1778290933
+    },
+    {
+      "name": "video-helper",
+      "url": "https://github.com/LDJ-creat/video-helper",
+      "tldr": "AI 视频学习助手，自动生成 B站/YouTube/抖音/本地视频的思维导图、笔记与总结，支持播客分析与视频索引",
+      "scenarios": [
+        "在线课程学习与笔记整理",
+        "视频内容快速提取关键信息",
+        "播客内容分析与知识管理",
+        "视频知识点生成练习题",
+        "视频内容结构化呈现"
+      ],
+      "tags": [
+        "AI-Powered",
+        "Video Analysis",
+        "Mind Mapping",
+        "Knowledge Management",
+        "Note-Taking"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Developer Tools"
+      ],
+      "timestamp": 1778463736
     }
   ]
 }

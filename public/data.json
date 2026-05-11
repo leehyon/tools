@@ -2790,5 +2790,31 @@
     ],
     "tldr": "A machine learning library for extracting structured data from academic PDF documents",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-09-grobid.md"
+  },
+  {
+    "month": "202605",
+    "name": "video-helper",
+    "url": "https://github.com/LDJ-creat/video-helper",
+    "timestamp": 1778463736,
+    "tags": [
+      "AI-Powered",
+      "Video Analysis",
+      "Mind Mapping",
+      "Knowledge Management",
+      "Note-Taking"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "tldr": "AI 视频学习助手，自动生成 B站/YouTube/抖音/本地视频的思维导图、笔记与总结，支持播客分析与视频索引",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-11-video-helper.md"
   }
 ]
