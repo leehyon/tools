@@ -2816,5 +2816,28 @@
     ],
     "tldr": "AI 视频学习助手，自动生成 B站/YouTube/抖音/本地视频的思维导图、笔记与总结，支持播客分析与视频索引",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-11-video-helper.md"
+  },
+  {
+    "month": "202605",
+    "name": "agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "timestamp": 1778464089,
+    "tags": [
+      "AI Agents",
+      "Specialized Experts",
+      "Productivity",
+      "Multi-Tool Integration",
+      "Workflow Automation"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个完整的 AI 代理集合，提供各领域专家角色，帮助用户完成从开发到营销的各种任务",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-11-agency-agents.md"
   }
 ]

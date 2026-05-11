@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-11T01:42:33.048Z",
+  "updatedAt": "2026-05-11T01:48:36.513Z",
   "tools": [
     {
       "name": "Starship",
@@ -2943,6 +2943,32 @@
         "Developer Tools"
       ],
       "timestamp": 1778463736
+    },
+    {
+      "name": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "tldr": "一个完整的 AI 代理集合，提供各领域专家角色，帮助用户完成从开发到营销的各种任务",
+      "scenarios": [
+        "需要专业的 AI 代理协助软件开发",
+        "需要市场营销和内容创作支持",
+        "需要项目管理和质量测试帮助",
+        "需要设计和用户体验指导",
+        "需要销售和客户服务支持",
+        "需要空间计算和 XR 技术开发"
+      ],
+      "tags": [
+        "AI Agents",
+        "Specialized Experts",
+        "Productivity",
+        "Multi-Tool Integration",
+        "Workflow Automation"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity",
+        "Data & Analytics"
+      ],
+      "timestamp": 1778464089
     }
   ]
 }
