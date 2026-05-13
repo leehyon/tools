@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-11T02:11:56.613Z",
+  "updatedAt": "2026-05-13T01:30:13.591Z",
   "tools": [
     {
       "name": "Starship",
@@ -3018,6 +3018,30 @@
         "Data & Analytics"
       ],
       "timestamp": 1778465498
+    },
+    {
+      "name": "publa",
+      "url": "https://github.com/oldj/publa",
+      "tldr": "基于 Next.js 的动态博客系统，支持 SQLite 与 PostgreSQL 数据库，提供完整的博客创建与管理功能",
+      "scenarios": [
+        "个人博客搭建与管理",
+        "团队内容创作与发布",
+        "技术文档分享平台",
+        "知识库建设与维护",
+        "多用户协作编辑内容"
+      ],
+      "tags": [
+        "Blog Platform",
+        "Next.js",
+        "Dynamic Content",
+        "Multi-Database",
+        "Open Source"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1778635788
     }
   ]
 }
