@@ -2979,5 +2979,27 @@
     ],
     "tldr": "一个整合 RSS 阅读、全文抓取和 AI 辅助理解的信息阅读器，让信息处理更高效",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-15-feedfuse.md"
+  },
+  {
+    "month": "202605",
+    "name": "kooky",
+    "url": "https://github.com/iAmCorey/kooky",
+    "timestamp": 1778815407,
+    "tags": [
+      "AI Coding",
+      "Terminal",
+      "SwiftUI",
+      "Multi-pane",
+      "Local-first"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "A minimal modern terminal for AI coding experience with split panes and agent support",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-15-kooky.md"
   }
 ]

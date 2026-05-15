@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-15T03:22:43.215Z",
+  "updatedAt": "2026-05-15T03:23:42.354Z",
   "tools": [
     {
       "name": "Starship",
@@ -3114,6 +3114,30 @@
         "Developer Tools"
       ],
       "timestamp": 1778815345
+    },
+    {
+      "name": "kooky",
+      "url": "https://github.com/iAmCorey/kooky",
+      "tldr": "A minimal modern terminal for AI coding experience with split panes and agent support",
+      "scenarios": [
+        "AI 辅助编程会话管理",
+        "多任务并行开发环境",
+        "实时代码审查与协作",
+        "跨项目工作区切换",
+        "AI 编程助手快速启动"
+      ],
+      "tags": [
+        "AI Coding",
+        "Terminal",
+        "SwiftUI",
+        "Multi-pane",
+        "Local-first"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1778815407
     }
   ]
 }
