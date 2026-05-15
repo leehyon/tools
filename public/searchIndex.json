@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-15T03:11:31.831Z",
+  "updatedAt": "2026-05-15T03:18:35.953Z",
   "tools": [
     {
       "name": "Starship",
@@ -3065,6 +3065,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1778814664
+    },
+    {
+      "name": "gitforms",
+      "url": "https://github.com/Luigigreco/gitforms",
+      "tldr": "一个零成本的表单解决方案，使用 GitHub Issues 作为数据库，无需月费",
+      "scenarios": [
+        "为网站着陆页添加联系表单",
+        "收集销售线索和客户反馈",
+        "创建多语言表单而不需要额外费用",
+        "在小项目中替代付费表单服务",
+        "自定义表单样式和文本内容"
+      ],
+      "tags": [
+        "Open-Source",
+        "Free",
+        "GitHub Integration",
+        "No-Code",
+        "Contact Forms"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "File Management"
+      ],
+      "timestamp": 1778815096
     }
   ]
 }

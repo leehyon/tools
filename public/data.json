@@ -2934,5 +2934,28 @@
     ],
     "tldr": "一款免费开源的绘图与图像编辑工具，简单易用且功能强大",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-15-pinta.md"
+  },
+  {
+    "month": "202605",
+    "name": "gitforms",
+    "url": "https://github.com/Luigigreco/gitforms",
+    "timestamp": 1778815096,
+    "tags": [
+      "Open-Source",
+      "Free",
+      "GitHub Integration",
+      "No-Code",
+      "Contact Forms"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "File Management"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个零成本的表单解决方案，使用 GitHub Issues 作为数据库，无需月费",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-15-gitforms.md"
   }
 ]
