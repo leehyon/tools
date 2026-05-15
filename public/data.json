@@ -2911,5 +2911,28 @@
     ],
     "tldr": "基于 Next.js 的动态博客系统，支持 SQLite 与 PostgreSQL 数据库，提供完整的博客创建与管理功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-13-publa.md"
+  },
+  {
+    "month": "202605",
+    "name": "Pinta",
+    "url": "https://pinta-project.com",
+    "timestamp": 1778814664,
+    "tags": [
+      "Image Editing",
+      "Drawing",
+      "Open Source",
+      "Free",
+      "Cross-platform"
+    ],
+    "categories": [
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一款免费开源的绘图与图像编辑工具，简单易用且功能强大",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-15-pinta.md"
   }
 ]

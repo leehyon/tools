@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-13T01:30:13.591Z",
+  "updatedAt": "2026-05-15T03:11:31.831Z",
   "tools": [
     {
       "name": "Starship",
@@ -3042,6 +3042,29 @@
         "Text Input & Writing"
       ],
       "timestamp": 1778635788
+    },
+    {
+      "name": "Pinta",
+      "url": "https://pinta-project.com",
+      "tldr": "一款免费开源的绘图与图像编辑工具，简单易用且功能强大",
+      "scenarios": [
+        "数字绘画创作",
+        "照片修饰与增强",
+        "像素艺术制作",
+        "简单的图像编辑任务",
+        "快速图像效果处理"
+      ],
+      "tags": [
+        "Image Editing",
+        "Drawing",
+        "Open Source",
+        "Free",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Media & Creativity"
+      ],
+      "timestamp": 1778814664
     }
   ]
 }
