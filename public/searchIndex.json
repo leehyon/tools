@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-15T03:18:35.953Z",
+  "updatedAt": "2026-05-15T03:22:43.215Z",
   "tools": [
     {
       "name": "Starship",
@@ -3090,6 +3090,30 @@
         "File Management"
       ],
       "timestamp": 1778815096
+    },
+    {
+      "name": "FeedFuse",
+      "url": "https://github.com/BryanHoo/FeedFuse",
+      "tldr": "一个整合 RSS 阅读、全文抓取和 AI 辅助理解的信息阅读器，让信息处理更高效",
+      "scenarios": [
+        "跟踪行业动态和新闻资讯",
+        "集中管理多个 RSS 源",
+        "使用 AI 辅助理解复杂内容",
+        "自托管个人阅读平台",
+        "生成多源信息的 AI 解读报告"
+      ],
+      "tags": [
+        "RSS Reader",
+        "AI-Powered",
+        "Self-Hosted",
+        "Knowledge Management",
+        "Open Source"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Developer Tools"
+      ],
+      "timestamp": 1778815345
     }
   ]
 }
