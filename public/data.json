@@ -3001,5 +3001,31 @@
     ],
     "tldr": "A minimal modern terminal for AI coding experience with split panes and agent support",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-15-kooky.md"
+  },
+  {
+    "month": "202605",
+    "name": "openhuman",
+    "url": "https://github.com/tinyhumansai/openhuman",
+    "timestamp": 1778823272,
+    "tags": [
+      "AI Assistant",
+      "Privacy-Focused",
+      "Cross-Platform",
+      "Modular Agents",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "tldr": "一个私密、简单且功能强大的个人 AI 超级智能助手，支持多种平台和自定义代理",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-15-openhuman.md"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-15T03:23:42.354Z",
+  "updatedAt": "2026-05-15T05:34:47.931Z",
   "tools": [
     {
       "name": "Starship",
@@ -3138,6 +3138,29 @@
         "System & Automation"
       ],
       "timestamp": 1778815407
+    },
+    {
+      "name": "openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "tldr": "一个私密、简单且功能强大的个人 AI 超级智能助手，支持多种平台和自定义代理",
+      "scenarios": [
+        "个人知识管理与智能问答",
+        "自动化任务处理与执行",
+        "跨平台 AI 代理协作",
+        "开发工具集成与代码辅助",
+        "隐私保护的 AI 对话体验"
+      ],
+      "tags": [
+        "AI Assistant",
+        "Privacy-Focused",
+        "Cross-Platform",
+        "Modular Agents",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1778823272
     }
   ]
 }
