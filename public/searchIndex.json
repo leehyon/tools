@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-15T05:34:47.931Z",
+  "updatedAt": "2026-05-18T05:56:51.746Z",
   "tools": [
     {
       "name": "Starship",
@@ -3161,6 +3161,30 @@
         "Developer Tools"
       ],
       "timestamp": 1778823272
+    },
+    {
+      "name": "reveal.js",
+      "url": "https://revealjs.com/",
+      "tldr": "一个基于 HTML 的交互式演示框架，支持 Markdown 和丰富的动画效果",
+      "scenarios": [
+        "创建技术演讲和幻灯片",
+        "制作交互式教学材料",
+        "开发产品演示和营销幻灯片",
+        "构建网页形式的创意展示",
+        "制作代码演示和教程"
+      ],
+      "tags": [
+        "Presentation",
+        "Web-based",
+        "Open Source",
+        "Markdown",
+        "Interactive"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1779083790
     }
   ]
 }

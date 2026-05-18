@@ -3027,5 +3027,27 @@
     ],
     "tldr": "一个私密、简单且功能强大的个人 AI 超级智能助手，支持多种平台和自定义代理",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-15-openhuman.md"
+  },
+  {
+    "month": "202605",
+    "name": "reveal.js",
+    "url": "https://revealjs.com/",
+    "timestamp": 1779083790,
+    "tags": [
+      "Presentation",
+      "Web-based",
+      "Open Source",
+      "Markdown",
+      "Interactive"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个基于 HTML 的交互式演示框架，支持 Markdown 和丰富的动画效果",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-18-reveal.js.md"
   }
 ]
