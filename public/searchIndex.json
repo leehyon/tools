@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-18T05:56:51.746Z",
+  "updatedAt": "2026-05-19T09:14:29.362Z",
   "tools": [
     {
       "name": "Starship",
@@ -3185,6 +3185,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1779083790
+    },
+    {
+      "name": "guizang-ppt-skill",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "tldr": "一个适配 Claude Code 等 Agent 环境的网页 PPT 技能，用于生成单文件 HTML 横向翻页 PPT、配图和多平台封面",
+      "scenarios": [
+        "将长文章转换为演讲 PPT",
+        "生成瑞士风或电子杂志风格的幻灯片",
+        "为不同平台创建统一视觉风格的封面",
+        "重新设计产品截图以匹配 PPT 风格",
+        "基于文章或文档创建专业演示文稿"
+      ],
+      "tags": [
+        "AI-Powered",
+        "Presentation",
+        "HTML-Based",
+        "Design System",
+        "Cross-Platform"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1779182049
     }
   ]
 }
