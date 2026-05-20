@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-19T09:14:29.362Z",
+  "updatedAt": "2026-05-20T05:45:23.386Z",
   "tools": [
     {
       "name": "Starship",
@@ -3210,6 +3210,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1779182049
+    },
+    {
+      "name": "ttyd",
+      "url": "https://github.com/tsl0922/ttyd",
+      "tldr": "一个命令行工具，可通过 Web 实时分享终端会话",
+      "scenarios": [
+        "远程技术支持与故障排除",
+        "团队协作展示终端操作",
+        "Web 界面运行命令行工具",
+        "跨设备访问终端环境",
+        "在线编程教学与演示",
+        "服务器管理远程访问"
+      ],
+      "tags": [
+        "Terminal Sharing",
+        "Web-Based",
+        "Cross-Platform",
+        "Remote Access",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Communication"
+      ],
+      "timestamp": 1779255908
     }
   ]
 }
