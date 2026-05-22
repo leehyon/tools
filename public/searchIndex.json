@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-20T05:54:39.903Z",
+  "updatedAt": "2026-05-22T03:37:14.829Z",
   "tools": [
     {
       "name": "Starship",
@@ -3260,6 +3260,30 @@
         "System & Automation"
       ],
       "timestamp": 1779256464
+    },
+    {
+      "name": "Stock SDK",
+      "url": "https://chengzuopeng.github.io/stock-sdk/",
+      "tldr": "面向浏览器与 Node.js 的股票行情 SDK，零依赖，覆盖多市场与技术指标",
+      "scenarios": [
+        "前端行情看板和数据可视化",
+        "Node.js 定时抓取与交易日调度",
+        "量化原型验证和指标分析",
+        "期货、期权与分红事件驱动的数据面板",
+        "AI Agent / MCP 工具链里的实时报价能力"
+      ],
+      "tags": [
+        "Stock Market",
+        "SDK",
+        "TypeScript",
+        "Real-time Data",
+        "Technical Analysis"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1779421015
     }
   ]
 }

@@ -3123,5 +3123,28 @@
     ],
     "tldr": "一个终端复用器，允许用户在一个终端中轻松切换多个程序，可分离和重新连接会话",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-20-tmux.md"
+  },
+  {
+    "month": "202605",
+    "name": "Stock SDK",
+    "url": "https://chengzuopeng.github.io/stock-sdk/",
+    "timestamp": 1779421015,
+    "tags": [
+      "Stock Market",
+      "SDK",
+      "TypeScript",
+      "Real-time Data",
+      "Technical Analysis"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "面向浏览器与 Node.js 的股票行情 SDK，零依赖，覆盖多市场与技术指标",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-22-stock-sdk.md"
   }
 ]
