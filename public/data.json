@@ -3146,5 +3146,29 @@
     ],
     "tldr": "面向浏览器与 Node.js 的股票行情 SDK，零依赖，覆盖多市场与技术指标",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-22-stock-sdk.md"
+  },
+  {
+    "month": "202605",
+    "name": "Forgejo",
+    "url": "https://forgejo.org/",
+    "timestamp": 1779421063,
+    "tags": [
+      "Self-Hosted",
+      "Version Control",
+      "Code Hosting",
+      "Open Source",
+      "Collaboration"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Web",
+      "Browser Extension"
+    ],
+    "tldr": "一个轻量级自托管软件 forge 平台，提供项目协作与管理功能，专注于安全、可扩展性和隐私保护",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-22-forgejo.md"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-22T03:37:14.829Z",
+  "updatedAt": "2026-05-22T03:38:03.677Z",
   "tools": [
     {
       "name": "Starship",
@@ -3284,6 +3284,31 @@
         "Data & Analytics"
       ],
       "timestamp": 1779421015
+    },
+    {
+      "name": "Forgejo",
+      "url": "https://forgejo.org/",
+      "tldr": "一个轻量级自托管软件 forge 平台，提供项目协作与管理功能，专注于安全、可扩展性和隐私保护",
+      "scenarios": [
+        "自托管代码仓库管理",
+        "团队协作软件开发",
+        "替代 GitHub 的开源平台",
+        "轻量级项目托管服务",
+        "隐私优先的代码托管解决方案"
+      ],
+      "tags": [
+        "Self-Hosted",
+        "Version Control",
+        "Code Hosting",
+        "Open Source",
+        "Collaboration"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1779421063
     }
   ]
 }
