@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-26T06:58:31.573Z",
+  "updatedAt": "2026-05-26T07:01:09.166Z",
   "tools": [
     {
       "name": "Starship",
@@ -3409,6 +3409,31 @@
         "Data & Analytics"
       ],
       "timestamp": 1779778690
+    },
+    {
+      "name": "appsmith",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "tldr": "一个开源低代码平台，用于构建管理面板、内部工具和仪表板，支持 25+ 种数据库和任何 API",
+      "scenarios": [
+        "构建企业内部管理面板",
+        "创建数据可视化仪表板",
+        "开发 IT 自动化工具",
+        "构建客户 360 视图系统",
+        "创建服务管理工具"
+      ],
+      "tags": [
+        "Low-code",
+        "Open Source",
+        "Internal Tools",
+        "Dashboard",
+        "Database Integration"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Data & Analytics"
+      ],
+      "timestamp": 1779778846
     }
   ]
 }

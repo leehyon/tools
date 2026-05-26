@@ -3262,5 +3262,28 @@
     ],
     "tldr": "开源商业智能和嵌入式分析工具，支持自然语言查询和AI驱动的数据分析",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-26-metabase.md"
+  },
+  {
+    "month": "202605",
+    "name": "appsmith",
+    "url": "https://github.com/appsmithorg/appsmith",
+    "timestamp": 1779778846,
+    "tags": [
+      "Low-code",
+      "Open Source",
+      "Internal Tools",
+      "Dashboard",
+      "Database Integration"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个开源低代码平台，用于构建管理面板、内部工具和仪表板，支持 25+ 种数据库和任何 API",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-26-appsmith.md"
   }
 ]
