@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-22T03:38:03.677Z",
+  "updatedAt": "2026-05-26T02:50:12.590Z",
   "tools": [
     {
       "name": "Starship",
@@ -3309,6 +3309,30 @@
         "System & Automation"
       ],
       "timestamp": 1779421063
+    },
+    {
+      "name": "9arm-skills",
+      "url": "https://github.com/thananon/9arm-skills",
+      "tldr": "一组 Claude AI 的工程技能集合，帮助开发者提升调试、代码审查和团队沟通效率",
+      "scenarios": [
+        "进行系统化调试和故障排查",
+        "编写工程事故后分析报告",
+        "审查代码变更和计划",
+        "将技术内容转化为管理层可理解的报告",
+        "优化工程师之间的沟通方式"
+      ],
+      "tags": [
+        "AI Assistant",
+        "Engineering Skills",
+        "Code Review",
+        "Debugging",
+        "Technical Communication"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1779763791
     }
   ]
 }

@@ -3170,5 +3170,27 @@
     ],
     "tldr": "一个轻量级自托管软件 forge 平台，提供项目协作与管理功能，专注于安全、可扩展性和隐私保护",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-22-forgejo.md"
+  },
+  {
+    "month": "202605",
+    "name": "9arm-skills",
+    "url": "https://github.com/thananon/9arm-skills",
+    "timestamp": 1779763791,
+    "tags": [
+      "AI Assistant",
+      "Engineering Skills",
+      "Code Review",
+      "Debugging",
+      "Technical Communication"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一组 Claude AI 的工程技能集合，帮助开发者提升调试、代码审查和团队沟通效率",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-26-9arm-skills.md"
   }
 ]
