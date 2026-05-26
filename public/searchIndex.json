@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-26T06:57:27.817Z",
+  "updatedAt": "2026-05-26T06:58:31.573Z",
   "tools": [
     {
       "name": "Starship",
@@ -3386,6 +3386,29 @@
         "Data & Analytics"
       ],
       "timestamp": 1779778628
+    },
+    {
+      "name": "Metabase",
+      "url": "https://www.metabase.com/",
+      "tldr": "开源商业智能和嵌入式分析工具，支持自然语言查询和AI驱动的数据分析",
+      "scenarios": [
+        "团队自助式数据分析",
+        "客户面向的嵌入式分析仪表板",
+        "无需编写代码即可查询数据",
+        "创建交互式数据报告和仪表板",
+        "构建可重用的数据指标和语义层"
+      ],
+      "tags": [
+        "Business Intelligence",
+        "Data Visualization",
+        "Analytics",
+        "Open Source",
+        "Embedded Analytics"
+      ],
+      "categories": [
+        "Data & Analytics"
+      ],
+      "timestamp": 1779778690
     }
   ]
 }

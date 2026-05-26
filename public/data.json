@@ -3241,5 +3241,26 @@
     ],
     "tldr": "一个免费且可自托管的 Airtable 替代方案，提供强大的电子表格界面和数据库功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-26-nocodb.md"
+  },
+  {
+    "month": "202605",
+    "name": "Metabase",
+    "url": "https://www.metabase.com/",
+    "timestamp": 1779778690,
+    "tags": [
+      "Business Intelligence",
+      "Data Visualization",
+      "Analytics",
+      "Open Source",
+      "Embedded Analytics"
+    ],
+    "categories": [
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "开源商业智能和嵌入式分析工具，支持自然语言查询和AI驱动的数据分析",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-26-metabase.md"
   }
 ]
