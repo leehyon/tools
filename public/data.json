@@ -3215,5 +3215,31 @@
     ],
     "tldr": "一款开源的无代码数据库与应用程序构建工具，帮助团队组织数据、构建应用并自动化业务流程，同时保持对数据的完全控制",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-26-baserow.md"
+  },
+  {
+    "month": "202605",
+    "name": "nocodb",
+    "url": "https://github.com/nocodb/nocodb",
+    "timestamp": 1779778628,
+    "tags": [
+      "Database",
+      "Spreadsheet",
+      "Self-hosted",
+      "No-code",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web",
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一个免费且可自托管的 Airtable 替代方案，提供强大的电子表格界面和数据库功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-26-nocodb.md"
   }
 ]

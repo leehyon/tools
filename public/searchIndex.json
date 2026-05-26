@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-26T06:55:22.590Z",
+  "updatedAt": "2026-05-26T06:57:27.817Z",
   "tools": [
     {
       "name": "Starship",
@@ -3360,6 +3360,32 @@
         "Data & Analytics"
       ],
       "timestamp": 1779778502
+    },
+    {
+      "name": "nocodb",
+      "url": "https://github.com/nocodb/nocodb",
+      "tldr": "一个免费且可自托管的 Airtable 替代方案，提供强大的电子表格界面和数据库功能",
+      "scenarios": [
+        "创建和管理项目数据表格",
+        "构建团队协作看板视图",
+        "设计自定义表单和数据收集",
+        "自动化工作流程和通知",
+        "通过 API 或 SDK 访问数据",
+        "创建多视图数据展示界面"
+      ],
+      "tags": [
+        "Database",
+        "Spreadsheet",
+        "Self-hosted",
+        "No-code",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "Data & Analytics"
+      ],
+      "timestamp": 1779778628
     }
   ]
 }
