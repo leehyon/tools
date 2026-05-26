@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-26T02:50:12.590Z",
+  "updatedAt": "2026-05-26T06:55:22.590Z",
   "tools": [
     {
       "name": "Starship",
@@ -3333,6 +3333,33 @@
         "Developer Tools"
       ],
       "timestamp": 1779763791
+    },
+    {
+      "name": "Baserow",
+      "url": "https://baserow.io/",
+      "tldr": "一款开源的无代码数据库与应用程序构建工具，帮助团队组织数据、构建应用并自动化业务流程，同时保持对数据的完全控制",
+      "scenarios": [
+        "管理团队项目与任务",
+        "构建客户关系管理系统",
+        "创建营销活动追踪工具",
+        "开发风险管理平台",
+        "设计产品路线图",
+        "跟踪公司设备与资产",
+        "管理ESG报告数据"
+      ],
+      "tags": [
+        "No-Code",
+        "Open Source",
+        "Database",
+        "Collaboration",
+        "Self-Hosted"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1779778502
     }
   ]
 }
