@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-26T07:01:09.166Z",
+  "updatedAt": "2026-05-27T02:33:40.182Z",
   "tools": [
     {
       "name": "Starship",
@@ -3434,6 +3434,31 @@
         "Data & Analytics"
       ],
       "timestamp": 1779778846
+    },
+    {
+      "name": "zoxide",
+      "url": "https://github.com/ajeetdsouza/zoxide",
+      "tldr": "一个更智能的 cd 命令，基于访问频率和最近性排序目录，让你只需键入几个字符就能跳转到最常使用的目录，支持所有主流 shell",
+      "scenarios": [
+        "快速跳转到深度嵌套的常用项目目录",
+        "替代繁琐的 cd 命令和路径补全",
+        "在不同工作目录间高效切换",
+        "结合 fzf 实现交互式目录选择",
+        "将其他目录跳转工具的历史数据导入使用",
+        "在文件管理器（如 lf、ranger）中集成快速跳转"
+      ],
+      "tags": [
+        "Frecency",
+        "Fuzzy Matching",
+        "Shell Integration",
+        "Rust",
+        "Free"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1779849199
     }
   ]
 }

@@ -3285,5 +3285,25 @@
     ],
     "tldr": "一个开源低代码平台，用于构建管理面板、内部工具和仪表板，支持 25+ 种数据库和任何 API",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-26-appsmith.md"
+  },
+  {
+    "month": "202605",
+    "name": "zoxide",
+    "url": "https://github.com/ajeetdsouza/zoxide",
+    "timestamp": 1779849199,
+    "tags": [
+      "Frecency",
+      "Fuzzy Matching",
+      "Shell Integration",
+      "Rust",
+      "Free"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [],
+    "tldr": "一个更智能的 cd 命令，基于访问频率和最近性排序目录，让你只需键入几个字符就能跳转到最常使用的目录，支持所有主流 shell",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-27-zoxide.md"
   }
 ]
