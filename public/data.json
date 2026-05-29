@@ -3305,5 +3305,27 @@
     "Platform": [],
     "tldr": "一个更智能的 cd 命令，基于访问频率和最近性排序目录，让你只需键入几个字符就能跳转到最常使用的目录，支持所有主流 shell",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-27-zoxide.md"
+  },
+  {
+    "month": "202605",
+    "name": "capcap",
+    "url": "https://github.com/realskyrin/capcap",
+    "timestamp": 1780023510,
+    "tags": [
+      "Screenshot",
+      "Annotation",
+      "macOS",
+      "Menu Bar",
+      "Open Source"
+    ],
+    "categories": [
+      "System & Automation",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "通过双击⌘键快速截图，支持窗口/区域/滚动捕获，内置可编辑标注工具（箭头、马赛克、文本等），可美化并一键上传至自建对象存储，常驻菜单栏，纯原生AppKit开发，无遥测无订阅",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-29-capcap.md"
   }
 ]
