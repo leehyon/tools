@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-29T02:58:47.891Z",
+  "updatedAt": "2026-05-29T03:01:06.920Z",
   "tools": [
     {
       "name": "Starship",
@@ -3485,6 +3485,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1780023510
+    },
+    {
+      "name": "open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "tldr": "本地优先、开源的设计替代方案，利用你已有的编码代理CLI驱动设计工作流，内置132种技能和150个设计系统，支持原型、演示文稿、图片、视频等多格式输出，完全本地运行，可部署到Vercel",
+      "scenarios": [
+        "快速生成网页原型和营销着陆页",
+        "设计移动应用原型（带设备框架）",
+        "创建杂志风格演示文稿和幻灯片",
+        "生成社交媒体轮播图和海报",
+        "制作运动图形和动画素材",
+        "编写产品需求文档和OKR评分表",
+        "构建内部看板和管理仪表盘"
+      ],
+      "tags": [
+        "Open Source",
+        "Local-first",
+        "Design Tool",
+        "Agent-driven",
+        "Skill-based"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1780023648
     }
   ]
 }

@@ -3327,5 +3327,30 @@
     ],
     "tldr": "通过双击⌘键快速截图，支持窗口/区域/滚动捕获，内置可编辑标注工具（箭头、马赛克、文本等），可美化并一键上传至自建对象存储，常驻菜单栏，纯原生AppKit开发，无遥测无订阅",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-29-capcap.md"
+  },
+  {
+    "month": "202605",
+    "name": "open-design",
+    "url": "https://github.com/nexu-io/open-design",
+    "timestamp": 1780023648,
+    "tags": [
+      "Open Source",
+      "Local-first",
+      "Design Tool",
+      "Agent-driven",
+      "Skill-based"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "tldr": "本地优先、开源的设计替代方案，利用你已有的编码代理CLI驱动设计工作流，内置132种技能和150个设计系统，支持原型、演示文稿、图片、视频等多格式输出，完全本地运行，可部署到Vercel",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-29-open-design.md"
   }
 ]
