@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-29T03:11:41.664Z",
+  "updatedAt": "2026-05-29T03:36:22.972Z",
   "tools": [
     {
       "name": "Starship",
@@ -3537,6 +3537,31 @@
         "System & Automation"
       ],
       "timestamp": 1780024277
+    },
+    {
+      "name": "docx-editor",
+      "url": "https://github.com/eigenpal/docx-editor",
+      "tldr": "一个开源的 WYSIWYG .docx 编辑器库，支持规范 OOXML、修订追踪和实时协作，适用于 React 和 Vue 应用",
+      "scenarios": [
+        "在 Web 应用中嵌入 WYSIWYG 的 .docx 文档编辑器",
+        "实现多人实时协作编辑 .docx 文件",
+        "基于规范的 OOXML 格式进行文档生成与修改",
+        "集成 AI agent 自动生成或编辑 .docx 文档",
+        "构建在线文档管理系统或办公套件",
+        "在客户端直接打开和编辑 .docx 文件，无需后端转换"
+      ],
+      "tags": [
+        "Open Source",
+        "WYSIWYG",
+        "OOXML",
+        "Real-time Collaboration",
+        "React"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1780025766
     }
   ]
 }
