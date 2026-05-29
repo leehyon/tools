@@ -3396,5 +3396,29 @@
     ],
     "tldr": "一个开源的 WYSIWYG .docx 编辑器库，支持规范 OOXML、修订追踪和实时协作，适用于 React 和 Vue 应用",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-29-docx-editor.md"
+  },
+  {
+    "month": "202605",
+    "name": "dive",
+    "url": "https://github.com/wagoodman/dive",
+    "timestamp": 1780031624,
+    "tags": [
+      "Docker Image Analysis",
+      "Layer Inspection",
+      "CI Integration",
+      "Free",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "探索 Docker 镜像每一层的内容，分析文件变更，估算镜像效率，帮助优化镜像大小",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-29-dive.md"
   }
 ]

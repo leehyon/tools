@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-29T03:36:22.972Z",
+  "updatedAt": "2026-05-29T05:14:04.893Z",
   "tools": [
     {
       "name": "Starship",
@@ -3562,6 +3562,31 @@
         "Developer Tools"
       ],
       "timestamp": 1780025766
+    },
+    {
+      "name": "dive",
+      "url": "https://github.com/wagoodman/dive",
+      "tldr": "探索 Docker 镜像每一层的内容，分析文件变更，估算镜像效率，帮助优化镜像大小",
+      "scenarios": [
+        "分析 Docker 镜像的每一层内容，查看文件和目录结构",
+        "识别每层中新增、修改、删除的文件变化",
+        "评估镜像效率并发现浪费的空间，如重复文件",
+        "在构建过程中快速分析和优化镜像",
+        "集成到 CI 流程中自动检查镜像效率并设定阈值",
+        "支持多种容器引擎和镜像源如 Docker、Podman 和存档文件"
+      ],
+      "tags": [
+        "Docker Image Analysis",
+        "Layer Inspection",
+        "CI Integration",
+        "Free",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1780031624
     }
   ]
 }
