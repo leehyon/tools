@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-29T03:01:06.920Z",
+  "updatedAt": "2026-05-29T03:11:41.664Z",
   "tools": [
     {
       "name": "Starship",
@@ -3511,6 +3511,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1780023648
+    },
+    {
+      "name": "cmux",
+      "url": "https://cmux.com",
+      "tldr": "一款原生macOS终端模拟器，专为多任务和编码代理设计，提供垂直标签、通知环、内置可脚本化浏览器、分屏及GPU加速渲染，支持CLI和Socket API自动化",
+      "scenarios": [
+        "同时运行和管理多个编码代理（如Claude Code、Codex等）",
+        "在终端内垂直组织多个工作区，快速切换不同项目",
+        "通过通知环和桌面通知实时感知任务完成或需要关注",
+        "在终端内分屏打开浏览器查看文档或PR，无需切换应用",
+        "使用脚本API和命令行自动化终端操作和工作流",
+        "并行监控多个后台进程或日志输出",
+        "替代传统终端模拟器，提升多终端窗口管理效率"
+      ],
+      "tags": [
+        "Terminal",
+        "Multitasking",
+        "GPU-Accelerated",
+        "Free",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1780024277
     }
   ]
 }
