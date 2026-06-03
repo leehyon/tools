@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-03T01:29:35.522Z",
+  "updatedAt": "2026-06-03T05:25:41.425Z",
   "tools": [
     {
       "name": "Starship",
@@ -3637,6 +3637,31 @@
         "Developer Tools"
       ],
       "timestamp": 1780450153
+    },
+    {
+      "name": "邸报 Dibao",
+      "url": "https://dibao.app/zh/",
+      "tldr": "基于个人信源的本地推荐阅读器，将 RSS 订阅排序成可复核的个人日报，数据与兴趣画像完全留在你的设备上，零 Token 使用",
+      "scenarios": [
+        "管理大量 RSS 订阅源，避免被未读列表淹没",
+        "在不被平台算法操控的前提下获取个性化阅读顺序",
+        "自托管阅读记录与偏好数据，确保隐私安全",
+        "通过可解释的推荐机制理解每篇文章的排序逻辑",
+        "用低成本（无需 LLM）的 AI 模型进行兴趣排序",
+        "跨设备（Mac、NAS、VPS）统一阅读体验"
+      ],
+      "tags": [
+        "RSS Reader",
+        "Self-hosted",
+        "Personalized Ranking",
+        "Fair-code",
+        "Privacy-focused"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information"
+      ],
+      "timestamp": 1780464322
     }
   ]
 }

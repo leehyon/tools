@@ -3466,5 +3466,28 @@
     ],
     "tldr": "高性能 CLI 代理，将常见开发命令输出压缩 60-90%，大幅降低 LLM 令牌消耗，单一 Rust 二进制文件零依赖",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-03-rtk.md"
+  },
+  {
+    "month": "202606",
+    "name": "邸报 Dibao",
+    "url": "https://dibao.app/zh/",
+    "timestamp": 1780464322,
+    "tags": [
+      "RSS Reader",
+      "Self-hosted",
+      "Personalized Ranking",
+      "Fair-code",
+      "Privacy-focused"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information"
+    ],
+    "Platform": [
+      "Mac",
+      "Linux"
+    ],
+    "tldr": "基于个人信源的本地推荐阅读器，将 RSS 订阅排序成可复核的个人日报，数据与兴趣画像完全留在你的设备上，零 Token 使用",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-03-%E9%82%B8%E6%8A%A5-dibao.md"
   }
 ]
