@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-05-29T05:14:04.893Z",
+  "updatedAt": "2026-06-03T01:28:29.749Z",
   "tools": [
     {
       "name": "Starship",
@@ -3587,6 +3587,31 @@
         "System & Automation"
       ],
       "timestamp": 1780031624
+    },
+    {
+      "name": "codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "tldr": "为 AI 编程代理提供预索引的代码知识图谱，通过静态分析构建符号关系与调用图，实现即时问答，显著减少 token 消耗和工具调用次数",
+      "scenarios": [
+        "回答代码结构与架构问题，如请求如何到达数据库",
+        "重构前进行影响分析，评估符号变更波及范围",
+        "查找函数调用链和依赖关系",
+        "定位受源代码变更影响的测试文件",
+        "跨语言代码桥接，如 Swift 与 Objective-C、React Native 桥接",
+        "快速为新项目或旧项目生成代码知识图谱",
+        "为 AI 代理（如 Claude Code、Cursor）提供精准的代码上下文"
+      ],
+      "tags": [
+        "Code Knowledge Graph",
+        "AI Agent",
+        "Code Analysis",
+        "Local First",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1780450089
     }
   ]
 }

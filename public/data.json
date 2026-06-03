@@ -3420,5 +3420,28 @@
     ],
     "tldr": "探索 Docker 镜像每一层的内容，分析文件变更，估算镜像效率，帮助优化镜像大小",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202605/2026-05-29-dive.md"
+  },
+  {
+    "month": "202606",
+    "name": "codegraph",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "timestamp": 1780450089,
+    "tags": [
+      "Code Knowledge Graph",
+      "AI Agent",
+      "Code Analysis",
+      "Local First",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "为 AI 编程代理提供预索引的代码知识图谱，通过静态分析构建符号关系与调用图，实现即时问答，显著减少 token 消耗和工具调用次数",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-03-codegraph.md"
   }
 ]
