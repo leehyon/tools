@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-03T01:28:29.749Z",
+  "updatedAt": "2026-06-03T01:29:35.522Z",
   "tools": [
     {
       "name": "Starship",
@@ -3612,6 +3612,31 @@
         "Developer Tools"
       ],
       "timestamp": 1780450089
+    },
+    {
+      "name": "rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "tldr": "高性能 CLI 代理，将常见开发命令输出压缩 60-90%，大幅降低 LLM 令牌消耗，单一 Rust 二进制文件零依赖",
+      "scenarios": [
+        "与 Claude Code、Gemini CLI 等 AI 编程工具配合，自动压缩命令输出",
+        "自动重写 bash 命令（git status、ls、cat 等）以减少令牌消耗",
+        "测试运行器（jest、cargo test、pytest）输出精简，仅保留失败信息",
+        "构建与 lint 工具（TypeScript、ESLint、clippy）输出优化",
+        "Git 操作过程中的令牌节省（status、diff、log、push）",
+        "文件读取与目录列表的智能压缩",
+        "AWS CLI、Docker、Kubernetes 等云原生命令输出精简"
+      ],
+      "tags": [
+        "CLI Proxy",
+        "Token Optimization",
+        "Developer Tool",
+        "Rust",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1780450153
     }
   ]
 }
