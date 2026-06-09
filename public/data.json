@@ -3489,5 +3489,30 @@
     ],
     "tldr": "基于个人信源的本地推荐阅读器，将 RSS 订阅排序成可复核的个人日报，数据与兴趣画像完全留在你的设备上，零 Token 使用",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-03-%E9%82%B8%E6%8A%A5-dibao.md"
+  },
+  {
+    "month": "202606",
+    "name": "Open Design",
+    "url": "https://open-design.ai/",
+    "timestamp": 1780982571,
+    "tags": [
+      "Open Source",
+      "Local-first",
+      "Agent-driven",
+      "Design System",
+      "BYOK"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "tldr": "开源本地代理驱动设计平台，连接多种编码代理，通过可组合技能包和 Markdown 设计系统工作，是 Figma 和 Claude Design 的开源替代方案",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-09-open-design.md"
   }
 ]
