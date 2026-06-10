@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-09T05:23:15.033Z",
+  "updatedAt": "2026-06-10T02:32:53.666Z",
   "tools": [
     {
       "name": "Starship",
@@ -3687,6 +3687,33 @@
         "Media & Creativity"
       ],
       "timestamp": 1780982571
+    },
+    {
+      "name": "html-anything",
+      "url": "https://github.com/nexu-io/html-anything",
+      "tldr": "由本地 AI 代理驱动的 HTML 编辑器，将 Markdown 瞬间转换为发布就绪的 HTML，支持一键导出到微信、X 等平台，无需 API 密钥",
+      "scenarios": [
+        "快速创建杂志风格的在线文章和文档",
+        "生成专业级幻灯片演示文稿",
+        "为社交媒体（X、小红书、微信等）制作分享卡片",
+        "快速原型化网站页面（登录页、定价页等）",
+        "将数据报告转换为可视化 HTML 页面",
+        "生成视频制作所需的关键帧和动效帧",
+        "制作简历、邮件营销模板等文档"
+      ],
+      "tags": [
+        "HTML Editor",
+        "AI-Powered",
+        "Local-First",
+        "Free",
+        "Export Tools"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1781058755
     }
   ]
 }
