@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-10T02:32:53.666Z",
+  "updatedAt": "2026-06-12T02:33:47.877Z",
   "tools": [
     {
       "name": "Starship",
@@ -3714,6 +3714,29 @@
         "Media & Creativity"
       ],
       "timestamp": 1781058755
+    },
+    {
+      "name": "transmission",
+      "url": "https://github.com/transmission/transmission",
+      "tldr": "跨平台的 BitTorrent 客户端，注重轻量、快速和低资源占用 支持加密、磁力链接、远程控制等功能",
+      "scenarios": [
+        "下载和分享大型文件",
+        "做种以回馈社区",
+        "通过远程控制管理下载任务",
+        "在服务器或 NAS 上自动化下载",
+        "创建和分享磁力链接",
+        "使用加密连接保护隐私"
+      ],
+      "tags": [
+        "BitTorrent Client",
+        "Open Source",
+        "Lightweight",
+        "Cross-platform"
+      ],
+      "categories": [
+        "File Management"
+      ],
+      "timestamp": 1781231609
     }
   ]
 }
