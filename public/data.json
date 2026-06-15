@@ -3588,5 +3588,27 @@
     ],
     "tldr": "磁盘分区与数据恢复工具，可恢复丢失的分区及删除的文件，支持多种文件系统",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-15-testdisk.md"
+  },
+  {
+    "month": "202606",
+    "name": "Recuva",
+    "url": "https://www.ccleaner.com/recuva",
+    "timestamp": 1781517081,
+    "tags": [
+      "Data Recovery",
+      "Free",
+      "Windows",
+      "File Recovery",
+      "Undelete"
+    ],
+    "categories": [
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Windows"
+    ],
+    "tldr": "一款免费的文件恢复工具，能够从 Windows 电脑、回收站、数码相机卡或 MP3 播放器中找回误删、丢失或损坏的文件，支持深度扫描和高级恢复模式",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-15-recuva.md"
   }
 ]

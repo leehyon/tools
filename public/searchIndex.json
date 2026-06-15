@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-15T09:50:10.932Z",
+  "updatedAt": "2026-06-15T09:51:47.166Z",
   "tools": [
     {
       "name": "Starship",
@@ -3762,6 +3762,31 @@
         "System & Automation"
       ],
       "timestamp": 1781516991
+    },
+    {
+      "name": "Recuva",
+      "url": "https://www.ccleaner.com/recuva",
+      "tldr": "一款免费的文件恢复工具，能够从 Windows 电脑、回收站、数码相机卡或 MP3 播放器中找回误删、丢失或损坏的文件，支持深度扫描和高级恢复模式",
+      "scenarios": [
+        "恢复误删的重要文档、照片或视频",
+        "从已格式化的硬盘或存储卡中找回文件",
+        "修复因系统崩溃或病毒攻击丢失的数据",
+        "从损坏或无法读取的存储介质中抢救文件",
+        "深度扫描深层或已被覆盖的已删除数据",
+        "安全擦除敏感文件以防止被恢复"
+      ],
+      "tags": [
+        "Data Recovery",
+        "Free",
+        "Windows",
+        "File Recovery",
+        "Undelete"
+      ],
+      "categories": [
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1781517081
     }
   ]
 }
