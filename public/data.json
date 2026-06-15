@@ -3564,5 +3564,29 @@
     ],
     "tldr": "跨平台的 BitTorrent 客户端，注重轻量、快速和低资源占用 支持加密、磁力链接、远程控制等功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-12-transmission.md"
+  },
+  {
+    "month": "202606",
+    "name": "testdisk",
+    "url": "https://github.com/cgsecurity/testdisk",
+    "timestamp": 1781516991,
+    "tags": [
+      "Data Recovery",
+      "Disk",
+      "Filesystem",
+      "TestDisk",
+      "PhotoRec"
+    ],
+    "categories": [
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Windows",
+      "Linux",
+      "Mac"
+    ],
+    "tldr": "磁盘分区与数据恢复工具，可恢复丢失的分区及删除的文件，支持多种文件系统",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-15-testdisk.md"
   }
 ]

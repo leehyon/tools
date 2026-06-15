@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-12T02:33:47.877Z",
+  "updatedAt": "2026-06-15T09:50:10.932Z",
   "tools": [
     {
       "name": "Starship",
@@ -3737,6 +3737,31 @@
         "File Management"
       ],
       "timestamp": 1781231609
+    },
+    {
+      "name": "testdisk",
+      "url": "https://github.com/cgsecurity/testdisk",
+      "tldr": "磁盘分区与数据恢复工具，可恢复丢失的分区及删除的文件，支持多种文件系统",
+      "scenarios": [
+        "恢复误删除的系统分区或扩展分区",
+        "修复损坏的磁盘启动扇区以恢复系统启动",
+        "从误格式化或误删除的硬盘中恢复文件",
+        "从相机存储卡恢复丢失的照片和视频",
+        "诊断并修复分区表错误导致的数据不可访问",
+        "恢复因病毒攻击或意外断电而损坏的磁盘数据"
+      ],
+      "tags": [
+        "Data Recovery",
+        "Disk",
+        "Filesystem",
+        "TestDisk",
+        "PhotoRec"
+      ],
+      "categories": [
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1781516991
     }
   ]
 }
