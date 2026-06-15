@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-15T10:12:43.411Z",
+  "updatedAt": "2026-06-15T12:25:07.424Z",
   "tools": [
     {
       "name": "Starship",
@@ -3813,6 +3813,31 @@
         "Developer Tools"
       ],
       "timestamp": 1781518343
+    },
+    {
+      "name": "Battle-Tested Patterns",
+      "url": "https://totoro-jam.github.io/battle-tested-patterns/",
+      "tldr": "通过交互式可视化、多语言实现和生产代码溯源，帮助开发者学习 46 个经生产验证的编程模式，提升实战理解能力",
+      "scenarios": [
+        "学习经典编程模式及其实际应用",
+        "阅读并理解 React、Linux 内核等真实项目源码",
+        "通过交互式可视化实验加深算法理解",
+        "多用例渐进式练习巩固知识",
+        "挑战情境问题检验真实掌握程度",
+        "对比 TypeScript、Rust、Go、Python 多语言实现",
+        "准备技术面试中的模式与算法问题"
+      ],
+      "tags": [
+        "Programming Patterns",
+        "Interactive Learning",
+        "Multi-Language",
+        "Visualization",
+        "Production-Proven"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1781526286
     }
   ]
 }

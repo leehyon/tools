@@ -3635,5 +3635,26 @@
     ],
     "tldr": "将技术书籍 PDF、文档或文件夹转化为 AI 助手可调用的结构化 skill，包含核心概念、章节摘要和速查表，按需加载以减少上下文开销",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-15-book-to-skill.md"
+  },
+  {
+    "month": "202606",
+    "name": "Battle-Tested Patterns",
+    "url": "https://totoro-jam.github.io/battle-tested-patterns/",
+    "timestamp": 1781526286,
+    "tags": [
+      "Programming Patterns",
+      "Interactive Learning",
+      "Multi-Language",
+      "Visualization",
+      "Production-Proven"
+    ],
+    "categories": [
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "通过交互式可视化、多语言实现和生产代码溯源，帮助开发者学习 46 个经生产验证的编程模式，提升实战理解能力",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-15-battle-tested-patterns.md"
   }
 ]
