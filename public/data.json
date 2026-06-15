@@ -3610,5 +3610,30 @@
     ],
     "tldr": "一款免费的文件恢复工具，能够从 Windows 电脑、回收站、数码相机卡或 MP3 播放器中找回误删、丢失或损坏的文件，支持深度扫描和高级恢复模式",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-15-recuva.md"
+  },
+  {
+    "month": "202606",
+    "name": "book-to-skill",
+    "url": "https://github.com/virgiliojr94/book-to-skill",
+    "timestamp": 1781518343,
+    "tags": [
+      "Technical Books",
+      "AI Agent Skill",
+      "Knowledge Base",
+      "PDF",
+      "Open Source"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "将技术书籍 PDF、文档或文件夹转化为 AI 助手可调用的结构化 skill，包含核心概念、章节摘要和速查表，按需加载以减少上下文开销",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-15-book-to-skill.md"
   }
 ]

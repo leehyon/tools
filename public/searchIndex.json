@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-15T09:51:47.166Z",
+  "updatedAt": "2026-06-15T10:12:43.411Z",
   "tools": [
     {
       "name": "Starship",
@@ -3787,6 +3787,32 @@
         "System & Automation"
       ],
       "timestamp": 1781517081
+    },
+    {
+      "name": "book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "tldr": "将技术书籍 PDF、文档或文件夹转化为 AI 助手可调用的结构化 skill，包含核心概念、章节摘要和速查表，按需加载以减少上下文开销",
+      "scenarios": [
+        "在编码过程中快速查阅技术书籍中的具体概念、框架或代码示例",
+        "将内部文档、架构决策记录、运行手册等整合为统一的 AI 技能，随时查询",
+        "把品牌设计规范、组件原则等转化为团队可共享的问答式知识库",
+        "将研究论文、笔记等合并为单一技能，并随新资料更新",
+        "在 GitHub Copilot CLI、Amp 或 Claude Code 中使用 /slug 命令加载对应知识",
+        "对于重复查阅的文档（如 RFC、API 规范），无需记忆即可精准引用"
+      ],
+      "tags": [
+        "Technical Books",
+        "AI Agent Skill",
+        "Knowledge Base",
+        "PDF",
+        "Open Source"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "Developer Tools"
+      ],
+      "timestamp": 1781518343
     }
   ]
 }
