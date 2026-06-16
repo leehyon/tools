@@ -3656,5 +3656,27 @@
     ],
     "tldr": "通过交互式可视化、多语言实现和生产代码溯源，帮助开发者学习 46 个经生产验证的编程模式，提升实战理解能力",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-15-battle-tested-patterns.md"
+  },
+  {
+    "month": "202606",
+    "name": "Satty",
+    "url": "https://github.com/Satty-org/Satty",
+    "timestamp": 1781573364,
+    "tags": [
+      "Screenshot",
+      "Annotation",
+      "Open Source",
+      "Linux",
+      "Wayland"
+    ],
+    "categories": [
+      "System & Automation",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Linux"
+    ],
+    "tldr": "一个受 Swappy 和 Flameshot 启发的现代截图标注工具，提供简洁工具集、全屏标注、硬件加速渲染，支持 Wayland 合成器",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-16-satty.md"
   }
 ]

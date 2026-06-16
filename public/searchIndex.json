@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-15T12:25:07.424Z",
+  "updatedAt": "2026-06-16T01:29:53.378Z",
   "tools": [
     {
       "name": "Starship",
@@ -3838,6 +3838,31 @@
         "Developer Tools"
       ],
       "timestamp": 1781526286
+    },
+    {
+      "name": "Satty",
+      "url": "https://github.com/Satty-org/Satty",
+      "tldr": "一个受 Swappy 和 Flameshot 启发的现代截图标注工具，提供简洁工具集、全屏标注、硬件加速渲染，支持 Wayland 合成器",
+      "scenarios": [
+        "快速截取屏幕并进行标注",
+        "对截图添加箭头、文字、矩形等标注元素",
+        "在 Wayland 环境下进行截图注释",
+        "将标注后的截图保存到文件或剪贴板",
+        "使用快捷键高效完成标注操作",
+        "全屏模式下对任意区域进行标注和裁剪"
+      ],
+      "tags": [
+        "Screenshot",
+        "Annotation",
+        "Open Source",
+        "Linux",
+        "Wayland"
+      ],
+      "categories": [
+        "System & Automation",
+        "Media & Creativity"
+      ],
+      "timestamp": 1781573364
     }
   ]
 }
