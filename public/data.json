@@ -3717,5 +3717,29 @@
     "Platform": [],
     "tldr": "可安装的 GitHub 技能库，包含 1,569+ 个可复用的 SKILL.md 指南，支持 Claude Code、Cursor、Codex CLI、Gemini CLI 等多种 AI 编码助手，通过 npx 快速安装使用",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-17-antigravity-awesome-skills.md"
+  },
+  {
+    "month": "202606",
+    "name": "awesome-claude-code-toolkit",
+    "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+    "timestamp": 1781661355,
+    "tags": [
+      "Claude Code",
+      "Plugin Marketplace",
+      "AI Coding",
+      "Curated List",
+      "Developer Tools"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "Claude Code 的终极资源集合，提供 176+ 插件、135 个代理、42 个命令、20 个钩子、15 条规则等，一站式发现与集成社区贡献的最佳 AI 编码工具",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-17-awesome-claude-code-toolkit.md"
   }
 ]
