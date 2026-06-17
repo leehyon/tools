@@ -3697,5 +3697,25 @@
     "Platform": [],
     "tldr": "一个精选的 1000+ 个真实 Agent 技能集合，来自官方团队与社区，兼容 Claude Code、Codex、Gemini CLI 等，手工挑选而非 AI 生成",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-17-awesome-agent-skills.md"
+  },
+  {
+    "month": "202606",
+    "name": "antigravity-awesome-skills",
+    "url": "https://github.com/sickn33/antigravity-awesome-skills",
+    "timestamp": 1781661151,
+    "tags": [
+      "Agent Skills",
+      "Installable",
+      "GitHub",
+      "Open Source",
+      "CLI"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools"
+    ],
+    "Platform": [],
+    "tldr": "可安装的 GitHub 技能库，包含 1,569+ 个可复用的 SKILL.md 指南，支持 Claude Code、Cursor、Codex CLI、Gemini CLI 等多种 AI 编码助手，通过 npx 快速安装使用",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-17-antigravity-awesome-skills.md"
   }
 ]
