@@ -3678,5 +3678,24 @@
     ],
     "tldr": "一个受 Swappy 和 Flameshot 启发的现代截图标注工具，提供简洁工具集、全屏标注、硬件加速渲染，支持 Wayland 合成器",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-16-satty.md"
+  },
+  {
+    "month": "202606",
+    "name": "awesome-agent-skills",
+    "url": "https://github.com/VoltAgent/awesome-agent-skills",
+    "timestamp": 1781660675,
+    "tags": [
+      "Agent Skills",
+      "Curated List",
+      "Open Source",
+      "Developer Tools",
+      "Community"
+    ],
+    "categories": [
+      "Developer Tools"
+    ],
+    "Platform": [],
+    "tldr": "一个精选的 1000+ 个真实 Agent 技能集合，来自官方团队与社区，兼容 Claude Code、Codex、Gemini CLI 等，手工挑选而非 AI 生成",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-17-awesome-agent-skills.md"
   }
 ]

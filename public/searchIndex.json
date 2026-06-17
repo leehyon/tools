@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-16T01:29:53.378Z",
+  "updatedAt": "2026-06-17T01:44:57.800Z",
   "tools": [
     {
       "name": "Starship",
@@ -3863,6 +3863,29 @@
         "Media & Creativity"
       ],
       "timestamp": 1781573364
+    },
+    {
+      "name": "awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "tldr": "一个精选的 1000+ 个真实 Agent 技能集合，来自官方团队与社区，兼容 Claude Code、Codex、Gemini CLI 等，手工挑选而非 AI 生成",
+      "scenarios": [
+        "为 AI 编码助手添加官方和社区开发的技能以扩展其能力",
+        "在 Claude Code、Cursor、Gemini CLI 等工具之间共享和同步技能配置",
+        "学习知名团队（如 Anthropic、Vercel、Stripe）的最佳实践和集成模式",
+        "快速查找并应用于项目的真实 Agent 技能，避免低质量 AI 生成内容",
+        "作为开发者构建自己 Agent 技能的参考和灵感来源"
+      ],
+      "tags": [
+        "Agent Skills",
+        "Curated List",
+        "Open Source",
+        "Developer Tools",
+        "Community"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1781660675
     }
   ]
 }
