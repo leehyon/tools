@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-17T01:56:15.456Z",
+  "updatedAt": "2026-06-18T07:42:23.337Z",
   "tools": [
     {
       "name": "Starship",
@@ -3935,6 +3935,29 @@
         "Developer Tools"
       ],
       "timestamp": 1781661355
+    },
+    {
+      "name": "RustDesk",
+      "url": "https://rustdesk.com",
+      "tldr": "开源远程桌面软件，支持自托管服务器，提供安全可靠的远程访问和技术支持，数据完全由用户控制",
+      "scenarios": [
+        "IT 支持与远程故障排除",
+        "IT 系统管理与维护",
+        "远程办公与在家办公",
+        "工业设备远程监控与控制"
+      ],
+      "tags": [
+        "Open-Source",
+        "Remote Desktop",
+        "Self-Hosted",
+        "Secure",
+        "Cross-platform"
+      ],
+      "categories": [
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1781768518
     }
   ]
 }

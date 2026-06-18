@@ -3741,5 +3741,31 @@
     ],
     "tldr": "Claude Code 的终极资源集合，提供 176+ 插件、135 个代理、42 个命令、20 个钩子、15 条规则等，一站式发现与集成社区贡献的最佳 AI 编码工具",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-17-awesome-claude-code-toolkit.md"
+  },
+  {
+    "month": "202606",
+    "name": "RustDesk",
+    "url": "https://rustdesk.com",
+    "timestamp": 1781768518,
+    "tags": [
+      "Open-Source",
+      "Remote Desktop",
+      "Self-Hosted",
+      "Secure",
+      "Cross-platform"
+    ],
+    "categories": [
+      "System & Automation",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Windows",
+      "Mac",
+      "Linux",
+      "Android",
+      "Web"
+    ],
+    "tldr": "开源远程桌面软件，支持自托管服务器，提供安全可靠的远程访问和技术支持，数据完全由用户控制",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-18-rustdesk.md"
   }
 ]
