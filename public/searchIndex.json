@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-18T07:42:23.337Z",
+  "updatedAt": "2026-06-24T09:26:11.722Z",
   "tools": [
     {
       "name": "Starship",
@@ -3958,6 +3958,29 @@
         "Security & Privacy"
       ],
       "timestamp": 1781768518
+    },
+    {
+      "name": "puncover",
+      "url": "https://github.com/HBehrens/puncover",
+      "tldr": "一个用于分析嵌入式 C/C++ 代码函数调用关系和堆栈使用情况的工具 帮助开发者理解代码结构并优化性能",
+      "scenarios": [
+        "分析嵌入式项目中的函数调用关系",
+        "估算函数堆栈深度以预防溢出",
+        "自动生成可视化调用图",
+        "梳理第三方库的依赖结构",
+        "辅助优化代码体积与内存占用"
+      ],
+      "tags": [
+        "Static Analysis",
+        "Embedded",
+        "Call Graph",
+        "Stack Usage"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1782293152
     }
   ]
 }
