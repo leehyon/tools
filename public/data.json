@@ -3790,5 +3790,27 @@
     ],
     "tldr": "一个用于分析嵌入式 C/C++ 代码函数调用关系和堆栈使用情况的工具 帮助开发者理解代码结构并优化性能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-24-puncover.md"
+  },
+  {
+    "month": "202606",
+    "name": "tldraw",
+    "url": "https://github.com/tldraw/tldraw",
+    "timestamp": 1782357220,
+    "tags": [
+      "React",
+      "Whiteboarding",
+      "Diagramming",
+      "Collaboration",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个基于 React 的无限画布 SDK，提供绘图、图表、多人协作等功能，可高度扩展并用于构建自定义画布应用",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-25-tldraw.md"
   }
 ]

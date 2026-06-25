@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-24T09:26:11.722Z",
+  "updatedAt": "2026-06-25T03:14:00.736Z",
   "tools": [
     {
       "name": "Starship",
@@ -3981,6 +3981,32 @@
         "Data & Analytics"
       ],
       "timestamp": 1782293152
+    },
+    {
+      "name": "tldraw",
+      "url": "https://github.com/tldraw/tldraw",
+      "tldr": "一个基于 React 的无限画布 SDK，提供绘图、图表、多人协作等功能，可高度扩展并用于构建自定义画布应用",
+      "scenarios": [
+        "在 React 应用中快速集成无限画布白板功能",
+        "构建支持多人实时协作的在线绘图工具",
+        "开发自定义形状和图表的可视化编辑器",
+        "创建 AI 代理可读写操作的交互式画布",
+        "搭建拖拽式节点编辑器或工作流自动化界面",
+        "为笔记或文档应用提供画布标注和草图功能",
+        "嵌入 Figma、YouTube 等第三方网站到画布中展示"
+      ],
+      "tags": [
+        "React",
+        "Whiteboarding",
+        "Diagramming",
+        "Collaboration",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1782357220
     }
   ]
 }
