@@ -3812,5 +3812,28 @@
     ],
     "tldr": "一个基于 React 的无限画布 SDK，提供绘图、图表、多人协作等功能，可高度扩展并用于构建自定义画布应用",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-25-tldraw.md"
+  },
+  {
+    "month": "202606",
+    "name": "CC Switch",
+    "url": "https://ccswitch.io/zh/",
+    "timestamp": 1782364842,
+    "tags": [
+      "AI Programming",
+      "Tool Management",
+      "Local Routing",
+      "Open Source",
+      "Free"
+    ],
+    "categories": [
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "统一管理 AI 编程工具的工作流，提供供应商配置、本地路由与自动故障转移，支持用量追踪、MCP 与会话管理，开源免费基于 MIT 协议",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-25-cc-switch.md"
   }
 ]

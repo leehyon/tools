@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-25T05:10:18.101Z",
+  "updatedAt": "2026-06-25T05:21:03.485Z",
   "tools": [
     {
       "name": "Starship",
@@ -4007,6 +4007,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1782357220
+    },
+    {
+      "name": "CC Switch",
+      "url": "https://ccswitch.io/zh/",
+      "tldr": "统一管理 AI 编程工具的工作流，提供供应商配置、本地路由与自动故障转移，支持用量追踪、MCP 与会话管理，开源免费基于 MIT 协议",
+      "scenarios": [
+        "管理多个 AI 编程工具（如 Claude Code、Gemini CLI）的供应商配置与 API Key",
+        "自动故障转移，当主 Provider 异常时无缝切换备用 Provider",
+        "实时追踪请求、Token、缓存命中、成本与订阅额度",
+        "可视化配置 MCP、Skills、Prompts 与跨应用会话恢复",
+        "团队内部共享配置预设，提升协作效率",
+        "录制 AI 编程教程时快速切换不同 Provider 进行演示",
+        "本地化存储所有配置与 API Key，保障数据安全"
+      ],
+      "tags": [
+        "AI Programming",
+        "Tool Management",
+        "Local Routing",
+        "Open Source",
+        "Free"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1782364842
     }
   ]
 }
