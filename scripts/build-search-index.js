@@ -205,11 +205,28 @@ async function buildIndex() {
 
   let existingEmbeddings = {}
   let existingEmbeddingNames = new Set()
-  
+
   if (fs.existsSync(EMBEDDINGS_FILE)) {
     try {
-      existingEmbeddings = JSON.parse(fs.readFileSync(EMBEDDINGS_FILE, 'utf-8'))
-      existingEmbeddingNames = new Set(Object.keys(existingEmbeddings))
+      const raw = JSON.parse(fs.readFileSync(EMBEDDINGS_FILE, 'utf-8'))
+      // The on-disk file is wrapped: { version, model, updatedAt, embeddings: {...} }.
+      // Older runs that ignored the wrapper nested the whole file on every write,
+      // so we walk any nesting depth to recover the real flat map.
+      const flat = {}
+      const recover = (node) => {
+        if (!node || typeof node !== 'object') return
+        for (const k of Object.keys(node)) {
+          const v = node[k]
+          if (Array.isArray(v) && v.length > 0 && typeof v[0] === 'number') {
+            if (!(k in flat)) flat[k] = v
+          } else if (v && typeof v === 'object' && !Array.isArray(v)) {
+            recover(v)
+          }
+        }
+      }
+      recover(raw)
+      existingEmbeddings = flat
+      existingEmbeddingNames = new Set(Object.keys(flat))
       log(`Loaded existing embeddings for ${existingEmbeddingNames.size} tools`)
     } catch {
       log('Could not parse existing embeddings, starting fresh')
@@ -288,9 +305,28 @@ async function buildIndex() {
     updatedAt: new Date().toISOString(),
     embeddings: newEmbeddings
   }
-  
-  fs.writeFileSync(INDEX_FILE, JSON.stringify(newIndex, null, 2), 'utf-8')
-  fs.writeFileSync(EMBEDDINGS_FILE, JSON.stringify(embeddingsData, null, 2), 'utf-8')
+
+  // Sanity check: newEmbeddings should be a flat {toolName: vector} map.
+  // The four meta keys below are the wrapper that the disk format uses;
+  // if any show up here it means the read step was wrong and we'd nest on write.
+  const metaKeys = ['version', 'model', 'updatedAt', 'embeddings']
+  const strayMeta = metaKeys.filter(k => k in newEmbeddings)
+  if (strayMeta.length > 0) {
+    error(`Refusing to write: newEmbeddings contains wrapper meta keys ${strayMeta.join(', ')}. ` +
+          `This would re-introduce the recursive-nesting bug. Aborting.`)
+    process.exit(1)
+  }
+
+  const indexJson = JSON.stringify(newIndex, null, 2)
+  const embeddingsJson = JSON.stringify(embeddingsData, null, 2)
+  const embeddingsSizeMiB = Buffer.byteLength(embeddingsJson, 'utf-8') / 1024 / 1024
+  if (embeddingsSizeMiB > 24) {
+    error(`embeddings.json would be ${embeddingsSizeMiB.toFixed(2)} MiB (>24 MiB safety margin; Cloudflare limit is 25 MiB). Aborting.`)
+    process.exit(1)
+  }
+
+  fs.writeFileSync(INDEX_FILE, indexJson, 'utf-8')
+  fs.writeFileSync(EMBEDDINGS_FILE, embeddingsJson, 'utf-8')
   
   log(`Wrote search index with ${allTools.length} tools to searchIndex.json`)
   log(`Wrote ${Object.keys(newEmbeddings).length} embeddings to embeddings.json`)
