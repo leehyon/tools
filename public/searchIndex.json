@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-29T02:50:05.122Z",
+  "updatedAt": "2026-06-29T09:01:11.338Z",
   "tools": [
     {
       "name": "Starship",
@@ -4057,6 +4057,31 @@
         "Developer Tools"
       ],
       "timestamp": 1782701384
+    },
+    {
+      "name": "Understand Anything",
+      "url": "https://understand-anything.com/",
+      "tldr": "通过 AI 生成可交互的知识图谱，将代码结构映射为业务领域与流程，支持模糊搜索、层次化钻取和 AI 引导导览，帮助开发者快速理解代码库",
+      "scenarios": [
+        "快速上手不熟悉的代码库",
+        "新团队成员入职培训与代码导览",
+        "代码审查中理解复杂依赖与业务流程",
+        "自动化生成文档与架构图",
+        "排查故障时追踪组件间依赖路径",
+        "将代码映射到业务域以对齐团队认知"
+      ],
+      "tags": [
+        "Code Understanding",
+        "AI",
+        "Knowledge Graph",
+        "Interactive",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools"
+      ],
+      "timestamp": 1782723652
     }
   ]
 }

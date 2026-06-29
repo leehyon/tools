@@ -3858,5 +3858,27 @@
     ],
     "tldr": "一套可组合、开源的 AI 编码代理技能，通过 grilling、共享语言、TDD 和架构设计来提升代码质量与工程实践，解决代理沟通偏差、冗长输出、代码混乱等常见问题",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-29-skills.md"
+  },
+  {
+    "month": "202606",
+    "name": "Understand Anything",
+    "url": "https://understand-anything.com/",
+    "timestamp": 1782723652,
+    "tags": [
+      "Code Understanding",
+      "AI",
+      "Knowledge Graph",
+      "Interactive",
+      "Developer Tool"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "通过 AI 生成可交互的知识图谱，将代码结构映射为业务领域与流程，支持模糊搜索、层次化钻取和 AI 引导导览，帮助开发者快速理解代码库",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-29-understand-anything.md"
   }
 ]
