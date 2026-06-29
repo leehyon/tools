@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-25T05:21:03.485Z",
+  "updatedAt": "2026-06-29T02:50:05.122Z",
   "tools": [
     {
       "name": "Starship",
@@ -4032,6 +4032,31 @@
         "Developer Tools"
       ],
       "timestamp": 1782364842
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "tldr": "一套可组合、开源的 AI 编码代理技能，通过 grilling、共享语言、TDD 和架构设计来提升代码质量与工程实践，解决代理沟通偏差、冗长输出、代码混乱等常见问题",
+      "scenarios": [
+        "在与 AI 编码代理开始开发前进行需求澄清与对齐",
+        "为项目建立统一的领域语言以降低沟通成本",
+        "使用测试驱动开发（红绿重构循环）保证代码正确性",
+        "诊断和修复复杂 Bug 或性能回退",
+        "持续改进代码库架构，避免代码熵增",
+        "将对话或规范拆分为可独立执行的任务或 PRD",
+        "快速构建可丢弃的原型来验证设计"
+      ],
+      "tags": [
+        "AI Coding Agents",
+        "Software Engineering",
+        "Developer Productivity",
+        "Open Source",
+        "Code Quality"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1782701384
     }
   ]
 }
