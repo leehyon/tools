@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-06-29T09:01:11.338Z",
+  "updatedAt": "2026-07-02T10:04:48.971Z",
   "tools": [
     {
       "name": "Starship",
@@ -4082,6 +4082,32 @@
         "Developer Tools"
       ],
       "timestamp": 1782723652
+    },
+    {
+      "name": "DSA",
+      "url": "https://dsa.zhulinsen.tech/",
+      "tldr": "基于 LLM 的智能股票分析系统，覆盖 A 股、港股、美股，整合多源报价、新闻情绪、技术面与基本面，生成结构化个股决策报告与市场评论，并支持策略问答与多通道通知",
+      "scenarios": [
+        "每日自动生成自选股研究报告与市场复盘",
+        "对个股进行走势评分、趋势判断、风险预警与行动清单",
+        "基于 LLM 进行策略问答，如均线、缠论、波浪理论分析",
+        "整合新闻、公告、社交情绪辅助决策",
+        "跨市场（A 股、港股、美股）行情与 ETF 覆盖",
+        "通过多种渠道（企业微信、飞书、Telegram 等）推送报告",
+        "回测与模拟收益跟踪，检验策略有效性"
+      ],
+      "tags": [
+        "Stock Analysis",
+        "LLM-Powered",
+        "Multi-Market",
+        "AI Reports",
+        "Investment Research"
+      ],
+      "categories": [
+        "System & Automation",
+        "Data & Analytics"
+      ],
+      "timestamp": 1782986669
     }
   ]
 }

@@ -3880,5 +3880,27 @@
     ],
     "tldr": "通过 AI 生成可交互的知识图谱，将代码结构映射为业务领域与流程，支持模糊搜索、层次化钻取和 AI 引导导览，帮助开发者快速理解代码库",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202606/2026-06-29-understand-anything.md"
+  },
+  {
+    "month": "202607",
+    "name": "DSA",
+    "url": "https://dsa.zhulinsen.tech/",
+    "timestamp": 1782986669,
+    "tags": [
+      "Stock Analysis",
+      "LLM-Powered",
+      "Multi-Market",
+      "AI Reports",
+      "Investment Research"
+    ],
+    "categories": [
+      "System & Automation",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "基于 LLM 的智能股票分析系统，覆盖 A 股、港股、美股，整合多源报价、新闻情绪、技术面与基本面，生成结构化个股决策报告与市场评论，并支持策略问答与多通道通知",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-02-dsa.md"
   }
 ]
