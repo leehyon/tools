@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-02T10:04:48.971Z",
+  "updatedAt": "2026-07-03T01:47:20.981Z",
   "tools": [
     {
       "name": "Starship",
@@ -4108,6 +4108,32 @@
         "Data & Analytics"
       ],
       "timestamp": 1782986669
+    },
+    {
+      "name": "TablePro",
+      "url": "https://tablepro.app/",
+      "tldr": "原生 Mac 与 iPhone 数据库客户端，免费开源，支持 21+ 种数据库，集成 SQL 编辑器、AI 助手、数据网格、终端等特性",
+      "scenarios": [
+        "日常数据库管理与查询",
+        "编写并优化 SQL 语句",
+        "在数据网格中浏览、编辑表数据",
+        "通过 iPhone 快速查看数据库内容",
+        "统一管理 MySQL、PostgreSQL、Redis 等多种数据库",
+        "团队共享数据库连接与设置",
+        "在终端中直接运行命令行数据库工具"
+      ],
+      "tags": [
+        "Database Client",
+        "Free",
+        "Open Source",
+        "Native",
+        "macOS"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1783043222
     }
   ]
 }
