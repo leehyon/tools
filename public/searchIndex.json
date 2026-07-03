@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-03T01:47:20.981Z",
+  "updatedAt": "2026-07-03T01:48:03.920Z",
   "tools": [
     {
       "name": "Starship",
@@ -4134,6 +4134,32 @@
         "Data & Analytics"
       ],
       "timestamp": 1783043222
+    },
+    {
+      "name": "clash-for-linux-install",
+      "url": "https://github.com/nelvko/clash-for-linux-install",
+      "tldr": "在 Linux 上一键部署和管理基于 clash/mihomo 的代理环境，支持订阅管理、TUN 模式及内核升级",
+      "scenarios": [
+        "为 Linux 服务器或桌面快速配置代理环境",
+        "管理代理服务的启动、停止和状态监控",
+        "管理多个代理订阅源并实现一键切换",
+        "启用 TUN 模式以接管全局流量",
+        "实时查看代理日志并追踪连接状态",
+        "通过 Web 面板可视化操作和管理",
+        "自动化更新订阅配置以保持节点可用性"
+      ],
+      "tags": [
+        "Linux",
+        "Clash",
+        "Proxy",
+        "One-click Install",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1783043265
     }
   ]
 }

@@ -3925,5 +3925,27 @@
     ],
     "tldr": "原生 Mac 与 iPhone 数据库客户端，免费开源，支持 21+ 种数据库，集成 SQL 编辑器、AI 助手、数据网格、终端等特性",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-03-tablepro.md"
+  },
+  {
+    "month": "202607",
+    "name": "clash-for-linux-install",
+    "url": "https://github.com/nelvko/clash-for-linux-install",
+    "timestamp": 1783043265,
+    "tags": [
+      "Linux",
+      "Clash",
+      "Proxy",
+      "One-click Install",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Linux"
+    ],
+    "tldr": "在 Linux 上一键部署和管理基于 clash/mihomo 的代理环境，支持订阅管理、TUN 模式及内核升级",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-03-clash-for-linux-install.md"
   }
 ]
