@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-07T01:40:59.085Z",
+  "updatedAt": "2026-07-07T01:56:32.856Z",
   "tools": [
     {
       "name": "Starship",
@@ -4186,6 +4186,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1783388440
+    },
+    {
+      "name": "hermex",
+      "url": "https://github.com/uzairansaruzi/hermex",
+      "tldr": "一个用于控制自托管 Hermes AI agent 的原生 iPhone 客户端，支持聊天、文件浏览、任务管理等核心功能，强调隐私和免费",
+      "scenarios": [
+        "在 iPhone 上与自托管的 AI agent 进行实时对话",
+        "管理 AI agent 的会话历史并离线浏览缓存的会话",
+        "浏览和搜索 agent 已安装的技能列表",
+        "查看和编辑 agent 的定时 cron 任务",
+        "通过文件浏览器探索服务器文件系统",
+        "切换不同的模型、配置和项目组织会话",
+        "监控 agent 的内存内容和使用分析"
+      ],
+      "tags": [
+        "AI Agent",
+        "Self-hosted",
+        "SwiftUI",
+        "Free",
+        "Privacy-focused"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Security & Privacy"
+      ],
+      "timestamp": 1783389372
     }
   ]
 }
