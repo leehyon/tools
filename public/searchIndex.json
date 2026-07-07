@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-03T01:48:03.920Z",
+  "updatedAt": "2026-07-07T01:40:59.085Z",
   "tools": [
     {
       "name": "Starship",
@@ -4160,6 +4160,32 @@
         "System & Automation"
       ],
       "timestamp": 1783043265
+    },
+    {
+      "name": "PicForge",
+      "url": "https://github.com/DejavuMoe/PicForge",
+      "tldr": "一个本地优先的浏览器应用，用于批量图像压缩和调整大小，支持 MozJPEG、WebP、OxiPNG、AVIF 等多种格式，通过 Canvas、Web Workers 和 WASM 编解码器在设备上处理，无需上传或注册，支持 PWA 离线使用",
+      "scenarios": [
+        "批量压缩图片以减小文件体积",
+        "调整图片尺寸以适应网页或社交媒体",
+        "在本地快速转换图片格式（如 JPEG、WebP、AVIF）",
+        "通过拖拽或粘贴快速导入多个图片",
+        "对比压缩前后的图片质量（滑块、并排等模式）",
+        "一次性导出所有处理后的图片（单独下载或 ZIP 打包）",
+        "离线环境下对图片进行预处理"
+      ],
+      "tags": [
+        "Image Compression",
+        "Batch Processing",
+        "PWA",
+        "Local-First",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1783388440
     }
   ]
 }
