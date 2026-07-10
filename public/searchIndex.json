@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-10T05:28:01.139Z",
+  "updatedAt": "2026-07-10T05:39:36.982Z",
   "tools": [
     {
       "name": "Starship",
@@ -4245,6 +4245,30 @@
       "tags": [],
       "categories": [],
       "timestamp": 1783661258
+    },
+    {
+      "name": "boss-zhipin-scraper",
+      "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
+      "tldr": "一个用于爬取 Boss 直聘职位信息的 Python 爬虫工具，支持关键词搜索与分页抓取，输出结构化数据",
+      "scenarios": [
+        "自动化收集特定岗位的招聘信息进行分析",
+        "批量下载职位详情用于个人求职筛选",
+        "基于职位数据进行薪资、技能要求的统计研究",
+        "作为数据处理流水线中的招聘数据源",
+        "快速获取大量职位描述以训练 NLP 模型"
+      ],
+      "tags": [
+        "Job Scraping",
+        "Python",
+        "Automation",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Data & Analytics"
+      ],
+      "timestamp": 1783661957
     }
   ]
 }

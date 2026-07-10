@@ -4022,7 +4022,27 @@
     "tags": [],
     "categories": [],
     "Platform": [],
-    "tldr": "",
+    "tldr": "## 应用场景 - _暂无_",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-eve.md"
+  },
+  {
+    "month": "202607",
+    "name": "boss-zhipin-scraper",
+    "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
+    "timestamp": 1783661957,
+    "tags": [
+      "Job Scraping",
+      "Python",
+      "Automation",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Data & Analytics"
+    ],
+    "Platform": [],
+    "tldr": "一个用于爬取 Boss 直聘职位信息的 Python 爬虫工具，支持关键词搜索与分页抓取，输出结构化数据",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-boss-zhipin-scraper.md"
   }
 ]
