@@ -4067,5 +4067,16 @@
     ],
     "tldr": "一个专注于 Edge 浏览器自动化与效率提升的轻量工具",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-edgeever.md"
+  },
+  {
+    "month": "202607",
+    "name": "wenyi",
+    "url": "https://github.com/BigDawnGhost/wenyi",
+    "timestamp": 1783663274,
+    "tags": [],
+    "categories": [],
+    "Platform": [],
+    "tldr": "",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-wenyi.md"
   }
 ]
