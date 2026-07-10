@@ -3991,5 +3991,27 @@
     ],
     "tldr": "一个用于控制自托管 Hermes AI agent 的原生 iPhone 客户端，支持聊天、文件浏览、任务管理等核心功能，强调隐私和免费",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-07-hermex.md"
+  },
+  {
+    "month": "202607",
+    "name": "TaskTick",
+    "url": "https://github.com/lifedever/TaskTick",
+    "timestamp": 1783661178,
+    "tags": [
+      "Task Management",
+      "Open Source",
+      "Minimal",
+      "Offline-first"
+    ],
+    "categories": [
+      "System & Automation"
+    ],
+    "Platform": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "tldr": "一个轻量级的任务管理工具，帮助用户高效跟踪待办事项并保持专注",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-tasktick.md"
   }
 ]

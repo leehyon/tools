@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-07T01:56:32.856Z",
+  "updatedAt": "2026-07-10T05:26:37.728Z",
   "tools": [
     {
       "name": "Starship",
@@ -4212,6 +4212,28 @@
         "Security & Privacy"
       ],
       "timestamp": 1783389372
+    },
+    {
+      "name": "TaskTick",
+      "url": "https://github.com/lifedever/TaskTick",
+      "tldr": "一个轻量级的任务管理工具，帮助用户高效跟踪待办事项并保持专注",
+      "scenarios": [
+        "每日待办事项管理",
+        "项目任务分解与跟踪",
+        "个人目标与习惯记录",
+        "团队简单任务协作",
+        "时间管理与优先级排序"
+      ],
+      "tags": [
+        "Task Management",
+        "Open Source",
+        "Minimal",
+        "Offline-first"
+      ],
+      "categories": [
+        "System & Automation"
+      ],
+      "timestamp": 1783661178
     }
   ]
 }
