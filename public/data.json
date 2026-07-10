@@ -4044,5 +4044,28 @@
     "Platform": [],
     "tldr": "一个用于爬取 Boss 直聘职位信息的 Python 爬虫工具，支持关键词搜索与分页抓取，输出结构化数据",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-boss-zhipin-scraper.md"
+  },
+  {
+    "month": "202607",
+    "name": "edgeever",
+    "url": "https://github.com/tianma-if/edgeever",
+    "timestamp": 1783662382,
+    "tags": [
+      "Edge",
+      "Automation",
+      "Scripting",
+      "Browser Extension"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "tldr": "一个专注于 Edge 浏览器自动化与效率提升的轻量工具",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-edgeever.md"
   }
 ]

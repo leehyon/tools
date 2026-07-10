@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-10T05:39:36.982Z",
+  "updatedAt": "2026-07-10T05:46:42.481Z",
   "tools": [
     {
       "name": "Starship",
@@ -4269,6 +4269,29 @@
         "Data & Analytics"
       ],
       "timestamp": 1783661957
+    },
+    {
+      "name": "edgeever",
+      "url": "https://github.com/tianma-if/edgeever",
+      "tldr": "一个专注于 Edge 浏览器自动化与效率提升的轻量工具",
+      "scenarios": [
+        "自动执行浏览器重复操作",
+        "定时触发网页任务",
+        "快速启动 Edge 并加载指定页面",
+        "模拟键盘鼠标操作",
+        "管理浏览器标签页和窗口"
+      ],
+      "tags": [
+        "Edge",
+        "Automation",
+        "Scripting",
+        "Browser Extension"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "System & Automation"
+      ],
+      "timestamp": 1783662382
     }
   ]
 }
