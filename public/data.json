@@ -4013,5 +4013,16 @@
     ],
     "tldr": "一个轻量级的任务管理工具，帮助用户高效跟踪待办事项并保持专注",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-tasktick.md"
+  },
+  {
+    "month": "202607",
+    "name": "eve",
+    "url": "https://github.com/nexmoe/eve",
+    "timestamp": 1783661258,
+    "tags": [],
+    "categories": [],
+    "Platform": [],
+    "tldr": "",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-eve.md"
   }
 ]

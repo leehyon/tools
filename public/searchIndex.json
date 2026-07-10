@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-10T05:26:37.728Z",
+  "updatedAt": "2026-07-10T05:28:01.139Z",
   "tools": [
     {
       "name": "Starship",
@@ -4234,6 +4234,17 @@
         "System & Automation"
       ],
       "timestamp": 1783661178
+    },
+    {
+      "name": "eve",
+      "url": "https://github.com/nexmoe/eve",
+      "tldr": null,
+      "scenarios": [
+        "_暂无_"
+      ],
+      "tags": [],
+      "categories": [],
+      "timestamp": 1783661258
     }
   ]
 }
