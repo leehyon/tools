@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-14T06:48:21.305Z",
+  "updatedAt": "2026-07-14T07:03:42.886Z",
   "tools": [
     {
       "name": "Starship",
@@ -4294,17 +4294,6 @@
       "timestamp": 1783662382
     },
     {
-      "name": "wenyi",
-      "url": "https://github.com/BigDawnGhost/wenyi",
-      "tldr": null,
-      "scenarios": [
-        "_暂无_"
-      ],
-      "tags": [],
-      "categories": [],
-      "timestamp": 1783663274
-    },
-    {
       "name": "Davit",
       "url": "https://davit.app/",
       "tldr": "一款原生的 macOS 应用，通过 XPC 直接与 Apple 容器守护进程交互，提供图形界面管理容器、镜像、卷、网络等，支持 docker-compose 导入和 Dockerfile 构建，无需 Docker Desktop，轻量且开源",
@@ -4355,6 +4344,32 @@
         "Developer Tools"
       ],
       "timestamp": 1784011681
+    },
+    {
+      "name": "wenyi",
+      "url": "https://github.com/BigDawnGhost/wenyi",
+      "tldr": "一个将多语言 EPUB、FB2、TXT 小说翻译为中文的命令行工具，专为长篇小说优化，支持全书预扫、滚动上下文、实时术语库、润色和审校",
+      "scenarios": [
+        "翻译外文电子书小说为中文",
+        "生成双语对照版本便于语言学习",
+        "批量处理多个书籍文件",
+        "中断后继续翻译长篇小说",
+        "在无 GUI 的服务器或远程环境下翻译书籍",
+        "集成到自动化书籍翻译流水线"
+      ],
+      "tags": [
+        "Chinese Translation",
+        "EPUB",
+        "Novel",
+        "CLI",
+        "Open Source"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1784012603
     }
   ]
 }
