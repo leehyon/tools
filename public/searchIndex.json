@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-14T06:42:07.516Z",
+  "updatedAt": "2026-07-14T06:48:21.305Z",
   "tools": [
     {
       "name": "Starship",
@@ -4329,6 +4329,32 @@
         "System & Automation"
       ],
       "timestamp": 1784011309
+    },
+    {
+      "name": "LaTeXSnipper",
+      "url": "https://github.com/SakuraMathcraft/LaTeXSnipper",
+      "tldr": "截图 OCR 识别、手写识别和 PDF 转 LaTeX/Markdown 的数学工作台，集成公式编辑与计算，提供 Office 插件和离线优先的隐私保护",
+      "scenarios": [
+        "将截图或照片中的数学公式快速识别为 LaTeX 代码",
+        "手写数学公式实时识别并转换为可编辑公式",
+        "PDF 文档中的公式批量提取并转换为 Markdown 或 LaTeX",
+        "在数学工作台中编辑公式并进行计算、化简、求解等",
+        "在 Word 或 PowerPoint 中直接插入识别或编辑的公式",
+        "将公式导出为 SVG、MathML、HTML、EPUB 等20种格式",
+        "本地离线运行识别与计算，保护数据隐私"
+      ],
+      "tags": [
+        "LaTeX",
+        "OCR",
+        "Math Recognition",
+        "Handwriting Recognition",
+        "Open Source"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1784011681
     }
   ]
 }
