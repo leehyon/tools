@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-10T06:01:37.377Z",
+  "updatedAt": "2026-07-14T06:42:07.516Z",
   "tools": [
     {
       "name": "Starship",
@@ -4303,6 +4303,32 @@
       "tags": [],
       "categories": [],
       "timestamp": 1783663274
+    },
+    {
+      "name": "Davit",
+      "url": "https://davit.app/",
+      "tldr": "一款原生的 macOS 应用，通过 XPC 直接与 Apple 容器守护进程交互，提供图形界面管理容器、镜像、卷、网络等，支持 docker-compose 导入和 Dockerfile 构建，无需 Docker Desktop，轻量且开源",
+      "scenarios": [
+        "运行 Linux 容器并管理其生命周期",
+        "实时查看容器日志和 CPU 内存图表",
+        "一键进入容器终端或浏览容器文件系统",
+        "编辑容器配置并快速重建",
+        "导入 docker-compose.yml 并一键启动多容器栈",
+        "从 Dockerfile 构建镜像并存入本地仓库",
+        "登录私有镜像仓库并拉取镜像"
+      ],
+      "tags": [
+        "macOS",
+        "Container",
+        "Native",
+        "Free",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1784011309
     }
   ]
 }

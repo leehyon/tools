@@ -4056,5 +4056,27 @@
     ],
     "tldr": "一个专注于 Edge 浏览器自动化与效率提升的轻量工具",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-10-edgeever.md"
+  },
+  {
+    "month": "202607",
+    "name": "Davit",
+    "url": "https://davit.app/",
+    "timestamp": 1784011309,
+    "tags": [
+      "macOS",
+      "Container",
+      "Native",
+      "Free",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "一款原生的 macOS 应用，通过 XPC 直接与 Apple 容器守护进程交互，提供图形界面管理容器、镜像、卷、网络等，支持 docker-compose 导入和 Dockerfile 构建，无需 Docker Desktop，轻量且开源",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-14-davit.md"
   }
 ]
