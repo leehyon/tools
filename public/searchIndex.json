@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-15T05:32:27.625Z",
+  "updatedAt": "2026-07-15T08:13:31.659Z",
   "tools": [
     {
       "name": "Starship",
@@ -4447,6 +4447,31 @@
         "Security & Privacy"
       ],
       "timestamp": 1784093527
+    },
+    {
+      "name": "osmosmemo",
+      "url": "https://github.com/osmoscraft/osmosmemo",
+      "tldr": "将 GitHub 仓库变成书签管理器，通过浏览器扩展快速抓取页面标题和 URL 为 Markdown 片段，一键保存到 README.md，支持标签和即时搜索",
+      "scenarios": [
+        "快速捕获网页书签并保存到 GitHub",
+        "整理和归类个人阅读列表",
+        "与团队共享书签集合",
+        "跨设备同步和管理书签",
+        "基于标签分类和过滤已保存的链接",
+        "利用浏览器原生查找功能即时搜索书签"
+      ],
+      "tags": [
+        "Bookmark Manager",
+        "GitHub",
+        "Open Source",
+        "Browser Extension",
+        "Markdown"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information"
+      ],
+      "timestamp": 1784103189
     }
   ]
 }
