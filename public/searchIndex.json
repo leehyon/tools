@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-14T07:03:42.886Z",
+  "updatedAt": "2026-07-15T01:49:41.287Z",
   "tools": [
     {
       "name": "Starship",
@@ -4370,6 +4370,33 @@
         "Developer Tools"
       ],
       "timestamp": 1784012603
+    },
+    {
+      "name": "MacTools",
+      "url": "https://github.com/ggbond268/MacTools",
+      "tldr": "免费开源的 macOS 菜单栏工具集合，提供显示亮度、深色模式、缓存清理、窗口管理、翻译等数十个功能模块，支持插件扩展与快捷键操作",
+      "scenarios": [
+        "快速调节内置或外接显示器亮度与分辨率",
+        "一键切换系统深色模式、Night Shift 和 True Tone",
+        "清理系统缓存、浏览器缓存和 Xcode 缓存文件",
+        "管理窗口、应用启动与切换，绑定全局快捷键",
+        "监控系统状态、CPU/GPU 使用率、电池电量与风扇转速",
+        "保护隐私：清空剪贴板、隐藏菜单栏图标、清洁屏幕",
+        "翻译选中文本、查看 IP 信息、创建 Finder 右键菜单"
+      ],
+      "tags": [
+        "macOS",
+        "Menu Bar",
+        "Free",
+        "Open Source",
+        "System Utility"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1784080160
     }
   ]
 }
