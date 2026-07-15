@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-15T02:05:12.546Z",
+  "updatedAt": "2026-07-15T05:32:27.625Z",
   "tools": [
     {
       "name": "Starship",
@@ -4421,6 +4421,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1784081094
+    },
+    {
+      "name": "airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "tldr": "一个自托管的 AI 虚拟伴侣项目，灵感来自 Neuro-sama，支持实时语音聊天、玩 Minecraft 和 Factorio 等游戏，让你拥有自己的数字生命体",
+      "scenarios": [
+        "创建个性化的 AI 虚拟伴侣或数字宠物",
+        "与 AI 角色进行实时语音对话和互动",
+        "让 AI 伴侣陪你玩 Minecraft、Factorio 等游戏",
+        "搭建自托管的虚拟直播角色（VTuber）",
+        "通过 Discord、Telegram 等平台进行 AI 聊天",
+        "在浏览器或桌面端运行，实现跨设备陪伴"
+      ],
+      "tags": [
+        "AI Companion",
+        "Self-hosted",
+        "Open Source",
+        "VTuber",
+        "Real-time Voice"
+      ],
+      "categories": [
+        "Communication",
+        "Media & Creativity",
+        "Security & Privacy"
+      ],
+      "timestamp": 1784093527
     }
   ]
 }
