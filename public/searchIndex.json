@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-15T01:49:41.287Z",
+  "updatedAt": "2026-07-15T02:05:12.546Z",
   "tools": [
     {
       "name": "Starship",
@@ -4397,6 +4397,30 @@
         "System & Automation"
       ],
       "timestamp": 1784080160
+    },
+    {
+      "name": "Kill AI Slop",
+      "url": "https://killaislop.com/",
+      "tldr": "一份识别并移除 AI 生成的低质量 UI 设计模式的实战手册 通过 33 种常见 slop 的前后对比 教你把千篇一律的蓝紫渐变、发光卡片、emoji 泛滥等俗套彻底清理干净",
+      "scenarios": [
+        "设计师审查 AI 生成的界面元素，识别并修正俗套风格",
+        "开发者学习如何避免常见 AI 设计陷阱，提升产品视觉品质",
+        "产品经理与团队对齐审美标准，减少 AI slop 在项目中的出现",
+        "创业者快速打磨产品落地页，避免显得廉价或千篇一律",
+        "UI/UX 教育中作为案例教材，展示何为好的设计决策"
+      ],
+      "tags": [
+        "Design Guide",
+        "AI Slop",
+        "UI Patterns",
+        "Visual Design",
+        "Anti-Patterns"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1784081094
     }
   ]
 }
