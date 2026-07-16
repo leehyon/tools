@@ -4216,5 +4216,30 @@
     ],
     "tldr": "将 GitHub 仓库变成书签管理器，通过浏览器扩展快速抓取页面标题和 URL 为 Markdown 片段，一键保存到 README.md，支持标签和即时搜索",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-15-osmosmemo.md"
+  },
+  {
+    "month": "202607",
+    "name": "Bruno",
+    "url": "https://www.usebruno.com",
+    "timestamp": 1784188464,
+    "tags": [
+      "Open Source",
+      "API Client",
+      "Git-Native",
+      "Local-First",
+      "Cross-Platform"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一个开源的 Git 原生 API 客户端，将集合存储为纯文本文件，本地运行，通过 Git 进行团队协作而不是依赖云同步",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-16-bruno.md"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-15T08:13:31.659Z",
+  "updatedAt": "2026-07-16T07:54:44.579Z",
   "tools": [
     {
       "name": "Starship",
@@ -4472,6 +4472,33 @@
         "Reading & Information"
       ],
       "timestamp": 1784103189
+    },
+    {
+      "name": "Bruno",
+      "url": "https://www.usebruno.com",
+      "tldr": "一个开源的 Git 原生 API 客户端，将集合存储为纯文本文件，本地运行，通过 Git 进行团队协作而不是依赖云同步",
+      "scenarios": [
+        "作为 Postman 的开源替代品，进行 API 请求测试与调试",
+        "在开发团队中通过 Git 共享和版本控制 API 集合",
+        "将 API 集合与代码库共存，提升可发现性和一致性",
+        "在无网络或安全敏感环境中本地使用 API 客户端",
+        "通过现有 Git 权限和审计日志实现企业级 API 治理",
+        "与 VS Code 等 IDE 集成，在开发环境中直接管理 API 请求",
+        "用于 CI/CD 流程中的自动化 API 测试（结合 CLI）"
+      ],
+      "tags": [
+        "Open Source",
+        "API Client",
+        "Git-Native",
+        "Local-First",
+        "Cross-Platform"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "Security & Privacy"
+      ],
+      "timestamp": 1784188464
     }
   ]
 }
