@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-17T02:21:46.079Z",
+  "updatedAt": "2026-07-17T02:22:34.354Z",
   "tools": [
     {
       "name": "Starship",
@@ -4549,6 +4549,33 @@
         "Security & Privacy"
       ],
       "timestamp": 1784254887
+    },
+    {
+      "name": "PDFSlice",
+      "url": "https://github.com/ShashwatSricodes/PDFSlice",
+      "tldr": "一个完全在浏览器中运行的 PDF 编辑工具包，无需上传文件到服务器，支持合并、拆分、压缩、加密等 20 多种操作，注重隐私且完全免费",
+      "scenarios": [
+        "合并多个 PDF 文件为一个",
+        "按页面范围拆分 PDF 文档",
+        "移除或重新排序 PDF 页面",
+        "旋转页面方向、裁剪页面尺寸",
+        "为 PDF 添加数字签名或水印",
+        "对 PDF 进行密码加密或解密",
+        "将 PDF 转换为图片或从图片生成 PDF"
+      ],
+      "tags": [
+        "PDF",
+        "Privacy",
+        "Free",
+        "Open Source",
+        "Client-side"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "Security & Privacy"
+      ],
+      "timestamp": 1784254936
     }
   ]
 }

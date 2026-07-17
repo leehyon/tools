@@ -4289,5 +4289,28 @@
     ],
     "tldr": "轻量级开源 Logitech HID++ 鼠标按键重映射工具，完全本地运行，无需账号或遥测，支持 Windows、macOS 及 Linux 平台",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-mouser.md"
+  },
+  {
+    "month": "202607",
+    "name": "PDFSlice",
+    "url": "https://github.com/ShashwatSricodes/PDFSlice",
+    "timestamp": 1784254936,
+    "tags": [
+      "PDF",
+      "Privacy",
+      "Free",
+      "Open Source",
+      "Client-side"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个完全在浏览器中运行的 PDF 编辑工具包，无需上传文件到服务器，支持合并、拆分、压缩、加密等 20 多种操作，注重隐私且完全免费",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-pdfslice.md"
   }
 ]
