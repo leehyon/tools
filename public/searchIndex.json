@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-16T07:54:44.579Z",
+  "updatedAt": "2026-07-17T02:20:59.646Z",
   "tools": [
     {
       "name": "Starship",
@@ -4499,6 +4499,31 @@
         "Security & Privacy"
       ],
       "timestamp": 1784188464
+    },
+    {
+      "name": "Herdr",
+      "url": "https://herdr.dev/",
+      "tldr": "一个运行在终端中的 Agent 多路复用器，支持持久会话、远程 SSH 附加和实时状态查看，兼容任何编码 Agent，并能从手机操控",
+      "scenarios": [
+        "在远程服务器上同时运行多个编码 Agent，关闭笔记本后仍保持运行",
+        "从手机 SSH 连接查看 Agent 状态并重新附加到会话",
+        "在本地开发时保持 Agent 在后台运行，随时切换终端",
+        "通过插件扩展终端视图，如查看 diff、批准操作",
+        "在团队中共享同一终端会话进行协作调试",
+        "使用 CLI 和 JSON Socket API 编程控制 Agent 工作流"
+      ],
+      "tags": [
+        "Terminal Multiplexer",
+        "Agent Management",
+        "SSH",
+        "Persistent Sessions",
+        "Plugin System"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1784254840
     }
   ]
 }

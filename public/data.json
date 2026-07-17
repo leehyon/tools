@@ -4241,5 +4241,29 @@
     ],
     "tldr": "一个开源的 Git 原生 API 客户端，将集合存储为纯文本文件，本地运行，通过 Git 进行团队协作而不是依赖云同步",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-16-bruno.md"
+  },
+  {
+    "month": "202607",
+    "name": "Herdr",
+    "url": "https://herdr.dev/",
+    "timestamp": 1784254840,
+    "tags": [
+      "Terminal Multiplexer",
+      "Agent Management",
+      "SSH",
+      "Persistent Sessions",
+      "Plugin System"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一个运行在终端中的 Agent 多路复用器，支持持久会话、远程 SSH 附加和实时状态查看，兼容任何编码 Agent，并能从手机操控",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-herdr.md"
   }
 ]
