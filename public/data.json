@@ -4265,5 +4265,29 @@
     ],
     "tldr": "一个运行在终端中的 Agent 多路复用器，支持持久会话、远程 SSH 附加和实时状态查看，兼容任何编码 Agent，并能从手机操控",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-herdr.md"
+  },
+  {
+    "month": "202607",
+    "name": "Mouser",
+    "url": "https://github.com/TomBadash/Mouser",
+    "timestamp": 1784254887,
+    "tags": [
+      "Mouse Remapping",
+      "Open Source",
+      "Cross-platform",
+      "HID++",
+      "Privacy"
+    ],
+    "categories": [
+      "System & Automation",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "tldr": "轻量级开源 Logitech HID++ 鼠标按键重映射工具，完全本地运行，无需账号或遥测，支持 Windows、macOS 及 Linux 平台",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-mouser.md"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-17T02:20:59.646Z",
+  "updatedAt": "2026-07-17T02:21:46.079Z",
   "tools": [
     {
       "name": "Starship",
@@ -4524,6 +4524,31 @@
         "System & Automation"
       ],
       "timestamp": 1784254840
+    },
+    {
+      "name": "Mouser",
+      "url": "https://github.com/TomBadash/Mouser",
+      "tldr": "轻量级开源 Logitech HID++ 鼠标按键重映射工具，完全本地运行，无需账号或遥测，支持 Windows、macOS 及 Linux 平台",
+      "scenarios": [
+        "为 Logitech MX Master 或 MX Anywhere 鼠标自定义按键功能",
+        "为不同应用程序（如浏览器、代码编辑器）设置独立的鼠标映射方案",
+        "切换鼠标 DPI 或指针速度以适应不同任务需求",
+        "利用 Smart Shift 在棘轮与自由滚动模式之间切换",
+        "通过手势按钮执行导航、媒体控制或自定义快捷键",
+        "在 Linux 系统上获得与 Windows / macOS 一致的鼠标配置体验"
+      ],
+      "tags": [
+        "Mouse Remapping",
+        "Open Source",
+        "Cross-platform",
+        "HID++",
+        "Privacy"
+      ],
+      "categories": [
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1784254887
     }
   ]
 }
