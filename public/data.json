@@ -4312,5 +4312,28 @@
     ],
     "tldr": "一个完全在浏览器中运行的 PDF 编辑工具包，无需上传文件到服务器，支持合并、拆分、压缩、加密等 20 多种操作，注重隐私且完全免费",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-pdfslice.md"
+  },
+  {
+    "month": "202607",
+    "name": "kula",
+    "url": "https://github.com/c0m4r/kula",
+    "timestamp": 1784255143,
+    "tags": [
+      "Lightweight",
+      "Self-contained",
+      "Linux",
+      "Server Monitoring",
+      "Real-time"
+    ],
+    "categories": [
+      "System & Automation",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Linux",
+      "Web"
+    ],
+    "tldr": "轻量级、自包含的 Linux 服务器监控工具，零依赖，单二进制部署，通过 Web UI 和 TUI 实时展示系统指标",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-kula.md"
   }
 ]

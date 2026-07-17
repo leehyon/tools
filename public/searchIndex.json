@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-17T02:22:34.354Z",
+  "updatedAt": "2026-07-17T02:26:03.461Z",
   "tools": [
     {
       "name": "Starship",
@@ -4576,6 +4576,32 @@
         "Security & Privacy"
       ],
       "timestamp": 1784254936
+    },
+    {
+      "name": "kula",
+      "url": "https://github.com/c0m4r/kula",
+      "tldr": "轻量级、自包含的 Linux 服务器监控工具，零依赖，单二进制部署，通过 Web UI 和 TUI 实时展示系统指标",
+      "scenarios": [
+        "实时监控服务器 CPU、内存、磁盘、网络等系统资源",
+        "快速部署在无外网环境的服务器上进行本地监控",
+        "通过 Web 仪表盘远程查看多台 Linux 主机的运行状态",
+        "结合 Prometheus 将监控数据纳入已有观测体系",
+        "使用 AI 助手分析图表数据并辅助排查问题",
+        "在终端中通过 TUI 界面快速浏览系统负载",
+        "监控 Docker、Podman 等容器运行状态和资源占用"
+      ],
+      "tags": [
+        "Lightweight",
+        "Self-contained",
+        "Linux",
+        "Server Monitoring",
+        "Real-time"
+      ],
+      "categories": [
+        "System & Automation",
+        "Data & Analytics"
+      ],
+      "timestamp": 1784255143
     }
   ]
 }
