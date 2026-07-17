@@ -4335,5 +4335,24 @@
     ],
     "tldr": "轻量级、自包含的 Linux 服务器监控工具，零依赖，单二进制部署，通过 Web UI 和 TUI 实时展示系统指标",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-kula.md"
+  },
+  {
+    "month": "202607",
+    "name": "pi-auto-approval",
+    "url": "https://github.com/Europa2061/pi-auto-approval",
+    "timestamp": 1784275414,
+    "tags": [
+      "AI Approval",
+      "Workflow Automation",
+      "Pi Extension",
+      "Low-Risk Approval"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [],
+    "tldr": "在 Pi AI 助手中自动批准低风险工具调用，高风险或不确定时回退人工审批，提升效率和安全性",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-pi-auto-approval.md"
   }
 ]

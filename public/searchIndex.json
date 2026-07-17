@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-17T02:26:03.461Z",
+  "updatedAt": "2026-07-17T08:03:52.208Z",
   "tools": [
     {
       "name": "Starship",
@@ -4602,6 +4602,29 @@
         "Data & Analytics"
       ],
       "timestamp": 1784255143
+    },
+    {
+      "name": "pi-auto-approval",
+      "url": "https://github.com/Europa2061/pi-auto-approval",
+      "tldr": "在 Pi AI 助手中自动批准低风险工具调用，高风险或不确定时回退人工审批，提升效率和安全性",
+      "scenarios": [
+        "在 AI 编程工作流中自动批准安全的文件读写和执行命令",
+        "减少开发过程中的重复性手动批准交互",
+        "用于无人值守的自动化任务执行",
+        "在交互式会话中平衡自动化与人工控制",
+        "辅助 CI/CD 流水线中的安全工具调用审批"
+      ],
+      "tags": [
+        "AI Approval",
+        "Workflow Automation",
+        "Pi Extension",
+        "Low-Risk Approval"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1784275414
     }
   ]
 }
