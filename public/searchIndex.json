@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-21T01:21:36.423Z",
+  "updatedAt": "2026-07-21T01:22:22.473Z",
   "tools": [
     {
       "name": "Starship",
@@ -4651,6 +4651,30 @@
         "Media & Creativity"
       ],
       "timestamp": 1784596874
+    },
+    {
+      "name": "wardrobe",
+      "url": "https://github.com/tandpfun/wardrobe",
+      "tldr": "用 GPT 图像技术从照片中自动提取衣物并生成干净的产品抠图和模型预览，本地管理衣物库",
+      "scenarios": [
+        "整理个人或家庭的衣物库，形成数字化的衣橱",
+        "为二手衣物或电商上架制作干净的产品抠图",
+        "服装设计师或造型师归档和展示衣物",
+        "生成带有模特参考效果的穿搭预览",
+        "通过批量导入快速处理大量衣物照片"
+      ],
+      "tags": [
+        "Clothing Management",
+        "AI Extraction",
+        "Image Processing",
+        "Local-first",
+        "Open Source"
+      ],
+      "categories": [
+        "File Management",
+        "Media & Creativity"
+      ],
+      "timestamp": 1784596924
     }
   ]
 }

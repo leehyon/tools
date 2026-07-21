@@ -4378,5 +4378,25 @@
     ],
     "tldr": "通过终端从 1800+ 站点下载视频或音频，无广告无弹窗，支持分辨率选择，键盘鼠标操作，自动处理依赖",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-21-yoinks.md"
+  },
+  {
+    "month": "202607",
+    "name": "wardrobe",
+    "url": "https://github.com/tandpfun/wardrobe",
+    "timestamp": 1784596924,
+    "tags": [
+      "Clothing Management",
+      "AI Extraction",
+      "Image Processing",
+      "Local-first",
+      "Open Source"
+    ],
+    "categories": [
+      "File Management",
+      "Media & Creativity"
+    ],
+    "Platform": [],
+    "tldr": "用 GPT 图像技术从照片中自动提取衣物并生成干净的产品抠图和模型预览，本地管理衣物库",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-21-wardrobe.md"
   }
 ]
