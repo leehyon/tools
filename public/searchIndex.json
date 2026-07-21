@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-21T01:22:22.473Z",
+  "updatedAt": "2026-07-21T01:23:55.618Z",
   "tools": [
     {
       "name": "Starship",
@@ -4675,6 +4675,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1784596924
+    },
+    {
+      "name": "cue",
+      "url": "https://github.com/Blueturboguy07/cue",
+      "tldr": "开源 AI 助手，浮于屏幕之上，能实时查看屏幕和听取会议内容，在屏幕共享时自动隐藏，需自带 AI 密钥，是 Cluely 的免费替代品",
+      "scenarios": [
+        "在会议中快速获取应答建议",
+        "通过截图解决编程难题并获取完整代码和复杂度分析",
+        "实时转录会议双方对话并生成概括",
+        "对屏幕内容进行自由提问并获取 AI 回答",
+        "在编码时快速调用 AI 辅助而不中断工作流",
+        "将 AI 助手隐藏于屏幕共享画面之外进行私密使用"
+      ],
+      "tags": [
+        "Open-source",
+        "AI Copilot",
+        "macOS",
+        "Screen Share Hidden",
+        "Real-time Assistance"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1784597015
     }
   ]
 }

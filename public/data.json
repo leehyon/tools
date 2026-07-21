@@ -4398,5 +4398,28 @@
     "Platform": [],
     "tldr": "用 GPT 图像技术从照片中自动提取衣物并生成干净的产品抠图和模型预览，本地管理衣物库",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-21-wardrobe.md"
+  },
+  {
+    "month": "202607",
+    "name": "cue",
+    "url": "https://github.com/Blueturboguy07/cue",
+    "timestamp": 1784597015,
+    "tags": [
+      "Open-source",
+      "AI Copilot",
+      "macOS",
+      "Screen Share Hidden",
+      "Real-time Assistance"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows"
+    ],
+    "tldr": "开源 AI 助手，浮于屏幕之上，能实时查看屏幕和听取会议内容，在屏幕共享时自动隐藏，需自带 AI 密钥，是 Cluely 的免费替代品",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-21-cue.md"
   }
 ]
