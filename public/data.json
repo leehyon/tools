@@ -4354,5 +4354,29 @@
     "Platform": [],
     "tldr": "在 Pi AI 助手中自动批准低风险工具调用，高风险或不确定时回退人工审批，提升效率和安全性",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-17-pi-auto-approval.md"
+  },
+  {
+    "month": "202607",
+    "name": "yoinks",
+    "url": "https://github.com/pablostanley/yoinks",
+    "timestamp": 1784596874,
+    "tags": [
+      "Video Downloader",
+      "CLI",
+      "Terminal",
+      "Free",
+      "Open Source"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "通过终端从 1800+ 站点下载视频或音频，无广告无弹窗，支持分辨率选择，键盘鼠标操作，自动处理依赖",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-21-yoinks.md"
   }
 ]

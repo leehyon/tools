@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-17T08:03:52.208Z",
+  "updatedAt": "2026-07-21T01:21:36.423Z",
   "tools": [
     {
       "name": "Starship",
@@ -4625,6 +4625,32 @@
         "System & Automation"
       ],
       "timestamp": 1784275414
+    },
+    {
+      "name": "yoinks",
+      "url": "https://github.com/pablostanley/yoinks",
+      "tldr": "通过终端从 1800+ 站点下载视频或音频，无广告无弹窗，支持分辨率选择，键盘鼠标操作，自动处理依赖",
+      "scenarios": [
+        "从 YouTube 下载视频",
+        "从 Twitter/X 下载视频",
+        "从 Instagram 下载视频",
+        "将视频转换为 MP3 音频",
+        "选择不同分辨率下载",
+        "快速下载单个视频",
+        "在终端环境中集成下载任务"
+      ],
+      "tags": [
+        "Video Downloader",
+        "CLI",
+        "Terminal",
+        "Free",
+        "Open Source"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1784596874
     }
   ]
 }
