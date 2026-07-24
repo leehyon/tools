@@ -4468,5 +4468,28 @@
     ],
     "tldr": "一个基于 Cloudflare 的无服务器开源文件托管方案，支持多种存储后端和 WebDAV，提供完整的文件生命周期管理功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-24-cloudflare-imgbed.md"
+  },
+  {
+    "month": "202607",
+    "name": "SurfSense",
+    "url": "https://www.surfsense.com",
+    "timestamp": 1784859051,
+    "tags": [
+      "Open Source",
+      "AI Agents",
+      "Web Scraping",
+      "Data Extraction",
+      "Research Tool"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "开源的 NotebookLM 替代品，为 AI agents 提供从 Reddit、YouTube 等社交平台抓取结构化实时数据的连接器，并内置研究工作空间与知识库",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-24-surfsense.md"
   }
 ]
