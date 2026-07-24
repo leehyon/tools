@@ -4445,5 +4445,28 @@
     ],
     "tldr": "一个开源的工作空间环境，描述长期运行的任务后自动创建含目标、上下文、规则和下一步的持久工作区，支持本地运行、BYOK、可调度和多应用集成，让工作累积而非每次重新开始",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-24-holaos.md"
+  },
+  {
+    "month": "202607",
+    "name": "CloudFlare-ImgBed",
+    "url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
+    "timestamp": 1784858846,
+    "tags": [
+      "File Hosting",
+      "Serverless",
+      "Image Hosting",
+      "Open Source",
+      "Cloudflare"
+    ],
+    "categories": [
+      "Developer Tools",
+      "File Management",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一个基于 Cloudflare 的无服务器开源文件托管方案，支持多种存储后端和 WebDAV，提供完整的文件生命周期管理功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-24-cloudflare-imgbed.md"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-24T01:50:37.832Z",
+  "updatedAt": "2026-07-24T02:07:45.378Z",
   "tools": [
     {
       "name": "Starship",
@@ -4727,6 +4727,31 @@
         "System & Automation"
       ],
       "timestamp": 1784857819
+    },
+    {
+      "name": "CloudFlare-ImgBed",
+      "url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
+      "tldr": "一个基于 Cloudflare 的无服务器开源文件托管方案，支持多种存储后端和 WebDAV，提供完整的文件生命周期管理功能",
+      "scenarios": [
+        "自建个人图床，用于博客、社交媒体等图片存储与分发",
+        "作为静态网站的资产存储后端，管理 CSS、JS、图片等文件",
+        "搭建轻量级文件分享服务，支持上传、下载和删除操作",
+        "利用 WebDAV 协议挂载远程存储，实现文件同步与管理",
+        "为开发团队提供测试环境下的临时文件存储与分发"
+      ],
+      "tags": [
+        "File Hosting",
+        "Serverless",
+        "Image Hosting",
+        "Open Source",
+        "Cloudflare"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "Media & Creativity"
+      ],
+      "timestamp": 1784858846
     }
   ]
 }
