@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-21T01:23:55.618Z",
+  "updatedAt": "2026-07-24T01:50:37.832Z",
   "tools": [
     {
       "name": "Starship",
@@ -4700,6 +4700,33 @@
         "Developer Tools"
       ],
       "timestamp": 1784597015
+    },
+    {
+      "name": "holaOS",
+      "url": "https://www.holaos.ai/",
+      "tldr": "一个开源的工作空间环境，描述长期运行的任务后自动创建含目标、上下文、规则和下一步的持久工作区，支持本地运行、BYOK、可调度和多应用集成，让工作累积而非每次重新开始",
+      "scenarios": [
+        "管理跨多轮会话的长期研究项目，自动保存上下文和输出",
+        "定期内容规划、排程与发布，如每周报告或社交媒体帖子",
+        "客户交付流程中的反馈收集、修改和版本追踪",
+        "启动计划与发布管理，协调多个步骤和审批",
+        "收件箱自动处理，根据规则分类、回复和跟进",
+        "多步骤工作流编排，结合浏览器、应用和本地工具",
+        "运行可重复的自动化任务，如数据收集或分析报告"
+      ],
+      "tags": [
+        "Open Source",
+        "Agent-Based",
+        "Workspace Automation",
+        "Local First",
+        "Long-running Tasks"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1784857819
     }
   ]
 }

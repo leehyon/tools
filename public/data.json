@@ -4421,5 +4421,29 @@
     ],
     "tldr": "开源 AI 助手，浮于屏幕之上，能实时查看屏幕和听取会议内容，在屏幕共享时自动隐藏，需自带 AI 密钥，是 Cluely 的免费替代品",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-21-cue.md"
+  },
+  {
+    "month": "202607",
+    "name": "holaOS",
+    "url": "https://www.holaos.ai/",
+    "timestamp": 1784857819,
+    "tags": [
+      "Open Source",
+      "Agent-Based",
+      "Workspace Automation",
+      "Local First",
+      "Long-running Tasks"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows"
+    ],
+    "tldr": "一个开源的工作空间环境，描述长期运行的任务后自动创建含目标、上下文、规则和下一步的持久工作区，支持本地运行、BYOK、可调度和多应用集成，让工作累积而非每次重新开始",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-24-holaos.md"
   }
 ]
