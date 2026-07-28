@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-24T02:11:08.544Z",
+  "updatedAt": "2026-07-28T01:28:11.694Z",
   "tools": [
     {
       "name": "Starship",
@@ -4779,6 +4779,32 @@
         "Data & Analytics"
       ],
       "timestamp": 1784859051
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "tldr": "一个基于 Git 的代码托管与协作平台，支持开源与私有项目，提供 Issue、PR、Actions、Copilot 等功能",
+      "scenarios": [
+        "托管和管理 Git 仓库",
+        "团队协作开发与代码审查",
+        "自动化 CI/CD 流水线",
+        "管理项目问题与任务",
+        "通过 GitHub Pages 部署静态站点",
+        "发现和贡献开源项目",
+        "使用 GitHub Copilot 辅助编码"
+      ],
+      "tags": [
+        "Version Control",
+        "Collaboration",
+        "Code Hosting",
+        "CI/CD",
+        "Open Source"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools"
+      ],
+      "timestamp": 1785202066
     }
   ]
 }

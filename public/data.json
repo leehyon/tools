@@ -4491,5 +4491,32 @@
     ],
     "tldr": "开源的 NotebookLM 替代品，为 AI agents 提供从 Reddit、YouTube 等社交平台抓取结构化实时数据的连接器，并内置研究工作空间与知识库",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-24-surfsense.md"
+  },
+  {
+    "month": "202607",
+    "name": "GitHub",
+    "url": "https://github.com/slvDev/esp32-ai",
+    "timestamp": 1785202066,
+    "tags": [
+      "Version Control",
+      "Collaboration",
+      "Code Hosting",
+      "CI/CD",
+      "Open Source"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web",
+      "Mac",
+      "Windows",
+      "Linux",
+      "iOS",
+      "Android"
+    ],
+    "tldr": "一个基于 Git 的代码托管与协作平台，支持开源与私有项目，提供 Issue、PR、Actions、Copilot 等功能",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-28-github.md"
   }
 ]
