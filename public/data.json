@@ -4540,5 +4540,25 @@
     ],
     "tldr": "类似 TextEdit 但专注于 Markdown 的免费开源编辑器 原生轻量快速 仅 4 MB 可流畅编辑千万行文件 隐私友好",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-29-markedit.md"
+  },
+  {
+    "month": "202607",
+    "name": "graphify",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "timestamp": 1785311376,
+    "tags": [
+      "Code Analysis",
+      "Knowledge Graph",
+      "Local-first",
+      "Open Source",
+      "Developer Tool"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools"
+    ],
+    "Platform": [],
+    "tldr": "将任何代码库及其文档、SQL 模式、配置和 PDF 通过本地 AST 解析转换为可查询的知识图谱，每条边都有解释，无需向量存储",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-29-graphify.md"
   }
 ]

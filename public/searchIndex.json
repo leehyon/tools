@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-29T07:47:30.691Z",
+  "updatedAt": "2026-07-29T07:49:56.303Z",
   "tools": [
     {
       "name": "Starship",
@@ -4857,6 +4857,32 @@
         "Developer Tools"
       ],
       "timestamp": 1785311231
+    },
+    {
+      "name": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "tldr": "将任何代码库及其文档、SQL 模式、配置和 PDF 通过本地 AST 解析转换为可查询的知识图谱，每条边都有解释，无需向量存储",
+      "scenarios": [
+        "快速理解大型代码库的架构和模块关系",
+        "在 AI 编码助手中智能查询代码、文档和配置",
+        "追踪跨文件函数调用、继承和依赖路径",
+        "将 PDF 文档、图片和视频集成到同一知识图谱中",
+        "自动生成代码报告和高亮关键节点与连接",
+        "团队共享代码地图，减少新成员上手时间",
+        "在 PR 审查中分析变更的影响范围"
+      ],
+      "tags": [
+        "Code Analysis",
+        "Knowledge Graph",
+        "Local-first",
+        "Open Source",
+        "Developer Tool"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools"
+      ],
+      "timestamp": 1785311376
     }
   ]
 }
