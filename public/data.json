@@ -4494,29 +4494,29 @@
   },
   {
     "month": "202607",
-    "name": "GitHub",
-    "url": "https://github.com/slvDev/esp32-ai",
-    "timestamp": 1785202066,
+    "name": "SoloMD",
+    "url": "https://solomd.app/",
+    "timestamp": 1785311086,
     "tags": [
-      "Version Control",
-      "Collaboration",
-      "Code Hosting",
-      "CI/CD",
-      "Open Source"
+      "Markdown Editor",
+      "Free",
+      "Open Source",
+      "Cross-platform",
+      "WYSIWYG"
     ],
     "categories": [
       "Knowledge Management",
+      "Text Input & Writing",
       "Developer Tools"
     ],
     "Platform": [
-      "Web",
       "Mac",
       "Windows",
       "Linux",
       "iOS",
       "Android"
     ],
-    "tldr": "一个基于 Git 的代码托管与协作平台，支持开源与私有项目，提供 Issue、PR、Actions、Copilot 等功能",
-    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-28-github.md"
+    "tldr": "免费开源跨平台 Markdown 编辑器，支持 WYSIWYG 预览、AI 重写、本地语义搜索、AutoGit 版本历史、MCP 服务器，无账户无订阅无遥测，纯文本文件永远可访问",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-29-solomd.md"
   }
 ]

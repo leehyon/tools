@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-28T01:28:11.694Z",
+  "updatedAt": "2026-07-29T07:45:07.485Z",
   "tools": [
     {
       "name": "Starship",
@@ -4805,6 +4805,33 @@
         "Developer Tools"
       ],
       "timestamp": 1785202066
+    },
+    {
+      "name": "SoloMD",
+      "url": "https://solomd.app/",
+      "tldr": "免费开源跨平台 Markdown 编辑器，支持 WYSIWYG 预览、AI 重写、本地语义搜索、AutoGit 版本历史、MCP 服务器，无账户无订阅无遥测，纯文本文件永远可访问",
+      "scenarios": [
+        "写长篇文章或书籍，使用专注模式和打字机模式",
+        "研究者管理笔记，通过语义搜索和 Wiki 链接快速定位段落",
+        "开发者将笔记作为 MCP 服务器集成到 AI 工具中",
+        "跨设备同步笔记（iCloud、Dropbox、OneDrive、Git 同步）",
+        "移动端快速记录和编辑 Markdown 文件",
+        "团队协作通过 GitHub 私有仓库进行版本控制",
+        "离线环境下的本地化笔记与知识管理"
+      ],
+      "tags": [
+        "Markdown Editor",
+        "Free",
+        "Open Source",
+        "Cross-platform",
+        "WYSIWYG"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1785311086
     }
   ]
 }
