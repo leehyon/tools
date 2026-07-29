@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-29T07:49:56.303Z",
+  "updatedAt": "2026-07-29T08:29:55.171Z",
   "tools": [
     {
       "name": "Starship",
@@ -4883,6 +4883,33 @@
         "Developer Tools"
       ],
       "timestamp": 1785311376
+    },
+    {
+      "name": "openworker",
+      "url": "https://github.com/andrewyng/openworker",
+      "tldr": "一款开源 AI 桌面助手，能将复杂任务拆解为步骤，连接本地文件和应用，生成完整文档或回复，支持多种模型且本地优先，关键操作需审批",
+      "scenarios": [
+        "自动准备客户简报、报告等文档",
+        "从 Slack 中直接调用完成任务并回复",
+        "管理日程、更新日历或收件箱",
+        "检查并汇总 Jira 与 GitHub 等项目进度",
+        "按计划自动执行每日简报或周报",
+        "通过终端或文件完成自动化数据处理",
+        "集成 Notion、Gmail 等 25+ 应用统一操作"
+      ],
+      "tags": [
+        "AI",
+        "Open Source",
+        "Desktop",
+        "Automation",
+        "Local-first"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1785313770
     }
   ]
 }
