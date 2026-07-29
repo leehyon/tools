@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-29T07:45:07.485Z",
+  "updatedAt": "2026-07-29T07:47:30.691Z",
   "tools": [
     {
       "name": "Starship",
@@ -4832,6 +4832,31 @@
         "Developer Tools"
       ],
       "timestamp": 1785311086
+    },
+    {
+      "name": "MarkEdit",
+      "url": "https://github.com/MarkEdit-app/MarkEdit",
+      "tldr": "类似 TextEdit 但专注于 Markdown 的免费开源编辑器 原生轻量快速 仅 4 MB 可流畅编辑千万行文件 隐私友好",
+      "scenarios": [
+        "编写和编辑 Markdown 格式的文档",
+        "快速记录笔记和想法",
+        "撰写博客文章或技术文档",
+        "编辑 README 文件",
+        "作为简洁的 Markdown 预览工具",
+        "配合 Shortcuts 和 AppleScript 自动化工作流"
+      ],
+      "tags": [
+        "Markdown Editor",
+        "Free",
+        "Open Source",
+        "Native",
+        "Lightweight"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1785311231
     }
   ]
 }

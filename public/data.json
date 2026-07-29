@@ -4518,5 +4518,27 @@
     ],
     "tldr": "免费开源跨平台 Markdown 编辑器，支持 WYSIWYG 预览、AI 重写、本地语义搜索、AutoGit 版本历史、MCP 服务器，无账户无订阅无遥测，纯文本文件永远可访问",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-29-solomd.md"
+  },
+  {
+    "month": "202607",
+    "name": "MarkEdit",
+    "url": "https://github.com/MarkEdit-app/MarkEdit",
+    "timestamp": 1785311231,
+    "tags": [
+      "Markdown Editor",
+      "Free",
+      "Open Source",
+      "Native",
+      "Lightweight"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "类似 TextEdit 但专注于 Markdown 的免费开源编辑器 原生轻量快速 仅 4 MB 可流畅编辑千万行文件 隐私友好",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-29-markedit.md"
   }
 ]
