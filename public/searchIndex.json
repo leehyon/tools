@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T08:42:51.334Z",
+  "updatedAt": "2026-07-31T08:44:34.920Z",
   "tools": [
     {
       "name": "Starship",
@@ -4961,6 +4961,32 @@
         "Security & Privacy"
       ],
       "timestamp": 1785487342
+    },
+    {
+      "name": "bento",
+      "url": "https://bento.page/",
+      "tldr": "本地优先的演示文稿工具，将文档、编辑器与播放器打包进一个 HTML 文件；支持 AI 直接读写 JSON、实时加密协作与离线使用，无需账号和云端",
+      "scenarios": [
+        "制作高设计感幻灯片并在浏览器中演示",
+        "把旧 PowerPoint 交给 AI 重建为现代 Web 风格",
+        "在离线或本地环境创建、编辑和展示演示文稿",
+        "通过聊天或编码 AI 直接修改文件中的 JSON 内容",
+        "多人实时协作编辑同一份 deck，支持端到端加密",
+        "将包含字体、图片和视频的文档长期归档保存"
+      ],
+      "tags": [
+        "Presentation",
+        "Local-First",
+        "AI-Native",
+        "Open Source",
+        "Offline-First"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1785487450
     }
   ]
 }
