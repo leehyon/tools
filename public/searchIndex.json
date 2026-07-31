@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T08:50:51.552Z",
+  "updatedAt": "2026-07-31T08:53:58.256Z",
   "tools": [
     {
       "name": "Starship",
@@ -5090,6 +5090,29 @@
         "Data & Analytics"
       ],
       "timestamp": 1785487833
+    },
+    {
+      "name": "howtodraw",
+      "url": "https://www.howtodraw.ai",
+      "tldr": "提供免费易学的分步绘画教程，将每个物体拆解为简单形状，用 6 到 15 个清晰步骤引导零基础初学者和儿童完成画作，无需任何经验",
+      "scenarios": [
+        "儿童独立或亲子一起学画",
+        "家长为孩子寻找屏幕较少的绘画活动",
+        "教师在课堂打印步骤概览教学",
+        "成人零基础从简单形状开始培养信心",
+        "快速画出一个动物或物品作为休闲娱乐"
+      ],
+      "tags": [
+        "Drawing Tutorials",
+        "Step-by-Step",
+        "Free",
+        "Kids",
+        "Beginners"
+      ],
+      "categories": [
+        "Media & Creativity"
+      ],
+      "timestamp": 1785488018
     }
   ]
 }

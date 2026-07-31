@@ -4750,5 +4750,26 @@
     ],
     "tldr": "一款基于 LLM 的智能磁盘清理助手，通过 AI 分析磁盘占用、识别可清理垃圾文件，并支持符号链接管理与一键迁移文件到其他磁盘",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-31-ai-disk-cleaner.md"
+  },
+  {
+    "month": "202607",
+    "name": "howtodraw",
+    "url": "https://www.howtodraw.ai",
+    "timestamp": 1785488018,
+    "tags": [
+      "Drawing Tutorials",
+      "Step-by-Step",
+      "Free",
+      "Kids",
+      "Beginners"
+    ],
+    "categories": [
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "提供免费易学的分步绘画教程，将每个物体拆解为简单形状，用 6 到 15 个清晰步骤引导零基础初学者和儿童完成画作，无需任何经验",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-31-howtodraw.md"
   }
 ]
