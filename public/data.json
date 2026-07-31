@@ -4655,5 +4655,28 @@
     ],
     "tldr": "本地优先的演示文稿工具，将文档、编辑器与播放器打包进一个 HTML 文件；支持 AI 直接读写 JSON、实时加密协作与离线使用，无需账号和云端",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-31-bento.md"
+  },
+  {
+    "month": "202607",
+    "name": "lazyrsync",
+    "url": "https://github.com/westpoint-io/lazyrsync",
+    "timestamp": 1785487519,
+    "tags": [
+      "Backup",
+      "Sync",
+      "TUI",
+      "Rsync",
+      "Rust"
+    ],
+    "categories": [
+      "File Management",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Linux",
+      "Mac"
+    ],
+    "tldr": "一款基于 Rust 的 rsync 终端界面，提供可复用任务配置、执行前的 dry-run diff 以及实时进度，并支持通过 SSH 管理远程备份与同步",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-31-lazyrsync.md"
   }
 ]

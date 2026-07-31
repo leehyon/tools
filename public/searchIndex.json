@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T08:44:34.920Z",
+  "updatedAt": "2026-07-31T08:45:41.835Z",
   "tools": [
     {
       "name": "Starship",
@@ -4987,6 +4987,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1785487450
+    },
+    {
+      "name": "lazyrsync",
+      "url": "https://github.com/westpoint-io/lazyrsync",
+      "tldr": "一款基于 Rust 的 rsync 终端界面，提供可复用任务配置、执行前的 dry-run diff 以及实时进度，并支持通过 SSH 管理远程备份与同步",
+      "scenarios": [
+        "定期备份本地目录到外接硬盘或 NAS",
+        "通过 SSH 将文件上传到远程服务器或从远程下载",
+        "创建带编号快照并利用硬链接节省空间",
+        "在执行同步前预览新增、更新和删除的文件变更",
+        "在无图形界面的终端环境中进行文件同步",
+        "将任务配置为定时运行并自动处理动态日期路径"
+      ],
+      "tags": [
+        "Backup",
+        "Sync",
+        "TUI",
+        "Rsync",
+        "Rust"
+      ],
+      "categories": [
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1785487519
     }
   ]
 }
