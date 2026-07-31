@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T08:48:56.117Z",
+  "updatedAt": "2026-07-31T08:50:51.552Z",
   "tools": [
     {
       "name": "Starship",
@@ -5064,6 +5064,32 @@
         "System & Automation"
       ],
       "timestamp": 1785487714
+    },
+    {
+      "name": "ai-disk-cleaner",
+      "url": "https://github.com/vudsen/ai-disk-cleaner",
+      "tldr": "一款基于 LLM 的智能磁盘清理助手，通过 AI 分析磁盘占用、识别可清理垃圾文件，并支持符号链接管理与一键迁移文件到其他磁盘",
+      "scenarios": [
+        "快速扫描磁盘并让 LLM 分析可清理的垃圾文件",
+        "识别无用缓存、临时文件与重复文件",
+        "管理符号链接，集中查看迁移映射",
+        "一键将大文件迁移到其他磁盘或分区",
+        "清理前预览 AI 标记的待删文件，避免误删",
+        "为普通用户提供智能化的磁盘空间释放方案"
+      ],
+      "tags": [
+        "Disk Cleanup",
+        "AI-Powered",
+        "Open Source",
+        "Windows",
+        "LLM"
+      ],
+      "categories": [
+        "File Management",
+        "System & Automation",
+        "Data & Analytics"
+      ],
+      "timestamp": 1785487833
     }
   ]
 }

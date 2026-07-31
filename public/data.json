@@ -4727,5 +4727,28 @@
     ],
     "tldr": "基于 Rust 与 Tokio 的多协议下载管理器，支持 HTTP、FTP、BitTorrent、eD2K 及 HLS/DASH 流媒体，具备智能分段加速、浏览器扩展与 MCP AI 集成，本地优先、无广告",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-31-fluxdown.md"
+  },
+  {
+    "month": "202607",
+    "name": "ai-disk-cleaner",
+    "url": "https://github.com/vudsen/ai-disk-cleaner",
+    "timestamp": 1785487833,
+    "tags": [
+      "Disk Cleanup",
+      "AI-Powered",
+      "Open Source",
+      "Windows",
+      "LLM"
+    ],
+    "categories": [
+      "File Management",
+      "System & Automation",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Windows"
+    ],
+    "tldr": "一款基于 LLM 的智能磁盘清理助手，通过 AI 分析磁盘占用、识别可清理垃圾文件，并支持符号链接管理与一键迁移文件到其他磁盘",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-31-ai-disk-cleaner.md"
   }
 ]
