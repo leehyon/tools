@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T08:34:19.453Z",
+  "updatedAt": "2026-07-31T08:42:51.334Z",
   "tools": [
     {
       "name": "Starship",
@@ -4936,6 +4936,31 @@
         "Security & Privacy"
       ],
       "timestamp": 1785486829
+    },
+    {
+      "name": "Orion Browser",
+      "url": "https://orionbrowser.com/",
+      "tldr": "一款基于 WebKit 的隐私浏览器，内置广告拦截与反追踪，支持 Safari、Chrome 和 Firefox 扩展，提供深度自定义，在 Mac、iOS、Linux 等平台运行",
+      "scenarios": [
+        "在 Mac 上获得快速省电且无追踪的浏览体验",
+        "使用 Chrome 或 Firefox 扩展，同时保持 Safari 的原生流畅",
+        "在 iPhone 和 iPad 上使用桌面级浏览器扩展",
+        "通过内置广告拦截与反追踪保护个人隐私",
+        "与 Kagi 搜索等服务深度集成，实现高效搜索与翻译",
+        "在 Linux 上体验零遥测的独立浏览器"
+      ],
+      "tags": [
+        "Privacy",
+        "WebKit",
+        "Extensions",
+        "Ad-blocking",
+        "No Telemetry"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Security & Privacy"
+      ],
+      "timestamp": 1785487342
     }
   ]
 }
