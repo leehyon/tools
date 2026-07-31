@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T08:45:41.835Z",
+  "updatedAt": "2026-07-31T08:47:54.523Z",
   "tools": [
     {
       "name": "Starship",
@@ -5012,6 +5012,31 @@
         "System & Automation"
       ],
       "timestamp": 1785487519
+    },
+    {
+      "name": "Linux-Router",
+      "url": "https://github.com/Jaksay/Linux-Router",
+      "tldr": "将 Debian 或 Armbian 设备变成路由器，通过 Web 控制台查看系统状态、管理有线和 Wi-Fi、创建热点、查看客户端并执行维护",
+      "scenarios": [
+        "将旧 Debian 或 Armbian 设备改造成路由器",
+        "通过浏览器管理有线与 Wi-Fi 网络",
+        "创建 Wi-Fi 热点并选择 AP 或 AP+STA 模式",
+        "查看已连接客户端、DHCP 租约与无线信号信息",
+        "在无图形界面环境中维护网络与系统状态",
+        "配合 Tailscale 实现远程访问与登录辅助",
+        "监控硬件、存储、内存与运行状态"
+      ],
+      "tags": [
+        "Network Management",
+        "Web Console",
+        "Open Source",
+        "Self-hosted",
+        "Linux"
+      ],
+      "categories": [
+        "System & Automation"
+      ],
+      "timestamp": 1785487651
     }
   ]
 }

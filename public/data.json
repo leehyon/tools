@@ -4678,5 +4678,27 @@
     ],
     "tldr": "一款基于 Rust 的 rsync 终端界面，提供可复用任务配置、执行前的 dry-run diff 以及实时进度，并支持通过 SSH 管理远程备份与同步",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-31-lazyrsync.md"
+  },
+  {
+    "month": "202607",
+    "name": "Linux-Router",
+    "url": "https://github.com/Jaksay/Linux-Router",
+    "timestamp": 1785487651,
+    "tags": [
+      "Network Management",
+      "Web Console",
+      "Open Source",
+      "Self-hosted",
+      "Linux"
+    ],
+    "categories": [
+      "System & Automation"
+    ],
+    "Platform": [
+      "Linux",
+      "Web"
+    ],
+    "tldr": "将 Debian 或 Armbian 设备变成路由器，通过 Web 控制台查看系统状态、管理有线和 Wi-Fi、创建热点、查看客户端并执行维护",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-31-linux-router.md"
   }
 ]
