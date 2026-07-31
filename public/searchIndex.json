@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T08:47:54.523Z",
+  "updatedAt": "2026-07-31T08:48:56.117Z",
   "tools": [
     {
       "name": "Starship",
@@ -5037,6 +5037,33 @@
         "System & Automation"
       ],
       "timestamp": 1785487651
+    },
+    {
+      "name": "FluxDown",
+      "url": "https://github.com/zerx-lab/FluxDown",
+      "tldr": "基于 Rust 与 Tokio 的多协议下载管理器，支持 HTTP、FTP、BitTorrent、eD2K 及 HLS/DASH 流媒体，具备智能分段加速、浏览器扩展与 MCP AI 集成，本地优先、无广告",
+      "scenarios": [
+        "替代 IDM 下载网页文件、软件安装包与媒体资源",
+        "通过浏览器扩展接管 Chrome、Edge、Firefox 的下载请求",
+        "下载 BitTorrent 磁力链接和 eD2K 链接",
+        "下载 HLS/DASH 流媒体并支持 AES 解密",
+        "通过内置 MCP 服务器让 AI 客户端管理和监控下载任务",
+        "在 NAS 或服务器上以 headless 模式运行批量下载",
+        "后台限速下载，避免影响正常上网浏览"
+      ],
+      "tags": [
+        "Download Manager",
+        "Open Source",
+        "Cross-Platform",
+        "Privacy-Focused",
+        "Browser Integration"
+      ],
+      "categories": [
+        "Developer Tools",
+        "File Management",
+        "System & Automation"
+      ],
+      "timestamp": 1785487714
     }
   ]
 }
