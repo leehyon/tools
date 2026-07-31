@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-29T08:29:55.171Z",
+  "updatedAt": "2026-07-31T08:34:19.453Z",
   "tools": [
     {
       "name": "Starship",
@@ -4910,6 +4910,32 @@
         "System & Automation"
       ],
       "timestamp": 1785313770
+    },
+    {
+      "name": "open-connector",
+      "url": "https://github.com/oomol-lab/open-connector",
+      "tldr": "开源认证网关，将 1000+ 个 SaaS 服务通过 SDK、CLI、MCP、HTTP 与 OpenAPI 连接到 AI 代理，具备凭据管理、Action 合约与可检查的运行日志，支持本地、云与自托管部署",
+      "scenarios": [
+        "为 AI Agent 统一接入用户已授权的 SaaS 账号",
+        "通过 MCP 将 Gmail、Slack、Notion 等服务开放给 Agent 主机",
+        "在自研应用中使用 SDK 或 HTTP API 调用连接器 Action",
+        "使用 CLI 在本地搜索、查看和调试 Action",
+        "将网关部署到 Fly.io 或 Cloudflare Workers 以托管运行",
+        "为团队配置 Action 允许/阻止策略并审计运行日志"
+      ],
+      "tags": [
+        "AI Agents",
+        "API Gateway",
+        "MCP",
+        "OAuth",
+        "Self-hosted"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1785486829
     }
   ]
 }
