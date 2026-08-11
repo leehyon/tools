@@ -4771,5 +4771,28 @@
     ],
     "tldr": "提供免费易学的分步绘画教程，将每个物体拆解为简单形状，用 6 到 15 个清晰步骤引导零基础初学者和儿童完成画作，无需任何经验",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202607/2026-07-31-howtodraw.md"
+  },
+  {
+    "month": "202608",
+    "name": "prime-agent",
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+    "timestamp": 1786412795,
+    "tags": [
+      "Self-Improving",
+      "Coding Agent",
+      "Long-Running Tasks",
+      "Open Source",
+      "Subagents"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation"
+    ],
+    "Platform": [
+      "Mac",
+      "Linux"
+    ],
+    "tldr": "一款开源的编码与研究代理，基于递归语言模型构建，提供持久 Python 环境、子代理、后台会话、自主模式与可自我改进的持续记忆，适合长时自动驾驶任务",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-11-prime-agent.md"
   }
 ]
