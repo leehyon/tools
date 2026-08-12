@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-12T02:20:17.898Z",
+  "updatedAt": "2026-08-12T06:29:34.352Z",
   "tools": [
     {
       "name": "Starship",
@@ -5166,6 +5166,33 @@
         "Data & Analytics"
       ],
       "timestamp": 1786501196
+    },
+    {
+      "name": "llama.app",
+      "url": "https://llama.app/",
+      "tldr": "本地运行开源大语言模型的命令行工具，支持多种硬件与模型，无需 API Key 和网络连接，所有数据留在电脑上，强调隐私与自主权",
+      "scenarios": [
+        "在本地电脑上运行大语言模型进行对话与问答",
+        "开发者本地测试和调试开源模型",
+        "处理敏感数据时离线使用 AI 功能",
+        "在没有网络的环境中启动本地推理服务",
+        "在异构硬件（苹果芯片、英伟达 GPU 等）上部署模型",
+        "配合本地编码代理自动发现并调用模型",
+        "通过命令行批量运行模型推理任务"
+      ],
+      "tags": [
+        "Local AI",
+        "Open Source",
+        "Privacy",
+        "On-Device",
+        "LLM"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1786516151
     }
   ]
 }
