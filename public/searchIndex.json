@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-11T01:46:59.240Z",
+  "updatedAt": "2026-08-12T02:20:17.898Z",
   "tools": [
     {
       "name": "Starship",
@@ -5139,6 +5139,33 @@
         "System & Automation"
       ],
       "timestamp": 1786412795
+    },
+    {
+      "name": "OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "tldr": "开源上下文数据库，以虚拟文件系统统一 AI 代理的记忆、知识与技能，采用 L0/L1/L2 分层存储和按需加载，支持可观测的目录式检索，降低 token 消耗并让会话经验沉淀为长期记忆",
+      "scenarios": [
+        "为 Claude Code、Codex 等 AI 代理提供统一的长短期记忆存储",
+        "构建基于 RAG 的知识库问答，检索结果保留完整上下文",
+        "管理和复用 AI 代理的技能、规则与用户偏好",
+        "通过分层加载机制降低大模型调用的 token 成本",
+        "调试代理的检索过程，查看每次查询的目录浏览轨迹",
+        "将多轮会话中的经验与偏好自动沉淀为长期记忆",
+        "在本地或云端以 Docker/Kubernetes 部署独立的上下文服务"
+      ],
+      "tags": [
+        "AI Agents",
+        "Context Database",
+        "Agent Memory",
+        "Open Source",
+        "Self-evolving"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools",
+        "Data & Analytics"
+      ],
+      "timestamp": 1786501196
     }
   ]
 }
