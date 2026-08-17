@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T01:53:13.263Z",
+  "updatedAt": "2026-08-17T06:55:48.906Z",
   "tools": [
     {
       "name": "Starship",
@@ -5271,6 +5271,33 @@
         "Media & Creativity"
       ],
       "timestamp": 1786931575
+    },
+    {
+      "name": "CertMate",
+      "url": "https://www.certmate.org/",
+      "tldr": "自托管 TLS 证书管理系统，支持 29+ DNS 提供商自动签发与续期，具备可审计、防篡改的日志链，提供 Web UI、REST API、CLI 与 MCP 集成，密钥永不离场",
+      "scenarios": [
+        "自动签发与续期 TLS 证书，避免服务因证书过期而中断",
+        "在 29+ 个 DNS 提供商之间统一管理多域名证书",
+        "通过 Web UI 或 REST API 集中监控证书状态与部署情况",
+        "使用 CLI 或 SDK 将证书操作集成到 CI/CD 流水线",
+        "通过 OIDC/SSO 与 RBAC 实现团队协作和细粒度权限控制",
+        "结合 MCP 服务器让 AI 代理辅助执行证书管理操作",
+        "生成合规所需的防篡改、可第三方验证的审计报告"
+      ],
+      "tags": [
+        "SSL Certificate",
+        "Self-hosted",
+        "Automation",
+        "Audit Trail",
+        "REST API"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1786949726
     }
   ]
 }

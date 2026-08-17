@@ -4912,5 +4912,28 @@
     ],
     "tldr": "一款浏览器端的交互式 3D 昆虫图鉴，63 个物种全部由 TypeScript 与 Three.js 程序化生成，支持旋转缩放、标注点讲解、剖切对比与测验，桌面移动端均可运行",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-17-insect-world.md"
+  },
+  {
+    "month": "202608",
+    "name": "CertMate",
+    "url": "https://www.certmate.org/",
+    "timestamp": 1786949726,
+    "tags": [
+      "SSL Certificate",
+      "Self-hosted",
+      "Automation",
+      "Audit Trail",
+      "REST API"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "自托管 TLS 证书管理系统，支持 29+ DNS 提供商自动签发与续期，具备可审计、防篡改的日志链，提供 Web UI、REST API、CLI 与 MCP 集成，密钥永不离场",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-17-certmate.md"
   }
 ]
