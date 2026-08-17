@@ -4841,5 +4841,30 @@
     "Platform": [],
     "tldr": "本地运行开源大语言模型的命令行工具，支持多种硬件与模型，无需 API Key 和网络连接，所有数据留在电脑上，强调隐私与自主权",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-12-llama.app.md"
+  },
+  {
+    "month": "202608",
+    "name": "LeePanel",
+    "url": "https://github.com/gna1280072/LeePanel",
+    "timestamp": 1786931260,
+    "tags": [
+      "Linux",
+      "Open Source",
+      "Free",
+      "SSH",
+      "VPS"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "tldr": "开源跨平台 Linux 服务器管理桌面面板，通过本地 SSH 操作实现服务器零安装零残留，以轻量级原生客户端替代传统 Web 面板，降低安全风险",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-17-leepanel.md"
   }
 ]
