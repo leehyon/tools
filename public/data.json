@@ -4890,5 +4890,27 @@
     ],
     "tldr": "本地优先的 Markdown 社交媒体卡片排版与导出工具，支持智能分页、多平台尺寸、16 款内置主题、KaTeX 公式与 Mermaid 图表，可导出 PNG 或 PDF",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-17-markcardstudio.md"
+  },
+  {
+    "month": "202608",
+    "name": "insect-world",
+    "url": "https://github.com/xr843/insect-world",
+    "timestamp": 1786931575,
+    "tags": [
+      "Entomology",
+      "3D Visualization",
+      "Procedural Generation",
+      "Education",
+      "Open Source"
+    ],
+    "categories": [
+      "Reading & Information",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一款浏览器端的交互式 3D 昆虫图鉴，63 个物种全部由 TypeScript 与 Three.js 程序化生成，支持旋转缩放、标注点讲解、剖切对比与测验，桌面移动端均可运行",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-17-insect-world.md"
   }
 ]
