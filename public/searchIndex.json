@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T01:48:02.252Z",
+  "updatedAt": "2026-08-17T01:49:54.354Z",
   "tools": [
     {
       "name": "Starship",
@@ -5220,6 +5220,32 @@
         "Security & Privacy"
       ],
       "timestamp": 1786931260
+    },
+    {
+      "name": "MarkCardStudio",
+      "url": "https://github.com/pangxiaobin/MarkCardStudio",
+      "tldr": "本地优先的 Markdown 社交媒体卡片排版与导出工具，支持智能分页、多平台尺寸、16 款内置主题、KaTeX 公式与 Mermaid 图表，可导出 PNG 或 PDF",
+      "scenarios": [
+        "将 Markdown 文档一键生成社交媒体卡片",
+        "为小红书、抖音、微博等平台制作指定尺寸配图",
+        "将技术文章或笔记导出为多页 PDF",
+        "使用 KaTeX 公式与 Mermaid 图表渲染富内容",
+        "通过智能分页切分长文档为多张卡片",
+        "自定义主题与背景，产出风格统一的视觉内容",
+        "本地管理 Markdown 文件并恢复未保存草稿"
+      ],
+      "tags": [
+        "Markdown",
+        "Social Cards",
+        "Local-first",
+        "PDF Export",
+        "Content Creation"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Media & Creativity"
+      ],
+      "timestamp": 1786931375
     }
   ]
 }
