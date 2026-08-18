@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T06:55:48.906Z",
+  "updatedAt": "2026-08-18T05:18:15.946Z",
   "tools": [
     {
       "name": "Starship",
@@ -5298,6 +5298,32 @@
         "Security & Privacy"
       ],
       "timestamp": 1786949726
+    },
+    {
+      "name": "Anx Reader",
+      "url": "https://github.com/anxcye/anx-reader",
+      "tldr": "一款为书虫打造的现代电子书阅读器，支持 EPUB/MOBI/AZW3 等多种格式，集成 AI 辅助阅读、笔记管理、阅读统计与跨平台同步，提供专注纯粹的阅读体验",
+      "scenarios": [
+        "阅读 EPUB、MOBI、AZW3、PDF 等多种格式的电子书",
+        "利用 AI 生成思维导图，快速理清复杂书籍结构",
+        "通过 AI 词典和翻译功能辅助阅读外文书籍",
+        "管理读书笔记，按时间或章节排序并导出为 TXT、Markdown、CSV",
+        "追踪阅读时长和习惯，查看每日、每周、每月或年度统计数据",
+        "使用 TTS 语音朗读功能，在通勤或休息时听书",
+        "通过 WebDAV 在多个设备间同步书籍、笔记和阅读进度"
+      ],
+      "tags": [
+        "E-book Reader",
+        "AI Assistant",
+        "Cross-platform",
+        "Open Source",
+        "Note-taking"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information"
+      ],
+      "timestamp": 1787030274
     }
   ]
 }
