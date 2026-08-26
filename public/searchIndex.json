@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-18T05:18:15.946Z",
+  "updatedAt": "2026-08-26T05:02:41.283Z",
   "tools": [
     {
       "name": "Starship",
@@ -5324,6 +5324,31 @@
         "Reading & Information"
       ],
       "timestamp": 1787030274
+    },
+    {
+      "name": "Kavita",
+      "url": "https://www.kavitareader.com/",
+      "tldr": "自托管的数字图书馆与阅读服务器，支持 EPUB、PDF、漫画及图片格式，内置多模式阅读器、OPDS、元数据管理与用户权限控制，注重隐私与速度。开源免费，可快速部署与共享。",
+      "scenarios": [
+        "搭建个人或家庭私有的电子书与漫画服务器",
+        "在浏览器中阅读 EPUB、PDF 和 CBZ 等格式内容",
+        "整理大型数字图书馆并按元数据高级筛选",
+        "与朋友共享阅读列表、批注和评论",
+        "通过 OPDS 协议在第三方阅读器中访问藏书",
+        "将阅读进度同步至 AniList 或 MyAnimeList",
+        "一键发送书籍到 Kindle 或其它设备离线阅读"
+      ],
+      "tags": [
+        "Self-hosted",
+        "Open Source",
+        "E-book Reader",
+        "Manga Reader",
+        "OPDS"
+      ],
+      "categories": [
+        "Reading & Information"
+      ],
+      "timestamp": 1787720538
     }
   ]
 }

@@ -4960,5 +4960,29 @@
     ],
     "tldr": "一款为书虫打造的现代电子书阅读器，支持 EPUB/MOBI/AZW3 等多种格式，集成 AI 辅助阅读、笔记管理、阅读统计与跨平台同步，提供专注纯粹的阅读体验",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-18-anx-reader.md"
+  },
+  {
+    "month": "202608",
+    "name": "Kavita",
+    "url": "https://www.kavitareader.com/",
+    "timestamp": 1787720538,
+    "tags": [
+      "Self-hosted",
+      "Open Source",
+      "E-book Reader",
+      "Manga Reader",
+      "OPDS"
+    ],
+    "categories": [
+      "Reading & Information"
+    ],
+    "Platform": [
+      "Windows",
+      "Linux",
+      "Mac",
+      "Web"
+    ],
+    "tldr": "自托管的数字图书馆与阅读服务器，支持 EPUB、PDF、漫画及图片格式，内置多模式阅读器、OPDS、元数据管理与用户权限控制，注重隐私与速度。开源免费，可快速部署与共享。",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-26-kavita.md"
   }
 ]
