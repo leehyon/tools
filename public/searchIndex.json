@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-26T05:02:41.283Z",
+  "updatedAt": "2026-08-26T06:03:29.877Z",
   "tools": [
     {
       "name": "Starship",
@@ -5349,6 +5349,32 @@
         "Reading & Information"
       ],
       "timestamp": 1787720538
+    },
+    {
+      "name": "BookLore",
+      "url": "https://github.com/booklore-app/booklore",
+      "tldr": "自托管的多用户数字图书馆，提供智能书架、自动元数据补全、Kobo 与 KOReader 同步、BookDrop 导入、OPDS 支持，以及内置的 EPUB、PDF 和漫画阅读器",
+      "scenarios": [
+        "自建私有数字图书馆，统一个人或家庭电子书收藏",
+        "通过规则书架和全文搜索快速定位书籍",
+        "在浏览器中直接阅读 EPUB、PDF 和漫画并添加标注",
+        "同步阅读进度到 Kobo 或 KOReader，跨设备续读",
+        "使用 OPDS 应用在手机或平板上访问书库",
+        "向 Kindle、邮箱或好友一键分享电子书"
+      ],
+      "tags": [
+        "Self-hosted",
+        "Digital Library",
+        "E-book Management",
+        "Open Source",
+        "Multi-user"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information",
+        "File Management"
+      ],
+      "timestamp": 1787724156
     }
   ]
 }

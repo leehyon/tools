@@ -4984,5 +4984,29 @@
     ],
     "tldr": "自托管的数字图书馆与阅读服务器，支持 EPUB、PDF、漫画及图片格式，内置多模式阅读器、OPDS、元数据管理与用户权限控制，注重隐私与速度。开源免费，可快速部署与共享。",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-26-kavita.md"
+  },
+  {
+    "month": "202608",
+    "name": "BookLore",
+    "url": "https://github.com/booklore-app/booklore",
+    "timestamp": 1787724156,
+    "tags": [
+      "Self-hosted",
+      "Digital Library",
+      "E-book Management",
+      "Open Source",
+      "Multi-user"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Reading & Information",
+      "File Management"
+    ],
+    "Platform": [
+      "Linux",
+      "Web"
+    ],
+    "tldr": "自托管的多用户数字图书馆，提供智能书架、自动元数据补全、Kobo 与 KOReader 同步、BookDrop 导入、OPDS 支持，以及内置的 EPUB、PDF 和漫画阅读器",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-26-booklore.md"
   }
 ]
