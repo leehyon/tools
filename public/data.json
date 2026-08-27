@@ -5008,5 +5008,27 @@
     ],
     "tldr": "自托管的多用户数字图书馆，提供智能书架、自动元数据补全、Kobo 与 KOReader 同步、BookDrop 导入、OPDS 支持，以及内置的 EPUB、PDF 和漫画阅读器",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-26-booklore.md"
+  },
+  {
+    "month": "202608",
+    "name": "KNAS 音乐整理",
+    "url": "https://knas.site/zh/music-organizer",
+    "timestamp": 1787793962,
+    "tags": [
+      "Music Organizer",
+      "NAS",
+      "NCM Converter",
+      "Batch Conversion",
+      "Local-First"
+    ],
+    "categories": [
+      "File Management",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Linux"
+    ],
+    "tldr": "在 fnOS 与 FygoOS 上本地转换 NCM 并整理音乐库，按歌手与专辑归档，支持常见音频格式，保留歌词封面，操作可控且不修改原始文件",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-27-knas-%E9%9F%B3%E4%B9%90%E6%95%B4%E7%90%86.md"
   }
 ]
