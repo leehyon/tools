@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-27T01:26:25.184Z",
+  "updatedAt": "2026-08-27T06:59:37.450Z",
   "tools": [
     {
       "name": "Starship",
@@ -5400,6 +5400,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1787793962
+    },
+    {
+      "name": "Ceedling",
+      "url": "https://www.throwtheswitch.org/ceedling",
+      "tldr": "面向 C 语言的构建与测试工具，基于 Unity 和 CMock，自动组织测试与发布构建，简化测试管理工作流",
+      "scenarios": [
+        "编写和运行 C 单元测试",
+        "自动生成 mock 和 stub 代码",
+        "管理多模块项目的测试构建流程",
+        "集成到持续集成系统",
+        "配置交叉编译和模拟器测试",
+        "与 IDE 或文本编辑器配合使用",
+        "快速生成项目骨架与测试文件"
+      ],
+      "tags": [
+        "C Language",
+        "Unit Testing",
+        "Build System",
+        "Test Automation",
+        "Embedded"
+      ],
+      "categories": [
+        "Developer Tools"
+      ],
+      "timestamp": 1787813954
     }
   ]
 }
