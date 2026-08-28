@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T05:27:28.998Z",
+  "updatedAt": "2026-08-28T05:46:46.517Z",
   "tools": [
     {
       "name": "Starship",
@@ -5450,6 +5450,56 @@
         "Text Input & Writing"
       ],
       "timestamp": 1787894822
+    },
+    {
+      "name": "KNAS",
+      "url": "https://knas.site/zh/music-organizer",
+      "tldr": "在 fnOS 与 FygoOS 上本地转换 NCM 并整理音乐库，按歌手与专辑归档，支持常见音频格式，保留歌词封面，操作可控且不修改原始文件",
+      "scenarios": [
+        "将网易云音乐的 NCM 文件转换为 FLAC 或 MP3 格式",
+        "按歌手与专辑自动归档 NAS 上的音乐文件",
+        "批量整理音乐时查看逐文件进度并支持暂停重试",
+        "将同名歌词与封面一并归档到输出目录",
+        "对缺失标签的文件使用明确回退目录归类",
+        "在不重新编码的情况下快速复制归档常见格式音频"
+      ],
+      "tags": [
+        "Music Organizer",
+        "NAS",
+        "NCM Converter",
+        "Batch Conversion",
+        "Local-First"
+      ],
+      "categories": [
+        "File Management",
+        "Media & Creativity"
+      ],
+      "timestamp": 1787793962
+    },
+    {
+      "name": "multi-row-tabs",
+      "url": "https://github.com/hezhizheng/multi-row-tabs",
+      "tldr": "一个以多行平铺方式展示当前窗口所有标签页的 Chrome 扩展，采用零侵入浮动模式，不修改页面样式；支持自定义快捷键、标签排序、拖拽悬浮按钮与键盘导航，帮助用户在大量标签页中快速定位与切换",
+      "scenarios": [
+        "同时打开大量标签页时，快速查看当前窗口内所有标签并定位目标",
+        "按域名或名称对标签进行排序，同站子域名自动聚合，便于批量管理",
+        "通过快捷键 Alt+Z 快速展开或收起标签栏，保持页面整洁",
+        "使用方向键和 Enter 键在标签之间导航切换，提高操作效率",
+        "以中键点击或标签上的 × 快速关闭不需要的标签页",
+        "在弹出面板中切换开关、显示链接或录制自定义快捷键，灵活适配个人习惯"
+      ],
+      "tags": [
+        "Chrome Extension",
+        "Tab Management",
+        "Multi-row Tabs",
+        "Open Source",
+        "Keyboard Shortcuts"
+      ],
+      "categories": [
+        "Reading & Information",
+        "System & Automation"
+      ],
+      "timestamp": 1787895983
     }
   ]
 }
