@@ -5096,5 +5096,28 @@
     ],
     "tldr": "一个以多行平铺方式展示当前窗口所有标签页的 Chrome 扩展，采用零侵入浮动模式，不修改页面样式；支持自定义快捷键、标签排序、拖拽悬浮按钮与键盘导航，帮助用户在大量标签页中快速定位与切换",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-28-multi-row-tabs.md"
+  },
+  {
+    "month": "202608",
+    "name": "emailmd",
+    "url": "https://www.emailmd.dev/templates",
+    "timestamp": 1787896050,
+    "tags": [
+      "Email Templates",
+      "Markdown",
+      "Open Source",
+      "Template Builder",
+      "Transactional Email"
+    ],
+    "categories": [
+      "Text Input & Writing",
+      "Developer Tools",
+      "Communication"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "以 Markdown 编写邮件并生成可定制 HTML 模板的开源工具，内置多种常用场景模板，提供可视化 Builder 与 AI 辅助能力",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-28-emailmd.md"
   }
 ]

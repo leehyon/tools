@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T05:46:46.517Z",
+  "updatedAt": "2026-08-28T05:47:50.222Z",
   "tools": [
     {
       "name": "Starship",
@@ -5500,6 +5500,33 @@
         "System & Automation"
       ],
       "timestamp": 1787895983
+    },
+    {
+      "name": "emailmd",
+      "url": "https://www.emailmd.dev/templates",
+      "tldr": "以 Markdown 编写邮件并生成可定制 HTML 模板的开源工具，内置多种常用场景模板，提供可视化 Builder 与 AI 辅助能力",
+      "scenarios": [
+        "快速生成密码重置、订单确认等事务性邮件模板",
+        "制作月度简报、产品公告、活动邀请等营销邮件",
+        "为新品发布和更新日志设计邮件通知",
+        "搭建欢迎邮件与用户引导系列邮件",
+        "生成发票、账单和月度报告邮件",
+        "制作购物车放弃挽回邮件",
+        "通过 Builder 可视化编辑并定制开源模板"
+      ],
+      "tags": [
+        "Email Templates",
+        "Markdown",
+        "Open Source",
+        "Template Builder",
+        "Transactional Email"
+      ],
+      "categories": [
+        "Text Input & Writing",
+        "Developer Tools",
+        "Communication"
+      ],
+      "timestamp": 1787896050
     }
   ]
 }
