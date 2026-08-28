@@ -5049,5 +5049,27 @@
     "Platform": [],
     "tldr": "面向 C 语言的构建与测试工具，基于 Unity 和 CMock，自动组织测试与发布构建，简化测试管理工作流",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-27-ceedling.md"
+  },
+  {
+    "month": "202608",
+    "name": "Markra",
+    "url": "https://markra.app/",
+    "timestamp": 1787894822,
+    "tags": [
+      "Markdown Editor",
+      "AI Review",
+      "Local-first",
+      "Open Source",
+      "WYSIWYG"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Text Input & Writing"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "一款所见即所得 Markdown 编辑器，内置原生 AI 审阅，支持本地文件与文件夹，保持纯 Markdown 底层，所有 AI 修改需确认后应用",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-28-markra.md"
   }
 ]

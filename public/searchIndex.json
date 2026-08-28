@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-27T06:59:37.450Z",
+  "updatedAt": "2026-08-28T05:27:28.998Z",
   "tools": [
     {
       "name": "Starship",
@@ -5425,6 +5425,31 @@
         "Developer Tools"
       ],
       "timestamp": 1787813954
+    },
+    {
+      "name": "Markra",
+      "url": "https://markra.app/",
+      "tldr": "一款所见即所得 Markdown 编辑器，内置原生 AI 审阅，支持本地文件与文件夹，保持纯 Markdown 底层，所有 AI 修改需确认后应用",
+      "scenarios": [
+        "日常笔记与快速记录",
+        "草稿与长文写作",
+        "使用 AI 对文档进行审阅与修改",
+        "对 AI 建议逐条确认后再应用",
+        "打开本地文件夹进行多文件管理",
+        "以纯 Markdown 格式保存和迁移文档"
+      ],
+      "tags": [
+        "Markdown Editor",
+        "AI Review",
+        "Local-first",
+        "Open Source",
+        "WYSIWYG"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Text Input & Writing"
+      ],
+      "timestamp": 1787894822
     }
   ]
 }
