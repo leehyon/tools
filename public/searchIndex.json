@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-02T01:52:03.841Z",
+  "updatedAt": "2026-09-02T01:52:53.854Z",
   "tools": [
     {
       "name": "Starship",
@@ -5578,6 +5578,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1788313905
+    },
+    {
+      "name": "OBS",
+      "url": "https://obsproject.com/",
+      "tldr": "开源跨平台视频录制与直播软件，支持多场景切换、实时混音、自定义转场，并可通过插件扩展功能",
+      "scenarios": [
+        "在 Windows、Mac 或 Linux 上进行本地视频录制",
+        "向 Twitch、YouTube 等平台进行实时直播",
+        "游戏实况录制与串流",
+        "创建由窗口、图像、文字、摄像头等组成的多来源场景",
+        "在直播或录制前通过 Studio 模式预览和调整画面",
+        "使用 Multiview 监控多个场景并快速切换",
+        "通过 Lua/Python 脚本或插件实现自定义工作流"
+      ],
+      "tags": [
+        "Open Source",
+        "Live Streaming",
+        "Screen Recording",
+        "Free",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Media & Creativity"
+      ],
+      "timestamp": 1788313951
     }
   ]
 }
