@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T05:47:50.222Z",
+  "updatedAt": "2026-09-02T01:49:44.490Z",
   "tools": [
     {
       "name": "Starship",
@@ -5527,6 +5527,31 @@
         "Communication"
       ],
       "timestamp": 1787896050
+    },
+    {
+      "name": "Kdenlive",
+      "url": "https://kdenlive.org/",
+      "tldr": "一款免费开源的跨平台非线性视频编辑器，支持多轨剪辑、特效、转场、调色等功能，适用于从入门到专业的视频制作需求",
+      "scenarios": [
+        "剪辑个人视频日志或生活记录",
+        "制作教学教程或演示视频",
+        "剪辑短片、纪录片或影视作品",
+        "为视频添加字幕、转场和特效",
+        "进行多轨音频混合与调音",
+        "创建开源项目或社区的视频内容",
+        "在不同操作系统间无缝切换剪辑工作"
+      ],
+      "tags": [
+        "Free",
+        "Open Source",
+        "Video Editor",
+        "Non-linear Editing",
+        "Cross-platform"
+      ],
+      "categories": [
+        "Media & Creativity"
+      ],
+      "timestamp": 1788313761
     }
   ]
 }

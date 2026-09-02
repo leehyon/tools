@@ -5119,5 +5119,28 @@
     ],
     "tldr": "以 Markdown 编写邮件并生成可定制 HTML 模板的开源工具，内置多种常用场景模板，提供可视化 Builder 与 AI 辅助能力",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202608/2026-08-28-emailmd.md"
+  },
+  {
+    "month": "202609",
+    "name": "Kdenlive",
+    "url": "https://kdenlive.org/",
+    "timestamp": 1788313761,
+    "tags": [
+      "Free",
+      "Open Source",
+      "Video Editor",
+      "Non-linear Editing",
+      "Cross-platform"
+    ],
+    "categories": [
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "tldr": "一款免费开源的跨平台非线性视频编辑器，支持多轨剪辑、特效、转场、调色等功能，适用于从入门到专业的视频制作需求",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202609/2026-09-02-kdenlive.md"
   }
 ]
