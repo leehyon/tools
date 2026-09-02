@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-02T01:49:44.490Z",
+  "updatedAt": "2026-09-02T01:52:03.841Z",
   "tools": [
     {
       "name": "Starship",
@@ -5552,6 +5552,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1788313761
+    },
+    {
+      "name": "Screen Studio",
+      "url": "https://screen.studio/",
+      "tldr": "一款为 macOS 设计的专业录屏软件，自动缩放、平滑光标动画，快速制作产品演示、教程和社交媒体视频，内置剪辑与导出功能",
+      "scenarios": [
+        "制作产品功能演示视频",
+        "录制软件教程和课程",
+        "为社交媒体制作竖屏视频",
+        "录制 iPhone 或 iPad 应用演示",
+        "创建带键盘快捷键展示的操作指南",
+        "导出 GIF 用于聊天或文档",
+        "快速生成可分享的视频链接"
+      ],
+      "tags": [
+        "Screen Recording",
+        "macOS",
+        "Video Editing",
+        "Product Demos",
+        "Tutorials"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1788313905
     }
   ]
 }
