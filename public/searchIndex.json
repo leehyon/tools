@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-02T01:52:53.854Z",
+  "updatedAt": "2026-09-02T01:53:54.271Z",
   "tools": [
     {
       "name": "Starship",
@@ -5603,6 +5603,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1788313951
+    },
+    {
+      "name": "FFmpeg",
+      "url": "https://ffmpeg.org/",
+      "tldr": "跨平台命令行多媒体处理框架，支持录制、转换与流媒体处理，内置大量编解码器与滤镜，可通过命令行灵活处理音视频",
+      "scenarios": [
+        "批量转换视频格式",
+        "提取视频中的音频",
+        "剪辑与拼接视频片段",
+        "视频压缩与编码参数调整",
+        "屏幕录制与摄像头采集",
+        "直播推流与拉流",
+        "添加字幕、水印与滤镜效果"
+      ],
+      "tags": [
+        "Command-line Tool",
+        "Open Source",
+        "Video Transcoding",
+        "Audio Processing",
+        "Streaming"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1788314009
     }
   ]
 }

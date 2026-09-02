@@ -5187,5 +5187,31 @@
     ],
     "tldr": "开源跨平台视频录制与直播软件，支持多场景切换、实时混音、自定义转场，并可通过插件扩展功能",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202609/2026-09-02-obs.md"
+  },
+  {
+    "month": "202609",
+    "name": "FFmpeg",
+    "url": "https://ffmpeg.org/",
+    "timestamp": 1788314009,
+    "tags": [
+      "Command-line Tool",
+      "Open Source",
+      "Video Transcoding",
+      "Audio Processing",
+      "Streaming"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "iOS",
+      "Android"
+    ],
+    "tldr": "跨平台命令行多媒体处理框架，支持录制、转换与流媒体处理，内置大量编解码器与滤镜，可通过命令行灵活处理音视频",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202609/2026-09-02-ffmpeg.md"
   }
 ]
