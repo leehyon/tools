@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-02T01:53:54.271Z",
+  "updatedAt": "2026-09-04T02:57:46.582Z",
   "tools": [
     {
       "name": "Starship",
@@ -5629,6 +5629,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1788314009
+    },
+    {
+      "name": "zlib",
+      "url": "https://zlib.heartleo.dev/",
+      "tldr": "面向终端与 AI Agent 的 Z-Library 命令行客户端，支持书目搜索、文件下载、Kindle 邮件投递，能探测可用镜像，并提供 --json 输出供脚本和编码代理复用",
+      "scenarios": [
+        "在终端中搜索 Z-Library 书目并浏览结果",
+        "按 ID 下载电子书并查看实时进度",
+        "将本地文件发送到 Kindle 邮箱",
+        "让 Claude Code 或 Codex 等 AI Agent 直接帮忙找书",
+        "在镜像站不稳定时探测可用的 Z-Library 域名",
+        "用脚本批量查询和下载，解析 JSON 输出",
+        "查看今日下载额度及重新下载历史记录"
+      ],
+      "tags": [
+        "Command-Line",
+        "Ebook Downloader",
+        "Kindle",
+        "Terminal",
+        "Open Source"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Developer Tools"
+      ],
+      "timestamp": 1788490645
     }
   ]
 }
