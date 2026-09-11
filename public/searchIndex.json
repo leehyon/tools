@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-04T02:57:46.582Z",
+  "updatedAt": "2026-09-11T01:59:41.421Z",
   "tools": [
     {
       "name": "Starship",
@@ -5655,6 +5655,33 @@
         "Developer Tools"
       ],
       "timestamp": 1788490645
+    },
+    {
+      "name": "Tolaria",
+      "url": "https://tolaria.md/",
+      "tldr": "面向 AI 时代的开源第二大脑，将笔记存为 Markdown 文件，内置原生关系、Git 版本控制、本地 AI 代理与直接模型连接，免费且无需账号",
+      "scenarios": [
+        "用 Markdown 文件管理成千上万条个人笔记与知识库",
+        "在笔记中建立双向链接与原生关系，构建知识网络",
+        "借助内置 Git 客户端对笔记进行版本控制与多设备同步",
+        "调用本地 CLI 编码代理或 API 模型，基于笔记上下文进行 AI 对话与编辑",
+        "用块编辑器与斜杠命令快速记录、整理和检索信息",
+        "编写技术文章时从大量笔记中组织素材与引用",
+        "将笔记库作为 Git 仓库进行协作与历史追溯"
+      ],
+      "tags": [
+        "Markdown",
+        "Note-taking",
+        "Knowledge Base",
+        "Open Source",
+        "Git"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1789091959
     }
   ]
 }

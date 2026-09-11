@@ -5237,5 +5237,26 @@
     ],
     "tldr": "面向终端与 AI Agent 的 Z-Library 命令行客户端，支持书目搜索、文件下载、Kindle 邮件投递，能探测可用镜像，并提供 --json 输出供脚本和编码代理复用",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202609/2026-09-04-zlib.md"
+  },
+  {
+    "month": "202609",
+    "name": "Tolaria",
+    "url": "https://tolaria.md/",
+    "timestamp": 1789091959,
+    "tags": [
+      "Markdown",
+      "Note-taking",
+      "Knowledge Base",
+      "Open Source",
+      "Git"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Text Input & Writing",
+      "Developer Tools"
+    ],
+    "Platform": [],
+    "tldr": "面向 AI 时代的开源第二大脑，将笔记存为 Markdown 文件，内置原生关系、Git 版本控制、本地 AI 代理与直接模型连接，免费且无需账号",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202609/2026-09-11-tolaria.md"
   }
 ]
