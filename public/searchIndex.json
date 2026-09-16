@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-11T01:59:41.421Z",
+  "updatedAt": "2026-09-16T06:20:45.371Z",
   "tools": [
     {
       "name": "Starship",
@@ -5682,6 +5682,33 @@
         "Developer Tools"
       ],
       "timestamp": 1789091959
+    },
+    {
+      "name": "VitePress",
+      "url": "https://vitepress.dev/",
+      "tldr": "基于 Vite 与 Vue 的静态站点生成器，用 Markdown 快速创建美观文档站，开发热更新快，构建后加载迅速",
+      "scenarios": [
+        "为开源项目快速搭建美观的文档站点",
+        "将 Markdown 笔记整理为可部署的静态网站",
+        "编写产品手册、API 文档与帮助中心",
+        "搭建个人技术博客或知识库",
+        "在 Markdown 中嵌入 Vue 组件做交互式文档",
+        "使用热更新本地预览文档写作效果",
+        "生成加载快、SEO 友好的静态页面"
+      ],
+      "tags": [
+        "Static Site Generator",
+        "Documentation",
+        "Markdown",
+        "Vue",
+        "Vite"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Text Input & Writing",
+        "Developer Tools"
+      ],
+      "timestamp": 1789539623
     }
   ]
 }
