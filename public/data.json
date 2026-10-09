@@ -5332,5 +5332,27 @@
     ],
     "tldr": "七款用 Rust 从零编写的开源创意应用，覆盖图像、矢量、视频、照片、PDF、动效与排版，原生运行、免费使用，也能在浏览器里跑",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-09-crafting-apps.md"
+  },
+  {
+    "month": "202610",
+    "name": "stillwet",
+    "url": "https://stillwet.art/",
+    "timestamp": 1791509627,
+    "tags": [
+      "AI Art",
+      "Generative Art",
+      "Painting Simulation",
+      "Creative Coding",
+      "Live Studio"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "让 AI 模型用代码在油画模拟中逐笔作画，并实时展示、对比不同模型的创作过程与结果",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-09-stillwet.md"
   }
 ]

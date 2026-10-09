@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-09T01:26:08.512Z",
+  "updatedAt": "2026-10-09T01:34:08.534Z",
   "tools": [
     {
       "name": "Starship",
@@ -5761,6 +5761,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1791509146
+    },
+    {
+      "name": "stillwet",
+      "url": "https://stillwet.art/",
+      "tldr": "让 AI 模型用代码在油画模拟中逐笔作画，并实时展示、对比不同模型的创作过程与结果",
+      "scenarios": [
+        "观看多个 AI 模型在虚拟画布上实时作画",
+        "比较不同 AI 模型面对同一主题时的绘画风格与选择",
+        "研究如何用程序代码模拟油画笔触、颜料与干燥过程",
+        "作为创意编程与生成艺术的教学或案例参考",
+        "追踪每轮实验设置、模型笔记与最终画作",
+        "欣赏以 Caspar David Friedrich 风格创作的 AI 绘画",
+        "了解不依赖图像生成模型的 AI 艺术创作方式"
+      ],
+      "tags": [
+        "AI Art",
+        "Generative Art",
+        "Painting Simulation",
+        "Creative Coding",
+        "Live Studio"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1791509627
     }
   ]
 }
