@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-16T06:21:49.253Z",
+  "updatedAt": "2026-10-09T01:26:08.512Z",
   "tools": [
     {
       "name": "Starship",
@@ -5735,6 +5735,32 @@
         "Developer Tools"
       ],
       "timestamp": 1789539680
+    },
+    {
+      "name": "Crafting Apps",
+      "url": "https://getartcraft.com/apps",
+      "tldr": "七款用 Rust 从零编写的开源创意应用，覆盖图像、矢量、视频、照片、PDF、动效与排版，原生运行、免费使用，也能在浏览器里跑",
+      "scenarios": [
+        "替代 Photoshop 做开源图像编辑与修图",
+        "用纯 Rust 工具做矢量插画与图标设计",
+        "剪辑视频并制作动效与视觉特效",
+        "管理本地照片库并处理 RAW 文件",
+        "读取、合并、拆分与加密 PDF 文档",
+        "做页面排版与出版物设计",
+        "通过 CLI 或 MCP 让 AI Agent 自动批量处理素材"
+      ],
+      "tags": [
+        "Open Source",
+        "Creative Suite",
+        "Rust",
+        "Cross-platform",
+        "Media Editing"
+      ],
+      "categories": [
+        "System & Automation",
+        "Media & Creativity"
+      ],
+      "timestamp": 1791509146
     }
   ]
 }

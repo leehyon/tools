@@ -5307,5 +5307,30 @@
     ],
     "tldr": "用 Markdown 编写文档，几分钟内生成可搜索、可定制的专业静态网站，支持 60+ 语言与多设备",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202609/2026-09-16-material-for-mkdocs.md"
+  },
+  {
+    "month": "202610",
+    "name": "Crafting Apps",
+    "url": "https://getartcraft.com/apps",
+    "timestamp": 1791509146,
+    "tags": [
+      "Open Source",
+      "Creative Suite",
+      "Rust",
+      "Cross-platform",
+      "Media Editing"
+    ],
+    "categories": [
+      "System & Automation",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "tldr": "七款用 Rust 从零编写的开源创意应用，覆盖图像、矢量、视频、照片、PDF、动效与排版，原生运行、免费使用，也能在浏览器里跑",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-09-crafting-apps.md"
   }
 ]
