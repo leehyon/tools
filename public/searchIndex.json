@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-09T01:34:08.534Z",
+  "updatedAt": "2026-10-16T01:49:53.500Z",
   "tools": [
     {
       "name": "Starship",
@@ -5787,6 +5787,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1791509627
+    },
+    {
+      "name": "Caplo",
+      "url": "https://caplo.app/",
+      "tldr": "Mac 屏幕录制工具，自动根据点击生成缩放，支持多轨剪辑、光标样式、字幕与本地导出",
+      "scenarios": [
+        "录制软件操作教程并自动放大点击区域",
+        "制作产品演示和功能介绍视频",
+        "录制在线课程或教学讲解视频",
+        "用摄像头和麦克风制作带人像的讲解视频",
+        "为密码或账号等敏感信息添加模糊遮罩后分享",
+        "导出 GIF 用于文档、聊天或社交媒体演示",
+        "在 Mac 上离线剪辑录屏并保留原始素材"
+      ],
+      "tags": [
+        "Screen Recording",
+        "Automatic Zoom",
+        "Mac",
+        "Privacy-focused",
+        "Video Editing"
+      ],
+      "categories": [
+        "System & Automation",
+        "Media & Creativity"
+      ],
+      "timestamp": 1792115370
     }
   ]
 }

@@ -5354,5 +5354,27 @@
     ],
     "tldr": "让 AI 模型用代码在油画模拟中逐笔作画，并实时展示、对比不同模型的创作过程与结果",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-09-stillwet.md"
+  },
+  {
+    "month": "202610",
+    "name": "Caplo",
+    "url": "https://caplo.app/",
+    "timestamp": 1792115370,
+    "tags": [
+      "Screen Recording",
+      "Automatic Zoom",
+      "Mac",
+      "Privacy-focused",
+      "Video Editing"
+    ],
+    "categories": [
+      "System & Automation",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "Mac 屏幕录制工具，自动根据点击生成缩放，支持多轨剪辑、光标样式、字幕与本地导出",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-16-caplo.md"
   }
 ]
