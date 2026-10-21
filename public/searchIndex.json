@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-16T01:49:53.500Z",
+  "updatedAt": "2026-10-21T01:15:20.061Z",
   "tools": [
     {
       "name": "Starship",
@@ -5813,6 +5813,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1792115370
+    },
+    {
+      "name": "CleanYourTV",
+      "url": "https://cleanyour.tv/",
+      "tldr": "借助 AI 编程助手通过 Wi-Fi 为 Android TV 与 Google TV 去广告、清预装并替换启动器，无需 root，免费开源且可一键还原",
+      "scenarios": [
+        "移除智能电视主界面的赞助广告与推荐位",
+        "卸载电视厂商预装的无用应用和推广服务",
+        "为 Android TV 或 Google TV 更换更简洁的第三方启动器",
+        "通过电脑远程连接电视进行 ADB 调试与系统精简",
+        "在不想 root 的前提下改善电视卡顿与界面杂乱",
+        "按社区示例定制电视桌面，如聚合影视海报墙或信息面板"
+      ],
+      "tags": [
+        "Ad Blocking",
+        "Debloat",
+        "Open Source",
+        "Android TV",
+        "AI-assisted"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1792545301
     }
   ]
 }

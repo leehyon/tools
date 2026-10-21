@@ -5376,5 +5376,28 @@
     ],
     "tldr": "Mac 屏幕录制工具，自动根据点击生成缩放，支持多轨剪辑、光标样式、字幕与本地导出",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-16-caplo.md"
+  },
+  {
+    "month": "202610",
+    "name": "CleanYourTV",
+    "url": "https://cleanyour.tv/",
+    "timestamp": 1792545301,
+    "tags": [
+      "Ad Blocking",
+      "Debloat",
+      "Open Source",
+      "Android TV",
+      "AI-assisted"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Android"
+    ],
+    "tldr": "借助 AI 编程助手通过 Wi-Fi 为 Android TV 与 Google TV 去广告、清预装并替换启动器，无需 root，免费开源且可一键还原",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-21-cleanyourtv.md"
   }
 ]
