@@ -5399,5 +5399,27 @@
     ],
     "tldr": "借助 AI 编程助手通过 Wi-Fi 为 Android TV 与 Google TV 去广告、清预装并替换启动器，无需 root，免费开源且可一键还原",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-21-cleanyourtv.md"
+  },
+  {
+    "month": "202610",
+    "name": "Archify",
+    "url": "https://archify.si/",
+    "timestamp": 1792719752,
+    "tags": [
+      "AI Agent",
+      "Diagramming",
+      "Open Source",
+      "Data Visualization",
+      "HTML Export"
+    ],
+    "categories": [
+      "Knowledge Management",
+      "Developer Tools"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "开源 AI Agent 技能，用自然语言把系统、流程或计划生成可交互图表，或结论先行的单页报告，输出为自包含 HTML 文件",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-23-archify.md"
   }
 ]

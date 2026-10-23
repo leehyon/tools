@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-21T01:15:20.061Z",
+  "updatedAt": "2026-10-23T01:42:51.928Z",
   "tools": [
     {
       "name": "Starship",
@@ -5839,6 +5839,32 @@
         "Security & Privacy"
       ],
       "timestamp": 1792545301
+    },
+    {
+      "name": "Archify",
+      "url": "https://archify.si/",
+      "tldr": "开源 AI Agent 技能，用自然语言把系统、流程或计划生成可交互图表，或结论先行的单页报告，输出为自包含 HTML 文件",
+      "scenarios": [
+        "把微服务架构、数据库关系或代码库结构生成为可交互架构图",
+        "梳理休假申请、招聘、租房等流程为泳道图或状态图",
+        "将故障排查过程做成带真实时间轴的事件复盘图",
+        "让 AI 代理围绕技术问题生成结论先行、引用来源的单页报告",
+        "在评审或团队沟通中分享自包含 HTML 图表，无需部署服务",
+        "对比架构改造前后差异并输出变更图",
+        "用自然语言迭代修改图表节点、颜色和布局"
+      ],
+      "tags": [
+        "AI Agent",
+        "Diagramming",
+        "Open Source",
+        "Data Visualization",
+        "HTML Export"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Developer Tools"
+      ],
+      "timestamp": 1792719752
     }
   ]
 }
