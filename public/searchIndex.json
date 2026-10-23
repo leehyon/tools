@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T01:43:48.240Z",
+  "updatedAt": "2026-10-23T01:49:57.550Z",
   "tools": [
     {
       "name": "Starship",
@@ -5890,6 +5890,32 @@
         "System & Automation"
       ],
       "timestamp": 1792719809
+    },
+    {
+      "name": "douban-cli",
+      "url": "https://github.com/Marvae/douban-cli",
+      "tldr": "在终端与 AI Agent 中查询豆瓣电影、剧集、图书与 Top250，并备份和修改观影读书记录的命令行工具",
+      "scenarios": [
+        "在终端快速查询电影、剧集或图书的评分、简介与热门短评",
+        "查看豆瓣 Top250、正在热映、口碑榜和豆列内容",
+        "一条命令把看过、想看、在读等记录导出为 JSON、CSV 或 Markdown",
+        "让 AI Agent 按自然语言指令标记已看、评分和写短评",
+        "通过 ISBN 精确匹配，把微信读书读完的书同步到豆瓣",
+        "根据喜欢的影片获取相似推荐，挑选下一部要看的作品"
+      ],
+      "tags": [
+        "CLI",
+        "Douban",
+        "AI Agent",
+        "Data Export",
+        "Movie Database"
+      ],
+      "categories": [
+        "Reading & Information",
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1792720177
     }
   ]
 }
