@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T01:42:51.928Z",
+  "updatedAt": "2026-10-23T01:43:48.240Z",
   "tools": [
     {
       "name": "Starship",
@@ -5865,6 +5865,31 @@
         "Developer Tools"
       ],
       "timestamp": 1792719752
+    },
+    {
+      "name": "wol",
+      "url": "https://github.com/Trugamr/wol",
+      "tldr": "通过命令行或网页界面发送 Wake-On-LAN 魔术包，远程唤醒局域网设备，并支持多设备配置、定时唤醒与 Docker 部署",
+      "scenarios": [
+        "远程唤醒办公室或家中的台式机，避免设备长期开机",
+        "在家用 NAS 或服务器休眠后按需启动",
+        "通过网页界面一键唤醒多台已配置设备",
+        "按 cron 计划定时唤醒服务器执行备份任务",
+        "在 Docker 或家庭实验室环境中集中管理多台机器",
+        "临时指定 MAC 地址和广播地址唤醒未配置设备"
+      ],
+      "tags": [
+        "Wake-On-LAN",
+        "CLI",
+        "Web Interface",
+        "Self-Hosted",
+        "Docker"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation"
+      ],
+      "timestamp": 1792719809
     }
   ]
 }
