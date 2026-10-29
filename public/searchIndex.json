@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T01:49:57.550Z",
+  "updatedAt": "2026-10-29T01:48:28.675Z",
   "tools": [
     {
       "name": "Starship",
@@ -5916,6 +5916,31 @@
         "System & Automation"
       ],
       "timestamp": 1792720177
+    },
+    {
+      "name": "ascii.rest",
+      "url": "https://ascii.rest/",
+      "tldr": "提供可嵌入网页的动画 ASCII 艺术集合，含场景、UI 组件、数据图表、Logo 与生成工具",
+      "scenarios": [
+        "为个人网站或项目主页添加复古动画 ASCII 装饰",
+        "在终端风格界面中嵌入加载动画、进度条与骨架屏",
+        "用 ASCII 场景为博客文章或演示文稿制作视觉封面",
+        "将品牌 Logo 或技术栈图标转换为 ASCII 版本",
+        "把图片快速转换成可复制使用的 ASCII 字符画",
+        "为聊天、监控面板或数据看板添加 ASCII 图表与仪表"
+      ],
+      "tags": [
+        "ASCII Art",
+        "Web Animation",
+        "Embeddable",
+        "Open Source",
+        "Creative Coding"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1793238485
     }
   ]
 }

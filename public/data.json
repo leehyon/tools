@@ -5471,5 +5471,27 @@
     ],
     "tldr": "在终端与 AI Agent 中查询豆瓣电影、剧集、图书与 Top250，并备份和修改观影读书记录的命令行工具",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-23-douban-cli.md"
+  },
+  {
+    "month": "202610",
+    "name": "ascii.rest",
+    "url": "https://ascii.rest/",
+    "timestamp": 1793238485,
+    "tags": [
+      "ASCII Art",
+      "Web Animation",
+      "Embeddable",
+      "Open Source",
+      "Creative Coding"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "提供可嵌入网页的动画 ASCII 艺术集合，含场景、UI 组件、数据图表、Logo 与生成工具",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-29-ascii.rest.md"
   }
 ]
