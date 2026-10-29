@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-29T01:48:28.675Z",
+  "updatedAt": "2026-10-29T01:49:16.536Z",
   "tools": [
     {
       "name": "Starship",
@@ -5941,6 +5941,32 @@
         "Media & Creativity"
       ],
       "timestamp": 1793238485
+    },
+    {
+      "name": "Pele",
+      "url": "https://pele.run/",
+      "tldr": "将 Mermaid 语法快速渲染为可主题化 SVG 的轻量库，零依赖、体积小、渲染快，支持 Mermaid 全部图表类型",
+      "scenarios": [
+        "在 Obsidian 笔记中快速渲染流程图与架构图",
+        "在 Web 应用中嵌入可主题化的 SVG 图表",
+        "为文档、博客或知识库生成轻量图表",
+        "使用 CSS 变量统一图表配色与字体风格",
+        "在移动端小屏幕上自适应展示复杂图表",
+        "评估或迁移 Mermaid 图表渲染方案"
+      ],
+      "tags": [
+        "Diagrams",
+        "Mermaid",
+        "SVG",
+        "Open Source",
+        "Theming"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity",
+        "Data & Analytics"
+      ],
+      "timestamp": 1793238533
     }
   ]
 }

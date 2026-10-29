@@ -5493,5 +5493,28 @@
     ],
     "tldr": "提供可嵌入网页的动画 ASCII 艺术集合，含场景、UI 组件、数据图表、Logo 与生成工具",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-29-ascii.rest.md"
+  },
+  {
+    "month": "202610",
+    "name": "Pele",
+    "url": "https://pele.run/",
+    "timestamp": 1793238533,
+    "tags": [
+      "Diagrams",
+      "Mermaid",
+      "SVG",
+      "Open Source",
+      "Theming"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "将 Mermaid 语法快速渲染为可主题化 SVG 的轻量库，零依赖、体积小、渲染快，支持 Mermaid 全部图表类型",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-29-pele.md"
   }
 ]
