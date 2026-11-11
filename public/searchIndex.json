@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T09:17:27.349Z",
+  "updatedAt": "2026-11-11T09:18:39.056Z",
   "tools": [
     {
       "name": "Starship",
@@ -6042,6 +6042,32 @@
         "Security & Privacy"
       ],
       "timestamp": 1794388628
+    },
+    {
+      "name": "linkit",
+      "url": "https://github.com/blue-idea/linkit",
+      "tldr": "一款本地优先的桌面书签管理与个人知识管理工具，提供 AI 摘要、语义搜索、知识图谱与免费自托管同步，强调隐私和离线使用",
+      "scenarios": [
+        "收集、整理和回顾网页书签，替代浏览器收藏夹",
+        "为已保存链接自动生成摘要、标签和关键要点",
+        "通过语义搜索快速找回忘记标题的历史链接",
+        "按主题创建跨分类收藏集，用于项目调研和灵感管理",
+        "在 macOS、Windows、Linux 桌面离线管理书签并可选同步多设备",
+        "检测重复和失效链接，清理书签库",
+        "将书签库可视化为知识图谱，发现内容关联"
+      ],
+      "tags": [
+        "Bookmark Manager",
+        "Local-first",
+        "PKM",
+        "AI Summaries",
+        "Semantic Search"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Reading & Information"
+      ],
+      "timestamp": 1794388699
     }
   ]
 }
