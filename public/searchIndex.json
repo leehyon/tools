@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-29T01:49:16.536Z",
+  "updatedAt": "2026-11-11T09:15:41.361Z",
   "tools": [
     {
       "name": "Starship",
@@ -5967,6 +5967,31 @@
         "Data & Analytics"
       ],
       "timestamp": 1793238533
+    },
+    {
+      "name": "florilegium",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "tldr": "为 LaTeX 文档生成程序化代尔夫特蓝花卉页边装饰，植物与访客由基因组采样，无需外部素材，支持 LuaLaTeX、TikZ 与 SVG",
+      "scenarios": [
+        "为学术论文或书籍的 LaTeX 页面添加生成式花卉页边装饰",
+        "在章节标题、首字母或行间放置藤蔓、花朵与哥特式窗饰",
+        "用固定随机种子复现同一套植物与访客图案，便于版本管理",
+        "在 pdfLaTeX 或 TikZ 图片中直接绘制程序化植物、蝴蝶与贝壳",
+        "将生成的页边花园导出为 SVG，用于 Typst 或网页背景",
+        "制作具有季节变化、左右页镜像或不同主题的排版样张"
+      ],
+      "tags": [
+        "Generative Art",
+        "Procedural Generation",
+        "LaTeX",
+        "Typography",
+        "Botanical Illustration"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Media & Creativity"
+      ],
+      "timestamp": 1794388520
     }
   ]
 }

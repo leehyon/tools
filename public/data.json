@@ -5516,5 +5516,27 @@
     ],
     "tldr": "将 Mermaid 语法快速渲染为可主题化 SVG 的轻量库，零依赖、体积小、渲染快，支持 Mermaid 全部图表类型",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202610/2026-10-29-pele.md"
+  },
+  {
+    "month": "202611",
+    "name": "florilegium",
+    "url": "https://github.com/kevinraymond/florilegium",
+    "timestamp": 1794388520,
+    "tags": [
+      "Generative Art",
+      "Procedural Generation",
+      "LaTeX",
+      "Typography",
+      "Botanical Illustration"
+    ],
+    "categories": [
+      "Developer Tools",
+      "Media & Creativity"
+    ],
+    "Platform": [
+      "Web"
+    ],
+    "tldr": "为 LaTeX 文档生成程序化代尔夫特蓝花卉页边装饰，植物与访客由基因组采样，无需外部素材，支持 LuaLaTeX、TikZ 与 SVG",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202611/2026-11-11-florilegium.md"
   }
 ]
