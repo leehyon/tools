@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T09:15:41.361Z",
+  "updatedAt": "2026-11-11T09:16:34.749Z",
   "tools": [
     {
       "name": "Starship",
@@ -5992,6 +5992,31 @@
         "Media & Creativity"
       ],
       "timestamp": 1794388520
+    },
+    {
+      "name": "casnode",
+      "url": "https://github.com/casnode/casnode",
+      "tldr": "用 Go 与 Next.js 构建的开源论坛，界面和功能对标 Discourse，支持多种数据库与单点登录",
+      "scenarios": [
+        "为开源项目或产品搭建官方社区论坛",
+        "从 Discourse 迁移到更轻量的自托管论坛",
+        "需要服务端渲染和 SEO 友好的讨论区",
+        "集成 GitHub、Google 等单点登录的社区",
+        "用现有 MySQL 或 PostgreSQL 数据库快速上线论坛",
+        "小团队以 Docker 一键部署内部讨论板"
+      ],
+      "tags": [
+        "Open Source",
+        "Forum",
+        "Community",
+        "Self-hosted",
+        "SSO"
+      ],
+      "categories": [
+        "Knowledge Management",
+        "Communication"
+      ],
+      "timestamp": 1794388573
     }
   ]
 }
