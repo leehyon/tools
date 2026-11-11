@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T09:16:34.749Z",
+  "updatedAt": "2026-11-11T09:17:27.349Z",
   "tools": [
     {
       "name": "Starship",
@@ -6017,6 +6017,31 @@
         "Communication"
       ],
       "timestamp": 1794388573
+    },
+    {
+      "name": "Crossbow",
+      "url": "https://github.com/Richard-Zhang1019/Crossbow",
+      "tldr": "开源代理客户端，支持 mihomo 与 sing-box 双核心，整合订阅、节点选择、系统代理、TUN、连接与日志，并在托盘显示实时上下行速度",
+      "scenarios": [
+        "导入代理订阅链接并快速切换节点",
+        "在桌面开启系统代理让常用应用走代理",
+        "使用 TUN 接管不遵守系统代理的程序",
+        "从菜单栏或托盘查看实时网速并切换节点",
+        "查看连接列表与日志排查网络代理问题",
+        "在 macOS、Windows 和 Linux 上使用统一的代理客户端"
+      ],
+      "tags": [
+        "Proxy Client",
+        "Open Source",
+        "TUN Mode",
+        "Subscription Management",
+        "Cross-platform"
+      ],
+      "categories": [
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1794388628
     }
   ]
 }
