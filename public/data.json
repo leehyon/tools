@@ -5631,5 +5631,31 @@
     ],
     "tldr": "本地优先的 macOS 应用监控面板，集中查看应用使用时长、磁盘占用、更新状态、健康告警与卸载影响",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202611/2026-11-13-app-monitor.md"
+  },
+  {
+    "month": "202611",
+    "name": "MirrorProxy",
+    "url": "https://github.com/inbjo/MirrorProxy",
+    "timestamp": 1794531768,
+    "tags": [
+      "Self-Hosted",
+      "Package Mirror",
+      "Proxy Cache",
+      "DevOps",
+      "Access Control"
+    ],
+    "categories": [
+      "Developer Tools",
+      "System & Automation",
+      "Security & Privacy"
+    ],
+    "Platform": [
+      "Mac",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "tldr": "自托管的统一镜像加速网关，按需代理并缓存 GitHub、容器、语言包、开发工具链和操作系统源，支持故障切换、配额、访问控制与监控",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202611/2026-11-13-mirrorproxy.md"
   }
 ]

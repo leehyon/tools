@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-13T01:01:12.641Z",
+  "updatedAt": "2026-11-13T01:03:07.204Z",
   "tools": [
     {
       "name": "Starship",
@@ -6094,6 +6094,33 @@
         "Data & Analytics"
       ],
       "timestamp": 1794531649
+    },
+    {
+      "name": "MirrorProxy",
+      "url": "https://github.com/inbjo/MirrorProxy",
+      "tldr": "自托管的统一镜像加速网关，按需代理并缓存 GitHub、容器、语言包、开发工具链和操作系统源，支持故障切换、配额、访问控制与监控",
+      "scenarios": [
+        "在受限网络中加速 GitHub 代码与 Release 下载",
+        "为 Docker 和 OCI 镜像拉取配置统一缓存与多上游故障切换",
+        "统一代理 npm、PyPI、Cargo、Go Modules 等语言包源",
+        "为 Homebrew、WinGet、APT、YUM 等系统与工具源提供内网镜像",
+        "团队共享镜像服务并设置用户配额、来源限制与审计",
+        "在 CI 构建节点上复用缓存依赖，减少跨境下载失败",
+        "让 AI 编程代理通过 MCP 发现并配置可用镜像源"
+      ],
+      "tags": [
+        "Self-Hosted",
+        "Package Mirror",
+        "Proxy Cache",
+        "DevOps",
+        "Access Control"
+      ],
+      "categories": [
+        "Developer Tools",
+        "System & Automation",
+        "Security & Privacy"
+      ],
+      "timestamp": 1794531768
     }
   ]
 }
