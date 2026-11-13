@@ -5608,5 +5608,28 @@
     ],
     "tldr": "一款本地优先的桌面书签管理与个人知识管理工具，提供 AI 摘要、语义搜索、知识图谱与免费自托管同步，强调隐私和离线使用",
     "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202611/2026-11-11-linkit.md"
+  },
+  {
+    "month": "202611",
+    "name": "app-monitor",
+    "url": "https://github.com/jcranokc/app-monitor",
+    "timestamp": 1794531649,
+    "tags": [
+      "App Usage Tracking",
+      "Disk Cleanup",
+      "Local-First",
+      "macOS Utility",
+      "Update Checker"
+    ],
+    "categories": [
+      "File Management",
+      "System & Automation",
+      "Data & Analytics"
+    ],
+    "Platform": [
+      "Mac"
+    ],
+    "tldr": "本地优先的 macOS 应用监控面板，集中查看应用使用时长、磁盘占用、更新状态、健康告警与卸载影响",
+    "guide_markdown": "https://github.com/leehyon/kohstool-guide/blob/main/202611/2026-11-13-app-monitor.md"
   }
 ]

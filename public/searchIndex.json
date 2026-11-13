@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-11T09:18:39.056Z",
+  "updatedAt": "2026-11-13T01:01:12.641Z",
   "tools": [
     {
       "name": "Starship",
@@ -6068,6 +6068,32 @@
         "Reading & Information"
       ],
       "timestamp": 1794388699
+    },
+    {
+      "name": "app-monitor",
+      "url": "https://github.com/jcranokc/app-monitor",
+      "tldr": "本地优先的 macOS 应用监控面板，集中查看应用使用时长、磁盘占用、更新状态、健康告警与卸载影响",
+      "scenarios": [
+        "查看哪些应用长期未被使用，判断是否还值得保留",
+        "扫描应用本体及其缓存、容器、日志、偏好等路径的磁盘占用",
+        "集中检查 App Store、Homebrew、Sparkle 应用的更新状态",
+        "卸载应用前预览受影响的文件路径并生成卸载计划",
+        "审查代码签名、Gatekeeper、崩溃等应用健康告警",
+        "将使用记录与存储数据导出为 CSV 做进一步分析"
+      ],
+      "tags": [
+        "App Usage Tracking",
+        "Disk Cleanup",
+        "Local-First",
+        "macOS Utility",
+        "Update Checker"
+      ],
+      "categories": [
+        "File Management",
+        "System & Automation",
+        "Data & Analytics"
+      ],
+      "timestamp": 1794531649
     }
   ]
 }
